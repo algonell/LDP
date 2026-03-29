@@ -94,7 +94,7 @@ in order?
 Distribution News
 ~~~~~~~~~~~~~~~~~
 
-If there is any news specific to each of the distrobutions of Linux, you
+If there is any news specific to each of the distributions of Linux, you
 can include it here.
 
 [[install]]
