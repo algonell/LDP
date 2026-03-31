@@ -63,8 +63,8 @@
    <l:gentext key="msglevel" text="Livello"/>
    <l:gentext key="MsgOrig" text="Origine"/>
    <l:gentext key="msgorig" text="Origine"/>
-   <l:gentext key="name" text="Nome"/>
-   <l:gentext key="Name" text="Nome"/>
+   <l:gentext key="name" text="Gnome"/>
+   <l:gentext key="Name" text="Gnome"/>
    <l:gentext key="Note" text="Nota"/>
    <l:gentext key="NOTE" text="NOTA"/>
    <l:gentext key="note" text="Nota"/>
@@ -84,8 +84,8 @@
    <l:gentext key="refentry" text=""/>
    <l:gentext key="reference" text="Riferimento"/>
    <l:gentext key="Reference" text="Riferimento"/>
-   <l:gentext key="RefName" text="Nome"/>
-   <l:gentext key="refname" text="Nome"/>
+   <l:gentext key="RefName" text="Gnome"/>
+   <l:gentext key="refname" text="Gnome"/>
    <l:gentext key="RefSection" text=""/>
    <l:gentext key="refsection" text=""/>
    <l:gentext key="RefSynopsisDiv" text="Sinossi"/>
@@ -139,7 +139,7 @@
    <l:gentext key="TableofContents" text="Sommario"/>
    <l:gentext key="tableofcontents" text="Sommario"/>
    <l:gentext key="the" text="il"/>
-   <l:gentext key="unexpectedelementname" text="Nome elemento inaspettato"/>
+   <l:gentext key="unexpectedelementname" text="Gnome elemento inaspettato"/>
    <l:gentext key="unsupported" text="non supportato"/>
    <l:gentext key="xrefto" text="riferimento a"/>
    <l:gentext key="listofequations" text="Lista delle Equazioni"/>

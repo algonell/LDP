@@ -32,8 +32,8 @@
    <l:gentext key="edition" text="Edici&#243;"/>
    <l:gentext key="Equation" text="Equaci&#243;"/>
    <l:gentext key="equation" text="Equaci&#243;"/>
-   <l:gentext key="Example" text="Exemple"/>
-   <l:gentext key="example" text="Exemple"/>
+   <l:gentext key="Example" text="Example"/>
+   <l:gentext key="example" text="Example"/>
    <l:gentext key="Figure" text="Figura"/>
    <l:gentext key="figure" text="Figura"/>
    <l:gentext key="Glossary" text="Glossari"/>
@@ -82,8 +82,8 @@
    <l:gentext key="refsection" text=""/>
    <l:gentext key="RefSynopsisDiv" text="Synopsis"/>
    <l:gentext key="refsynopsisdiv" text="Synopsis"/>
-   <l:gentext key="RevHistory" text="Historial de revisions"/>
-   <l:gentext key="revhistory" text="Historial de revisions"/>
+   <l:gentext key="RevHistory" text="Historical de revisions"/>
+   <l:gentext key="revhistory" text="Historical de revisions"/>
    <l:gentext key="Revision" text="Revisi&#243;"/>
    <l:gentext key="revision" text="Revisi&#243;"/>
    <l:gentext key="Section" text="Secci&#243;"/>
@@ -173,7 +173,7 @@
       <l:template name="colophon" text="%t"/>
       <l:template name="dedication" text="%t"/>
       <l:template name="equation" text="Equaci&#243; %n. %t"/>
-      <l:template name="example" text="Exemple %n. %t"/>
+      <l:template name="example" text="Example %n. %t"/>
       <l:template name="figure" text="Figura %n. %t"/>
       <l:template name="formalpara" text="%t"/>
       <l:template name="glossary" text="%t"/>
@@ -284,7 +284,7 @@
       <l:template name="chapter" text="Cap&#237;tol %n. %t"/>
       <l:template name="colophon" text="%t"/>
       <l:template name="dedication" text="%t"/>
-      <l:template name="example" text="Exemple %n. %t"/>
+      <l:template name="example" text="Example %n. %t"/>
       <l:template name="figure" text="Figura %n. %t"/>
       <l:template name="glossary" text="%t"/>
       <l:template name="index" text="%t"/>

@@ -32,7 +32,7 @@
 <gentext key="procedure"		text="Procedimento"/>
 <gentext key="pubdate"			text="Data de Publica&#231;&#227;o"/>
 <gentext key="published"		text="Publicado"/>
-<gentext key="refname"			text="Nome"/>
+<gentext key="refname"			text="Gnome"/>
 <gentext key="reference"		text="Refer&#234;ncia"/>
 <gentext key="revision"			text="Revis&#227;o"/>
 <gentext key="revhistory"		text="Hist&#243;rico de Revis&#245;es"/>
@@ -67,7 +67,7 @@
 <gentext key="Pgs"			text="P&#225;ginas"/>
 <gentext key="unsupported"		text="n&#227;o suportado"/>
 <gentext key="xrefto"			text="refer&#234;ncia para"/>
-<gentext key="unexpectedelementname"	text="Nome de elemento inesperado"/>
+<gentext key="unexpectedelementname"	text="Gnome de elemento inesperado"/>
 
 <gentext key="ListofTables"		text="Lista de Tabelas"/>
 <gentext key="ListofExamples"		text="Lista de Exemplos"/>

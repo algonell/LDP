@@ -30,10 +30,10 @@
    <l:gentext key="dedication" text="D&#233;dicace"/>
    <l:gentext key="Edition" text="&#201;dition"/>
    <l:gentext key="edition" text="&#201;dition"/>
-   <l:gentext key="Equation" text="&#201;quation"/>
-   <l:gentext key="equation" text="&#201;quation"/>
-   <l:gentext key="Example" text="Exemple"/>
-   <l:gentext key="example" text="Exemple"/>
+   <l:gentext key="Equation" text="&#201;equation"/>
+   <l:gentext key="equation" text="&#201;equation"/>
+   <l:gentext key="Example" text="Example"/>
+   <l:gentext key="example" text="Example"/>
    <l:gentext key="Figure" text="Figure"/>
    <l:gentext key="figure" text="Figure"/>
    <l:gentext key="Glossary" text="Glossaire"/>
@@ -116,7 +116,7 @@
    <l:gentext key="in" text="dans"/>
    <l:gentext key="lastlistcomma" text=","/>
    <l:gentext key="listcomma" text=","/>
-   <l:gentext key="nonexistantelement" text="Cet &#233;l&#233;ment n'existe pas"/>
+   <l:gentext key="nonexistantelement" text="Cet &#233;l&#233;meant n'existe pas"/>
    <l:gentext key="notes" text="Notes"/>
    <l:gentext key="Notes" text="Notes"/>
    <l:gentext key="Pgs" text="Pages"/>
@@ -127,13 +127,13 @@
    <l:gentext key="tablenotes" text="Remarques"/>
    <l:gentext key="TableofContents" text="Table des mati&#232;res"/>
    <l:gentext key="tableofcontents" text="Table des mati&#232;res"/>
-   <l:gentext key="unexpectedelementname" text="Nom d'&#233;l&#233;ment non attendu"/>
+   <l:gentext key="unexpectedelementname" text="Nom d'&#233;l&#233;meant non attendu"/>
    <l:gentext key="unsupported" text="Non reconnu par le syst&#232;me"/>
    <l:gentext key="xrefto" text="R&#233;f&#233;rence vers"/>
-   <l:gentext key="listofequations" text="Liste des &#233;quations"/>
-   <l:gentext key="ListofEquations" text="Liste des &#233;quations"/>
-   <l:gentext key="ListofExamples" text="Liste des exemples"/>
-   <l:gentext key="listofexamples" text="Liste des exemples"/>
+   <l:gentext key="listofequations" text="Liste des &#233;equations"/>
+   <l:gentext key="ListofEquations" text="Liste des &#233;equations"/>
+   <l:gentext key="ListofExamples" text="Liste des examples"/>
+   <l:gentext key="listofexamples" text="Liste des examples"/>
    <l:gentext key="ListofFigures" text="Liste des illustrations"/>
    <l:gentext key="listoffigures" text="Liste des illustrations"/>
    <l:gentext key="listoftables" text="Liste des tableaux"/>
@@ -142,12 +142,12 @@
    <l:gentext key="listofunknown" text="Liste des inconnues"/>
    <l:gentext key="nav-home" text="Sommaire"/>
    <l:gentext key="nav-next" text="Suivant"/>
-   <l:gentext key="nav-next-sibling" text="Avance rapide"/>
+   <l:gentext key="nav-next-sibling" text="Advance rapide"/>
    <l:gentext key="nav-prev" text="Pr&#233;c&#233;dent"/>
    <l:gentext key="nav-prev-sibling" text="Arri&#232;re rapide"/>
    <l:gentext key="nav-up" text="Niveau sup&#233;rieur"/>
    <l:gentext key="sectioncalled" text="la section intitul&#233;e"/>
-   <l:gentext key="index symbols" text="Symboles"/>
+   <l:gentext key="index symbols" text="Symbols"/>
    <l:dingbat key="startquote" text="&#171;"/>
    <l:dingbat key="endquote" text="&#187;"/>
    <l:dingbat key="singlestartquote" text="&#8249;"/>
@@ -174,8 +174,8 @@
       <l:template name="chapter" text="Chapitre %n. %t"/>
       <l:template name="colophon" text="%t"/>
       <l:template name="dedication" text="%t"/>
-      <l:template name="equation" text="&#201;quation %n. %t"/>
-      <l:template name="example" text="Exemple %n. %t"/>
+      <l:template name="equation" text="&#201;equation %n. %t"/>
+      <l:template name="example" text="Example %n. %t"/>
       <l:template name="figure" text="Figure %n. %t"/>
       <l:template name="formalpara" text="%t"/>
       <l:template name="glossary" text="%t"/>
@@ -286,7 +286,7 @@
       <l:template name="chapter" text="Chapitre %n. %t"/>
       <l:template name="colophon" text="%t"/>
       <l:template name="dedication" text="%t"/>
-      <l:template name="example" text="Exemple %n. %t"/>
+      <l:template name="example" text="Example %n. %t"/>
       <l:template name="figure" text="Figure %n. %t"/>
       <l:template name="glossary" text="%t"/>
       <l:template name="index" text="%t"/>

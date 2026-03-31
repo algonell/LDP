@@ -1,6 +1,6 @@
 <localization language="sv">
 
-<gentext key="abstract"                 text="Abstrakt"/>
+<gentext key="abstract"                 text="Abstract"/>
 <gentext key="appendix"                 text="Appendix"/>
 <gentext key="article"                  text="Artikel"/>
 <gentext key="bibliography"             text="Bibliografi"/>
@@ -12,7 +12,7 @@
 <gentext key="dedication"               text="Dedikation"/>
 <gentext key="edition"                  text="Edition"/>
 <gentext key="equation"                 text="Ekvation"/>
-<gentext key="example"                  text="Exempel"/>
+<gentext key="example"                  text="Example"/>
 <gentext key="figure"                   text="Figur"/>
 <gentext key="glosssee"                 text="Se"/>
 <gentext key="glossseealso"             text="Se &#196;ven"/>
@@ -45,8 +45,8 @@
 <gentext key="tip"                      text="TIPS"/>
 <gentext key="table"                    text="Tabell"/>
 <gentext key="tip"                      text="Tips"/>
-<gentext key="warning"                  text="VARNING"/>
-<gentext key="warning"                  text="Varning"/>
+<gentext key="warning"                  text="WARNING"/>
+<gentext key="warning"                  text="Warning"/>
 <gentext key="appendix"                 text="appendix"/>
 <gentext key="chapter"                  text="kapitel"/>
 <gentext key="section"                  text="sektion"/>
@@ -62,7 +62,7 @@
 <gentext key="and"                      text="och"/>
 <gentext key="Notes"                    text="Noter"/>
 <gentext key="TableNotes"               text="Noter"/>
-<gentext key="nonexistantelement"       text="non-existant element"/>
+<gentext key="nonexistantelement"       text="non-existent element"/>
 <gentext key="the"                      text=""/>
 <gentext key="Pgs"                      text="Sid."/>
 <gentext key="unsupported"              text="unsupported"/>
@@ -76,7 +76,7 @@
 <gentext key="ListofEquations"          text="Ekvationsf&#246;rteckning"/>
 <gentext key="ListofUnknown"            text="F&#246;rteckning av ok&#228;nda"/>
 
-<gentext key="nav-prev"                 text="F&#246;rutg&#229;ende"/>
+<gentext key="nav-prev"                 text="F&#246;rutg&#229;end"/>
 <gentext key="nav-prev-sibling"         text="Snabbt framm&#229;t"/>
 <gentext key="nav-next-sibling"         text="Snabbt bak&#229;t"/>
 <gentext key="nav-next"                 text="N&#228;sta"/>

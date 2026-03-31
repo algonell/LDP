@@ -49,7 +49,7 @@
 <gentext key="sidebar"        text=""/>
 <gentext key="step"           text="Samm"/>
 <gentext key="tip"            text="VIHJE"/>
-<gentext key="table"          text="Tabel"/>
+<gentext key="table"          text="Table"/>
 <gentext key="tip"            text="Vihje"/>
 <gentext key="warning"        text="HOIATUS"/>
 <gentext key="warning"        text="Hoiatus"/>
@@ -64,7 +64,7 @@
 <gentext key="in" text=""/>
 <gentext key="by" text=""/>
 <gentext key="Edited" text="Redaktsioon"/>
-<gentext key="Editedby" text="Redaktsiooni autor(id)"/>
+<gentext key="Editedby" text="Redaktsiooni author(id)"/>
 <gentext key="and" text="ja"/>
 <gentext key="Notes" text="M&#228;rkused"/>
 <gentext key="TableNotes" text="M&#228;rkused"/>

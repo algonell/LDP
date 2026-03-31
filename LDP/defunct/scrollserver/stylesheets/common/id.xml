@@ -38,7 +38,7 @@
 <gentext key="reference"      text="Referensi"/>
 <gentext key="refname"        text="Nama"/>
 <gentext key="refsection"     text=""/>
-<gentext key="refsynopsisdiv" text="Sinopsis"/>
+<gentext key="refsynopsisdiv" text="Synopsis"/>
 <gentext key="revision"       text="Revisi"/>
 <gentext key="revhistory"     text="Catatan Revisi"/>
 <gentext key="section"        text="Bagian"/>
@@ -49,7 +49,7 @@
 <gentext key="sidebar"        text=""/>
 <gentext key="step"           text="Tahap"/>
 <gentext key="tip"            text="TIP"/>
-<gentext key="table"          text="Tabel"/>
+<gentext key="table"          text="Table"/>
 <gentext key="tip"            text="Tip"/>
 <gentext key="warning"        text="AWAS"/>
 <gentext key="warning"        text="Awas"/>
@@ -68,14 +68,14 @@
 <gentext key="and" text="dan"/>
 <gentext key="Notes" text="Catatan"/>
 <gentext key="TableNotes" text="Catatan"/>
-<gentext key="nonexistantelement" text="elemen tak tampak"/>
+<gentext key="nonexistantelement" text="element tak tampak"/>
 <gentext key="Pgs" text="Hal."/>
 <gentext key="unsupported" text="tidak didukung"/>
 <gentext key="xrefto" text="xref ke"/>
-<gentext key="unexpectedelementname" text="Nama Elemen seharusnya tidak ada"/>
+<gentext key="unexpectedelementname" text="Nama Element seharusnya tidak ada"/>
 <gentext key="Revisedby" text="Revised by: "/>
 
-<gentext key="ListofTables" text="Daftar Tabel"/>
+<gentext key="ListofTables" text="Daftar Table"/>
 <gentext key="ListofExamples" text="Daftar Teladan"/>
 <gentext key="ListofFigures" text="Daftar Gambar"/>
 <gentext key="ListofEquations" text="Daftar Persamaan"/>

@@ -44,7 +44,7 @@
 <gentext key="sidebar"                  text=""/>
 <gentext key="step"                     text="Skridt"/>
 <gentext key="tip"                      text="TIP"/>
-<gentext key="table"                    text="Tabel"/>
+<gentext key="table"                    text="Table"/>
 <gentext key="tip"                      text="Tip"/>
 <gentext key="warning"                  text="ADVARSEL"/>
 <gentext key="warning"                  text="Advarsel"/>
@@ -62,7 +62,7 @@
 <gentext key="and"                      text="og"/>
 <gentext key="Notes"                    text="Slutbem&#230;rkning:"/>
 <gentext key="TableNotes"               text="Noter:"/>
-<gentext key="nonexistantelement"       text="non-existant element"/>
+<gentext key="nonexistantelement"       text="non-existent element"/>
 <gentext key="Pgs"                      text="siderne"/>
 <gentext key="unsupported"              text="unsupported"/>
 <gentext key="xrefto"                   text="xref to"/>

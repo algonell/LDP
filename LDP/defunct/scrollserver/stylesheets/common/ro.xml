@@ -49,7 +49,7 @@
 <gentext key="sidebar"                  text=""/>
 <gentext key="step"                     text="Opera&#254;ie"/>
 <gentext key="tip"                      text="INDICA&#222;IE"/>
-<gentext key="table"                    text="Tabel"/>
+<gentext key="table"                    text="Table"/>
 <gentext key="tip"                      text="Indica&#254;ie"/>
 <gentext key="warning"                  text="AVERTISMENT"/>
 <gentext key="warning"                  text="Avertisment"/>
@@ -75,8 +75,8 @@
 <gentext key="unexpectedelementname"    text="Nume de element nea&#x015F;teptat"/>
 <gentext key="Revisedby"                text="Revised by: "/>
 
-<gentext key="ListofTables"             text="List&#227; de tabele"/>
-<gentext key="ListofExamples"           text="List&#227; de exemple"/>
+<gentext key="ListofTables"             text="List&#227; de table"/>
+<gentext key="ListofExamples"           text="List&#227; de example"/>
 <gentext key="ListofFigures"            text="List&#227; de figuri"/>
 <gentext key="ListofEquations"          text="List&#227; de ecua&#254;ii"/>
 <gentext key="ListofUnknown"            text="List&#227; de necunoscute"/>

@@ -38,7 +38,7 @@
 <gentext key="reference"      text="Sklic"/>
 <gentext key="refname"        text="Ime"/>
 <gentext key="refsection"     text=""/>
-<gentext key="refsynopsisdiv" text="Sinopsis"/>
+<gentext key="refsynopsisdiv" text="Synopsis"/>
 <gentext key="revision"       text="Razli&#x010D;ica"/>
 <gentext key="revhistory"     text="Zgodovina razli&#x010D;ic"/>
 <gentext key="section"        text="Razdelek"/>
@@ -75,7 +75,7 @@
 <gentext key="unexpectedelementname" text="Nepri&#x010D;akovano ime elementa"/>
 <gentext key="Revisedby" text="Revised by: "/>
 
-<gentext key="ListofTables" text="Seznam tabel"/>
+<gentext key="ListofTables" text="Seznam table"/>
 <gentext key="ListofExamples" text="Seznam primerov"/>
 <gentext key="ListofFigures" text="Seznam slik"/>
 <gentext key="ListofEquations" text="Seznam ena&#x010D;b"/>

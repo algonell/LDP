@@ -76,7 +76,7 @@
 
 <!-- Suggestion of I. Kouznetsov: Error messages are better in English -->
 
-<gentext key="nonexistantelement"       text="non-existant element"/>
+<gentext key="nonexistantelement"       text="non-existent element"/>
 <gentext key="the"                      text=""/>
 <gentext key="Pgs"                      text="&#x0421;&#x0442;&#x0440;."/>
 <gentext key="unsupported"              text="unsupported"/>

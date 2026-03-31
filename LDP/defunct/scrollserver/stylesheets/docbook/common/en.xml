@@ -122,7 +122,7 @@
    <l:gentext key="in" text="in"/>
    <l:gentext key="lastlistcomma" text=","/>
    <l:gentext key="listcomma" text=","/>
-   <l:gentext key="nonexistantelement" text="non-existant element"/>
+   <l:gentext key="nonexistantelement" text="non-existent element"/>
    <l:gentext key="notes" text="Notes"/>
    <l:gentext key="Notes" text="Notes"/>
    <l:gentext key="Pgs" text="Pgs."/>

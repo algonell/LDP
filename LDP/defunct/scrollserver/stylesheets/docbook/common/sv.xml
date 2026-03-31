@@ -32,8 +32,8 @@
    <l:gentext key="edition" text="Utg&#229;va"/>
    <l:gentext key="Equation" text="Ekvation"/>
    <l:gentext key="equation" text="Ekvation"/>
-   <l:gentext key="Example" text="Exempel"/>
-   <l:gentext key="example" text="Exempel"/>
+   <l:gentext key="Example" text="Example"/>
+   <l:gentext key="example" text="Example"/>
    <l:gentext key="Figure" text="Figur"/>
    <l:gentext key="figure" text="Figur"/>
    <l:gentext key="Glossary" text="Gloslista"/>
@@ -104,9 +104,9 @@
    <l:gentext key="tip" text="Tips"/>
    <l:gentext key="TIP" text="TIPS"/>
    <l:gentext key="Tip" text="Tips"/>
-   <l:gentext key="warning" text="Varning"/>
-   <l:gentext key="WARNING" text="VARNING"/>
-   <l:gentext key="Warning" text="Varning"/>
+   <l:gentext key="warning" text="Warning"/>
+   <l:gentext key="WARNING" text="WARNING"/>
+   <l:gentext key="Warning" text="Warning"/>
    <l:gentext key="and" text="och"/>
    <l:gentext key="by" text="av"/>
    <l:gentext key="called" text="kallas"/>
@@ -117,7 +117,7 @@
    <l:gentext key="in" text="i"/>
    <l:gentext key="lastlistcomma" text=","/>
    <l:gentext key="listcomma" text=","/>
-   <l:gentext key="nonexistantelement" text="non-existant element"/>
+   <l:gentext key="nonexistantelement" text="non-existent element"/>
    <l:gentext key="Notes" text="Noter"/>
    <l:gentext key="Pgs" text="Sid."/>
    <l:gentext key="pgs" text="Sid."/>
@@ -144,7 +144,7 @@
    <l:gentext key="nav-home" text="Hem"/>
    <l:gentext key="nav-next" text="N&#228;sta"/>
    <l:gentext key="nav-next-sibling" text="Snabbt bak&#229;t"/>
-   <l:gentext key="nav-prev" text="F&#246;reg&#229;ende"/>
+   <l:gentext key="nav-prev" text="F&#246;reg&#229;end"/>
    <l:gentext key="nav-prev-sibling" text="Snabbt fram&#229;t"/>
    <l:gentext key="nav-up" text="Upp"/>
    <l:dingbat key="startquote" text="&#8220;"/>
@@ -172,7 +172,7 @@
       <l:template name="colophon" text="%t"/>
       <l:template name="dedication" text="%t"/>
       <l:template name="equation" text="Ekvation %n. %t"/>
-      <l:template name="example" text="Exempel %n. %t"/>
+      <l:template name="example" text="Example %n. %t"/>
       <l:template name="figure" text="Figur %n. %t"/>
       <l:template name="formalpara" text="%t"/>
       <l:template name="glossary" text="%t"/>
@@ -283,7 +283,7 @@
       <l:template name="chapter" text="Kapitel %n. %t"/>
       <l:template name="colophon" text="%t"/>
       <l:template name="dedication" text="%t"/>
-      <l:template name="example" text="Exempel %n. %t"/>
+      <l:template name="example" text="Example %n. %t"/>
       <l:template name="figure" text="Figur %n. %t"/>
       <l:template name="glossary" text="%t"/>
       <l:template name="index" text="%t"/>

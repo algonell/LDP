@@ -78,8 +78,8 @@
 
 <gentext key="nav-prev"                 text="Zur&#x00FC;ck"/>
 <gentext key="nav-prev-sibling"         text="Schnell zur&#x00FC;ck"/>
-<gentext key="nav-next-sibling"         text="Schnell vor"/>
-<gentext key="nav-next"                 text="Vor"/>
+<gentext key="nav-next-sibling"         text="Schnell for"/>
+<gentext key="nav-next"                 text="For"/>
 <gentext key="nav-up"                   text="Hoch"/>
 <gentext key="nav-home"                 text="Anfang"/>
 
