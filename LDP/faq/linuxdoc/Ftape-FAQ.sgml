@@ -582,7 +582,7 @@ Cannot write to /dev/qft0: I/O error
 
 The explanations: 
 
-"FDC" menas "Floppy Disk Controller". The
+"FDC" means "Floppy Disk Controller". The
 problem is that your floppy disk controller must be able to support
 something that is called "perpendicular mode" to be able to read and
 write QIC-3020/QIC-3010 cartridges (i.e. TR-3 cartridges). To my
@@ -896,7 +896,7 @@ package, but the new <em/Ftape/ versions (since ftape-3.00) contain a
 <em/zftape.o/ module that needs to be loaded on top of <em/ftape.o/
 (i.e. you need to load BOTH modules to be able to access your floppy
 tape drive) and implements the file system interface and the advanced
-(?) features of the previous verions <em/zftape/.
+(?) features of the previous versions <em/zftape/.
 
 &lt;Answer from Claus Heine&gt;
 
@@ -988,7 +988,7 @@ We try to answer the followong questions :
 <itemize>
 <item>
 Is there a good way to erase, as in remove the data or at least the volumes 
-from a tape, without reformating?  
+from a tape, without reformatting?  
 <item>
 Can you overwrite the last volume on a tape with making a mess out of it? 
 <item>
@@ -1054,7 +1054,7 @@ Issue the volinfo command:
    physical space used  =  522.0 kilobytes
    real size of volume  =  520.0 kilobytes
 </verb></tscreen>
-Parse the ouput and place the values in appropriate variables
+Parse the output and place the values in appropriate variables
 <item>
 Skip to the next volume with "mt fsf"
 <item>
@@ -1270,7 +1270,7 @@ done
 
 I was the UNIX Product Manager at Archive Corp (Prior to the Conner/Seagate   
 mess) and we performed extensive tests of tape media for compatibility   
-certification, including retentivity, flaking and length consistancy.  Based   
+certification, including retentivity, flaking and length consistency.  Based   
 on the results of the tests, we selected the best of these certified   
 manufacturers' products to private label as our own media.  Here is the   
 order in which we selected vendors up through 1995 (when I lost contact   
@@ -1357,7 +1357,7 @@ name="ftp://sunsite.unc.edu/pub/Linux/kernel/tapes">.
 As the Ditto 2GB is a Tr-3 tape (though it can only store 1GB instead of the  
 1.6GB you get with a regular Tr-3 drive) you need an FDC (FDC means: Floppy  
 Disk Controller) that is capable of at 1Mbit/sec transfer rate. You don't need  
-to worry about this if you have an accellerator card (i.e. the Ditto Dash  
+to worry about this if you have an accelerator card (i.e. the Ditto Dash  
 controller). Otherwise try to purchase an FDC that claims to be capable of  
 driving 2.88Mb floppies because this implies that the FDC is capable of 1Mbit  
 transfer rate.

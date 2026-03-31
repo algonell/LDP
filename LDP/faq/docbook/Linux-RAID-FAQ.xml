@@ -286,7 +286,7 @@ one, then you need to patch your kernel.</emphasis></para>
     <answer>
      <para>Software RAID works with any block device in the Linux
      kernel.  This includes IDE and SCSI drives, as well as most
-     harware RAID controllers.  There are no different patches for IDE
+     hardware RAID controllers.  There are no different patches for IDE
      drives vs. SCSI drives.</para>
     </answer>
    </qandaentry>
@@ -305,7 +305,7 @@ one, then you need to patch your kernel.</emphasis></para>
 
     <answer>
      <para>There are currently two sets of tools available.  Both sets work
-    quite well, and have essentially the same functionalty.  I recommend the
+    quite well, and have essentially the same functionality.  I recommend the
     newer set of tools, because they're much easier to use, but I'll mention
     where to get the older tools as well.</para>
 
@@ -313,7 +313,7 @@ one, then you need to patch your kernel.</emphasis></para>
      It doesn't have much of a homepage, but you can download tarballs and
       RPMs from <ulink
      url="http://www.cse.unsw.edu.au/~neilb/source/mdadm/">http://www.cse.unsw.edu.au/~neilb/source/mdadm/</ulink>.
-      I suggest that anyone who isn't already familar with the 'raidtools'
+      I suggest that anyone who isn't already familiar with the 'raidtools'
      package use these (and in fact, I suggest that folks who already know the
      raidtools package switch over to these).</para>
 
@@ -453,7 +453,7 @@ unused devices: &lt;none&gt;
      greatest speed increases when there are multiple threads reading
      from the same RAID volume.</para>
 
-     <para>One tool specificly designed to test and show off these
+     <para>One tool specifically designed to test and show off these
      performance gains is <ulink
      url="http://tiobench.sourceforge.net/"
      type="http"><application>tiobench</application></ulink>.  It uses
