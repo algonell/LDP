@@ -65,7 +65,7 @@ with little or no change to the original document.
 <sect2>teTeX.
 <P>
 TeX is implemented for practically every serious computer system in
-the world---and quite a few ``non-serious'' ones---so implementors
+the world---and quite a few ``non-serious'' ones---so implementers
 must provide the installation facilities for all of them.  This
 accounts in part for teTeX's complexity, in addition to the inherent
 complexity of any TeX installation.  It also accounts for the fact
@@ -241,7 +241,7 @@ is standard.  It's common to build a document's Table of Contents by
 LaTeXing the document twice.  So, repeat the command.  The other
 warnings can be safely ignored.  They simply are informing you that
 some of the FTP paths mentioned in the documentation are too wide for
-their alloted spaces.  Sections <ref id="para-dimen" name="Paragraph
+their allotted spaces.  Sections <ref id="para-dimen" name="Paragraph
 styles and dimensions"> and <ref id="tolerances" name="Tolerances">
 describe horizontal spacing in more detail.
 

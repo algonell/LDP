@@ -51,7 +51,7 @@ You need:
 <item> the common <tt/gzip/ compression utility, or alternatively <tt/bzip2/
 that you find on
 <url url="ftp://sunsite.unc.edu:/pub/Linux/utils/compress">; 
-this tool compresses better than <tt/gzip/, but it's also a wee bit slower 
+this tool compresses better than <tt/gzip/, but it's also a we bit slower 
 and consumes a lot of memory;
 
 <item> the <tt/upx/ executable compressor, whose home page is at

@@ -69,7 +69,7 @@
      The X-Terminal can be displayed with an individual window or multiple windows, based on your X window system's software capabilities and setup.
   </PARA>
 <PARA>
-     I am always looking for the best way to use Linux, both at home and in work.  One of the biggest advantages among all is the ability to re-use the 
+     I am always looking for the best way to use Linux, both at home and in work.  One of the biggest advantages among all is the ability to reuse the 
      older systems (like Pentium, Pentium II, Pentium III and even the 486 and AMD x86 CPUs) as a Xterminal (by using the Win32 apps; 
      like Hummingbird's Exceed, Reflection X, X-Win32 or X-ThinPro.  For MAC, try eXodus) to run 
      from any of your PC remotely. 
@@ -789,7 +789,7 @@ Enable=false (may shown as 0 in some distributions)</SCREEN>
 
      <SCREEN>
        _ FontTransSocketUNIXConnect: Can't connect: errno = 111
-       failed to set dafault font path 'unix:-1'
+       failed to set default font path 'unix:-1'
        Fatal server error:
        could not open default font 'fixed'
      </SCREEN>

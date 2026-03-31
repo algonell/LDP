@@ -30,7 +30,7 @@ This version of Lilo mini-HOWTO is based on work of Cameron Spitzer
 the authors mentioned - <bf>without changes</bf> - and added some pointers
 related to configuring LILO for using with Windows NT and Windows 2000.
 More detailed information about the activation of Windows NT/2000 from LILO
-menu, you may find in wonderfull
+menu, you may find in wonderful
 <url url="http://tldp.org/HOWTO/Linux+WinNT.html"
 name="Linux+WindowsNT"> mini-HOWTO.
 
@@ -50,7 +50,7 @@ installations:
 <item>The first example is the classical ``Linux and other'' installation.
 
 <item>The next one shows how to install Lilo on a hard drive
-	connected as <tt>/dev/hdc</tt> that will boot as <tt>/dev/hda</tt>.
+	connected as <tt>/dev/hdc</tt> that will boot as <tt>/dev/had</tt>.
 	This is usually needed when you install a new Linux drive from
 	your own running system. This also tells how to boot from SCSI
 	disks when your BIOS is modern enough.
@@ -103,7 +103,7 @@ overwrite your old image you must reinstall Lilo.
 <p>
 The <tt/boot=/ directive in <tt>/etc/lilo.conf</tt> tells Lilo where
 it should place its primary boot loader. In general, you can either
-specify the master boot record (<tt>/dev/hda</tt>) or the root
+specify the master boot record (<tt>/dev/had</tt>) or the root
 partition of your Linux installation (is usually is <tt>/dev/hda1</tt>
 or <tt>/dev/hda2</tt>).
 
@@ -207,7 +207,7 @@ When Lilo overwrites a boot sector, it saves a backup copy in
 numbers of the device, in hex. You can see the major and minor numbers
 of your disk or partition by running ``<bf>ls -l
 /dev/<em>/device</em></bf>''. For example, the first sector of
-<tt>/dev/hda</tt> (major 3, minor 0) will be saved in
+<tt>/dev/had</tt> (major 3, minor 0) will be saved in
 <tt>/boot/boot.0300</tt>, installing Lilo on <tt>/dev/fd0</tt> creates
 <tt>/boot/boot.0200</tt> and installing on <tt>/dev/sdb3</tt> (major
 8, minor 19) creates <tt>/boot/boot.0813</tt>. Note that Lilo won't
@@ -219,9 +219,9 @@ are always the snapshot of the situation before installing any Lilo.
 <p>
 If you ever need to uninstall Lilo (for example, in the unfortunate
 case you need to uninstall Linux), you just need to restore the
-original boot sector. If Lilo is installed in <tt>/dev/hda</tt>, just
-do ``<bf>dd if=/boot/boot.0300 of=/dev/hda bs=446 count=1</bf>'' 
-(I personally just do ``<bf>cat /boot/boot.0300 > /dev/hda</bf>'', 
+original boot sector. If Lilo is installed in <tt>/dev/had</tt>, just
+do ``<bf>dd if=/boot/boot.0300 of=/dev/had bs=446 count=1</bf>'' 
+(I personally just do ``<bf>cat /boot/boot.0300 > /dev/had</bf>'', 
 but this is not safe, as this will restore the original partition table as
 well, which you might have modified in the meanwhile). This command is
 much easier to run than trying ``<bf>fdisk /mbr</bf>'' from a DOS
@@ -380,7 +380,7 @@ Most Lilo installations use a configuration file like the
 following one:
 
 <verb>
-boot = /dev/hda   # or your root partition
+boot = /dev/had   # or your root partition
 delay = 10        # delay, in tenth of a second (so you can interact)
 vga = 0           # optional. Use "vga=1" to get 80x50
 #linear           # try "linear" in case of geometry problems.
@@ -391,7 +391,7 @@ image = /boot/vmlinux  # your zImage file
   read-only            # mount root read-only
 
 other = /dev/hda4   # your dos partition, if any
-  table = /dev/hda  # the current partition table
+  table = /dev/had  # the current partition table
   label = dos       # or any non-fancy name
 </verb>
 
@@ -506,7 +506,7 @@ where Windows NT was <em>before</em>. There you'll find many useful details
 regarding various Linux+WinNT/2000/98 combinations.
 
 
-<sect>Installing <tt/hdc/ to Boot as <tt/hda/ and Using <tt>bios=</tt>
+<sect>Installing <tt/hdc/ to Boot as <tt/had/ and Using <tt>bios=</tt>
 
 <p>
 Lilo allows to map the kernel image from one disk and instruct the
@@ -538,7 +538,7 @@ image = /boot/vmlinux  # this is on /dev/hdc1
 This configuration file must be read by a Lilo running <bf>off
 /dev/hdc1</bf>.  The Lilo maps that get written the boot sector
 (<tt>/dev/hdc</tt>) must refer to the files in <tt>/boot</tt>
-(currently installed as hdc); such files will be accessed under hda
+(currently installed as hdc); such files will be accessed under had
 when this disk will be booted as a standalone system.
 
 <p>
@@ -598,7 +598,7 @@ is the <tt>/etc/lilo.conf</tt> file I used.
 #  Install Lilo on the Master Boot Record
 #  on the first IDE.
 #
-boot = /dev/hda
+boot = /dev/had
 #  /sbin/lilo (the installer) copies the Lilo boot record
 #  from the following file to the MBR location.
 install = /u2/etc/lilo/boot.b
@@ -857,13 +857,13 @@ MS-DOS' broken MBR.  This works.  Here is the <tt>/etc/lilo.conf</tt>
 file I used:
 
 <verb>
-boot = /dev/hda
+boot = /dev/had
 map = /lilo-map
 delay = 100
 ramdisk = 0             # Turns off ramdisk in Slackware kernel
 timeout = 100
 prompt
-disk = /dev/hda		# BIOS only sees first 500 MB.
+disk = /dev/had		# BIOS only sees first 500 MB.
    bios = 0x80          # specifies the first IDE.
    sectors = 63         # get the numbers from your drive's docs.
    heads = 16
@@ -876,7 +876,7 @@ image = /vmlinuz
   vga = extended
 other = /dev/hda1
   label = msdos
-  table = /dev/hda
+  table = /dev/had
   loader = /boot/chain.b
 </verb>
 
@@ -931,7 +931,7 @@ delay = 100
 ramdisk = 0
 timeout = 100
 prompt
-disk = /dev/hda     # 1 GB IDE, BIOS only sees first 500 MB.
+disk = /dev/had     # 1 GB IDE, BIOS only sees first 500 MB.
    bios=0x80
    sectors = 63
    heads = 16
@@ -944,7 +944,7 @@ image = /vmlinuz
   vga = extended
 other = /dev/hda1
   label = msdos
-  table = /dev/hda
+  table = /dev/had
   loader = /mnt/chain.b
 </verb>
 
@@ -1081,7 +1081,7 @@ Linux partitions.
 
 <p>
 <verb>
-boot=/dev/hda
+boot=/dev/had
 map=/boot/map
 vga=normal
 default="windows"
@@ -1105,7 +1105,7 @@ image=/boot/vmlinuz
 	read-only
 other=/dev/hda2					<--- /dev/hda1 seems to be reserved for some HP diags.
 	label="windows"
-	table=/dev/hda
+	table=/dev/had
 other=/dev/fd0
 	label="floppy"
 	unsafe
@@ -1116,7 +1116,7 @@ other=/dev/fd0
 
 <p>
 <verb>
-boot=/dev/hda
+boot=/dev/had
 map=/boot/map
 vga=normal
 default="windows"
@@ -1147,7 +1147,7 @@ image=/boot/vmlinuz
 	read-only
 other=/dev/hda1					<--- /dev/hda1 seems not to be reserved for HP diags here.
 	label="windows"					There I have Windows 2000 Professional already 
-	table=/dev/hda					installed (probably without HP's supplied CD's).
+	table=/dev/had					installed (probably without HP's supplied CD's).
 other=/dev/hdb1					<--- that is the spare disk with Windows 2000 Server.
 	label="windows2"				Actually I had some data on it and used it as a
 	table=/dev/hdb					second, backup disk on that desktop workstation.
@@ -1257,17 +1257,17 @@ combined!
       - "U prilog I.A.C. (2)", MI (the youth scientists' organization
          newspaper), No. 70, 1990.
 
-      - "Vise od radio-amaterskog hobija", Vojska, No. 163, 1995.
+      - "Vice od radio-amaterskog hobija", Vojska, No. 163, 1995.
 
       - "Korak ka zvezdama", Vojska, No. 200, 1996.
 
       - "Die Gefahr von Innen - Internet gegen Amateurfunk",
          AMSAT-DL Journal, No. 4, Dez./Feb. 96/97.
 
-      - "Kakva nam organizacija (ne) treba?", Radioamater,
+      - "Kakva name organizacija (ne) treba?", Radioamater,
          Feb. 1997.
 
-      - "Kakva nam organizacija (ne) treba? (2)", Radioamater,
+      - "Kakva name organizacija (ne) treba? (2)", Radioamater,
          Apr./May. 1997.
 
       - "Sateliti umiru padajuci", Vojska, No. 235, 1997.
@@ -1715,7 +1715,7 @@ on your system:
 <tag/Peripherals/
 <itemize>
 <item>Type of disk drives with manufacturer name, version and type
-<item>Other relevant peripherals connected to the same busses
+<item>Other relevant peripherals connected to the same buses
 </itemize>
 
 </descrip>

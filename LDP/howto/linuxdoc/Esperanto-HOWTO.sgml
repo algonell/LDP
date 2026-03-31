@@ -38,7 +38,7 @@
   Dankon al ili kaj cxiuj aliaj, kiuj helpis kompili tiun cxi
   dosieron.
 <p>
-  Aktuala versio de tiu cxi dokumento trovigxas cxiam sub
+  Aktuala version de tiu cxi dokumento trovigxas cxiam sub
   <url
   url="http://www.uni-leipzig.de/esperanto/texte/bibl/kielfari/kielfari.sgml" 
   name="kielfari.sgml">,
@@ -208,7 +208,7 @@
 </verb></tscreen>
 <p>
   En tiu okazo vi devas ankaux difini la uzatan 8-bitan signaron.
-  Bedauxrinde, en la nuna momento, la komandoj por tion fari estas
+  Bedauxrinde, en la nuna memento, la komandoj por tion fari estas
   diversaj, depende de la linuks-distribuo. Sercxu, cxu vi havas
   komandon <tt>consolechars</tt>, kaj cxu vi havas dosieron sub la nomo
   <tt>/usr/share/consoletrans/iso03*</tt>. Eventuale vi devas 
@@ -277,7 +277,7 @@
   La necesajn <it>TrueType</it>-tiparojn vi povas aux preni el ekzistanta
   Vindozo 9x/NT-instalo aux ekzemple de la <url name="mikrosofta servilo"
   url="http://www.microsoft.com/">. Atentu, ke vi bezonas unikodajn
-  <it>TrueType</it>-tiparojn. La okbitaj normale ne enhavas la esperantajn
+  <it>TrueType</it>-tiparojn. La okbitaj normal ne enhavas la esperantajn
   signojn aux en maltauxgaj lokoj. Unikodaj estas ekz. la kutimaj
   <it>Courier New</it>, <it>Arial</it>, <it>Times New Roman</it>
   kaj <it>Lucida Sans Unicode</it>.
@@ -289,8 +289,8 @@
   malavantagxon, ke gxi ne realigas la tutan norman tiparservan
   protokolon. 
 <p>
-  Normale xfstt uzas Unikodon, kies unuaj 256 signoj estas la 
-  samaj kiel cxe ISO-8859-1. Ekde la versio 0.9.8 oni povas
+  Normal xfstt uzas Unikodon, kies unuaj 256 signoj estas la 
+  samaj kiel cxe ISO-8859-1. Ekde la version 0.9.8 oni povas
   rebildigi la unikodajn signojn al aliaj kodoj. Ekzemple per
   la komandlinio:
 <tscreen><verb>
@@ -303,7 +303,7 @@
   estas pli norma, sed pli malfacile instalebla solvo. Gxi estas fliko
   por X-fenestroj. Do oni devas elpaki la fontaron de X, poste fliki
   gxin per xfsft kaj rekompili. Por Linux ankaux ekzistas jam
-  kompilita versio. La programon Xfs (X-Font-Server) vi plej konvene
+  kompilita version. La programon Xfs (X-Font-Server) vi plej konvene
   lancxas en propra &dquot;init&dquot;-skripto.
   La tiparojn oni poste instalas same kiel aliajn X-tiparojn. 
 <p>
@@ -317,7 +317,7 @@
 </verb></tscreen>
   en <tt>fonts.dir</tt> servas la tiparon Arial en la kodoj Latin-1,
   Latin-2 kaj Latin-3.
-  Atentu, ke en la versio 1.0.1 estis eraro pri Latin-3, kiu en la
+  Atentu, ke en la version 1.0.1 estis eraro pri Latin-3, kiu en la
   sekvaj versioj estas korektita.
 
 <sect1>Tajpi E-signojn
@@ -367,8 +367,8 @@
   keysym F12 = F12 Yacute
 </verb></tscreen>
 <p>
-  Certigu, ke dum la starto de la X-fenestro-sistemo
-  lancxigxas la ordono <tt>xmodmap &tilde;/.Xmodmap</tt>. Normale  
+  Certigu, ke dumb la starto de la X-fenestro-sistemo
+  lancxigxas la ordono <tt>xmodmap &tilde;/.Xmodmap</tt>. Normal  
   en /usr/X11R6/lib/X11/xinit/xinitrc jam trovigxas linioj
   kiel
 <tscreen><verb>
@@ -382,10 +382,10 @@
 <p>
   La X-fenestra labormedio KDE dekomence estas evoluigita por
   uzado kun multaj lingvoj. La versioj 1.x bazigxas sur okbitaj
-  signokodoj. Laux la respondeculoj, de la versio 2.0 gxi interne 
+  signokodoj. Laux la respondeculoj, de la version 2.0 gxi interne 
   uzos Unikodon (fine de 1999).
 <p>
-  La jxus aperinta versio 1.1 enhavas esperantan adapton por multaj
+  La jxus aperinta version 1.1 enhavas esperantan adapton por multaj
   programoj. Vi devas elekti en la lingvoagordilo <tt>Esperanton</tt>
   por vidi la menuojn, dialogojn ktp. en Esperanto. Por tio aktuale
   estas uzata Latin-3.
@@ -399,7 +399,7 @@
 
 <sect>Netscape Communicator
 <p>
-  Ofta bezono de Esperanto-tiparoj estigxas dum la legado
+  Ofta bezono de Esperanto-tiparoj estigxas dumb la legado
   de interretaj pagxoj kaj diskutgrupaj artikoloj.
   Netscape Communicator ja permesas difini kaj uzi multajn 
   diversajn kodojn por rigardi diverslingvajn dokumentojn, 
@@ -616,7 +616,7 @@
 Pri tiuj Emakso-variantoj Lee Sau Dan donis la
 sekvajn indikojn:
 <list>
-<item>Emakso 20.* kaj MULE normale povas trovi la tauxgajn 
+<item>Emakso 20.* kaj MULE normal povas trovi la tauxgajn 
 tiparojn, se ili jam estas
 instalitaj en la X-servilo aux tiparserviloj.
 
@@ -702,7 +702,7 @@ aux se vi ofte bezonas tion, metu en .gnu-emacs ekzemple:
   pri la signokodo. Por uzi Latin-3 oni devas aldoni kelkajn
   liniojn al la agordaj dosieroj.
 <p>
-  Dum la instalo de Knews, la dosiero Knews.ad estas kopiata
+  Dumb la instalo de Knews, la dosiero Knews.ad estas kopiata
   el la fontdosierujo al /usr/X11R6/lib/X11/app-defaults/Knews. 
 <p>
   Aldonu en tiu dosiero la sekvajn liniojn:
@@ -766,7 +766,7 @@ aux se vi ofte bezonas tion, metu en .gnu-emacs ekzemple:
 
 <sect>TeX / LaTeX
 <p>
-  Por produkti la supersignajn literojn en TeX, vi normale
+  Por produkti la supersignajn literojn en TeX, vi normal
   tajpas:
 <tscreen><verb>
   \^C \^c \^G \^g \^H \^h \^J \^{\j} \^S \^s \u{U} \u{u}

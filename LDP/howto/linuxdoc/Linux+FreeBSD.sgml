@@ -80,11 +80,11 @@ FreeBSD slice from the main menu, but it can display BSD disklabel information
 if you give the command `b'. The output is something like this
 (<tt>/dev/hda4</tt> is the FreeBSD slice):
 <verb>
-bash# fdisk /dev/hda
+bash# fdisk /dev/had
 
 Command (m for help): p
 
-Disk /dev/hda: 64 heads, 63 sectors, 621 cylinders
+Disk /dev/had: 64 heads, 63 sectors, 621 cylinders
 Units = cylinders of 4032 * 512 bytes
 
    Device Boot   Begin    Start      End   Blocks   Id  System
@@ -125,14 +125,14 @@ different partition types.
 The hard drives are labelled in the following way in Linux and FreeBSD:
 <verb>
 			Linux		FreeBSD
-First IDE drive		/dev/hda	/dev/wd0
+First IDE drive		/dev/had	/dev/wd0
 Second IDE drive	/dev/hdb	/dev/wd1
 First SCSI drive	/dev/sda	/dev/sd0
 Second SCSI drive	/dev/sdb	/dev/sd1
 </verb>
 
 The partitions (FreeBSD slices) on an IDE drive are labelled in the following
-way (<tt>/dev/hda</tt> is used as an example):
+way (<tt>/dev/had</tt> is used as an example):
 <verb>
 				Linux		FreeBSD
 First primary partition		/dev/hda1	/dev/wd0s1
@@ -158,7 +158,7 @@ build with <bf/UFS filesystem support/ for this to work. See section <ref
 id="installlinux" name="Installing and preparing Linux">):
 <verb>
 Partition check:
- hda: hda1 hda2 hda3 hda4 < hda5 hda6 hda7 hda8 >
+ had: hda1 hda2 hda3 hda4 < hda5 hda6 hda7 hda8 >
 </verb>
 
 If you have installed FreeBSD in the <tt>/dev/sd1s3</tt> slice
@@ -187,12 +187,12 @@ slice. What should have been seen as (<tt>/dev/hda3</tt> is the FreeBSD
 slice and <tt>/dev/hda4</tt> is the Linux extended partition)
 <verb>
 Partition check:
- hda: hda1 hda2 hda3 < hda5 hda6 hda7 hda8 > hda4 < hda9 hda10 >
+ had: hda1 hda2 hda3 < hda5 hda6 hda7 hda8 > hda4 < hda9 hda10 >
 </verb>
 is seen as:
 <verb>
 Partition check:
- hda: hda1 hda2 hda3 hda4 < hda5 hda6 >
+ had: hda1 hda2 hda3 hda4 < hda5 hda6 >
 </verb>
 
 This can give you the wrong device assignment and cause the loss of data. My
@@ -253,7 +253,7 @@ Run <tt/dmesg/ when you have booted into Linux. In the output you should see
 something like this:
 <verb>
 Partition check:
- hda: hda1 hda2 hda3 hda4 < hda5 hda6 hda7 hda8 >
+ had: hda1 hda2 hda3 hda4 < hda5 hda6 hda7 hda8 >
 </verb>
 
 This means that <tt>/dev/hda4</tt> is your FreeBSD slice, while
@@ -298,7 +298,7 @@ You can easily boot FreeBSD with LILO. Do not install the FreeBSD boot selector
 <tt>/dev/hda4</tt>):
 <verb>
 other=/dev/hda4
-	table=/dev/hda
+	table=/dev/had
 	label=FreeBSD
 </verb>
 
@@ -477,7 +477,7 @@ You can find some articles about the difference between Linux and FreeBSD
 <url url="http://www.futuresouth.com/~fullermd/freebsd/bsdvlin.html"
 name="here">.
 
-You can find more informations about FreeBSD (and download the whole system)
+You can find more information about FreeBSD (and download the whole system)
 at <url url="http://www.freebsd.org/" name="this site">. You can also buy
 the system on CDROMs from <url url="http://www.cdrom.com"
 name="Walnut Creek CDROM"> (their servers are running FreeBSD.)

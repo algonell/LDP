@@ -446,12 +446,12 @@ If you like living on the edge, you can play with the -m, -c, -B, and -u
 switches with caution (see the man page).</para>
 
 <screen>
-bash# hdparm -tT /dev/hda
+bash# hdparm -tT /dev/had
 Timing buffer-cache reads:   588 MB in  2.01 seconds = 292.15 MB/sec
 Timing buffered disk reads:   14 MB in  3.46 seconds =   4.05 MB/sec
 
-bash# hdparm -k1 -K1 -c3 -d1 -W1 /dev/hda
-bash# hdparm -tT /dev/hda
+bash# hdparm -k1 -K1 -c3 -d1 -W1 /dev/had
+bash# hdparm -tT /dev/had
 Timing buffer-cache reads:   596 MB in  2.01 seconds = 297.01 MB/sec
 Timing buffered disk reads:   72 MB in  3.05 seconds =  23.58 MB/sec
 </screen>
@@ -770,7 +770,7 @@ into low-power mode:</para>
 <screen>
 #!/bin/sh
 if [ -x /usr/sbin/hdparm ]; then
-	hdparm -y /dev/hda
+	hdparm -y /dev/had
 fi
 
 if [ -x /usr/X11R6/bin/xset ]; then

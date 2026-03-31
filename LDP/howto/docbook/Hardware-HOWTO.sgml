@@ -885,7 +885,7 @@
         <listitem>
           <para>
             <ulink url="ftp://ftp.cs.unc.edu/pub/users/faith/linux/">
-            Avanced Power Management</ulink>
+            Advanced Power Management</ulink>
           </para>
         </listitem>
 
@@ -6139,21 +6139,21 @@
                 <entry></entry>
               </row>
               <row>
-                <entry>Avance Logic Inc. ALG-2301</entry>
+                <entry>Advance Logic Inc. ALG-2301</entry>
                 <entry></entry>
                 <entry></entry>
                 <entry>vga</entry>
                 <entry></entry>
               </row>
               <row>
-                <entry>Avance Logic Inc. ALG-2302</entry>
+                <entry>Advance Logic Inc. ALG-2302</entry>
                 <entry></entry>
                 <entry></entry>
                 <entry>vga</entry>
                 <entry></entry>
               </row>
               <row>
-                <entry>Avance Logic Inc. AVG-2302 GUI Accelerator</entry>
+                <entry>Advance Logic Inc. AVG-2302 GUI Accelerator</entry>
                 <entry></entry>
                 <entry></entry>
                 <entry>vga</entry>
@@ -7063,49 +7063,49 @@
                 <entry></entry>
               </row>
               <row>
-                <entry>Avance Logic 2101</entry>
-                <entry>Avance Logic</entry>
+                <entry>Advance Logic 2101</entry>
+                <entry>Advance Logic</entry>
                 <entry>XF86_SVGA</entry>
                 <entry>vga</entry>
                 <entry></entry>
               </row>
               <row>
-                <entry>Avance Logic 2228</entry>
-                <entry>Avance Logic</entry>
+                <entry>Advance Logic 2228</entry>
+                <entry>Advance Logic</entry>
                 <entry>XF86_SVGA</entry>
                 <entry>vga</entry>
                 <entry></entry>
               </row>
               <row>
-                <entry>Avance Logic 2301</entry>
-                <entry>Avance Logic</entry>
+                <entry>Advance Logic 2301</entry>
+                <entry>Advance Logic</entry>
                 <entry>XF86_SVGA</entry>
                 <entry>vga</entry>
                 <entry></entry>
               </row>
               <row>
-                <entry>Avance Logic 2302</entry>
-                <entry>Avance Logic</entry>
+                <entry>Advance Logic 2302</entry>
+                <entry>Advance Logic</entry>
                 <entry>XF86_SVGA</entry>
                 <entry>vga</entry>
                 <entry></entry>
               </row>
               <row>
-                <entry>Avance Logic 2308</entry>
-                <entry>Avance Logic</entry>
+                <entry>Advance Logic 2308</entry>
+                <entry>Advance Logic</entry>
                 <entry>XF86_SVGA</entry>
                 <entry>vga</entry>
                 <entry></entry>
               </row>
               <row>
-                <entry>Avance Logic 2401</entry>
-                <entry>Avance Logic</entry>
+                <entry>Advance Logic 2401</entry>
+                <entry>Advance Logic</entry>
                 <entry>XF86_SVGA</entry>
                 <entry>vga</entry>
                 <entry></entry>
               </row>
               <row>
-                <entry>Binar Graphics AnyView</entry>
+                <entry>Binary Graphics AnyView</entry>
                 <entry>ET6000</entry>
                 <entry>XF86_SVGA</entry>
                 <entry>tseng</entry>
@@ -12334,7 +12334,7 @@
 
             <listitem>
               <para>
-                Twincom ACI/550
+                Twincom ACPI/550
               </para>
             </listitem>
 
@@ -13887,7 +13887,7 @@
 
 	    <listitem>
 	      <para>
-	        IBM - TurboWays 25 (under developement)
+	        IBM - TurboWays 25 (under development)
 	      </para>
 	    </listitem>
 
@@ -14048,13 +14048,13 @@
 
           <listitem>
             <para>
-              Audio Excell DSP16
+              Audio Excel DSP16
             </para>
           </listitem>
 
           <listitem>
             <para>
-              Avance Logic ALS-007 chip based cards. Code for this
+              Advance Logic ALS-007 chip based cards. Code for this
               chip is integrated in the Sound Blaster 16 driver.
               Isapnptools should be used for configuration.
             </para>
@@ -16097,7 +16097,7 @@
 
           <listitem>
             <para>
-              ATI XL Inport busmouse
+              ATI XL Import busmouse
             </para>
           </listitem>
 
@@ -16156,7 +16156,7 @@
 
       <para>
         Newer Logitech mice (except the Mouseman) use the
-        Microsoft protocol and all three buttons do work. Eventhough
+        Microsoft protocol and all three buttons do work. Even though
         Microsoft's mice have only two buttons, the protocol allows
         three buttons.
       </para>
@@ -16176,7 +16176,7 @@
     <para>
       All external modems connected via a RS-232 serial port should work. 
       This includes external ISDN adapters, although some of the extended
-      features of external ISDN adapaters (such as multilink) may or may
+      features of external ISDN adapters (such as multilink) may or may
       not work.
     </para>
 
@@ -16306,7 +16306,7 @@
         <listitem>
 	  <para>
 	    <ulink url="http://www.tldp.org/HOWTO/Winmodems-and-Linux-HOWTO.html">
-	      Winmodems and Linux HOWTO (may be superceded by the Linmodem
+	      Winmodems and Linux HOWTO (may be superseded by the Linmodem
 	      HOWTO)
 	    </ulink>
 	  </para>
@@ -17753,12 +17753,12 @@
             </row>
             <row>
               <entry>Citizen</entry>
-              <entry><ulink url="http://www.linuxprinting.org/show_printer.cgi?recnum=Citizen-ProJet_II">ProJet II</ulink></entry>
+              <entry><ulink url="http://www.linuxprinting.org/show_printer.cgi?recnum=Citizen-ProJet_II">project II</ulink></entry>
               <entry>Works perfectly</entry>
             </row>
             <row>
               <entry>Citizen</entry>
-              <entry><ulink url="http://www.linuxprinting.org/show_printer.cgi?recnum=Citizen-ProJet_IIc">ProJet IIc</ulink></entry>
+              <entry><ulink url="http://www.linuxprinting.org/show_printer.cgi?recnum=Citizen-ProJet_IIc">project IIc</ulink></entry>
               <entry>Works perfectly</entry>
             </row>
             <row>
@@ -28195,7 +28195,7 @@
 
           <listitem>
             <para>
-              Nework Scanny MM100 Info can be found on 
+              Network Scanny MM100 Info can be found on 
 
               <ulink url=
               "http://thor.prohosting.com/~chrordig/Primax/index.html">
@@ -28636,8 +28636,8 @@ Ethernet cards:
 	California Access LAN Adapter
 	CeLAN EPCMCIA
 	CNet CN30BC, CN40BC Ethernet
-	Compex/ReadyLINK Ethernet Combo
-	Compex LinkPort Ethernet
+	Complex/ReadyLINK Ethernet Combo
+	Complex LinkPort Ethernet
 	COMPU-SHACK BASEline Ethernet
 	Connectware LANdingGear Adapter
 	CONTEC C-NET(PC)C-10L
@@ -28863,7 +28863,7 @@ Fast Ethernet (10/100baseT) adapters:
 	Apollo FE2000
 	Asante FriendlyNET CardBus
 	Billionton LND-100B
-	Compex Linkport TX
+	Complex Linkport TX
 	Corega FEther CB-TXL
 	D-Link DFE-660TX, DFE-680TX
 	Farallon EtherTX
@@ -29227,7 +29227,7 @@ ATA/IDE Interface Cards:
 	MCE DataShuttle
 	Shining Technology CitiDISK 250PE, PMIDE-ASC
 	Shuttle Technology IDE/ATAPI adapter
-	Sicon Periperal Micro Mate
+	Sicon Peripheral Micro Mate
 	Sony MSAC-PC2 Memory Stick Adapter
 
 ATA/IDE CD-ROM and DVD adapters:
@@ -29368,7 +29368,7 @@ http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/.
 	  http://www.linuxnet.com/smartcard/code.html
 	  (Wolf Geldmacher <wgeldmacher@paus.ch>)
 
-	[ Ines GPIB IEEE-488 cards ]
+	[ Lines GPIB IEEE-488 cards ]
 	  http://www.inesinc.com/linux/htm
 
 	[ Intersil PrismI wireless cards ]
@@ -29672,7 +29672,7 @@ help, that their cards are likely to be better supported under Linux.
 
           <listitem>
             <para>
-              FP Gaming Assasin 3D
+              FP Gaming Assassin 3D
             </para>
           </listitem>
 
@@ -29841,7 +29841,7 @@ help, that their cards are likely to be better supported under Linux.
 
           <listitem>
             <para>
-              ThrustMaster Millenium 3D Inceptor (<ulink url=
+              ThrustMaster Millennium 3D Inceptor (<ulink url=
               "http://www.thrustmaster.com/products/millennium.htm">
               <!-- FIXME -->here</ulink>)
             </para>
@@ -29913,7 +29913,7 @@ help, that their cards are likely to be better supported under Linux.
 
 	  <listitem>
 	    <para>
-	      EMPRESS
+	      IMPRESS
 	    </para>
 	  </listitem>
 
@@ -31240,7 +31240,7 @@ help, that their cards are likely to be better supported under Linux.
             <para>
               MicroSolutions backpack CD-ROM. Models 163550 and
               later are supported by the paride driver. For models
-              160550 and 162550 seperate drivers are availavble.
+              160550 and 162550 separate drivers are available.
             </para>
           </listitem>
 
@@ -31745,7 +31745,7 @@ help, that their cards are likely to be better supported under Linux.
                   more info on these Boca Research modems.) The Boca
                   Research 33.6 modem (model M336I) is mentioned to
                   work with Linux. The only thing that needed to be
-                  done was diabling Plug and Play. Here are the specs
+                  done was disabling Plug and Play. Here are the specs
                   of the modem 
 
                   <itemizedlist>
@@ -32100,7 +32100,7 @@ help, that their cards are likely to be better supported under Linux.
 
           <listitem>
             <para>
-              Redudant Arrays of Inexpensive Disks. The basic idea of
+              Redundant Arrays of Inexpensive Disks. The basic idea of
               RAID is to combine multiple small, inexpensive disk
               drives into an array of disk drives which yields
               performance exceeding that of a single large expensive
@@ -32161,7 +32161,7 @@ help, that their cards are likely to be better supported under Linux.
 
           <listitem>
             <para>
-              Small Computer Systems Interface. A standerd interface
+              Small Computer Systems Interface. A standard interface
               defined for all devices in a computer. It make it
               possible to use a single adapter for all devices. 
 

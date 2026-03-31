@@ -23,7 +23,7 @@ Linux gia tnv upostnri3n tns ellnvikns glwssas.
 Skopos DEN eivai n apavtnsn gevikwv problnmatwv, alla movov autwv pou sxetizovtai 
 me tnv ellnvikn glwssa kai tis idiaiterotntes evos Ellnva xrnstn, sumperilambavomevwv:
 <itemize>
-<item>tns upostnri3ns ellnvikwv se console mode kai Xwindows,
+<item>tns upostnri3ns ellnvikwv se console mode kai X,
 <item>tns xrnsns ellnvikwv se efarmoges,
 <item>tns or8ografias,
 <item>tns epikoivwvias me allous Ellnves xrnstes.
@@ -128,7 +128,7 @@ Polutimn, episns, ntav n bon8eia twv:
 <item>Giavvns Mntsos &lt;<htmlurl url="mailto:gmitsos@duth.gr" name="gmitsos@duth.gr">&gt;.
 </itemize>
 
-Gia tn suggrafn tou keimevou autou xrnsimeusav sav prwtes pnges ta:
+Gia tn suggrafn tou keimevou autou xrnsimeusav save prwtes pnges ta:
 <itemize>
 <item><htmlurl url="http://metalab.unc.edu/LDP/HOWTO/Danish-HOWTO.html" 
 name="linux-danish-howto"> (Thomas Petersen),
@@ -234,12 +234,12 @@ Snmeiwste oti kavovika dev 8a deite ellnvika sto prompt, alla movo mesa se edito
 kai afou zntnsete chcp 928 gia to fortwma ellnvikwv fonts.
 
 <item><bf>GRAFIS</bf>
-Stnste tis grammatoseires <ref id="graphis">, gia ta Xwindows:
-<htmlurl url="http://hq.hellug.gr/~graphis/" 
+Stnste tis grammatoseires <ref id="graphics">, gia ta X:
+<htmlurl url="http://hq.hellug.gr/~graphics/" 
       name="xfntgr.rpm"> 
 
 <item><bf>GRkbd</bf>
-Stnste to <ref id="grkbd"> (odngos plnktrologiou), gia va mporeite va grafete ellnvika sta Xwindows.
+Stnste to <ref id="grkbd"> (odngos plnktrologiou), gia va mporeite va grafete ellnvika sta X.
 <htmlurl url="http://members.xoom.com/Vrypan/rpm/GRkbd-1.2-1.i386.rpm" 
       name="GRkbd-1.2-1.i386.rpm"> 
 
@@ -276,7 +276,7 @@ px <htmlurl url="news://comp.os.linux.misc" name="news://comp.os.linux.misc">
       opou n pi8avotnta va parete apavtnsn eivai polu megalutern.
       PX, sto diko mou mailbox, suxva ftavouv grammata autou tou tupou:
 <verb>
-me lene Xxxxx spoudazo yyyyyyy kai arxisa na asxoloumai me to linux.
+me lens Xxxxx spoudazo yyyyyyy kai arxisa na asxoloumai me to linux.
 Tha ithela na mou peis pou mporo na bro to programma.
 oti theleis na mou to steileis sto zzz@zzzzzzzzzz.zz
 </verb>
@@ -341,7 +341,7 @@ Proteivetai to Slackware 3.6, apo to Developer's Resource tns Infomagic n alln s
 <item> 3ekiva tnv egkatastasn.
 	Eav eisai arxarios, kalov 8a eivai va epile3eis Typical Installation.
 	Ru8mise to Lilo gia va kaveis reboot.  {30 Lepta}
-<item> Epavekkivnse to sustnma kai mpes sto Linux, gia prwtn fora, sav root 
+<item> Epavekkivnse to sustnma kai mpes sto Linux, gia prwtn fora, save root 
 	(dev 8elei password) {2 Lepta}
 <item> Alla3e to root password me tnv evtoln passwd
 </itemize>
@@ -353,7 +353,7 @@ Pleov 8a exeis eva sustnma pou douleuei, alla prepei va kaveis akoma ta e3ns:
 	 {10+20 Lepta}
 <item> Egkatestnse tov veo purnva me to Lilo, kai epavekkivnse to sustnma sou {5 Lepta}
 <item> Tre3e to script XF86config, kai ftia3e to arxeio /etc/XF86config.  
-       Twra exeis Xwindows (dokimase X -probeonly, startx)
+       Twra exeis X (dokimase X -probeonly, startx)
 <item> Eav suvdeesai me to Internet me dial-up, katebase kai egkatestnse to
        Netscape Communicator gia browser, mailer, news reader. H teleutaia ekdosn eivai suvn8ws edw:
         <htmlurl url="ftp://ftp.ntua.gr/pub/www/Netscape/"
@@ -408,15 +408,15 @@ Gia mia grngorn egkatastasn ellnvikwv deite to avtistoixo kefalaio:
 <P>
 Gia grammatoseires gia Tex, blepe <ref id="Links-gia-Tex">
 
-<sect2>GRAFIS<label id="graphis">
+<sect2>GRAFIS<label id="graphics">
 <P>
 To egxeirnma <bf>GRAFIS</bf> exei skopo va sulle3ei oles tis ellnvikes grammatoseires
 gia X-Windows pou kukloforouv eleu8eres (PUBLIC DOMAIN) sto Diktuo, va
 tis omadopoinsei kata tupo n/kai xaraktnristika, va dior8wsei tuxov la8n pou
 autes exouv, va dnmiourgnsei vees grammatoseires kai telos, va tis paradwsei
 stnv Ellnvikn koivotnta ws public domain.
-Hdn to exei petuxei, deite <htmlurl url="http://hq.hellug.gr/~graphis/" 
-name="http://hq.hellug.gr/~graphis/">
+Hdn to exei petuxei, deite <htmlurl url="http://hq.hellug.gr/~graphics/" 
+name="http://hq.hellug.gr/~graphics/">
 
 To GRAFIS perilambavei OLA ta prongoumeva paketa me kales ellnvikes grammatoseires
 pou exouv kuklofornsei kata kairous:
@@ -538,9 +538,9 @@ name="greek-2.0.tar.gz"> kai o Avtwvns Kabarvos
 url="http://www.softlab.ece.ntua.gr/~akav/grpty/" name="grpty">,
 pou douleuei kai se solaris.
 
-<sect1>Grafiko periballov (Xwindows)<label id="xwindows">
+<sect1>Grafiko periballov (X)<label id="x">
 <P>
-Oi epiloges pou exei kaveis gia va grafei ellnvika katw apo XWindows se Linux
+Oi epiloges pou exei kaveis gia va grafei ellnvika katw apo x se Linux
 eivai  (perav tou va ta ftia3ei movos tou, px me xmodmap opws leei sto HRI): 
 to GRkbd (n gevikotern lusn) , to grISOXKb (eav apotuxei to prongoumevo)
 kai to kikbd (gia to KDE).
@@ -644,7 +644,7 @@ Dhmhtrhs Bouras:
 
  Katebaste to kai diabaste to README gia perissotera. Bottom line:
  to timezone file "Hellas" pou periexei, parexei swstes hmeromhnies
- allaghs wras (symfwna me thn prosfath epishmh anakoinwsh) gia thn
+ allaghs wras (symfwna me then prosfath epishmh anakoinwsh) gia then
  Ellada, mexri kai ton Oktwbrio tou 2001, h mexri na mas alla3oune
  pali tis hmeromhnies... :)
 
@@ -662,7 +662,7 @@ vraio e? :-)
 Pio kala bebaia einai na xrhsimopoioyme to svsto zoneinfo arxeio.
 Oi teleytaies ekdoseis toy linux exoyn svsta orismeno 
 to EET (allakse to 1996).
-Oi palaioteres allazoyn thn vra to Septembrio, anti toy Oktvbrioy.
+Oi palaioteres allazoyn then vra to Septembrio, anti toy Oktvbrioy.
 Etsi ftiaxnoyme to parakatv arxeio EET.zic:
 
 ----- CUT: EET.zic -----
@@ -702,7 +702,7 @@ mesw tou Ghostscript. Eav exete problnmata, ya3te gia to a2psgr.
 <sect2>Tupwvovtas ellnviko PostScript keimevo.
 <P>Akomn kai eav dev dia8etete ektupwtn pou va upostnrizei PostScript, 
    to Linux sas epitrepei va tupwvete tetoia keimeva mesw tou Ghostscript. 
-   To ghostcript eivai eva programma pou metatrepei PostScript arxeia se 
+   To ghostscript eivai eva programma pou metatrepei PostScript arxeia se 
    morfn pou mporouv va katalabouv alles suskeues (ektupwtes diaforwv eidwv, 
    X Windows, fax k.l.). Apo auto to snmeio kai pera, "ektupwsn mesa apo to ghostscript" 
    8a snmaivei metatropn evos PostScript arxeiou sto format tou ektupwtn sas 
@@ -752,7 +752,7 @@ eivai polu pi8avo autes va xrnsimopoiouv kapoies default grammatoseires.
 Gia paradeigma, to Netscape 8a steilei opoiodnpote arxeio, 
 ave3artnta apo tnv glwssa pou eivai grammevo, 
 va tupw8ei me tis grammatoseires Times kai Courier. 
-Auto 8a exei sav apotelesma va tupwvovtai ta ellnvika keimeva 
+Auto 8a exei save apotelesma va tupwvovtai ta ellnvika keimeva 
 se akatavontn morfn (gia va to poume eugevika). 
 H lusn eivai va pros8esete sto <bf>telos</bf> tou Fontmap eggrafes 
 pou 8a avtika8istouv tis grammatoseires autes me tis ellnvikes. 
@@ -1009,7 +1009,7 @@ eav oxi, uparxei o viH (ellnvikos vi, 8a tov breite stov Argea) kai o vim.
 
 <verb>
 =====================================================================
-Shmeiwteon oti o vim meta thn ekdosh 4.x exei yposthriksh toy
+Shmeiwteon oti o vim meta then ekdosh 4.x exei yposthriksh toy
 langmap flag (prepei na ginei compile me ayto to flag - standard builds
 den to exoyn synithws). To feature ayto, contributed apo ton 
 Angelo Haritsis <ah@computer.org>, einai meros toy standard vim 
@@ -1086,9 +1086,9 @@ prepei va orisei duo grammes sto .xemacs-options:
 
 <sect1>pine<label id="pine">
 <P>
-To pine to movo pou xreiazetai eivai va oristouv sav "alternative editor" o joe n o viH.
+To pine to movo pou xreiazetai eivai va oristouv save "alternative editor" o joe n o viH.
 Upostnrizei movo 928, arkei sto setup, configure va balei kapoios 
-character-set= ISO-8859-7 kai dev 8elei tipota allo (o pico 8a dexetai 8bit input).
+character-set= ISO-8859-7 kai dev 8elei tipota allow (o pico 8a dexetai 8bit input).
 
 <sect1>elm<label id="elm">
 <P>
@@ -1289,7 +1289,7 @@ agapnmeva mas ellnvika fonts (ta helvetica kalutera!). Kavoume click sto
 OK.
 <item> Sto directory tou netscape uparxei eva arxeio Netscape.ad. Eivai ta
 Resources. Av upo8esoume oti to netscape exei egkatasta8ei swsta
-px sto /usr/local/netscape, tote ekteloume sav "root" ta parakatw pou
+px sto /usr/local/netscape, tote ekteloume save "root" ta parakatw pou
 leitourgouv swsta toulaxistov sto netscape 4.03. (Proupo8esn va exoume
 ta fonts -greek-helvetica). 
 
@@ -1306,7 +1306,7 @@ chmod 644 Netscape
 \rm -f /tmp/Netscape  
 </verb>
 <item>
-Sav root, sto directory pou exoume ta agapnmeva mas ellnvika
+Save root, sto directory pou exoume ta agapnmeva mas ellnvika
 fonts dnmiourgoume ta aliases ws e3ns:
 <verb>
 cd /usr/X11/lib/X11/fonts/greek
@@ -1330,7 +1330,7 @@ Plnrofories 8a breite episns sto:
 lazaros sotiriadis:
 <verb>
 A epishs gia na vlepete ellinika se ola ta widgets prepei na dosete ti sosti gramatoseira sto
-Netscape.ad i se arxeio pou tha kanete xrdb -merge i sto .Xdefaults tis exhs 4 seires :
+Netscape.ad i se arxeio pou tha kanete xrdb -merge i sto .Xdefaults tis exhs 4 series :
 
 *fontList: -*-couriergr-medium-r-*-*-*-120-*-*-*-*-iso8859-*
 *XmTextField.fontList: -*-couriergr-medium-r-*-*-*-120-*-*-*-*-iso8859-*
@@ -1354,7 +1354,7 @@ Ta Type1 einai to kalytero option (logw oti einai scalable) alla
 dystyxws se XFree86 de fainontai toso kala logw kakoy Type1 rasteriser twn XFree.
 Se alla unix/X exw anafores oti fainontai poly kalytera.
 
-Polla sites exoyn dymanic font information gia ta keimena opote to Netscape
+Polla sites exoyn dynamic font information gia ta keimena opote to Netscape
 aytomatws tha dialseksei to katallhlo font. Ayth h praktikh synistatai
 se webmasters ellhnikwn keimenwn.
 </verb>
@@ -1400,7 +1400,7 @@ kai to protupo ntav arketa asta8es (px, mporei va breite va leei gia gr_GR, avti
 <item>libc 4 ??? (a.out)
 <item>libc 5.0.9-5.3.12 
 <item>libc 5.4.x
-<item>glibc 1.x ??? (sav libc 5 gia merikes arxitektovikes Linux)
+<item>glibc 1.x ??? (save libc 5 gia merikes arxitektovikes Linux)
 <item>glibc 2.x.x (libc 6)
 </enum>
  
@@ -1427,14 +1427,14 @@ kai to protupo ntav arketa asta8es (px, mporei va breite va leei gia gr_GR, avti
 	</verb>
          (Prepei va douleuei movo gia libc 5.4.x)
       <item>H pio kaivourgia ekdosn brisketai eite sto paketo pngaiou kwdika
-         tns glibc 2.0.5 eite sav 3exwristo paketo sav glibc-localedata-2.0.5
+         tns glibc 2.0.5 eite save 3exwristo paketo save glibc-localedata-2.0.5
          Uparxei sto debian (ftp.debian.org),sto redhat (ftp.redhat.com) kai
          se mirrors tns gnu kai periexei ta gr_GR,en_DK,ISO-8859-7
       </enum>
 
 <item>   Ta localedef kai locale uparxouv sta paketa me tov pngaio kwdika
          twv libc 5 kai glibc 2. Episns kukloforouv se binary morfn apo to
-         debian kai redhat kai sav tar.gz apo tnv gnu kai n ekdosn tous prepei
+         debian kai redhat kai save tar.gz apo tnv gnu kai n ekdosn tous prepei
          va eivai idia me tnv libc pou exete (locale-5.x.y gia tnv libc 5.x.y kai
          to glibc-localedata-2.x.y gia tnv glibc-2.x.y)
 </itemize>
@@ -1451,7 +1451,7 @@ kai to protupo ntav arketa asta8es (px, mporei va breite va leei gia gr_GR, avti
           t_fmt_ampm ""
           END LC_TIME
 </verb>
-         Twra sav root dnmiourgnste tous e3ns upokatalogous
+         Twra save root dnmiourgnste tous e3ns upokatalogous
 <verb>
    # mkdir -m 755 -p /usr/share/locale/el_GR/LC_MESSAGES
    # mkdir -m 755 -p /usr/share/i18n/charmaps
@@ -1480,7 +1480,7 @@ kai to protupo ntav arketa asta8es (px, mporei va breite va leei gia gr_GR, avti
  > make programs
  > su -f root -c 'install -m 755 locale localedef /usr/bin'
 </verb>
-Kai twra eiste etoimoi gia tnv metaglwttisn twv topikwv ru8misewv. Sav root:
+Kai twra eiste etoimoi gia tnv metaglwttisn twv topikwv ru8misewv. Save root:
 <verb>
 # cd /usr/share
 </verb>
@@ -1816,7 +1816,7 @@ kai n ellnvikn upostnri3n tou BABEL uparxei sto
 <p>
 To project BABEL exei ftiax8ei kuriws apo 3evous, omws, pou dev
 grafouv se "pragmatika ellnvika", alla se greeklish.  Etsi, gia
-paradeigma n le3n "Ellada" grafetai sav:
+paradeigma n le3n "Ellada" grafetai save:
 
 <tscreen><verb>
 \GR{}Ella'da\EN{}
@@ -1866,7 +1866,7 @@ gia Ellnvika sto TeX/LaTeX.
       faq gia ellnviko LateX, alla palio (4/94)
 </itemize>
 
-Oi e3upnretes tou <bf>CTAN</bf> (Comprehensive TeX Archive Netowrk) eivai:
+Oi e3upnretes tou <bf>CTAN</bf> (Comprehensive TeX Archive Network) eivai:
 <itemize>
 <item>ftp.tex.ac.uk (128.232.1.87)
 <item>ftp.dante.de (129.206.100.192)
@@ -2276,7 +2276,7 @@ Eav gvwrizete kapoia stoixeia pou mou eivai agvwsta n avakribn, parakalw evnmerw
 <P>
 To Linux eivai ousiastika movo o purnvas tou Leitourgikou sustnmatos, 
 kai 3ekivnse to 1990 apo evav fivlavdo foitntn tov Linus Torvalds, 
-sav omadikn peiramatikn idea stov tote kaivourio 386.
+save omadikn peiramatikn idea stov tote kaivourio 386.
 Ta upoloipa ta gvwrizete...
 
 <sect1>Ti logous exw gia va egkatastnsw to Linux;<label id="whylinux">
@@ -2317,7 +2317,7 @@ Polu ektevns avalusn, ka8ws kai kala epilegmevo didaktiko uliko, sta agglika, up
 
 <sect1>Sumbatotnta;<label id="compatibility">
 <P>
-Kat' arxnv to Linux diabazei ola ta fileystems twv allwv leitourgikwv 
+Kat' arxnv to Linux diabazei ola ta filesystems twv allwv leitourgikwv 
 (FAT, VFAT, FAT32, NTFS, HPFS, HFS, ISO9660, Rock-Ridge, Joliet, UFS klp).
 <itemize>
 <item>To DOSEMU 8a sas epitreyei va tre3ete efarmoges tou DOS pou trexouv 
@@ -2336,7 +2336,7 @@ Eav apo8nkeuate ta dedomeva sas xrnsimopoiwvtas avoixta protupa (txt, dbf, html,
 <sect1>Ti SOFTWARE upostnrizetai;<label id="software">
 <P>
 Praktika ta pavta, arkei va milame gia avoikta kai diadedomeva protupa kai prwtokolla:
-sxedov pote dev eiste o prwtos pou exei eva sugkekrimevo problnma kai kapoios allos
+sxedov pote dev eiste o prwtos pou exei eva sugkekrimevo problnma kai kapoios allows
 to exei lusei gia esas.
  
 To metalab eivai to kat' e3oxnv snmeio gia va brei kaveis programmata
@@ -2478,9 +2478,9 @@ Ta ellnvika uparxouv se polles diaforetikes tupopoinseis.
 Oi pio suvn8ismeves apo autes, eivai ta 737 kai ta 928.
 Amfotera eivai gia movotovika ellnvika.
 Ta mev 737 xrnsimopoiouvtai apo to DOS, ta de 928 apo ola ta UNIX kai Windows (me mikres parallages).
-To Linux exei sav kuria kwdikoselida ta 928.
+To Linux exei save kuria kwdikoselida ta 928.
 To oti exoume gia Ellnvika duo kai pleov protupa, fusika, eivai megalo problnma,
-pou 3epervietai me eidikous metatropeis, gia allagn apo to eva set sto allo.
+pou 3epervietai me eidikous metatropeis, gia allagn apo to eva set sto allow.
 
 Apo tnv <htmlurl
 url="http://www.oracle.com/download/Linux/oracle8/html/instguide/server805/a66251/appc.htm"
@@ -2533,7 +2533,7 @@ kai kavete compile eva veo purnva.
 <sect2>737 se X-windows<label id="737inxwindows">
 <P>
 Ta 737 upostnrizovtai se merikes apo tis fixed grammatoseires 
-pou eivai sto paketo Grafis: <ref id="graphis">.
+pou eivai sto paketo Grafis: <ref id="graphics">.
 <verb>
 [ah@computer.org]'s report for names (from xlsfonts):
 -misc-grfixed-medium-r-normal--0-0-75-75-c-0-grpc-737
@@ -2567,7 +2567,7 @@ eivai o xaraktnras "A", (A tovoumevo) tou 928 o opoios sta Windows avtistoixei s
 Paragraph mark. Apo ta Windows-1253 leipouv episns n avw teleia, 
 kai ta ellnvika omoiwmatika << kai >>.
 Epeidn moiraia 8a prepei va apodextoume tov periorismo auto pou mas 8etouv ta MS-Windows,
-kai epeidn arketoi xrnstes xrnsimopoiouv wintel platforma ergasias, kalo 8a eivai 
+kai epeidn arketoi xrnstes xrnsimopoiouv wintel platforms ergasias, kalo 8a eivai 
 va apofeugetai to < A tovoumevo > kata tnv apostoln e-mails, postings, klp.
 Evallaktika mporeite va xrnsimopoieite to 'A  ( ' = SHIFT+" )
 Paromoia problnmata uparxouv kai me ta 'E kai 'O.
@@ -2586,7 +2586,7 @@ name="http://linuxdoc.org/HOWTO/Unicode-HOWTO.html">
 
 <verb>
 ====================================================================
-Vasilis Vasaitis <vas@hal.csd.auth.gr>:
+Vasilis Vasaitis <was@hal.csd.auth.gr>:
  Av kai dev exw asxoln8ei ektevws me to avtikeimevo, mporw va suveisferw
 kapoia gvwsn pou exw epi tou 8ematos. Loipov, exoume kai leme:
 
@@ -2638,14 +2638,14 @@ favtazomai oti oi efarmoges 8a koita3ouv va akolou8nsouv.
 Report apo Panagioti Vrioni:
 
 Gnwrizw oti o Giannis Gyftomitros <yang@hellug.gr> exei hdh arxisei
-na asxoleitai me thn dunatothta dhmiourgias Unicode grammatoseirwn
+na asxoleitai me then dunatothta dhmiourgias Unicode grammatoseirwn
 pou na periexoun kai ta ellhhnika (Project Grafis, bl. GRArial k.l.),
 isws na exei proxwrhsei kai parapera...
 
-Apo thn ekdosh 6.0, o XFS pou periexetai sto Red Hat exei patch wste
+Apo then ekdosh 6.0, o XFS pou periexetai sto Red Hat exei patch wste
 na mporei na emfanisei Trye Type Fonts. Bl. sxetiko "White Paper" stho
 "support" ths http://www.redhat.com/ . An balete Unicode TTFonts
-(px. ths M$) auta paizoun, me thn ennoia oti fainontai dia8esima
+(px. ths M$) auta paizoun, me then ennoia oti fainontai dia8esima
 ta fonts me xilia-duo diaforetika encodings. Den kserw omws an paizoun
 kai san unicode grammatoseira, px. gia na dei kapoios ena keimeno
 me ellhnika, agglika kai kinezika tautoxrona sto Netscape.
@@ -2656,7 +2656,7 @@ me ellhnika, agglika kai kinezika tautoxrona sto Netscape.
 
 <sect2>Unicode Links<label id="Unicode Links">
 <P>
-Uparxei mia fixed grammatoseira gia Xwindows,  deite sxetika:
+Uparxei mia fixed grammatoseira gia X,  deite sxetika:
 <htmlurl url="http://www.cl.cam.ac.uk/~mgk25/ucs-fonts.html"
 name="http://www.cl.cam.ac.uk/~mgk25/ucs-fonts.html">
 
@@ -2813,8 +2813,8 @@ katagrayete tnv kai steilte tnv.
 <sect1>sgmlutils
 <P>
 To sgml2html htan ok. A na po oti ekana mia allagh  sthn consola gia ta
-ellhnika (to paketo me to chcp enos apo thn patra) kai ka8e fora pou trexo
-thn perl mou bgazei:
+ellhnika (to paketo me to chcp enos apo then patra) kai ka8e fora pou trexo
+then perl mou bgazei:
 perl: warning: Setting locale failed.
 perl: warning: Please check that your locale settings:
         LC_ALL = (unset),

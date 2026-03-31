@@ -105,7 +105,7 @@ Once Linux is installed, you should be able to boot to Linux.
 This will involve editing the /etc/lilo.conf file and reinstalling LILO.
 The following should already be present in /etc/lilo.conf:
 <tscreen><verb>
-boot=/dev/hda
+boot=/dev/had
 </verb></tscreen>
 
 The Linux stanza should also be already present:
@@ -121,7 +121,7 @@ Now add the Windows 95 stanza:
 <tscreen><verb>
 # Windows 95 stanza
 other=/dev/hda1
-table=/dev/hda
+table=/dev/had
 label=Windows95
 # End Windows 95 stanza
 </verb></tscreen>
@@ -130,7 +130,7 @@ Now add the Windows NT stanza:
 <tscreen><verb>
 # Windows 95 stanza
 other=/dev/hdb1
-table=/dev/hda
+table=/dev/had
 loader=/boot/any_d.b
 label=WindowsNT
 # End Windows 95 stanza

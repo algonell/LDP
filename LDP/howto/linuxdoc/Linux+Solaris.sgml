@@ -226,7 +226,7 @@
 	  <file>/etc/lilo.conf</file>. Look for the <tt>boot=</tt>
 	  line. If it is something like <tt>boot=/dev/hda1</tt>
 	  everything is fine. But if it´s something like
-	  <tt>boot=/dev/hda</tt> it points to the MBR. Please change
+	  <tt>boot=/dev/had</tt> it points to the MBR. Please change
 	  it to point to a primary Linux partition
 	  (e.g. <tt>boot=/dev/hda1</tt>)</p> <p>A way to check if your
 	  boot-loader is chain-loadable is installing lilo in to the
@@ -235,7 +235,7 @@
 	  this: 
 	  <code>#lilo.conf.mbr 
 #Lilo in Master Boot Record doing nothing but chain-loading another lilo 
-boot=/dev/hda
+boot=/dev/had
 root=/dev/hda5 
 install=/boot/boot.b 
 map=/boot/map 
@@ -343,7 +343,7 @@ label=lilochain</code>
 	  name="building your new kernel">, you are now able to
 	  mount your Solaris partitions. During boot up, you should get
 	  something similar to: 
-	  <verb>  hda: [PTBL] [523/255/63] hda1 hda2 &lt; hda5 hda6 hda7 hda8 &gt; hda3 &lt;Polaris: [s0]
+	  <verb>  had: [PTBL] [523/255/63] hda1 hda2 &lt; hda5 hda6 hda7 hda8 &gt; hda3 &lt;Polaris: [s0]
   hda9 [s1] hda10 [s2] hda11 [s3] hda12 [s6] hda13 [s7] hda14 &gt;</verb>
 	  Meaning (in this case): partition 3 (<tt>hda3</tt>) is a
 	  Solaris partition with 6 slices (s0,s1,s2,s3,s6,s7). They

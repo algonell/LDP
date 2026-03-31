@@ -345,7 +345,7 @@ accepted.)</para>
   <title>Real World Linux Security</title>
   <subtitle>Intrusion Prevention, Detection, and Recovery</subtitle>
   <edition>2nd edition</edition>
-  <author><firstname>Bob</firstname><surname>Toxen</surname></author>
+  <author><firstname>Bob</firstname><surname>Toxin</surname></author>
   <copyright><year>2003</year></copyright>
   <isbn>ISBN 0-13-046456-2</isbn>
   <publisher><publishername>Prentice-Hall</publishername></publisher>
@@ -576,7 +576,7 @@ accepted.)</para>
   <publisher><publishername>Addison-Wesley</publishername></publisher>
   <pagenums>512pp.</pagenums>
   <abstract>
-	<para>The book on how to think like a Unix expert.  Browseable HTML
+	<para>The book on how to think like a Unix expert.  Browsable HTML
 	and ordering info live <ulink
 	url="&home;writings/taoup/">here</ulink>.</para>
   </abstract>
@@ -871,7 +871,7 @@ accepted.)</para>
   <author><firstname>Harold</firstname><surname>Bohme</surname></author>
   <author><firstname>Mirko</firstname><surname>Dziadka</surname></author>
   <author><firstname>Robert</firstname><surname>Magnus</surname></author>
-  <author><firstname>Claus</firstname><surname>Schroter</surname></author>
+  <author><firstname>Clause</firstname><surname>Schroter</surname></author>
   <author><firstname>Dirk</firstname><surname>Verworner</surname></author>
   </authorgroup>
   <copyright><year>2002</year></copyright>

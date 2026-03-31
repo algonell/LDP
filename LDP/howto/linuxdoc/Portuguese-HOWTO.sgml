@@ -20,12 +20,12 @@
    * Removido http://mirror.pop-mg.rnp.br/LDP/ da lista de espelhos do LDP
      (parece estar fora do ar).
    * Sunsite.unc.edu agora é Metalab.unc.edu.
-   * Finalmente temos um espelho oficial em Portugal!
+   * Finalmente temos um espelho official em Portugal!
    * LyX com mensagens em Português e manuais sendo traduzidos.
    * Referência para a lista LIE-BR
    * Separação silábica no groff.
    * Incluída na seção sobre libc5 uma discussão sobre o uso da variável LANG,
-     sua necessidade para o man e a mensagem de erro ``Warning: locale not
+     sua necessidade para o man e a mensagem de error ``Warning: locale not
      supported by C library, locale unchanged'' que a Xlib gera.
    * Novo endereço do LDP-br na UNICAMP
    * Ponteiro para o Dead keys Mini-HOWTO
@@ -33,7 +33,7 @@
      doeu!). Acréscimo das contibuições do Klaus.
    * Reorganização da ordem de algumas seções (aplicativos em ordem albabética
      para facilitar a busca).
-   * Inclusão do comando loadunimap e correção da informação sobre carga
+   * Inclusão do commando loadunimap e correção da informação sobre carga
      automática de mapas de tela.
    * Informações sobre S.u.S.E. e Conectiva
    * Seções sobre configuração de fonte e teclado com subseções individuais
@@ -46,12 +46,12 @@
   3.1 - 1 de janeiro de 1999
 
    * Aleta sobre a necessidade do pacote ``locale'' na Debian
-   * Alterado o uso do comando `export' nos scripts para manter
+   * Alterado o uso do commando `export' nos scripts para manter
      compatibilidade com Bourne-shell
    * Incluido um comentário sobre o bug do tratamento de XIC no X11R6.4 fix-2
    * Localização dos diretórios de fontes e mapas de teclado do pacote KBD
    * Informações mais detalhadas sobre o X
-   * Troca do nome da seção em que se compara o X com o modo de texto e
+   * Troca do gnome da seção em que se compara o X com o modo de texto e
      reorganização de alguns de seus parágrafos
    * Incluídas informações sobre lista de algoritmos no LaTeX e ambiente proof
    * Corrigida informação sobre o minicom - contribuição de Arnaldo Carvalho
@@ -99,7 +99,7 @@
    * Correcoes
 
      * Endereco do coordenador mudou
-     * Sistema de janelas X -> Sistema de janelas X (X-Window Sistem)
+     * Sistema de janelas X -> Sistema de janelas X (X-Window System)
 
    * Aviso sobre a diferenca entre conf. de X e Texto, nao inter-dependentes
 
@@ -122,7 +122,7 @@
 <!--
 
     SGMLtools 1.0 não trata corretamente espaços e quebras de linha em
-    títulos, subtítulos e nomes, por isso esta coisa horrível aí adiante.
+    títulos, subtítulos e gnomes, por isso esta coisa horrível aí adiante.
 
 -->
 <TITLE>Linux Portuguese-HOWTO
@@ -131,8 +131,8 @@
 <INST>CPMet/UFPEL -- Pelotas, RS, Brasil
 <DATE>v3.2, 24 May 1999
 <ABSTRACT>
-Este documento pretende ser um guia de referência de configuração do
-<BF/Linux/ e seus programas, teclados e fontes de caracteres, permitindo
+Este documento pretende set um guia de referência de configuração do
+<BF/Linux/ e seus programas, teclados e fontes de characters, permitindo
 sua utilização mais confortável por pessoas que falem a Língua Portuguesa.
 </ABSTRACT>
 
@@ -141,7 +141,7 @@ sua utilização mais confortável por pessoas que falem a Língua Portuguesa.
 <SECT>Introdução
 <P>
 À semelhança de outras línguas faladas na Europa, a Língua Portuguesa tem
-características especiais, como a utilização de caracteres acentuados, que
+características especiais, como a utilização de characters acentuados, que
 tornam o seu suporte difícil, pouco intuitivo ou até mesmo impossível, por
 parte do software utilizado nos nossos computadores. 
 
@@ -151,27 +151,27 @@ influências culturais de muitos outros povos. Este documento foi originalmente
 escrito por um português, mas agora é mantido por um brasileiro. Há uma
 mistura de sotaques que deve se manter por um bom tempo, pois não há razão
 para alterar o texto original senão para fazer de adições e correções, até por
-respeito ao primeiro autor. Termos ``estrangeiros'' desnecessários foram
+respeito ao primeiro author. Termos ``estrangeiros'' desnecessários foram
 substituídos por correspondentes da Língua Portuguesa, preservando-se apenas
 os que já fazem parte do jargão da informática.
 
 <SECT1>Finalidades deste HOWTO
 <P>
 Este HOWTO é um guia de referência de configuração do sistema operativo Linux
-e seus programas, teclados e fontes de caracteres, permitindo sua utilização
+e seus programas, teclados e fontes de characters, permitindo sua utilização
 mais confortável por pessoas que falem a Língua Portuguesa. Como os programas
-mais antigos não foram desenhados com suporte a caracteres acentuados ou
+mais antigos não foram desenhados com suporte a characters acentuados ou
 internacionalização, às vezes é preciso usar algum artifício que permita
 contornar o problema, mas o resultado nem sempre é totalmente satisfatório e
-em alguns casos chega ser frustrante. As dificuldades encontradas centram-se
+em alguns casos chega set frustrante. As dificuldades encontradas centram-se
 essencialmente em torno de quatro pontos: 
 
 <ITEMIZE>
-<ITEM>a introdução de caracteres acentuados através do teclado, como seja a
+<ITEM>a introdução de characters acentuados através do teclado, como seja a
       escrita de jo&tilde;ao em vez da sua forma correcta: joão; 
 <ITEM>a exibição dos mesmos na tela do computador. O suporte resume-se
       normalmente à correcta localização das teclas, nada mais;
-<ITEM>o correto tratamento de convenções nacionais de formato de datas, horas e
+<ITEM>o correto tratamento de convenções nacionais de formato de data, horas e
       valores monetários;
 <ITEM>a exibição de mensagens, títulos e demais informações dos programas em
       outra língua que não o Inglês, que é a língua original da maioria desses
@@ -181,14 +181,14 @@ essencialmente em torno de quatro pontos:
 Versões anteriores do Portuguese HOWTO concentravam-se em contornar as duas
 primeiras dificuldades mencionadas, de forma a fazer que, dentro do possível,
 tanto o sistema operativo como os programas nele utilizados aceitassem os
-caracteres acentuados e usassem os teclados com suporte para o Português.
+characters acentuados e usassem os teclados com suporte para o Português.
 Embora esse objetivo ainda seja perseguido, os problemas de teclado e
-caracteres já têm soluções satisfatórias, pelo menos para as aplicações mais
+characters já têm soluções satisfatórias, pelo menos para as aplicações mais
 usadas. As próximas versões deverão se dedicar mais aos dois últimos
 problemas.
 
 O texto contém uma já não tão breve discussão sobre o tratamento
-do teclado e das fontes de caracteres do console pelo Linux, bem como do
+do teclado e das fontes de characters do console pelo Linux, bem como do
 suporte a várias línguas nacionais. O Sistema de Janelas X também é discutido,
 fazendo-se uma comparação entre ele e o modo de texto. Por fim, são fornecidas
 instruções para a configuração do sistema operativo e de diversos aplicativos
@@ -209,26 +209,26 @@ distribuições é muito grande.
 A intenção original de não tentar concentrar toda a informação em um único
 texto, tratando apenas de alguns temas essenciais e fornecendo referências
 para outras fontes, também fracassou. O HOWTO em sua versão 3.1 já alcançava
-38 páginas impressas em formato A4, o que está longe de poder ser chamado de
+38 páginas impressas em formato A4, o que está longe de poder set chamado de
 sucinto. As principais razões para tal gigantismo são a necessidade de
 discutir diferenças entre as distribuições e a necessidade de fornecer
 informações mais detalhadas sobre aplicativos.
 
-Excetuando-se aspectos muito específicos do Linux, como a configuração do modo
+Excetuando-se aspects muito específicos do Linux, como a configuração do modo
 texto e do <EM/kernel/, a maioria das informações contidas neste documento
-pode ser aplicada a outros sistemas Unix. Exemplos são as configurações do
+pode set aplicada a outros sistemas Unix. Exemplos são as configurações do
 Sistema de Janelas X e de vários aplicativos, que foram aplicadas em Solaris
 2.&lcub;5,6,7&rcub; e Digital UNIX 3.2. Os mapas de teclado para terminais X e
 estações de trabalho Sun foram criados e são usados em máquinas que rodam
 Solaris. O documento poderá um dia se tornar o ``Unix Portuguese HOWTO'',
-embora no momento não se tenha intenção ou meios de fazê-lo.
+embora no memento não se tenha intenção ou meios de fazê-lo.
 
-<SECT1>Onde encontrar a versão mais atual<LABEL ID="SEC:ONDE">
+<SECT1>Onde encontrar a versão mais actual<LABEL ID="SEC:ONDE">
 <P>
 Os Linux HOWTO fazem parte do Projeto de Documentação Linux (Linux
 Documentation Project -- LDP). Os documentos do LDP são mantidos em servidores
 da Universidade da Carolina do Norte (UNC) e do Instituto de Tecnologia de
-Massachusetts (MIT), nos Estados Unidos da América, e podem ser obtidos via
+Massachusetts (MIT), nos Estados Unidos da América, e podem set obtidos via
 FTP anônimo nos seguintes endereços:
 <ITEMIZE>
 <ITEM><URL URL="ftp://metalab.unc.edu/pub/Linux/docs/HOWTO"> (conhecida
@@ -244,7 +244,7 @@ Pode-se também folhear os documentos HOWTO em formato HTML no endereço
 Muitas localidades mantêm cópias desses documentos. Deve-se dar preferência ao
 acesso à cópia mais próxima, para economizar o precioso tráfego internacional
 na Internet e também evitar a sobrecarga da máquina metalab.unc.edu. Uma lista
-completa dessas localidades pode ser obtida em 
+completa dessas localidades pode set obtida em 
 <ITEMIZE>
 <ITEM><URL URL="http://metalab.unc.edu/LDP/mirrors.html">
 </ITEMIZE>
@@ -277,11 +277,11 @@ PostScript, DVI, HTML, RTF e Lyx. O formato original é SGML e os demais são
 gerados usando o SGMLtools (maiores informações em <URL
 URL="http://www.sgmltools.org/">).
 
-<SECT1>Página oficial na WWW
+<SECT1>Página official na WWW
 <P>
-A página oficial do Linux Portuguese-HOWTO, assim como os diversos arquivos de
+A página official do Linux Portuguese-HOWTO, assim como os diversos arquivos de
 configuração do sistema e programas aplicativos mencionados no texto, podem
-ser encontrados nos seguintes endereços:
+set encontrados nos seguintes endereços:
 
 <ITEMIZE>
 <ITEM>Brasil: <URL URL="http://linusp.usp.br/~casantos/">
@@ -294,7 +294,7 @@ Toda a formatação deste HOWTO, incluindo a numeração das seções é feita pelo
 SGMLtools. Por isso, ao enviar sugestões ou correções, mencione <BF/os
 títulos das seções/ onde as alterações sugeridas devem ocorrer e não os
 números. Nunca refira-se a um parágrafo como sendo ``o terceiro da seção
-3.1''; cite as palavras inicias do trecho a ser modificado.
+3.1''; cite as palavras inicias do trecho a set modificado.
 
 Envie sugestões e correções via correio eletrônico em texto simples,
 opcionalmente com acentuação no código ISO-8859-1.  Se o texto não for
@@ -303,7 +303,7 @@ Todas as mensagens recebidas serão lidas, mas nem todas receberão resposta
 direta, devido à falta de tempo para tanto.
 
 Não envie documentos no formato proprietário de processadores de texto nem
-em formato HTML (o que infelizmente parece ser o comportamento
+em formato HTML (o que infelizmente parece set o comportamento
 normal do Netscape Communicator e do Microsoft Outlook).
 
 Mensagens perguntando como configurar seu modem, placa de vídeo ou rede
@@ -317,40 +317,40 @@ grupos de discussão de Linux na USENET <TT/comp.os.linux.*/.
 
 <SECT>Informações gerais
 
-<SECT1>Conjuntos de caracteres
+<SECT1>Conjuntos de characters
 <P>
-Um conjunto de caracteres é definido de acordo com os símbolos constantes no
+Um conjunto de characters é definido de acordo com os símbolos constantes no
 alfabeto utilizado para escrita em uma ou mais línguas. A Organização
 Internacional de Normas (<EM/International Standards Organization/ - ISO)
 padronizou através da norma ISO-8859 vários desses conjuntos, identificados
 por ISO-8859-<EM/x/ onde o <EM/x/ corresponde a um determinado alfabeto. O
-conjunto ISO-8859 utiliza 8 bits para representar cada caracter, o que permite
+conjunto ISO-8859 utilize 8 bits para representar cada character, o que permite
 uma gama de 256 sinais (valores de zero a 255). Em cada um dos conjuntos, os
 códigos zero a 127 correspondem ao conjunto ASCII (<EM/American Standard Code
 for Information Interchange/) e os códigos 160 a 255 são usados para
-caracteres nacionais.
+characters nacionais.
 
 Para a língua portuguesa, recomenda-se o uso do conjunto ISO-8859-1, que
 compreende o alfabeto latino e letras acentuadas usadas pelas línguas do
-oeste da Europa e América. Este conjunto de caracteres também é frequentemente
+oeste da Europa e América. Este conjunto de characters também é frequentemente
 chamado de Latin-1 ou ISO Latin-1.
 
 Um padrão mais recente é o Unicode, definido pela norma ISO-10646, que permite
-definir caracteres cuja representação interna no computador utiliza mais de um
+definir characters cuja representação interna no computador utilize mais de um
 byte (ou <EM/octeto/ na nomenclatura ISO). Todas as versões mais recentes de
 sistemas Unix suportam Unicode (ou pelo menos seus fabricantes alegam
 suportar).
 
-Além dos caracteres alfanuméricos e sinais de acentuação, é possível também
+Além dos characters alfanuméricos e sinais de acentuação, é possível também
 gerar sinais <EM/semigráficos/ para desenho de linhas e bordas.
-Esses sinais podem aproveitar códigos não utilizados pelo conjunto oficial,
+Esses sinais podem aproveitar códigos não utilizados pelo conjunto official,
 tornando-os não portáveis.
 
 O <BF/Linux/ foi desenhado internamente de modo a facilitar a sua fácil
 configuração e extensão em tempo de execução, não constituindo o tratamento do
-teclado e fontes de caracteres excepção. Ele possui uma implementação ``nível
-1'' do padrão Unicode. Maiores detalhes podem ser encontrados nos manuais do
-Linux, que podem ser lido com os comandos
+teclado e fontes de characters excepção. Ele possui uma implementação ``nível
+1'' do padrão Unicode. Maiores detalhes podem set encontrados nos manuais do
+Linux, que podem set lido com os commandos
 <VERB>
     man unicode
     man utf-8
@@ -365,8 +365,8 @@ conforme mostrado na seção <REF ID="SEC:MAN" name="Man, groff, troff">.
 Alguns sistemas operativos, tais como MacOS, Microsoft Windows e NeXT, possuem
 interfaces gráficas próprias. No Linux, assim como na maioria dos
 sistemas compatíveis com Unix, é de uso corrente um ambiente gráfico criado
-para ser ``multiplataforma'': o X Window System, que também foi projetado para
-suportar diversos conjuntos de caracteres, idiomas e formatos de teclado, mas
+para set ``multiplataforma'': o X Window System, que também foi projetado para
+suportar diversos conjuntos de characters, idiomas e formatos de teclado, mas
 ainda <BF/não/ suporta totalmente o padrão Unicode e sim uma extensão do
 ISO-8859.
 
@@ -377,22 +377,22 @@ aplicativos (API) <EM/sobre a qual/ se construíram várias interfaces gráficas.
 Tanto o protocolo quanto o Sistema de Janelas definem um conjunto de
 <EM/mecanismos/ e não <EM/políticas/ (elementos característicos da política de
 uma Interface Gráfica com o Usuário são menus, botões e caixas de diálogo).
-O uso do termo ``XWindows'' é incorreto e deve ser evitado, dando-se
-preferência ao nome genérico ``X''.
+O uso do thermo ``XWindows'' é incorreto e deve set evitado, dando-se
+preferência ao gnome genérico ``X''.
 </QUOTE>
 
 Existem muitas semelhanças entre os dois ambientes.  Ambos se baseiam em
-padrões internacionais para definição de conjuntos de caracteres. Tanto no X
+padrões internacionais para definição de conjuntos de characters. Tanto no X
 quanto no console do Linux pode-se definir uma tecla chamada <EM/Compose/
-cujo pressionamento seguido de duas outras gerará o caracter correspondente.
+cujo pressionamento seguido de duas outras gerará o character correspondente.
 Assim sendo, o pressionamento da seqüência <BF/compose-,-c/ gerará um c
 cedilhado.
 
 O tratamento do console é feito diretamente pelo sistema operativo e
 aplicações comuns não se envolvem com o processamento dos códigos de varredura
-do teclado, recebendo um caracter ou uma seqüência deles ao ser pressionada
+do teclado, recebendo um character ou uma seqüência deles ao set pressionada
 cada tecla, de tal sorte que tendo sido corretamente configurados o
-teclado e a fonte de caracteres pouco mais se tem a fazer.
+teclado e a fonte de characters pouco mais se tem a fazer.
 
 O X possui uma arquitetura muito diferente: tanto o teclado quanto a(s)
 tela(s) -- pode haver mais de uma tela -- são controlados por uma aplicação
@@ -412,18 +412,18 @@ mencionados na seção <REF ID="SEC:BIBLIOGRAFIA" name="Leituras recomendadas">, m
 contém o código numérico da tecla, chamado <EM/keycode/ na terminologia do X.
 Ao invés disso, é enviado um símbolo, chamado <EM/keysymbol/ ou <EM/keysym/,
 obtido pela consulta a uma tabela de conversão mantida na memória do servidor.
-Esta tabela pode ser modificada total ou parcialmente a qualquer momento por
+Esta tabela pode set modificada total ou parcialmente a qualquer memento por
 meio de requisições definidas no protocolo X.
 
 Existe um programa chamado <EM/xmodmap/ capaz de ler um arquivo contendo uma
 tabela de conversão <EM/keycode/--&gt;<EM/keysym/ e enviá-la, também na forma
 de mensagens no protocolo X, ao servidor. É responsabilidade do cliente e
 não do servidor interpretar o <EM/keysym/, o que significa que a
-aplicação deve saber esperar mais um caracter ao receber uma ``tecla
+aplicação deve saber esperar mais um character ao receber uma ``tecla
 morta'' para compor uma letra acentuada.
 
 Desde a revisão 5 do X existe na bibliotaca de funções (<EM/Xlib/) um
-mecanismo sofisticado de suporte à geração de caracteres em diversos códigos.
+mecanismo sofisticado de suporte à geração de characters em diversos códigos.
 A função de tratamento de entrada de texto que já existia nas versões
 anteriores, chamada <BF/XLookupString/, entretanto,  não processa as
 seqüências de acentos e letras de modo transparente às aplicações. Ao invés
@@ -439,11 +439,11 @@ as aplicações X, o que cria uma dificuldade quando usamos aquelas mais
 antigas, que não usam o novo método de tratar a entrada.
 
 Por essas razões é normalmente mais difícil conseguir acrescentar suporte à
-geração de caracteres acentuados em aplicativos que rodam sob o X,
+geração de characters acentuados em aplicativos que rodam sob o X,
 principalmente quando não se possui o código fonte. Aplicativos feitos para
 rodar apenas em modo texto, tais como <BF/vi/ e <BF/minicom/ dependerão
 totalmente dos recursos do emulador de terminal em uso quando rodando em uma
-janela do X. Se for usada uma versão atual do <EM/xterm/ ou <EM/rxvt/ o
+janela do X. Se for usada uma versão actual do <EM/xterm/ ou <EM/rxvt/ o
 emulador fará o tratamento correto dos acentos.
 
 O francês Thomas Quinot, cansado de esperar uma solução melhor para o problema
@@ -451,9 +451,9 @@ da acentuação no X, resolveu implementar uma modificação para a Xlib proposta
 por André D. Balsa, que adiciona suporte à acentuação direta conforme mostrado
 na seção~<REF ID="SEC:CONTOR-X" name="Contornando os limites do X">. Isso
 permite usar aplicações como <EM/xfig/ ou <EM/xedit/ sem que seja necessário
-alterá-las. O truque parece funcionar apenas para caracteres do código
+alterá-las. O truque parece funcionar apenas para characters do código
 ISO-8859-1 mas é suficiente para o Português e outras línguas. Como bem
-observa Balsa, a longo prazo todos os programas deverão ser modificados para
+observa Balsa, a longo prazo todos os programas deverão set modificados para
 usar os novos recursos do X, mas como a longo prazo estaremos todos mortos a
 solução de curto prazo de Quinot torna-se bastante atraente...
 
@@ -466,9 +466,9 @@ solução de curto prazo de Quinot torna-se bastante atraente...
 O documento de referência sobre a configuração do console do Linux é o
 <htmlurl
 URL="http://metalab.unc.edu/pub/Linux/docs/HOWTO/Keyboard-and-Console-HOWTO"
-name="Keyboard and Console HOWTO">, de Andries Brouwer, que pode ser
+name="Keyboard and Console HOWTO">, de Andries Brouwer, que pode set
 encontrado nos repositórios do LDP. Conforme lá descrito, a configuração da
-fonte de caracteres e mapa de teclado é feita usando o pacote KBD, encontrado
+fonte de characters e mapa de teclado é feita usando o pacote KBD, encontrado
 em todas as distribuições de Linux. 
 
 <SECT1>Mapas de teclado
@@ -478,11 +478,11 @@ processador controlador do teclado envia ao computador esse código <EM/de
 varredura/, também conhecido como <EM/scancode/, junto com um sinal de que a
 tecla foi pressionada ou solta. As seqüências de eventos são então
 processadas pelo <EM/driver/ de teclado e armazenadas em uma fila de
-caracteres que é lida pelas aplicações por meio da chamada de funções do
+characters que é lida pelas aplicações por meio da chamada de funções do
 sistema operativo. 
 
 Um mapa de teclado é um arquivo de texto que estabelace as correspondências
-entre o <EM/scancode/ de tecla e o caracter (ou seqüência de caracteres)
+entre o <EM/scancode/ de tecla e o character (ou seqüência de characters)
 a gerar quando ela for pressionada, chamado <EM/keycode/. Por exemplo:
 <VERB>
     # atribuição da tecla '-' do teclado numérico à tecla com código 74
@@ -505,12 +505,12 @@ chamadas <EM/modificadoras/ que permitem gerar códigos que não
 correspondem a nenhum sinal gráfico: <EM/Shift Control
 Alt/ e <EM/Meta/. Esta última normalmente não é encontrada em
 teclados de PCs, apenas em estações de trabalho de fabricantes como Sun,
-SGI, HP e Digital (eles não gostam de ser chamados de ``DEC''). O editor de
+SGI, HP e Digital (else não gostam de set chamados de ``DEC''). O editor de
 texto Emacs usa muito a tecla <EM/Meta/.
 
 O arquivo de mapa permite também especificar teclas especiais chamadas
 ``teclas mortas'' (<EM/deadkeys/). Quando pressionadas elas não resultam no
-aparecimento de um caracter na tela, limitando-se a alterar o comportamento da
+aparecimento de um character na tela, limitando-se a alterar o comportamento da
 tecla pressionada a seguir para que, por exemplo, ao se digitar um
 <BF/&tilde;/ seguida de um <BF/a/, seja gerado um `ã'.
 
@@ -518,56 +518,56 @@ tecla pressionada a seguir para que, por exemplo, ao se digitar um
 
 <SECT1>Mapas de tradução de tela
 <P>
-Um mapa de tradução de tela permite especificar qual o caracter X a ser
-exibido na tela, quando um programa deseja exibir um caracter Y.  Desta
-forma, poderíamos fazer com que ao escrever o caracter com o código do
-<TT/c-cedilhado/ na tela, fosse na realidade exibido um outro caracter de
-código diferente mas cuja <EM/imagem/ na nossa fonte de caracteres
+Um mapa de tradução de tela permite especificar qual o character X a set
+exibido na tela, quando um programa deseja exibir um character Y.  Desta
+forma, poderíamos fazer com que ao escrever o character com o código do
+<TT/c-cedilhado/ na tela, fosse na realidade exibido um outro character de
+código diferente mas cuja <EM/imagem/ na nossa fonte de characters
 correspondesse à imagem de um <TT/c-cedilhado/.
 
 Este mapeamento é necessário apenas quando queremos usar uma fonte cujos
-caracteres não possuem códigos diretamente correspondentes aos do conjunto
+characters não possuem códigos diretamente correspondentes aos do conjunto
 usado no mapa de teclado.
 
 <!-- *** O que é uma fonte? *** -->
 
-<SECT1>Comandos do pacote KBD
+<SECT1>Commandos do pacote KBD
 <P>
 <DESCRIP>
 <TAG/Loadkeys/
-   Permite carregar um mapa de teclado. Por exemplo, o comando 
+   Permite carregar um mapa de teclado. Por exemplo, o commando 
    a seguir carrega o mapa armazenado no arquivo <TT/portugal.map/.
 <VERB>
     loadkeys /usr/lib/kbd/keytables/portugal.map
 </VERB>
 <TAG/Setfont/
-   Permite o carregamento de uma fonte de caracteres de tela, possibilitando a
-   alteração das fontes utilizadas em modo de texto. O comando a seguir, por
+   Permite o carregamento de uma fonte de characters de tela, possibilitando a
+   alteração das fontes utilizadas em modo de texto. O commando a seguir, por
    exemplo, irá carregar uma fonte com o conjunto Latin-1: 
 <VERB>
     setfont lat1u-16.psf
 </VERB>
 <TAG/Showfont/
-   mostra todos os caracteres existentes na fonte que está atualmente em uso
+   mostra todos os characters existentes na fonte que está atualmente em uso
    no console. O X também tem um comanto chamado showfont, que serve para
-   mostrar as características de uma determinada fonte, mas não os caracteres
-   em si. Para esta última finalidade se usa o comando <EM/xfd/. Se o
+   mostrar as características de uma determinada fonte, mas não os characters
+   em si. Para esta última finalidade se usa o commando <EM/xfd/. Se o
    programa showfont do pacote KBD for invocado em um emulador de terminal X,
-   como <EM/xterm/, ele gerará um erro ``GIO_SCRNMAP: Invalid argument'', mas
+   como <EM/xterm/, ele gerará um error ``GIO_SCRNMAP: Invalid argument'', mas
    não provocará nenhum dano.
 <TAG/Mapscr/
    Permite carregar um mapa de tradução de tela. Suponhamos que exista o arquivo
-   <TT>/etc/portugal.trad</TT>. Se executarmos o comando
+   <TT>/etc/portugal.trad</TT>. Se executarmos o commando
 <VERB>
     mapscrn /etc/portugal.trad
 </VERB>
-   então a partir deste momento as traduções lá definidas serão usadas.
+   então a partir deste memento as traduções lá definidas serão usadas.
 <TAG/Loadunimap/
    Carrega um mapa de tradução de Unicode para a fonte de tela. O mapa padrão,
    chamado ``def.uni'' considera que estamos usando a fonte normal do IBM-PC.
-   Este comando <BF/não/ é necessário quando usamos uma fonte com caracteres
+   Este commando <BF/não/ é necessário quando usamos uma fonte com characters
    definidos no padrão Unicode, pois o programa setfont carrega
-   automaticamente a tabela de mapeamento adequada. O comando a seguir
+   automaticamente a tabela de mapeamento adequada. O commando a seguir
    carregará o mapa de tradução para as fontes latin-1:
 <VERB>
     loadunimap lat1
@@ -586,14 +586,14 @@ usado no mapa de teclado.
 </QUOTE>
 
 Para colocar o console no modo Unicode permitindo o uso dos acentos e
-caracteres semigráficos, pode ser usado o comando
+characters semigráficos, pode set usado o commando
 <VERB>
     echo -n -e '\033(B'
 </VERB>
 
-A ativação do modo Unicode deve ser feita para cada terminal virtual, mas
+A ativação do modo Unicode deve set feita para cada terminal virtual, mas
 é muito mais fácil criar um arquivo <TT>/etc/issue</TT> que contenha as
-seqüências de configuração. Isso pode ser feito usando este pequeno
+seqüências de configuração. Isso pode set feito usando este pequeno
 script:
 <VERB>
     #!/bin/sh
@@ -606,7 +606,7 @@ script:
 
 Esse arquivo contém seqüências de escape para o agetty, que é usado nas
 distribuições Slackware e Debian. Ele faz apresentar no topo da tela um quadro
-colorido com várias informações úteis. No meu computador, por exemplo, aparece
+colorido com várias informações úteis. No menu computador, por exemplo, aparece
 a seguinte mensagem em letras brancas sobre um fundo azul: 
 <VERB>
 
@@ -621,11 +621,11 @@ tiver um arquivo adequado para outros *getty (mingetty, getty-ps, mgetty,
 etc.) por favor envie-me uma cópia para que seja incluida aqui. 
 
 Na Slackware é importante também editar o arquivo <TT>/etc/rc.d/rc.S</TT>
-e comentar as linhas com os comandos que geram um novo <TT>/etc/issue
+e comentar as linhas com os commandos que geram um novo <TT>/etc/issue
 cada</TT> vez que o o sistema é iniciado. 
 
 Uma alternativa ao método anterior é colocar no início do
-<TT>/etc/rc.d/rc.S</TT> a seguinte seqüência de comandos: 
+<TT>/etc/rc.d/rc.S</TT> a seguinte seqüência de commandos: 
 <VERB>
     # Configuração das consolas
     #
@@ -641,28 +641,28 @@ Uma alternativa ao método anterior é colocar no início do
 
 -->
 
-<SECT1>Carregamento de uma fonte de caracteres<LABEL ID="SEC:CARFONTE">
+<SECT1>Carregamento de uma fonte de characters<LABEL ID="SEC:CARFONTE">
 <P>
 O pacote KBD contém dois tipos de fontes com codificação latin-1:
 <ITEMIZE>
 <ITEM>as que já possuem uma tabela de mapeamento unicode, carregada
-      automaticamente pelo programa <TT/setfont/. Estas fontes têm nomes
+      automaticamente pelo programa <TT/setfont/. Estas fontes têm gnomes
       <TT/lat1u-*.psf/;
 <ITEM>as que não possuem tabela de mapeamento. Neste caso é preciso carregar
-      uma com o programa <TT/loadunimap/. Estas têm nomes <TT/lat1-*.psf/
+      uma com o programa <TT/loadunimap/. Estas têm gnomes <TT/lat1-*.psf/
       (o ``u'' indica Unicode).
 </ITEMIZE>
 
 Nas versões mais novas do KBD os arquivos são comprimidos com <TT/gzip/.  É
 preciso carregar uma fonte que tenha os caractres latinos acentuados no padrão
-ISO 8859-1 e <EM/também/ os símbolos semigráficos. As fontes de nome
+ISO 8859-1 e <EM/também/ os símbolos semigráficos. As fontes de gnome
 <TT/iso01.*/ não possuem esses símbolos. A fonte mais recomendada é a
 <TT/lat1u-16.psf/.
 
 As versões mais antigas do pacote KBD mantinham essas fontes no diretório
 <TT>/usr/lib/kbd/consolefonts</TT>, que foi trocado depois da versão 0.92 por
 <TT>/usr/share/consolefonts</TT>. Dependendo da sua distribuição e do quanto
-ela esteja atualizada o diretório poderá ser um ou outro.
+ela esteja atualizada o diretório poderá set um ou outro.
 
 <SECT2>Slackware
 <P>
@@ -673,12 +673,12 @@ Foi criado o script <TT>/etc/rc.d/rc.font</TT>, contendo o seguinte:
     #
     # /etc/rc.d/rc.font
     #
-    # Seleciona uma das fontes de caracteres disponiveis em
+    # Seleciona uma das fontes de characters disponiveis em
     # /usr/lib/kbd/consolefonts.
     #
     setfont lat1u-16.psf
 
-    # O comando a seguir é totalmente desnecessário
+    # O commando a seguir é totalmente desnecessário
     # com a fonte lat1u-16.psf.
     # loadunimap lat1u
 
@@ -723,15 +723,15 @@ Edite o arquivo <TT>/etc/rc.config</TT> e procure uma linha que começa com
 </VERB>
 
 Edite os scripts <TT/boot.setup/ e <TT/single/ contidos no diretório
-<TT>/etc/rc.d</TT>. Procure a linha contendo o comando
+<TT>/etc/rc.d</TT>. Procure a linha contendo o commando
 <TT>/usr/bin/loadunimap</TT> e remova-a ou ponha no seu início um ``#''
-para deixá-la como comentário. Veja comentários sobre este comando na
-seção~<REF ID="SEC:CARFONTE" name="Carregamento de uma fonte de caracteres">.
+para deixá-la como comentário. Veja comentários sobre este commando na
+seção~<REF ID="SEC:CARFONTE" name="Carregamento de uma fonte de characters">.
 
 <SECT2>Testando a fonte
 <P>
 Experimente algumas teclas como ``,.&verbar;!"&num;&dollar;%&amp;/()=?'',
-etc. e use o comando <TT/showfont/ para mostrar a fonte em uso.
+etc. e use o commando <TT/showfont/ para mostrar a fonte em uso.
 
 </SECT1>
 
@@ -759,7 +759,7 @@ Foi criado o script <TT>/etc/rc.d/rc.keyboard</TT>, contendo o seguinte:
 e acrescentei as seguintes linhas ao <TT>/etc/rc.d/rc.S</TT>,
 imediatamente antes do tratamento do <TT>/etc/rc.d/rc.keyboard</TT>: 
 <VERB>
-    # Carrega uma fonte de caracteres se existe um script rc.font.
+    # Carrega uma fonte de characters se existe um script rc.font.
     if &lsqb; -x /etc/rc.d/rc.font &rsqb;; then
       /etc/rc.d/rc.font start
     fi
@@ -791,7 +791,7 @@ name="Ficheiros necessários">) para o diretório
 <TT>/usr/lib/kbd/keymaps/i386/qwerty/</TT>, a pertir do Red Hat 5.2). Não
 é necessário descomprimi-los.
 
-Edite o arquivo /etc/sysconfig/keyboard e coloque o nome do mapa a usar na
+Edite o arquivo /etc/sysconfig/keyboard e coloque o gnome do mapa a usar na
 variável KEYTABLE, como por exemplo
 <VERB>
     KEYTABLE="abnt2"
@@ -803,7 +803,7 @@ O CRHL já vem com os mapas de teclado para Português. Se você selecionou o
 teclado correto durante a instalação, não há mais nada a fazer. Caso
 contrário, edite o arquivo <TT>/etc/sysconfig/keyboard</TT> e coloque
 <VERB>
-    KEYTABLE="nome"
+    KEYTABLE="gnome"
 </VERB>
 Onde ``nome'' é <EM/br-abnt2/, <EM/pt/ ou <EM/us-acentos/ caso o desenho do
 seu teclado seja ABNT-2, português ou americano.
@@ -817,7 +817,7 @@ name="Ficheiros necessários">) para o diretório
 <TT>/usr/lib/kbd/keytables/</TT>. Não é necessário descomprimi-los.
 
 Descomprima o mapa de teclado adequado, copiando para o arquivo
-<TT>/etc/default.keytab</TT>, usando por exemplo um comando como
+<TT>/etc/default.keytab</TT>, usando por exemplo um commando como
 <VERB>
     zcat /usr/lib/kbd/keytables/pt.map.gz &gt; /etc/default.keytab
 </VERB>
@@ -827,32 +827,32 @@ Descomprima o mapa de teclado adequado, copiando para o arquivo
 Experimente pressionar a tecla <BF/c-cedilhado/ (se o teclado não tem esta
 tecla, digite <TT/'c/). Verifique se todas as letras acentuadas, maiúsculas e
 minúsculas são geradas corretamente e aparecem na tela. Se aparecer algum
-caracter estranho verifique se carregou o mapa de teclado e a fonte de
-caracteres corretos, pois provavelmente uma dessas operações foi mal sucedida.
+character estranho verifique se carregou o mapa de teclado e a fonte de
+characters corretos, pois provavelmente uma dessas operações foi mal sucedida.
 
 Se ao invés de c-cedilha minúsculo aparecer um maiúsculo é provável que uma
-tabela de mapeamento Unicode incorreta esteja a ser carregada. Este problema
+tabela de mapeamento Unicode incorreta esteja a set carregada. Este problema
 ocorrerá na distribuição S.u.S.E. se não se fizerem as alterações nos scripts
 do sistema mencionadas anteriormente.
 </SECT1>
 
-<SECT1>Verificando erros
+<SECT1>Verificando errors
 <P>
-Mas, e se alguns dos caracteres continuarem a não aparecer? Bem, antes de mais
+Mas, e se alguns dos characters continuarem a não aparecer? Bem, antes de mais
 nada verifique se a fonte e o mapa de teclado adequados foram carregados. Um
 caso especial é quando queremos usar uma fonte que não segue a codificação ISO
 Latin-1 (é o caso da fonte padrão do console do PC). Teríamos então de
-<EM/convencer/ a tela a mostrar os caracteres certos em cada caso.
+<EM/convencer/ a tela a mostrar os characters certos em cada caso.
 
-Poderíamos recorrer ao comando <EM/mapscrn/.  O arquivo com a tabela de
-tradução teria no entanto de ser criado por nós, seguindo um processo moroso
-de tentativa e erro até encontrar o caracter cuja imagem desejávamos. Ou, de
-uma forma mais fácil, poderíamos usar o comando <EM/showfont/. 
+Poderíamos recorrer ao commando <EM/mapscrn/.  O arquivo com a tabela de
+tradução teria no entanto de set criado por nós, seguindo um processo moroso
+de tentativa e error até encontrar o character cuja imagem desejávamos. Ou, de
+uma forma mais fácil, poderíamos usar o commando <EM/showfont/. 
 
-Se usarmos a fonte de caracteres correta, o uso deste último comando será
+Se usarmos a fonte de characters correta, o uso deste último commando será
 desnecessário. É até recomendável que não se use tal recurso, pois embora ele
-permita criar uma tabela de caracteres ``personalizada'' em um computador,
-será difícil que um documento acentuado produzido nessa máquina possa ser lido
+permita criar uma tabela de characters ``personalizada'' em um computador,
+será difícil que um documento acentuado produzido nessa máquina possa set lido
 em outra que não tenha a mesma configuração. 
 
 </SECT>
@@ -872,9 +872,9 @@ programas com suporte internacional.
 Resumidamente, podemos dizer que as funções que tratam informações dependentes
 da língua ou do país podem ter seu comportamento modificado, bastando para
 tanto estabelecer algumas variáveis de ambiente. E que funções são essas?
-Podemos citar as de formatação de datas, valores monetários e mensagens de
-erro do sistema. Se você não sabe o que é uma variável de ambiente, sugiro que
-leia o manual com o comando
+Podemos citar as de formatação de data, valores monetários e mensagens de
+error do sistema. Se você não sabe o que é uma variável de ambiente, sugiro que
+leia o manual com o commando
 <VERB>
     man environ
 </VERB>
@@ -883,12 +883,12 @@ O padrão POSIX permite usar diversas variáveis de configuração, cada uma delas
 definindo o tratamento dado a um tipo de informação, a saber
 <DESCRIP>
 <TAG/LC_COLLATE/
-    Define regras para comparação entre caracteres no alfabeto local. Por
-    exemplo, a letra `ã' deve ser tratada como idêntica ao `a' no Português
+    Define regras para comparação entre characters no alfabeto local. Por
+    exemplo, a letra `ã' deve set tratada como idêntica ao `a' no Português
     quando ordenamos alfabeticamente.
 
 <TAG/LC_CTYPE/
-    Define regras para comparação entre caracteres maiúsculos e
+    Define regras para comparação entre characters maiúsculos e
     minúsculos. Se estivermos trabalhando com o código ASCII, sabemos que o
     código numérico de uma letra minúscula é 32 a mais do que a maiúscula
     correspondente, mas para uma letra acentuada esta regra não é válida!
@@ -907,26 +907,26 @@ definindo o tratamento dado a um tipo de informação, a saber
     numéricos permitindo, por exemplo que usemos a vírgula decimal.
 
 <TAG/LC_TIME/
-    Define a formatação de datas e horas.
+    Define a formatação de data e horas.
 
 <TAG/LC_ALL/
     Define de uma só vez todas as categorias. Se usarmos LC_ALL, não
-    precisaremos definir nenhuma das outras, a não ser que queiramos um
+    precisaremos definir nenhuma das outras, a não set que queiramos um
     comportamento diferente para aquele ítem específico.
 
 <TAG/LANG/
     Define de uma só vez todas as categorias, se LC_ALL não estiver definida.
-    Também é usada pelo comando <TT/man/ para compor os caminhos pelos quais
+    Também é usada pelo commando <TT/man/ para compor os caminhos pelos quais
     ele procurará as páginas do manual. Veja as observações a respeito desta
     variável nas seções <REF ID="SEC:LOCALE" NAME="Locale">, <REF
     ID="SEC:LOCALE" NAME="Locale"> e <REF ID="SEC:LOCALE" NAME="Locale">.
 </DESCRIP>
 
-Maiores informações podem ser obtidas no manual do sistema com o comando
+Maiores informações podem set obtidas no manual do sistema com o commando
 <VERB>
     man 7 locale 
 </VERB>
-O `7' no comando anterior é necessário para evitar confusão com uma função
+O `7' no commando anterior é necessário para evitar confusão com uma função
 homônima da linguagem Perl. Note que as configurações acima afetam, em
 princípio, apenas as funções disponíveis na biblioteca de funções da linguagem
 C. Na prática, todos os programas que rodam em Linux usam aquela biblioteca,
@@ -944,7 +944,7 @@ basta então colocar em seu arquivo <TT>/etc/profile</TT> uma linha contendo
     export LC_ALL
 </VERB>
 Usuários brasileiros devem usar ``pt_BR'' ao invés de ``pt_PT''. Teste o
-resultado com os comandos a seguir (<TT>/inexistente</TT> é o nome de um
+resultado com os commandos a seguir (<TT>/inexistente</TT> é o gnome de um
 arquivo que <BF/não/ existe):
 <VERB>
     echo ÁÉÍÓÚ | tr '&lsqb;:upper:&rsqb;' '&lsqb;:lower:&rsqb;'
@@ -953,14 +953,14 @@ arquivo que <BF/não/ existe):
     date
     cal 1 1999
 </VERB>
-O resultado do primeiro deverá ser ``<TT/áéíóú/''. Os comandos <TT/tar/ e
+O resultado do primeiro deverá set ``<TT/áéíóú/''. Os commandos <TT/tar/ e
 <TT/ls/ devem retornar mensagens em Português e <TT/cal/ deve mostrar um
 calendário de janeiro de 1999, com <EM/do se te qu qu se sá/ no cabeçalho dos
 dias da semana.
 
 Na distribuição Debian, certifique-se de ter instalado o pacote ``locales'',
-que pertence ao grupo ``admin''. O nome do arquivo que contém o pacote (na
-versão 2.0 da distribuição) é <TT/locales_2.0.7t-1.deb/ e em meu CD
+que pertence ao grupo ``admin''. O gnome do arquivo que contém o pacote (na
+versão 2.0 da distribuição) é <TT/locales_2.0.7t-1.deb/ e em menu CD
 está no diretório <TT>debian/main/binary-i386/admin</TT>.
 </SECT1>
 
@@ -983,11 +983,11 @@ Mas se você usa uma distribuição ainda baseada na libc 5 (Slackware, Caldera
 coleção de locais. Não tente copiar a coleção de uma distribuição mais
 recente, pois os formatos dos arquivos são incompatíveis. Pegue na página do
 Portuguese HOWTO o arquivo <TT/locales-pt.tgz/. Para instalá-lo na
-distribuição Slackware, basta (como usuário <BF/root/) usar o comando
+distribuição Slackware, basta (como usuário <BF/root/) usar o commando
 <VERB>
     installpkg locales-pt.tgz
 </VERB>
-e para outras distribuições use o comando
+e para outras distribuições use o commando
 <VERB>
     tar xzf locales-pt.tgz -C /
 </VERB>
@@ -1007,7 +1007,7 @@ seqüências acento-letra. O servidor X é uma daquelas raras aplicações que,
 por dever de ofício, tem que tratar o teclado ``em baixo nível''.
 
 O X vem equipado com um utilitário destinado à configuração do teclado,
-chamado <EM/xmodmap/, que cumpre uma função correspondente à do comando
+chamado <EM/xmodmap/, que cumpre uma função correspondente à do commando
 <EM/loadkeys/, ou seja, lê um arquivo de mapa de teclado do X, expecificando
 as equivalências entre os <EM/keycodes/ e respectivos <EM/keysymbols/.
 
@@ -1037,7 +1037,7 @@ contornar esta limitação e tornar o tratamento de <EM/dead-keys/ transparente
 às aplicações, conforme mostrado na seção <REF ID="SEC:CONTOR-X"
 name="Contornando os limites do X">.
 
-Dividimos a configuração em duas partes: Uma que deve ser feita antes do
+Dividimos a configuração em duas partes: Uma que deve set feita antes do
 <EM/login/ do usuário e outra depois.
 
 <SECT1>Configuração do xinit
@@ -1053,7 +1053,7 @@ distribuição Slackware esse diretório é um link simbólico para
 Nas distribuições Slackware e Red Hat, verifique se no referido diretório
 existe um arquivo chamado <TT>.Xmodmap</TT>. Se existir, copie o
 <TT>Xmodmap.</TT>&lt;alguma-coisa&gt;  para ele, ou faça um link.
-Normalmente o arquivo de configuração <TT>xinitrc</TT> possui os comandos
+Normalmente o arquivo de configuração <TT>xinitrc</TT> possui os commandos
 para carregá-lo automaticamente. Veja o seguinte trecho: 
 
 <VERB>
@@ -1084,11 +1084,11 @@ usuário.
 
 <SECT1>Configuração do XDM
 <P>
-Existe ainda um pequeno problema: no meu computador, por exemplo, o
+Existe ainda um pequeno problema: no menu computador, por exemplo, o
 sistema carrega diretamente o X ao dar boot e o login é feito pelo X
 Display Manager (xdm). Como o xdm faz o login <BF/antes/ de iniciar a
 seção de trabalho, o mapa de teclado não será carregado, o que pode criar
-problemas se o usuário usa caracteres como ``&lsqb;'' ou ``&rsqb;'' em sua
+problemas se o usuário usa characters como ``&lsqb;'' ou ``&rsqb;'' em sua
 senha, pois nos teclados ABNT-2 e português esses símbolos são gerados por
 teclas cujos códigos numéricos não são os mesmos do teclado americano. 
 
@@ -1143,7 +1143,7 @@ teclado será carregado antes do início na seção do usuário.
 <P>
 Uma das coisas mais importantes a definir quando vamos utilizar acentuação
 por meio de <EM/dead-keys/ é o conjunto de <EM/regras de composição/. Essas
-regras determinam, por exemplo que a composição do caracter <BF/'/&nbsp;com
+regras determinam, por exemplo que a composição do character <BF/'/&nbsp;com
 a letra <BF/e/ gerará um <BF/é/.
 
 Ao contrário do console, no qual podemos definir as regras de composição no
@@ -1161,7 +1161,7 @@ duplas para gerar o trema.
 
 O arquivo <TT/Compose/ fornecido foi feito procurando imitar ao máximo o
 comportamento do console e possui as seguintes facilidades para geração de
-caracteres:
+characters:
 <ITEMIZE>
     <ITEM>C-cedilha: tecla <TT/Ç/ ou seqüência
 	&lt;acento-agudo&gt;-C
@@ -1178,7 +1178,7 @@ caracteres:
 </ITEMIZE>
 
 Para incluirmos as novas regras, basta aplicar uma alteração à definição
-original. O arquivo <TT/Compose.patch/ pode ser obtido via WWW na página do
+original. O arquivo <TT/Compose.patch/ pode set obtido via WWW na página do
 Portuguese HOWTO. Para aplicar a atualização, copie-o para o diretório
 <TT>/usr/X11R6/lib/X11/locale/iso8859-1/</TT>, faça uma cópia de reserva do
 <TT/Compose/ original e invoque o utilitário <EM/patch/:
@@ -1226,7 +1226,7 @@ oficialmente o suporte ao local pt_BR. Infelizmente neste mesmo fix-2 foi
 introduzida uma falha em uma das funções de tratamento de <EM/input contexts/
 da Xlib que provoca violações de acesso à memória. Uma das aplicações afetadas
 é o processador de textos LyX. Uma correção provavelmente será incluída no
-fix-4. O X11R6.4 deverá ser a base para a versão 4 do XFree86.
+fix-4. O X11R6.4 deverá set a base para a versão 4 do XFree86.
 
 </SECT1>
   
@@ -1237,7 +1237,7 @@ Zawinski"> é uma interface gráfica para o <TT/xmodmap/, que mostra na tela o
 desenho de um teclado e permite modificar interativamente os símbolos gerados
 por cada tecla e gerar automaticamente o arquivo <TT/.Xmodmap/ correspondente.
 
-Ele pode ser obtido via WWW em <URL URL="http://www.jwz.org/xkeycaps/"> e, a
+Ele pode set obtido via WWW em <URL URL="http://www.jwz.org/xkeycaps/"> e, a
 partir da versão 2.43, já incoropra também suporte para o desenho brasileiro
 (ABNT2), uma contribuição de Andre Gerhard.
 
@@ -1246,7 +1246,7 @@ partir da versão 2.43, já incoropra também suporte para o desenho brasileiro
 <SECT1>Contornando os limites do X<LABEL ID="SEC:CONTOR-X">
 <P>
 Conforme foi explicado na seção <REF ID="SEC:DIFXC" name="Modo texto versus
-Sistema de Janelas X">, o tratamento de acentos deve ser feito pela aplicação,
+Sistema de Janelas X">, o tratamento de acentos deve set feito pela aplicação,
 mas ainda há muitos programas que não levam isto em consideração, tais como
 Netscape Navigator/Communicator e Nedit. Como não é possível modificar muitos
 deles, é preciso encontrar outro tipo de solução.
@@ -1257,8 +1257,8 @@ Linux, assim como a maioria dos sistemas operacionais modernos, usa um
 sistema de vínculo de programas a bibliotecas de funções chamado ``ligação
 dinâmica'' (<EM/dynamic binding/). Deste modo, podemos modificar o
 comportamento de um programa alterando uma dessas bibliotecas. Maiores
-informações sobre este tema pode ser obtida nos manuais do Linux com os
-comandos
+informações sobre este tema pode set obtida nos manuais do Linux com os
+commandos
 <VERB>
     man ld.so
     man ldconfig
@@ -1268,7 +1268,7 @@ comandos
 Thomas Quinot criou uma alteração para a biblioteca de funções do X
 (<EM/Xlib/) introduzindo o tratamento de acentos na função <BF/XLookupString/,
 Tudo que se tem a fazer é substituir o arquivo contendo esta biblioteca por
-outro, que pode ser obtido via internet no endereço
+outro, que pode set obtido via internet no endereço
 
 <QUOTE>
 <URL URL="http://web.fdn.fr/~tquinot/dead-keys.en.html">
@@ -1277,10 +1277,10 @@ outro, que pode ser obtido via internet no endereço
 Existem duas versões do arquivo, uma para sistemas onde as bibliotecas do X
 suportam o uso seguro de <EM/threads/ (Debian 2.x, Red Hat 5.x, etc.) e outra
 para os sistemas que não possuem tal atributo (Slackware, Caldera 1.x). Se
-você não sabe o que são threads não se preocupe com isso, mas saiba que eles
+você não sabe o que são threads não se preocupe com isso, mas saiba que else
 permitem criar um programa capaz de se dividir em sub-processos que rodam
 concorrentemente em um computador. Para analisar sua <EM/Xlib/ rode o seguinte
-comando:
+commando:
 
 <QUOTE>
 nm --dynamic /usr/X11R6/lib/libXext.so.6|grep _Xglobal_lock
@@ -1292,9 +1292,9 @@ suporta threads e o arquivo a obter é <TT/libX11-XF3.3.1.tar.gz/. Tendo
 obtido o arquivo, copie-o para um diretório temporário e extraia seu conteúdo.
 Mova o arquivo <TT>/usr/X11R6/libX11.so.6.1</TT> para outro diretório,
 para preservá-lo. Não é suficiente renomeá-lo! Remova-o para um diretório cujo
-nome <BF/não/ esteja contido no arquivo <TT>/etc/ld.so.conf</TT>. Depois,
+gnome <BF/não/ esteja contido no arquivo <TT>/etc/ld.so.conf</TT>. Depois,
 mova o novo arquivo para o lugar do antigo e rode o programa <EM/ldconfig/
-(isto deve ser feito pelo usuário <BF/root/):
+(isto deve set feito pelo usuário <BF/root/):
 <VERB>
     cp libX11-XF3.3.1-TS.tar.gz /tmp
     cd /tmp
@@ -1326,7 +1326,7 @@ do <TT/XF86Config/.
 
 Configure o mapa de teclado do X conforme explicado nas seções anteriores
 deste documento. Para testar o resultado, rode o programa <EM/xedit/ e digite
-alguns caracteres acentuados.
+alguns characters acentuados.
 
 </SECT2>
 
@@ -1334,15 +1334,15 @@ alguns caracteres acentuados.
 <P>
 <QUOTE>
 Esta seção é baseada em contribuição enviada por Bruno Barberi Gnecco
-e na documentação do diacrd. Podem haver ainda alguns erros e se alguém os
+e na documentação do diacrd. Podem haver ainda alguns errors e se alguém os
 detectar, por favor avise-me.
 </QUOTE>
 
 Seguindo a regra geral do mundo *nix, existe sempre mais de um modo se
 resolver o mesmo problema. Conforme vimos anteriormente, existem dois modos de
 operação do teclado, chamados <EM/raw/ e <EM/cooked/. Estes modos de operação
-podem ser mudados com o programa <BF/kbd_mode/, integrante do pacote kbd, o
-que não é recomendável fazer a não ser para restaurar o estado do console após
+podem set mudados com o programa <BF/kbd_mode/, integrante do pacote kbd, o
+que não é recomendável fazer a não set para restaurar o estado do console após
 um desastre com o servidor X, por exemplo. No modo raw o kernel não processa
 os diacríticos (acentos).
 
@@ -1358,15 +1358,15 @@ retaguarda (<EM/daemon/) chamado <BF/diacrd/, conforme descrito a seguir:
     <TT>/dev/rawkbd</TT> quando o teclado estiver em modo <EM/raw/.
 <ITEM>Os dados que o kernel grava no <TT>/dev/rawkbd</TT> são lidos pelo
     programa <TT/diacrd/, que processa as seqüências acento-letra e reescreve
-    no <TT>/dev/rawkbd</TT> os caracteres acentuados na forma de códigos de
+    no <TT>/dev/rawkbd</TT> os characters acentuados na forma de códigos de
     varredura (<EM/scancodes/) que normalmente não existem no teclado.
 <ITEM>O kernel lê no <TT>/dev/rawkbd</TT> os códigos gravados pelo
     <TT/diacrd/ e os passa à aplicação, que no caso é o servidor X.
-<ITEM>O servidor X mapeia os códigos de varredura para caracteres. Um mapa de
+<ITEM>O servidor X mapeia os códigos de varredura para characters. Um mapa de
     teclado especial permite então gerar as letras acentuadas.
 </ITEMIZE>
 
-O diacrd pode ser obtido via FTP anônimo no endereço
+O diacrd pode set obtido via FTP anônimo no endereço
 <QUOTE>
 <URL URL="ftp://metalab.unc.edu/pub/Linux/system/keyboards">
 </QUOTE>
@@ -1382,13 +1382,13 @@ usuário <BF/root/):
     acordo com suas preferências. Pode-se incluir capacidade de rodar o
     programa <BF/xmodmap/ e ejetar o CD-ROM sob controle do pressionamento de
     uma combinação de teclas.
-<ITEM>Aplique a modificação no kernel. Para isto, execute o comando
+<ITEM>Aplique a modificação no kernel. Para isto, execute o commando
     ``make~patch-usr-src''.
-<ITEM>Crie o dispositivo <TT>/dev/rawkbd</TT> executando o comando
+<ITEM>Crie o dispositivo <TT>/dev/rawkbd</TT> executando o commando
     ``make~rawkbd''.
-<ITEM>Compile o diacrd e instale-o executando os comandos ``make'' e
+<ITEM>Compile o diacrd e instale-o executando os commandos ``make'' e
     ``make~install''.
-<ITEM>Compile e instale o kernel, com os comandos
+<ITEM>Compile e install o kernel, com os commandos
 <VERB>
     cd /usr/src/linux
     make config
@@ -1396,9 +1396,9 @@ usuário <BF/root/):
 </VERB>
     Para maiores informações sobre compilação/instalação do kernel, leia o
     Kernel-HOWTO, disponível via Internet nos repositórios do LDP mencionados
-    na seção <REF ID="SEC:ONDE" name="Onde encontrar a versão mais atual">.
+    na seção <REF ID="SEC:ONDE" name="Onde encontrar a versão mais actual">.
 <ITEM>Dê um ``reboot'' no computador. Verifique se o suporte ao dispositivo
-    rawkbd foi instalado com sucesso com o comando
+    rawkbd foi instalado com sucesso com o commando
 <VERB>
     dmesg | grep RAWKBD
 </VERB>
@@ -1406,7 +1406,7 @@ usuário <BF/root/):
 <VERB>
     RAWKBD interface for diacriticals translation enabled...
 </VERB>
-    e teste o dispositivo <TT>/dev/rawkbd</TT> com o comando
+    e teste o dispositivo <TT>/dev/rawkbd</TT> com o commando
 <VERB>
     printf "### TESTANDO ###" &gt;&gt; /dev/rawkbd
 </VERB>
@@ -1429,7 +1429,7 @@ necessárias. Pode-se fazê-lo incluindo a carga do diacrd no arquivo
     distribuição Debian ou Red Hat, por favor envie-o para que seja incluído
     aqui.
 </QUOTE>
-Mais informações sobre o diacrd podem ser encontradas no ``Dead keys
+Mais informações sobre o diacrd podem set encontradas no ``Dead keys
 Mini-HOWTO'' de Claudemir Todo Bom, disponível em <URL
 URL="http://linux.unicamp.br/docs/diversos/deadkeys.html">.
 
@@ -1449,12 +1449,12 @@ acentuação no X. Trata-se de uma solução ainda em desenvolvimento e, segundo o
 conteúdo da documentação que o acompanha, o ideal seria que todo o tratamento
 fosse feito pelo kernel, sem depender de outro programa.
 
-Até o momento da publicação deste HOWTO, o diacrd ainda não era compatível com
+Até o memento da publicação deste HOWTO, o diacrd ainda não era compatível com
 a versão 2.2 do kernel do Linux.
 
 A solução via Xlib é, pelo menos em teoria, totalmente transparente às
 aplicações e permite reconfiguração em tempo de execução, bastando alterar o
-mapa de teclado do X e as regras de composição. Já o diacrd precisa ser
+mapa de teclado do X e as regras de composição. Já o diacrd precisa set
 recompilado se quisermos trocar o tipo de teclado, mas é possível que novas
 versões incorporem algum recurso de reconfiguração.
 
@@ -1488,7 +1488,7 @@ nenhum desses remendos será mais necessário.
 <P>
 A maioria das aplicações que rodam no Unix usa algum tipo de arquivo de
 configuração que o usuário coloca em seu diretório de trabalho (home) e
-cujo nome normalmente é <TT/.alguma-coisarc/. Tanto quanto possível,
+cujo gnome normalmente é <TT/.alguma-coisarc/. Tanto quanto possível,
 tentei evitar que isso fosse necessário, pois além de dar mais trabalho ao
 usuário (e ao administrador da rede ;-) pode dificultar um pouco as
 coisas. Por exemplo, aqui no CPMet temos o diretório <EM/home/
@@ -1499,14 +1499,14 @@ necessitar algum ajuste dependendo da plataforma e nem todos os programas
 possuem flexibilidade bastante para isso.
 
 Uma opção que muitos programas também oferecem é especificar em uma
-variável de ambiente o nome do arquivo de configuração ou o uso de
+variável de ambiente o gnome do arquivo de configuração ou o uso de
 arquivos padrão que normalmente ficam em um diretório
 <TT>/usr/lib/alguma-coisa</TT> ou <TT>/etc/alguma-coisa</TT>. 
 
 <SECT2>Bash (biblioteca GNU readline)
 <P>
 Os programas que utilizam a biblioteca GNU readline para ler a linha
-de comando procuram por um arquivo chamado <TT/.inputrc/ no diretório ``HOME''
+de commando procuram por um arquivo chamado <TT/.inputrc/ no diretório ``HOME''
 do usuário caso não exista uma variável de ambiente <TT/INPUTRC/ contendo o
 caminho para um arquivo de configuração.
 
@@ -1523,17 +1523,17 @@ e crie um arquivo /etc/inputrc contendo
 </VERB>
 Outra alternativa é criar um arquivo <TT/.inputrc/ no diretório <EM/home/
 do usuário com o conteúdo acima, mas é muito difícil manter atualizados
-os arquivos de todos os usuários, principalmente quando eles são muitos.
-Um <TT/inputrc/ mais completo pode ser obtido via WWW na página do
+os arquivos de todos os usuários, principalmente quando else são muitos.
+Um <TT/inputrc/ mais completo pode set obtido via WWW na página do
 Portuguese HOWTO. Ele contém opções para vários tipos de terminal e permite
 usar as teclas de movimento de cursor para percorrer o histórico de
-comandos (setas para cima e para baixo); ir para o primeiro e para o último
-comandos do histórico (teclas PageUp e PageDown); posicionar o cursor na linha
+commandos (setas para cima e para baixo); ir para o primeiro e para o último
+commandos do histórico (teclas PageUp e PageDown); posicionar o cursor na linha
 (setas para a esquerda e direita) e posicionar o cursor no início e no fim da
 linha (teclas Home e End).
 
 Para maiores informações leia os manuais do <BF/bash/ e da biblioteca
-<BF/readline/ com os comandos
+<BF/readline/ com os commandos
 <VERB>
     man bash
     man readline
@@ -1541,7 +1541,7 @@ Para maiores informações leia os manuais do <BF/bash/ e da biblioteca
 
 <SECT2>Emacs
 <P>
-O pai de todos os editores pode ser configurado criando-se um arquivo
+O pai de todos os editores pode set configurado criando-se um arquivo
 chamado <TT/.emacs/ no diretório do usuário, contendo as seguintes linhas: 
 <VERB>
     (set-input-mode nil nil 1)
@@ -1550,10 +1550,10 @@ chamado <TT/.emacs/ no diretório do usuário, contendo as seguintes linhas:
 </VERB>
 
 Para tornar esta configuração global, na distribuição Slackware coloque os
-comandos no arquivo <TT>/usr/lib/emacs/site-lisp/site-start.el</TT>. Na
+commandos no arquivo <TT>/usr/lib/emacs/site-lisp/site-start.el</TT>. Na
 distribuição Debian o emacs executa todos os scripts contidos no diretório
-<TT>/etc/emacs/site-start.d</TT> ao ser carregado. Tudo que se tem a fazer
-é colocar esses comandos em um arquivo chamado, por exemplo,
+<TT>/etc/emacs/site-start.d</TT> ao set carregado. Tudo que se tem a fazer
+é colocar esses commandos em um arquivo chamado, por exemplo,
 <TT/01portugues-emacs.el/.
 
 Se o estimado leitor, assim como eu, não se agrada do tratamento dado pelo
@@ -1570,11 +1570,11 @@ e acrescente ao mesmo arquivo o seguinte:
     (define-key global-map &lsqb;C-end&rsqb; 'end-of-buffer)
 </VERB>
 
-Arquivos de configuração prontos podem ser obtidos via WWW na página do
+Arquivos de configuração prontos podem set obtidos via WWW na página do
 Portuguese HOWTO. Para Slackware, há um <TT/site-start-emacs.el/, que deve
-ser copiado para o diretório <TT>/usr/lib/emacs/site-lisp</TT> com o nome
+set copiado para o diretório <TT>/usr/lib/emacs/site-lisp</TT> com o gnome
 de <TT/site-start.el/. Para Debian, há um <TT/01portugues-emacs.el/ que
-deve ser copiado para o diretório <TT>/etc/emacs/site-start.d</TT>.
+deve set copiado para o diretório <TT>/etc/emacs/site-start.d</TT>.
 
 Certifique-se de estar usando a versão 24-out-1998 ou mais recente do arquivo
 de mapa de teclado para o X, pois ela possui uma correção no tratamento das
@@ -1589,7 +1589,7 @@ dados de 8 bit.
 <P>
 Fortune é aquele programa que toda vez que é invocado apresenta uma
 pequena mensagem, geralmente bem humorada. Ele é inspirado nos biscoitos
-da fortuna chineses (em inglês <EM/fortune cookies/, daí o nome).
+da fortuna chineses (em inglês <EM/fortune cookies/, daí o gnome).
 Eis algumas mensagens típicas:
 <VERB>
     dROGA!!oNDE ESTA O cAPSLOCK??
@@ -1606,7 +1606,7 @@ ou <TT>/usr/share/games/fortunes</TT> (Debian). Neste diretório existem
 diversos arquivos com as ``fortunas'' e um arquivo índice para cada um deles,
 que possui a extensão <TT/.dat/. O formato dos arquivos é muito simples:
 cada fortuna é composta de uma série de linhas de texto. As fortunas são
-separadas umas das outras por linhas contendo apenas um caracter <BF/%/. Veja
+separadas umas das outras por linhas contendo apenas um character <BF/%/. Veja
 o trecho a seguir:
 <VERB>
     O que são quatro pontos na parede? Four migas. Ugh!
@@ -1625,7 +1625,7 @@ e um arquivo chamado <TT/fortunes.dat/ será criado. Claro que se quisermos
 que o fortune mostre apenas mensagens em Português, teremos que remover os
 arquivos existentes no diretório original. Sugiro simplesmente renomeá-lo para
 <TT/fortunes-en/ (de <EM/En/glish) e criar outro vazio.  Eu coletei algumas
-fortunas e as coloquei no arquivo <TT/fortunes-pt.tar.gz/ que pode ser
+fortunas e as coloquei no arquivo <TT/fortunes-pt.tar.gz/ que pode set
 obtido via WWW na página do Portuguese HOWTO. Não esqueça de colocar no seu
 /etc/profile algumas linhas contendo uma chamada ao fortune, por exemplo
 <VERB>
@@ -1635,10 +1635,10 @@ obtido via WWW na página do Portuguese HOWTO. Não esqueça de colocar no seu
        echo
     fi
 </VERB>
-Uma última informação: se o nome de um arquivo termina com o sufixo
+Uma última informação: se o gnome de um arquivo termina com o sufixo
 <TT/-o/ o fortune só o consulta se for chamado com a opção
 <TT/-o/. Esses arquivos são os que contém mensagens cujo conteúdo pode
-ser considerado ofensivo por algumas pessoas, tais como
+set considerado ofensivo por algumas pessoas, tais como
 <VERB>
     Só não mando a sogra pro inferno, com pena do Diabo.
 </VERB>
@@ -1647,7 +1647,7 @@ Linux HOWTO e não queremos realmente ofender ninguém, certo?
 
 <SECT2>Ispell
 <P>
-Dicionários para o Português de Portugal podem ser obtidos via WWW
+Dicionários para o Português de Portugal podem set obtidos via WWW
 na página do <EM/Projecto Natura/ em
 <URL URL="http://www.di.uminho.pt/~jj/pln/pln.html">. Para o Brasil, há
 uma versão compilada pelo Ueda:
@@ -1664,25 +1664,25 @@ aqui.</QUOTE>
 Esta informação é baseada em uma mensagem da qual guardei o conteúdo mas não o
 remetente. Peço desculpas e espero que perdoe a falha. Não testei pessoalmente
 a informação e peço que me escrevam confirmando tanto a correção quanto, se
-possível, a identidade do autor.
+possível, a identidade do author.
 </QUOTE>
 
-O JDK utiliza fontes padrão que não suportam acentos. Isto quer dizer que
+O JDK utilize fontes padrão que não suportam acentos. Isto quer dizer que
 letras com acentos são ignoradas e, geralmente, confundem o resto do texto.
 Resolver isto é extremamente fácil:
 <ITEMIZE>
-<ITEM>entre no diretório <TT>jdk1.1.5/lib</TT> (no meu caso,
+<ITEM>entre no diretório <TT>jdk1.1.5/lib</TT> (no menu caso,
     <TT>/jdk1.1.5/lib</TT>);
 <ITEM>copie o arquivo <TT/font.properties.hu/ sobrescrevendo o
-    <TT/font.properties/ atual (lembre-se de fazer backups!);
+    <TT/font.properties/ actual (lembre-se de fazer backups!);
 <ITEM>entre no jdk e divirta-se! Fazendo isto, seu ICQ e todos os
     aplicativos que usem o jdk estarão aptos a lerem acentos! (fácil, não?)
 </ITEMIZE>
 
 <SECT2>Joe
 <P>
-Invoque o joe com a opção <TT/-asis/ na linha de comando ou altere os
-arquivos de configuração para ativar tal opção. Na Slackware eles estão no
+Invoque o joe com a opção <TT/-asis/ na linha de commando ou altere os
+arquivos de configuração para ativar tal opção. Na Slackware else estão no
 diretório <TT>/usr/lib/joe</TT>. Tudo que se tem a fazer é remover o
 espaço em branco existente no início de cada linha. Outra alternativa é
 acrescentar a seguinte linha ao arquivo <TT>/etc/profile</TT>:
@@ -1705,12 +1705,12 @@ Coloque as seguintes linhas no seu arquivo <TT>/etc/profile</TT>:
     LESSOPEN='|lesspipe.sh "%s"'
     export LESS LESSCHARSET LESSKEY LESSOPEN
 </VERB>
-LESSKEY informa o nome de um arquivo contendo uma tabela de seqüências de
-caracteres geradas por cada tecla e as ações a serem tomadas pelo less.  Para
+LESSKEY informa o gnome de um arquivo contendo uma tabela de seqüências de
+characters geradas por cada tecla e as ações a serem tomadas pelo less.  Para
 criar o arquivo <TT>/etc/lesskey</TT>, crie primeiro o arquivo
 <TT>/etc/lesskey.in</TT> contendo as seguintes linhas: 
 <VERB>
-    # Termianl ANSI (console do Linux, XTerm, etc)
+    # Terminal ANSI (console do Linux, XTerm, etc)
     \e&lsqb;1~	goto-line
     \e&lsqb;4~	goto-end
     \e&lsqb;5~	back-screen
@@ -1734,7 +1734,7 @@ criar o arquivo <TT>/etc/lesskey</TT>, crie primeiro o arquivo
     :N	next-file
     :p	prev-file
 </VERB>
-Depois ``compile-o'' usando o comando
+Depois ``compile-o'' usando o commando
 <VERB>
     # lesskey -o /etc/lesskey /etc/lesskey.in
 </VERB>
@@ -1826,14 +1826,14 @@ simples editor de texto (e realmente é) LyX é uma excelente opção.  Este
 programa cria uma interface gráfica através da qual editamos os documentos que
 serão depois formatados pelo LaTeX. O ambiente é quase-WYSIWYG (What You See
 Is What You Get - O que tu vês é o que tu obténs). LyX não roda apenas em
-Linux, mas em qualquer Unix. Maiores informações podem ser obtidas em
+Linux, mas em qualquer Unix. Maiores informações podem set obtidas em
 
 <QUOTE><URL URL="http://www.lyx.org"></QUOTE>
 
 A partir da versão 1.0.1 do LyX já tem a interface com o usuário em Português,
 traduzida por Pedro Kröger, que também está traduzindo os manuais, junto
 com Roberto Mello. Estas traduções já fazem parte da
-distribuição oficial do LyX.
+distribuição official do LyX.
 
 Tendo o LyX instalado, é muito fácil criar documentos com acentuação em
 Português. Seguindo as seguintes regras:
@@ -1842,13 +1842,13 @@ Português. Seguindo as seguintes regras:
 <ITEM>Se o teclado foi configurado para ter <EM/dead keys/ usando um dos
       mapas aqui fornecidos, não é necessário fazer mais nada. Basta digitar o
       texto normalmente usando as seqüências de acentuação. A única exceção é
-      o c-cedilha que não pode ser gerado usando a seqüência <TT/'c/, pois o
+      o c-cedilha que não pode set gerado usando a seqüência <TT/'c/, pois o
       LyX gera um c com acento. Temos que usar a seqüência Compose-vírgula-c.
 <ITEM>Se o teclado <BF/não/ foi configurado para ter <EM/dead keys/ ainda
       assim é possível acentuar no LyX. Selecione o <EM/menu/
       <TT>Options/Keyboard</TT>. Na caixa de diálogo ``Key Mappings'',
       selecione no ítem <TT>Language/Primary</TT> a opção ``American''.
-      Com isto o LyX fará a composição dos caracteres acentuados usando regras
+      Com isto o LyX fará a composição dos characters acentuados usando regras
       semelhantes às das <EM/dead keys/.
       <ITEMIZE>
       <ITEM>A vírgula será tratada como cedilha. Para obter um `Ç'digite
@@ -1864,7 +1864,7 @@ Português. Seguindo as seguintes regras:
 </ITEMIZE>
 
 Para o LyX imprimir corretamente, é necessário que, ao criar um novo
-documento, sejam selecionados a língua e a codificação de caracteres
+documento, sejam selecionados a língua e a codificação de characters
 adequadas. Crie um documento selecionando o <EM/menu/ <TT>File/New</TT>.
 Depois selecione o <EM/menu/ <TT>Layout/Document</TT>. Na caixa de diálogo
 ``Document Layout'' selecione no ítem <TT/Language/ a opção ``brazil'' ou
@@ -1874,34 +1874,34 @@ Depois selecione o <EM/menu/ <TT>Layout/Document</TT>. Na caixa de diálogo
 Veja a observação sobre o pacote <EM/algorithm/ na seção~<REF ID="SEC:LATEX"
 name="TeX e LaTeX">
 
-Uma observação final sobre o LyX: a versão atual (1.0.x) utiliza a biblioteca
+Uma observação final sobre o LyX: a versão actual (1.0.x) utilize a biblioteca
 XForms para construir a interface com o usuário. Como essa biblioteca não tem
 suporte para acentuação, não é possível digitar letras acentuadas nas caixas
 de diálogo, somente no corpo do documento editado. Segundo os desenvolvedores,
 nas novas versões do LyX será possível escolher o tipo de interface ao
 compilar o programa, o que permitirá o uso de <EM/toolkits/ mais flexíveis. Já
 existe uma versão de LyX portada para o toolkit Qt, usado no KDE, chamada
-KLyX. Os autores são Matthias Ettrich -- autor original do LyX -- e Kalle
+KLyX. Os autores são Matthias Ettrich -- author original do LyX -- e Kalle
 Dalheimer. Para maiores informações, consulte via WWW: <URL
 URL="http://www-pu.informatik.uni-tuebingen.de/users/ettrich/">.
 
 <SECT2>Man, groff, troff<LABEL ID="SEC:MAN">
 <P>
-Pode-se usar a opção de linha de comando <TT/-Tlatin1/ para o groff,
+Pode-se usar a opção de linha de commando <TT/-Tlatin1/ para o groff,
 mas é mais simples colocar uma linha no seu arquivo <TT>/etc/profile</TT>
 contendo
 <VERB>
     GROFF_TYPESETTER="latin1" 
     export GROFF_TYPESETTER
 </VERB>
-Para maiores informações leia o manual do groff com o comando
+Para maiores informações leia o manual do groff com o commando
 <VERB>
     man groff
 </VERB>
 
-No Linux, o comando <EM/man/ usa o <EM/groff/ para formatar os manuais e deve
-ser configurado para usar o conjunto Latin 1, ou não será possível formatar
-satisfatoriamente manuais que contenham caracteres não pertencentes ao
+No Linux, o commando <EM/man/ usa o <EM/groff/ para formatar os manuais e deve
+set configurado para usar o conjunto Latin 1, ou não será possível formatar
+satisfatoriamente manuais que contenham characters não pertencentes ao
 conjunto ASCII, como é o caso do ``man iso_8859_1''. Na distribuição
 Slackware, é preciso editar o arquivo <TT>/usr/lib/man.config</TT> e
 alterar as definições NROFF e NEQN, trocando a opção ``-Tascii'' para
@@ -1915,16 +1915,16 @@ eliminar a opção -Tascii. Na distribuição Debian não é necessário fazer
 nenhuma configuração para o man, bastando configurar GROFF_TYPESETTER e na
 Red Hat (incluindo Conectiva) o arquivo é <TT>/etc/man.config</TT>
 
-Groff também pode ser configurado para fazer a separação silábica em
+Groff também pode set configurado para fazer a separação silábica em
 português, o que é muito útil se tivermos páginas de manual em Português. Isto
 é bastante simples, porque quando James Clarck pôs suporte a hifenização no
 groff ele usou o mesmo algoritmo de hifenização do TeX. Para ter hifenização
 em português, basta copiar o arquivo de regras do TeX e fazer o <TT/groff/
-usá-lo. O arquivo <TT/hyphen.pt/ pode ser obtido junto com os demais na página
+usá-lo. O arquivo <TT/hyphen.pt/ pode set obtido junto com os demais na página
 do HOWTO. Trata-se do arquivo <TT/pt8hyph.tex/ (ver seção <REF ID="SEC:LATEX"
 name="TeX e LaTeX">) ao qual foi adicionado apenas um comentário.
 
-Ele deve ser copiado para o diretório
+Ele deve set copiado para o diretório
 <TT>/usr/share/groff/tmac/</TT> ou <TT>/usr/lib/groff/tmac/</TT>,
 dependendo da distribuição. É conveniente criar um ``link'' simbólico para
 <TT/hyphen.br/. Para usar esse arquivo, basta colocar no início do seu
@@ -1937,15 +1937,15 @@ documento troff/groff as linhas a seguir:
 </VERB>
 O <TT/.if/ não é necessário para a acentuação, mas ele testa se o
 processador usado é o groff. Deste modo pode-se usar o mesmo documento em
-outros UNIX nos quais se use o troff normal sem que ele gere mensagens de erro
-sobre comandos desconhecidos.
+outros UNIX nos quais se use o troff normal sem que ele gere mensagens de error
+sobre commandos desconhecidos.
 
 <SECT2>Midnight Comander (mc)
 <P>
 No menu <TT/Options/ sub-menu <TT/Display bits.../ ligue a opção
 ``Full 8 bits'' ou ``ISO 8859-1''. Na versão 3.2.11 isso permite
-que sejam mostrados nomes de arquivos contendo caracteres acentuados, mas
-não foi possível digitar tais caracteres na linha de comando ou nas caixas
+que sejam mostrados gnomes de arquivos contendo characters acentuados, mas
+não foi possível digitar tais characters na linha de commando ou nas caixas
 de diálogo.
 
 <SECT2>Minicom
@@ -1955,26 +1955,26 @@ Coloque uma linha no seu arquivo <TT>/etc/profile</TT> contendo
     MINICOM="-m -c on" 
     export MINICOM
 </VERB>
-Isso permitirá usar a tecla Alt para ativar os comandos (exatamente como o
+Isso permitirá usar a tecla Alt para ativar os commandos (exatamente como o
 Telix) e também usar cores. Para maiores informações, leia o manual do
-Minicom usando o comando
+Minicom usando o commando
 <VERB>
     man minicom
 </VERB>
 Mais uma dica sobre o Minicom: para fazê-lo usar usar corretamante a tecla
-<EM/Meta/ para ativação dos comandos rodando dentro de um <EM/xterm/, deve-se
+<EM/Meta/ para ativação dos commandos rodando dentro de um <EM/xterm/, deve-se
 invocá-lo com a opção ``-m'' e passar a opção ``-xrm "*eightBitInput: false"''
-para o xterm. Se usarmos o <EM/rxvt/ então o minicom deve ser chamado com a
-opção ``-m'' e a tecla de ativação dos comandos será <EM/Alt/. Fiz uma
-adaptação no script <TT/xminicom/ que pode ser obtido via WWW na página do
+para o xterm. Se usarmos o <EM/rxvt/ então o minicom deve set chamado com a
+opção ``-m'' e a tecla de ativação dos commandos será <EM/Alt/. Fiz uma
+adaptação no script <TT/xminicom/ que pode set obtido via WWW na página do
 Portuguese HOWTO.
 
 Segundo Arnaldo Carvalho de Melo, as versões mais recentes do Minicom suportam
 internacionalização. Suporte para o Português foi acrescentado pelo pessoal da
-Conectiva. O código fonte pode ser obtido na página do Jukka (atual mantenedor
+Conectiva. O código fonte pode set obtido na página do Jukka (actual mantenedor
 do Minicom) em
 <QUOTE>
-   <URL URL="http://www.clinet.fi/~walker/minicom.html">
+   <URL URL="http://www.client.fi/~walker/minicom.html">
 </QUOTE>
 
 <SECT2>Netscape Communicator
@@ -1989,14 +1989,14 @@ opções.
 Na distribuição brasileira Conectiva, o pacote do Communicator vem com um
 arquivo <TT>/usr/lib/netscape/i18n/Netscape.ad.pt_BR</TT> e um script
 <TT>/usr/bin/netscape</TT> que executa o Communicator fazendo-o ler este
-arquivo. Uma cópia do <TT/Netscape.ad.pt_BR/ pode ser obtida na página
-oficial do Portuguese-HOWTO. Para usá-lo, simplesmente copie-o para
+arquivo. Uma cópia do <TT/Netscape.ad.pt_BR/ pode set obtida na página
+official do Portuguese-HOWTO. Para usá-lo, simplesmente copie-o para
 <TT>/usr/X11R6/lib/X11/app-defaults/Netscape</TT>, se sua distribuição não
 o possuir, mas fique atento que seu uso pode criar problemas com novas versões
 do programa.
 
-Maiores informações sobre ``X Resources'' podem ser obtidas em [GET94],
-[McC94] e no manual do programa <TT/xrdb/, com o comando
+Maiores informações sobre ``X Resources'' podem set obtidas em [GET94],
+[McC94] e no manual do programa <TT/xrdb/, com o commando
 
 <VERB>
     man xrdb
@@ -2014,7 +2014,7 @@ Acrescente a seguinte linha ao arquivo <TT>~/.nn/init</TT>:
 
 <SECT2>Pine e Pico
 <P>
-Para o Pine utilizar o conjunto de caracteres Latin 1, coloque uma linha
+Para o Pine utilizar o conjunto de characters Latin 1, coloque uma linha
 no arquivo .pinerc, no diretório do usuário, contendo
 <VERB>
     character-set=ISO-8859-1
@@ -2023,10 +2023,10 @@ ou crie um arquivo geral de configuração contendo tal linha. Esse arquivo
 normalmente é <TT>/usr/local/lib/pine.conf</TT> ou
 <TT>/usr/lib/pine.conf</TT>
 
-A configuração também pode ser feita usando o próprio programa. No <EM/menu/
+A configuração também pode set feita usando o próprio programa. No <EM/menu/
 de entrada selecione as opções Setup/Configuration. Vá até o ítem
 ``character-set'' e preencha-o com ``ISO-8859-1''. Para maiores informações
-leia o manual do pine com o comando
+leia o manual do pine com o commando
 <VERB>
     man pine
 </VERB>
@@ -2052,7 +2052,7 @@ O pacote <EM/Babel/, criado por Johannes Braams provê suporte a um grande
 número de idiomas para o LaTeX. De acordo com o idioma selecionado ele define
 muitas coisa como, por exemplo, os títulos dos capítulos (Chapter, Capítulo,
 Kapitel) e o título das tabelas (Tabela, Table, Tabelle). Para usar o pacote,
-basta incluir no preâmbulo de seu documento LaTeX o comando
+basta incluir no preâmbulo de seu documento LaTeX o commando
 
 <VERB>
     \usepackage&lsqb;portuges&rsqb;&lcub;babel&rcub;
@@ -2062,8 +2062,8 @@ basta incluir no preâmbulo de seu documento LaTeX o comando
     \usepackage&lsqb;brazil&rsqb;&lcub;babel&rcub;
 </VERB>
 
-Há diferenças sutis entre o Portugues do Brasil e o de Portugal, tais como
-as normas para escrita de datas e nomes de meses com a primeira letra
+Há diferenças sutis entre o Portuguese do Brasil e o de Portugal, tais como
+as normas para escrita de data e gnomes de meses com a primeira letra
 maiúscula ou minúscula.
 
 Pode-se misturar mais de um idioma no mesmo documento. Para Alemão e
@@ -2085,7 +2085,7 @@ mudar ao longo do texto, entre um e outro, use:
 </VERB>
 
 Isto é muito útil também quando queremos que uma palavra não seja separada.
-Basta definir um novo idioma e usá-lo nas palavras que não podem ser
+Basta definir um novo idioma e usá-lo nas palavras que não podem set
 separadas. Coloque no preâmbulo:
 
 <VERB>
@@ -2100,16 +2100,16 @@ impede quebra no espaco em <TT/\mbox&lcub;FOO BAR&rcub;/.
 <P>
 Normalmente apenas os suportes a separação silábica para Inglês e Alemão são
 carregados.  Para configurar hifenização no <BF/teTeX/, execute o utilitário
-<EM/texconfig/, que na distribuição Slackware deve ser o programa
+<EM/texconfig/, que na distribuição Slackware deve set o programa
 <TT>/usr/lib/teTeX/bin/texconfig</TT> e na Debian é
-<TT>/usr/bin/texconfig</TT>.  Digite o comando
+<TT>/usr/bin/texconfig</TT>.  Digite o commando
 
 <VERB>
     texconfig hyphen
 </VERB>
 
 O editor usado normalmente é o <BF/vi/. Se o seu editor predileto for
-outro, crie uma variável de ambiente chamada <BF/EDITOR/ contendo o nome desse
+outro, crie uma variável de ambiente chamada <BF/EDITOR/ contendo o gnome desse
 programa, como no exemplo a seguir:
 
 <VERB>
@@ -2123,59 +2123,59 @@ remova o <BF/%/. Grave o arquivo e saia do editor. O texconfig atualizará
 diversos arquivos de configuração (não se assuste com a quantidade de
 mensagens que aparecem na tela).
 
-Se o nome da tabela de hifenização que consta no seu <TT>language.dat</TT>
+Se o gnome da tabela de hifenização que consta no seu <TT>language.dat</TT>
 é <TT>pthyph.tex</TT> então provavelmente trata-se da versão 1.0, de
-1987. A versão 1.2, de 1996, pode ser obtida via FTP anônimo em
+1987. A versão 1.2, de 1996, pode set obtida via FTP anônimo em
 <QUOTE>
 <URL URL="ftp://ftp.tex.ac.uk/tex-archive/language/portuguese/pt8hyph.tex">
 </QUOTE>
 Copie-o para o mesmo diretório onde se encontra o <TT/pthyph.tex/, que
-dependendo de sua distribuição pode ser
+dependendo de sua distribuição pode set
 <TT>/usr/lib/texmf/tex/generic/hyphen</TT>
 <TT>/usr/share/texmf/tex/generic/hyphen</TT> ou
-<TT>/usr/lib/teTeX/texmf/tex/generic/hyphen</TT>. Execute o comando
+<TT>/usr/lib/teTeX/texmf/tex/generic/hyphen</TT>. Execute o commando
 <TT/texconfig~hash/ e na mesma linha mencionada anteriormente insira um `8'
-no nome do arquivo, de modo que fique <TT/pt8hyph.tex/.
+no gnome do arquivo, de modo que fique <TT/pt8hyph.tex/.
 
 <SECT3>Uso de Font Encoding T1
 <P>
-Se o conjunto de caracteres (<EM/encoding/) de uma fonte não provê acesso
-direto a caracteres acentuados, (como é o caso do OT1, padrão do LaTeX) então
-o TeX gera estes caracteres sobrepondo o caracter base mais o acento. O
+Se o conjunto de characters (<EM/encoding/) de uma fonte não provê acesso
+direto a characters acentuados, (como é o caso do OT1, padrão do LaTeX) então
+o TeX gera estes characters sobrepondo o character base mais o acento. O
 algoritmo de hifenização, contudo, não hifeniza palavras formadas dessa forma.
 
-Se uma fonte já provê acesso direto a caracteres acentuados, como as de
-codificação T1, estes caracteres são usados diretamente sem prejuízo do
+Se uma fonte já provê acesso direto a characters acentuados, como as de
+codificação T1, estes characters são usados diretamente sem prejuízo do
 algoritmo de hifenização.  O uso de <EM/encoding/ T1 é fundamental para a
 correta hifenização em Português.
 
 Note que trata-se da mesma fonte, por falta a Computer Modern, apenas o que
-muda é o seu <EM/encoding/, isto é, a ordem/disponibilidade dos caracteres
+muda é o seu <EM/encoding/, isto é, a ordem/disponibilidade dos characters
 dentro da mesma. Para selecionar estas fontes, inclua no preâmbulo do seu
-documento o comando
+documento o commando
 
 <VERB>
     \usepackage&lsqb;T1&rsqb;&lcub;fontenc&rcub;
 </VERB>
 
-O antigo pacote <TT/t1enc/ não deve mais ser usado e existe hoje apenas por
+O antigo pacote <TT/t1enc/ não deve mais set usado e existe hoje apenas por
 questões de compatibilidade com documentos antigos. O <TT/fontenc/ é mais
-atual, continua a ser mantido e é de uso mais geral, portanto preferível.
+actual, continua a set mantido e é de uso mais geral, portanto preferível.
 
 <SECT3>Edição de documentos
 <P>
-Normalmente a introdução de caracteres acentuados no texto exige o uso
+Normalmente a introdução de characters acentuados no texto exige o uso
 de <EM/seqüências de escape/ bastante trabalhosas. Para gerar um ``ö''
 deve-se digitar \"o. Com <EM/babel/ pode-se digitar apenas "o, o que não
-deixa de ser inconveniente para ler o fonte do documento. Há um pacote chamado
+deixa de set inconveniente para ler o fonte do documento. Há um pacote chamado
 <BF/inputenc/ que permite especificar a codificação em que estão os
-caracteres de um documento. Lembre-se porém que se o seu documento for
+characters de um documento. Lembre-se porém que se o seu documento for
 enviado para outro usuário que não possua o <BF/inputenc/ ele poderá não
 conseguir processá-lo, mas esse recurso já está disponível desde a
 liberação do LaTeX2e em dezembro 1994. Todas as distribuições de Linux
 atuais o incluem.
 
-Sugestão: uma configuração do GNU Emacs para gerar caracteres
+Sugestão: uma configuração do GNU Emacs para gerar characters
 acentuados, própria para o uso com o pacote inputenc:
 
 <VERB>
@@ -2214,7 +2214,7 @@ possui arquivos .tex e deseja converte-lo para formato ISO-8859-1 pode usar:
     recode -d LaTeX:l1 file.tex
 </VERB>
 
-O código-fonte do GNU recode pode ser obtido via FTP anônimo em <URL
+O código-fonte do GNU recode pode set obtido via FTP anônimo em <URL
 URL="ftp://prep.ai.mit.edu/pub/gnu/recode/recode-3.4.tar.gz"> e em muitos
 espelhos do GNU mundo afora. A distribuição Debian tem um pacote pronto e
 outras também devem ter.
@@ -2242,9 +2242,9 @@ chamado, digamos, <TT/exemplo.tex/:
 
     \section&lcub;Introdução&rcub;
 
-    Este documento pretende ser um guia de referência de configuração
+    Este documento pretende set um guia de referência de configuração
     do \textbf&lcub;Linux&rcub; e seus programas, teclados e fontes de
-    caracteres, permitindo sua internacionalização/utilização confortável
+    characters, permitindo sua internacionalização/utilização confortável
     por pessoas que falem a Língua Portuguesa.
 
     \end&lcub;document&rcub;
@@ -2252,7 +2252,7 @@ chamado, digamos, <TT/exemplo.tex/:
 
 Esse texto contém de propósito uma ``palavra'' bastante longa para forçar a
 separação silábica. Ele está disponível via WWW no arquivo <TT/exemplo.tex/
-na página do Portuguese HOWTO. Para processá-lo, use o comando <TT/latex/,
+na página do Portuguese HOWTO. Para processá-lo, use o commando <TT/latex/,
 conforme mostrado a seguir:
 <VERB>
     bash$ latex exemplo.tex
@@ -2276,8 +2276,8 @@ conforme mostrado a seguir:
 </VERB>
 A mensagem ``Hyphenation patterns for english, german, <BF/portuges/,
 loaded.'' indica que a configuração foi bem sucedida. Se o seu computador
-está rodando o X o documento formatado poderá ser visto com
-o comando
+está rodando o X o documento formatado poderá set visto com
+o commando
 <VERB>
     xdvi exemplo.dvi
 </VERB>
@@ -2291,7 +2291,7 @@ Há um problema com o pacote <EM/algorithm/ do LaTeX, que não é suportado pelo
 babel, fazendo com que a lista de algoritmos saia com o título ``List of
 Algorithms'' e o título de cada um deles seja impresso como ``Algorithm #''.
 Para evitar esse problema, coloque no preâmbulo de seu documento LaTeX, após o
-comando ``<TT/\usepackage&lcub;algorithm&rcub;/'' o seguinte:
+commando ``<TT/\usepackage&lcub;algorithm&rcub;/'' o seguinte:
 
 <VERB>
     \makeatletter
@@ -2302,7 +2302,7 @@ comando ``<TT/\usepackage&lcub;algorithm&rcub;/'' o seguinte:
 
 No teTeX 0.4 (versão 1.2h do portuges.ldf) o título do ambiente <EM/proof/,
 encontrado nas classes <EM/amsbook/, <EM/amsart/, etc., sai como ``Proof.''.
-Para corrigir isso, coloque no preâmbulo de seu documento o comando
+Para corrigir isso, coloque no preâmbulo de seu documento o commando
 
 <VERB>
     \renewcommand&lcub;\proofname&rcub;&rcub;&lcub;Demonstra\c&lcub;c&rcub;\~ao&rcub;
@@ -2310,15 +2310,15 @@ Para corrigir isso, coloque no preâmbulo de seu documento o comando
 
 mas o mais recomendável é que se atualize a versão do teTeX.
 
-Usuários do LyX podem incluir esses comandos no preâmbulo do documento usando
+Usuários do LyX podem incluir esses commandos no preâmbulo do documento usando
 o menu <TT>Layout/LaTeX Preamble</TT>. Pode-se resolver o problema
 alterando o arquivo <TT/portuges.ldf/ que contém as definições necessárias
 ao Português, mas esta solução não é portável, pois exigirá que tal arquivo
-seja alterado em todas os computadores em que o documento deva ser processado.
+seja alterado em todas os computadores em que o documento deva set processado.
 
 A licença do Babel não me permite distribuir o <TT/portuges.ldf/ separado do
 resto do pacote, mas para os interessados, coloquei à disposição na página do
-HOWTO um arquivo chamado <TT/portuges.ldf.patch/ que criei para o meu teTeX
+HOWTO um arquivo chamado <TT/portuges.ldf.patch/ que criei para o menu teTeX
 antigo (Slackware 3.4).  Para aplicar a atualização, copie-o para o diretório
 <TT>/usr/lib/teTeX/texmf/tex/generic/babel</TT> (Slackware), faça uma
 cópia de reserva do <TT/portuges.ldf/ original e invoque o utilitário
@@ -2349,15 +2349,15 @@ muitos documentos sobre LaTeX, alguns em Português e outros em Inglês.
 
 <SECT3>LaTeX-demo
 <P>
-Pode ser útil também um documento de exemplo para ter onde começar.  Pensando
+Pode set útil também um documento de exemplo para ter onde começar.  Pensando
 nisso, Klaus Steding-Jessen preparou
-um pequeno documento em Português com o objetivo de ser um guia ``by example''
-para o usuário de LaTeX iniciante e intermediário, que pode ser obtido via WWW
+um pequeno documento em Português com o objetivo de set um guia ``by example''
+para o usuário de LaTeX iniciante e intermediário, que pode set obtido via WWW
 em <URL URL="http://biquinho.furg.br/doc/LaTeX-demo/">.
 
 Klaus ecreveu também uma série três artigos destinados a ``descrever o sistema
 LaTeX como uma alternativa mais eficiente aos processadores de texto WYSIWYG''
-que podem ser lidos via WWW em <URL
+que podem set lidos via WWW em <URL
 URL="http://biquinho.furg.br/tex-br/doc/artigo-1-jessen/">.
 
 
@@ -2377,12 +2377,12 @@ Paixão que ajudaram a identificar os problemas com o Xemacs.
 </QUOTE>
 
 O <HTMLURL URL="http://www.xemacs.org/" NAME="Xemacs"> já tem suporte à
-acentuação direta no teclado usando ``dead keys'', mas há um erro na
+acentuação direta no teclado usando ``dead keys'', mas há um error na
 configuração original que o impede de reconhecer o acento circunflexo.  Este
 problema não ocorre se for usada a biblioteca <EM/Xlib/ aterada por Thomas
 Quinot, mencionada na seção~<REF ID="SEC:CONTOR-X" name="Contornando os
 limites do X">, mas mesmo que não a usemos, basta colocar os seguintes
-comandos no seu arquivo de configuração <TT/.emacs/:
+commandos no seu arquivo de configuração <TT/.emacs/:
 <VERB>
     ;; Ajuste para fazer o acento circunflexo funcionar
     ;; Contribuição de Goedson Teixeira Paixao <gopaixao@dcc.ufmg.br>
@@ -2391,8 +2391,8 @@ comandos no seu arquivo de configuração <TT/.emacs/:
 </VERB>
 
 Na distribuição Debian 2.0 o Xemacs 20.4 executa todos os scripts contidos no
-diretório <TT>/etc/xemacs20/site-start.d</TT> ao ser carregado. Tudo que
-se tem a fazer é colocar esses comandos em um arquivo chamado, por exemplo,
+diretório <TT>/etc/xemacs20/site-start.d</TT> ao set carregado. Tudo que
+se tem a fazer é colocar esses commandos em um arquivo chamado, por exemplo,
 <TT/01portugues-xemacs.el/. Não é necessário instalar o <EM/xemacs20-mule/,
 que possui extensões para línguas que não usam o alfabeto romano. Os pacotes a
 instalar são os seguintes:
@@ -2404,7 +2404,7 @@ instalar são os seguintes:
 <ITEM>xemacs20-supportel
 </ITEMIZE>
 
-Se você instalou o Xemacs no Slackware ou outro Unix, à moda antiga (dowload,
+Se você instalou o Xemacs no Slackware ou outro Unix, à moda antiga (download,
 compilação, instação), então o arquivo a alterar é o <TT/site-start.el/, que
 deve estar no diretório <TT>/usr/lib/xemacs/site-lisp</TT> ou
 <TT>/usr/local/lib/xemacs/site-lisp</TT>, dependendo de sua instalação.
@@ -2418,10 +2418,10 @@ coloque no seu arquivo <TT/.emacs/ uma linha contendo
     (setq delete-key-deletes-forward t)
 </VERB>
 
-Arquivos de configuração prontos podem ser obtidos via WWW na página do
+Arquivos de configuração prontos podem set obtidos via WWW na página do
 Portuguese HOWTO. Para Slackware, há um <TT/site-start-xemacs.el/, que deve
-ser copiado para o diretório correto com o nome de <TT/site-start.el/. Para
-Debian, há um <TT/01portugues-xemacs.el/ que deve ser copiado para o
+set copiado para o diretório correto com o gnome de <TT/site-start.el/. Para
+Debian, há um <TT/01portugues-xemacs.el/ que deve set copiado para o
 diretório <TT>/etc/xemacs20/site-start.d</TT>.
 
 Certifique-se de estar usando a versão 24-out-1998 ou mais recente do arquivo
@@ -2438,8 +2438,8 @@ usadas pelo Xemacs.
 Existem dois modos de transferência de arquivos: <EM/binary/ e <EM/ASCII/,
 sendo este  utilizado para textos.  Deve-se tomar cuidado ao transferir um
 arquivo, pois o modo de transfêrencia
-<TT/ASCII/ remove o oitavo bit de cada caracter transmitido, o que terá como
-conseqüência a perda de todos os caracteres acentuados. Desta forma é
+<TT/ASCII/ remove o oitavo bit de cada character transmitido, o que terá como
+conseqüência a perda de todos os characters acentuados. Desta forma é
 aconselhado o envio de documentação em modo <TT/binary/ de forma a manter a
 integridade da mesma.
 
@@ -2448,13 +2448,13 @@ um cliente FTP que não reconhece corretamente quando o servidor remoto
 roda Unix. Deste modo ele não comutará o modo de transferência para
 binário automaticamente. Além disso,
 alguns servidores FTP também não fornecem a informação corretamente.
-Certifique-se de digitar o comando <TT/bin/ antes de um <TT/get/ quando
+Certifique-se de digitar o commando <TT/bin/ antes de um <TT/get/ quando
 quiser que a transferência seja binária!
 
 <SECT2>Correio eletrônico
 <P>
 O mesmo tipo de restrições do FTP se aplica ao envio de documentos contendo
-caracteres acentuados através de correio eletrônico. Embora isto não aconteça
+characters acentuados através de correio eletrônico. Embora isto não aconteça
 em todos os sistemas em uso na internet, bastará que o correio enviado passe
 no seu trajecto por um sistema que não suporte 8 bits de informação para que o
 nosso documento seja deturpado. 
@@ -2468,7 +2468,7 @@ Pine.
 Se o destinatário da mensagem não usa um agente com suporte para MIME,
 existe a opção de codificar os documentos com o utilitário UUENCODE. Para
 maiores informações a esse respeito, leia a documentação usando os
-comandos
+commandos
 
 <VERB>
     man uuencode
@@ -2490,13 +2490,13 @@ teclas segundo a lista a seguir:
 <ITEM>Menu: Menu
 </ITEMIZE>
 
-Se o seu teclado não possuir as teclas <EM/para Windows 95/ então pode ser
+Se o seu teclado não possuir as teclas <EM/para Windows 95/ então pode set
 melhor restabelecer a distribuição padrão: edite o mapa e coloque um ponto de
 exclamação no início das linhas que definem os <EM/keycodes/ 64, 113, 115, 116
 e 117.
 
 Foram elaborados mapas com suporte à acentuação para seis modelos de teclado,
-tanto para uso no console quanto para o X. Eles podem ser obtidos via WWW em
+tanto para uso no console quanto para o X. Else podem set obtidos via WWW em
 um dos repositórios da página do Portuguese HOWTO:
 
 <ITEMIZE>
@@ -2528,7 +2528,7 @@ Testados com teclados de várias marcas (e alguns sem marca :-).
 <TAG/O mapa Portugal (pt.map e Xmodmap.pt)/
 
 Mapas para teclados com desenho português. Esses teclados são os que possuem
-uma tecla com os caracteres <BF/«/ e <BF/»/. Não são muito confortáveis,
+uma tecla com os characters <BF/«/ e <BF/»/. Não são muito confortáveis,
 porque para gerar o símbolos <BF/@ &lsqb; &rsqb; &lcub; &rcub;/ e o trema é
 necessário usar a tecla <BF/Alt-GR/.
 
@@ -2537,7 +2537,7 @@ Testado com um teclado da marca Key Tronic.
 <TAG/O mapa ABNT-2 (abnt-2.map e Xmodmap.abnt2)/
 
 Os computadores vendidos no Brasil fabricados pela IBM, Compaq e Itautec,
-entre outros, vêm com esses teclados. Eles também pode ser adquiridos avulsos
+entre outros, vêm com esses teclados. Else também pode set adquiridos avulsos
 e são fabricados pela UIS e Keytec (não confundir com Key Tronic).  Este
 desenho é o mais confortável de todos, pois tem a mesma distribuição dos
 acentos encontrada nas máquinas de escrever.
@@ -2560,7 +2560,7 @@ são diferentes. Esses teclados também não possuem o c-cedilhado, por isso foi
 usado o mesmo truque do mapa US+.  Apenas o mapa para o X é fornecido.
 </DESCRIP>
 
-A geração dos caracteres acentuados é feita de acordo com a tabela a seguir:
+A geração dos characters acentuados é feita de acordo com a tabela a seguir:
 
 <VERB>
     Para gerar              Digitar
@@ -2589,17 +2589,17 @@ A geração dos caracteres acentuados é feita de acordo com a tabela a seguir:
 <DESCRIP>
 <TAG/Grupo de Investigação Linux/
     Grupo de usuários de linux da Universidade do Minho, em Portugal que pode
-    ser visitado em <URL URL="http://gil.di.uminho.pt">.
+    set visitado em <URL URL="http://gil.di.uminho.pt">.
 <TAG/Grupo de Utilizadores de Linux do ISCTE/
-    Pode ser visitado em <URL
+    Pode set visitado em <URL
     URL="http://www.students.iscte.pt/~a12593/gul.html">.
 <TAG/Linux Brasil/
     Servidor da Universidade Estadual de Campinas, Brasil, contendo
     informações sobre Linux no Brasil, que absorveu o antigo projeto LDP-br.
-    Pode ser visitado em <URL URL="http://linux.unicamp.br">.
+    Pode set visitado em <URL URL="http://linux.unicamp.br">.
 <TAG/Projeto LinUSP/
     Desenvolvido na Universidade de São Paulo, Brasil, coordenado por Jorge L.
-    deLyra. Pode ser visitado em <URL
+    deLyra. Pode set visitado em <URL
     URL="http://linusp.usp.br/">.
 </DESCRIP>
 
@@ -2625,14 +2625,14 @@ palavra ``subscribe''. Assine a lista somente se você quiser fazer parte da
 equipe de tradutores, pois ela <BF/não/ se destina ao esclarecimento de
 dúvidas de usuários!
 
-Mais informações podem ser encontradas na documentação do pacote <EM/gettext/
+Mais informações podem set encontradas na documentação do pacote <EM/gettext/
 disponível via FTP anônimo em qualquer repositório de software do GNU.
-Provavelmente sua distribuição já tem um pacote pronto para ser instalado, mas
-se você desejar, os fontes da versão mais recentes podem ser encontrados em
+Provavelmente sua distribuição já tem um pacote pronto para set instalado, mas
+se você desejar, os fontes da versão mais recentes podem set encontrados em
 <QUOTE>
     <URL URL="ftp://ftp.gnu.org/pub/gnu/">
 </QUOTE>
-e o nome do arquivo a copiar é ``gettext-&lt;versão&gt;.tar.gz''.
+e o gnome do arquivo a copiar é ``gettext-&lt;versão&gt;.tar.gz''.
 
 </SECT1>
 
@@ -2642,8 +2642,8 @@ e o nome do arquivo a copiar é ``gettext-&lt;versão&gt;.tar.gz''.
 A informação a seguir é baseada no conteúdo da página de apresentação da
 lie-br, escrita por Jorge Godoy.
 </QUOTE>
-A lie-br foi criada com o intuito de auxiliar a comunidade Linux brasileira a
-obter softwares e documentação em sua língua nativa: o português.  Essa lista
+A lie-br foi criada com o intuito de auxiliary a comunidade Linux brasileira a
+obter software e documentação em sua língua nativa: o português.  Essa lista
 é uma ramificação de outra maior, a LIE que visa a internacionalização do
 Linux e sua posterior tradução para todos os idiomas (português incluso). 
 
@@ -2651,14 +2651,14 @@ Resumo dos objetivos da lie-br:
 <ITEMIZE>
 <ITEM>contribuir para o projeto de internacionalização do Linux fazendo a parte
       relativa ao português para o Brasil;
-<ITEM>internacionalizar programas, de modo a poderem ser usados nas línguas
+<ITEM>internacionalizar programas, de modo a poderem set usados nas línguas
       nativas de cada país, e não ficar preso ao idioma original ou ao inglês;
 <ITEM>disponibilizar (sic) material em português para consulta e documentação;
-<ITEM>aumentar o acervo de documentação disponível e, indiretamente, auxiliar
+<ITEM>aumentar o acervo de documentação disponível e, indiretamente, auxiliary
       no desenvolvimento iniciado pelo projeto LDP-BR.
 </ITEMIZE>
 
-Mais informações podem ser encontradas na página WWW da lie-br, no endereço
+Mais informações podem set encontradas na página WWW da lie-br, no endereço
 <QUOTE>
     <URL URL="http://lie-br.conectiva.com.br/">
 </QUOTE>
@@ -2718,11 +2718,11 @@ seguintes versões de software:
 documentação reunidos segundo um fim e designação comuns. 
 
 <TAG/Página de Código/Normalmente designada em MSDOS como sendo o binómio
-FONTES - POSIÇÕES DE CARACTER, sendo por exemplo a Página de código 850
-caracterizada por um certo tipo de caracteres (diferentes dos exibidos pela
-placa gráfica no momento do ``boot'') e suas posições no teclado (o
+FONTES - POSIÇÕES DE CHARACTER, sendo por exemplo a Página de código 850
+caracterizada por um certo tipo de characters (diferentes dos exibidos pela
+placa gráfica no memento do ``boot'') e suas posições no teclado (o
 ``<TT/c-cedilhado/'' no sitio certo bem como os ``&lt;,-~ etc'').  No
-<BF/Linux/ o mesmo é obtido através dos comandos setfont e mapscrn. 
+<BF/Linux/ o mesmo é obtido através dos commandos setfont e mapscrn. 
 
 </DESCRIP>
 
@@ -2749,32 +2749,32 @@ seguintes:
 Aceitam-se voluntários para qualquer uma destas tarefas.
 
 Parece cada vez mais claro que as informações sobre configuração de
-aplicativos devem ser movidas para outro documento, independente do HOWTO. Na
+aplicativos devem set movidas para outro documento, independente do HOWTO. Na
 forma como ele está hoje já chega a quase quarenta páginas impressas e com a
 adição de outras distribuições e aplicações em breve chegará às 50. Um
-documento tão grande foge ao espírito de um HOWTO, que deve ser sucinto e
+documento tão grande foge ao espírito de um HOWTO, que deve set sucinto e
 concentrado em um assunto específico.
 
-<SECT1>Nota de Direitos de Autor
+<SECT1>Nota de Direitos de Author
 <P>
-Este HOWTO teve como autor João Carlos Rodrigues Pereira, baseado em
+Este HOWTO teve como author João Carlos Rodrigues Pereira, baseado em
 documentação escrita por José Bandeira além dos restantes HOWTO's do Linux.
 Atualmente ele é mantido por Carlos Augusto Moreira dos Santos, com a
 colaboração de muitos outros.
 
-Os documentos HOWTO do Linux podem ser reproduzidos e distribuídos
+Os documentos HOWTO do Linux podem set reproduzidos e distribuídos
 em todo ou em parte, segundo qualquer meio físico ou electrónico, desde que
-esta Nota de Direitos de Autor se mantenha intacta em todas as cópias dos
-mesmos.  A distribuição comercial é autorizada e encorajada, no entanto, o
-autor gostaria de ser notificado de tais ocorrências.
+esta Nota de Direitos de Author se mantenha intacta em todas as cópias dos
+mesmos.  A distribuição commercial é autorizada e encorajada, no entanto, o
+author gostaria de set notificado de tais ocorrências.
 
 Todas as traduções, trabalhos derivados, ou trabalhos agregando qualquer dos
 documentos HOWTO do Linux deverão estar abrangidos por esta Nota de
-Direitos de Autor, ou seja, não poderá ser imposta qualquer restrição
+Direitos de Author, ou seja, não poderá set imposta qualquer restrição
 adicional a trabalhos efectuados a partir de um dos documentos HOWTO do
 Linux nomeadamente no que diz respeito à sua distribuição.
 
-Exceções a estas regras poderam ser obtidas. Para tal, dever-se-á contactar o
+Exceções a estas regras poderam set obtidas. Para tal, dever-se-á contactar o
 coordenador dos documentos HOWTO do Linux no endereço &lt;<HTMLURL
 URL="mailto:linux-howto@metalab.unc.edu"
 NAME="linux-howto@metalab.unc.edu">&gt;.
@@ -2782,9 +2782,9 @@ NAME="linux-howto@metalab.unc.edu">&gt;.
 <SECT1>Garantia (inexistência de) e nota de responsabilidade
 <P>
 Apesar de ter sido feito o máximo esforço possível para que o conteúdo deste
-documento esteja correto, não há nenhuma garantia de que ele não possua erros,
-nem de que tenha algum tipo de utilidade ou aplicação comercial, técnica,
-educacional ou medicinal.  O autor não se responsabiliza por prejuízos
+documento esteja correto, não há nenhuma garantia de que ele não possua errors,
+nem de que tenha algum tipo de utilidade ou aplicação commercial, técnica,
+educacional ou medicinal.  O author não se responsabiliza por prejuízos
 decorrentes do seu uso. Em resumo: se a informação aqui contida quebrar seu
 computador em mil pedacinhos, junte tudo e cole, mas <BF>não reclame para
 mim</BF>! 
@@ -2795,12 +2795,12 @@ abono ou garantia de suporte.
 
 <SECT1>Agradecimentos
 <P>
-Deixo aqui os meus agradecimentos a todos os que de alguma forma me ajudaram
+Deixo aqui os menus agradecimentos a todos os que de alguma forma me ajudaram
 quer através das suas sugestões quer através de contribuições de outro tipo,
 em especial a
 
 <DESCRIP>
-<TAG/João Carlos Rodrigues Pereira/Autor original deste documento que agora
+<TAG/João Carlos Rodrigues Pereira/Author original deste documento que agora
      mantenho. Nunca tive contato com ele, nem sei por onde andará.  Sua
      página no Departamento de Informática da Faculdade de Ciências da
      Universidade de Lisboa (http://caravela.di.fc.ul.pt/&tilde;jcrp/) não
@@ -2840,15 +2840,15 @@ Roberto Mello &lt;mello@internext.com.br&gt;<newline>
 Wanderlei Antonio Cavassin &lt;cavassin@conectiva.com.br&gt;<newline>
 </QUOTE>
 
-Os seguintes agradecimentos são do primeiro autor:
+Os seguintes agradecimentos são do primeiro author:
 <DESCRIP>
 <TAG/Carlos Ferreira/Pela luta que trava pela defesa da lingua portuguesa, bem
      patente na sua <EM/Página Portuguesa/ disponível no URL:
      <TT>http://lila.dei.uc.pt/&tilde;cjrf/po/</TT> [Nota do mantenedor
-     atual: esta página não existe]
+     actual: esta página não existe]
 <TAG/João C. Silva/Pelo apoio e incentivo e criticas (bem como por me deixar
-     testar os meus conhecimentos no SEU computador). 
-<TAG/José Bandeira/Autor dos ficheiros <TT/port.map/ e <TT/xmodmap/.  Pelo seu
+     testar os menus conhecimentos no SEU computador). 
+<TAG/José Bandeira/Author dos ficheiros <TT/port.map/ e <TT/xmodmap/.  Pelo seu
      apoio e por ter escrito alguma da documentação mais elucidativa que eu já
      li sobre o assunto.
 </DESCRIP>
@@ -2859,12 +2859,12 @@ Os seguintes agradecimentos são do primeiro autor:
 
 <SECT>Bibliografia comentada<LABEL ID="SEC:BIBLIOGRAFIA">
 <P>
-Esta seção ainda está incompleta e deve ser melhorada nas próximas versões.
+Esta seção ainda está incompleta e deve set melhorada nas próximas versões.
 Os HOWTOs mencionados aqui geralmente são distribuídos nos CDs de
 instalação e todas as distribuições possuem pelo menos alguns deles em pacotes
 prontos para instalar.  Na Slackwre esses pacotes são os da série F e os
 documentos ficam instalados no diretório <TT>/usr/doc/faq/howto</TT> e na
-Debian o diretório é <TT>/usr/doc/HOWTO</TT>. Eles também podem ser obtidos
+Debian o diretório é <TT>/usr/doc/HOWTO</TT>. Else também podem set obtidos
 via WWW em <URL URL="http://metalab.unc.edu/LDP/HOWTO/">.
 
 <DESCRIP>
@@ -2874,7 +2874,7 @@ via WWW em <URL URL="http://metalab.unc.edu/LDP/HOWTO/">.
 
     Uma discussão sobre o problema da acentuação no X. Também contém
     referências para outros documentos que tratam de internacionalização.
-<TAG>[BRO98]~Brower~Andries. The Linux Keyboard and Console HOWTO</TAG>
+<TAG>[BRO98]~Browser~Andries. The Linux Keyboard and Console HOWTO</TAG>
     Disponível via WWW em <URL
     URL="http://metalab.unc.edu/LDP/HOWTO/Keyboard-and-Console-HOWTO.html">.
 
@@ -2914,7 +2914,7 @@ via WWW em <URL URL="http://metalab.unc.edu/LDP/HOWTO/">.
 
     Descreve como obter, instalar e configurar o XFree86. Todas as
     distribuições de Linux já vêm com pacotes do XFree86 prontos para instalar,
-    mas as informações sobre configuração podem ser muito úteis.
+    mas as informações sobre configuração podem set muito úteis.
 <TAG>[SCH86]~Scheifler,~Robert;~Gettys,~James. The X Window System</TAG>
     <em/ACM Transactions on Graphics/, New York, ACM, <em/5/ (2): 79-109,
     april, 1986.
@@ -2932,19 +2932,19 @@ via WWW em <URL URL="http://metalab.unc.edu/LDP/HOWTO/">.
     Veja o ítem anterior.
 </DESCRIP>
 
-Arquivos cuja leitura pode ser útil:
+Arquivos cuja leitura pode set útil:
 
 <DESCRIP>
 <TAG><TT>/usr/src/linux/Documentation/unicode.txt</TT></TAG>
     Explica como ativar os diversos tipos de fontes no console. Também explica
-    onde obter fontes para o alfabeto Klingon, o que pode ser muito útil se o
+    onde obter fontes para o alfabeto Klingon, o que pode set muito útil se o
     leitor for um habitante daquele Império ou admirador de Jornada nas
     Estrelas.  Depois das recentes aventuras espaciais do Linux, não duvido de
     mais nada...
 
     A respeito deste assunto é de fundamental importância saber que, segundo
-    nosso consultor interestrelar Klaus Steding-Jessen, ``Klingon é o nome da
-    raça e do seu idioma.  Kling é o nome do planeta.  Mas note que o Império
+    nosso consultor interestrelar Klaus Steding-Jessen, ``Klingon é o gnome da
+    raça e do seu idioma.  Kling é o gnome do planeta.  Mas note que o Império
     Klingon é formado não apenas por esse planeta, mas por várias colônias,
     teoricamente todas falando Klingon''. Tenho certeza de que sua vida nunca
     mais será a mesma depois de saber disto.

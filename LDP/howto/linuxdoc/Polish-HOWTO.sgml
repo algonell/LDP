@@ -17,7 +17,7 @@ This file may be reproduced under GNU copyright.
 <!-- Title information -->
 
 <title>Polish HOWTO
-<author>Sergiusz Pawlowicz, <tt/ser@arch.pwr.wroc.pl/
+<author>Sergiusz Pawlowicz, <tt/set@arch.pwr.wroc.pl/
 <date>v2.1, 8 February 1999
 <abstract>
 Jak to zrobic w Linuxie? Pomoc zlozona z niektorych Linux-HOWTO oraz
@@ -56,7 +56,7 @@ gdzie znalezc w Polsce zrodla i dystrybucje Linuxa, jak uzyskac polskie
 litery pod konsola Linuxa oraz w X11, jak prawidlowo przesylac i
 odczytywac poczte z polskimi literami, gdzie w Polsce uzyskac pomoc (grupy
 dyskusyjne usenet, pocztowe), gdzie znalezc dobra dokumentacje
-angielska...  Uwaga: Autor nie bierze odpowiedzialnosci za ewentualne
+angielska...  Uwaga: Author nie bierze odpowiedzialnosci za ewentualne
 uszkodzenia mienia poprzez zastosowanie sie do rad zawartych w podreczniku
 :)).
 
@@ -68,8 +68,8 @@ uszkodzenia mienia poprzez zastosowanie sie do rad zawartych w podreczniku
 
 Nie jestem w stanie opisac po polsku wszystkiego, co dotyczy Linuxa.
 Wszelkie materialy, ktore wydaja sie wam ciekawe, prosze przesylac na
-adres <tt/ser@arch.pwr.wroc.pl/.  Najlepiej w formacie SGML, ale
-czyste ascii lub tekst w kodzie ISO-8859-2 rowniez z checia przyjme.
+address <tt/set@arch.pwr.wroc.pl/.  Najlepiej w formacie SGML, ale
+czyste ascii lub text w kodzie ISO-8859-2 rowniez z checia przyjme.
 
 <p>
 Oto lista (kolejnosc chronologiczna) osob, ktore pomogly w rozny sposob przy 
@@ -178,7 +178,7 @@ Piszac: podstawowe, mam na mysli:
 </itemize>
 
 <p>
-<sect2>Nowe wersje jadra systemu Linux.
+<sect2>Now wersje jadra systemu Linux.
 
 <p>
 <bf/Najnowsza wersje jadra, aktualizowane co godzine/, znajdziecie w:
@@ -257,7 +257,7 @@ Dokumentacja po polsku, dotyczaca <bf/nie tylko Linuxa/, ale sieci w
 ogole, jest takze w: 
 <itemize>
 <url url="http://www.immt.pwr.wroc.pl/export_hp/tool/tool.html">.<p>
-Autor: Wojciech Myszka, <tt/myszka@immt.pwr.wroc.pl/.
+Author: Wojciech Myszka, <tt/myszka@immt.pwr.wroc.pl/.
 </itemize>
 <!-- 
 
@@ -328,7 +328,7 @@ Foundation. Oryginalne archiwum 'GNU translation project':
 <itemize>
 <item><url url="ftp://alpha.gnu.ai.mit.edu/gnu/po/">
 </itemize>
-Adres grupy tlumaczacej: <tt/pl@li.org/ (via majordomo).
+Address grupy tlumaczacej: <tt/pl@li.org/ (via majordomo).
 
 <!-- 
 
@@ -355,7 +355,7 @@ Aby zajrzec na UseNet news, nalezy dostac sie do grupy:
 
 <p> Aby zapisac sie na liste pocztowa, prosze wyslac list bez subjectu o
 tresci:  <tscreen><verb> sub linux Imie Nazwisko </verb></tscreen> na
-adres <tt/listserv@sprocket.ict.pwr.wroc.pl/. Lista utrzymywana jest na
+address <tt/listserv@sprocket.ict.pwr.wroc.pl/. Lista utrzymywana jest na
 komputerze linuxowym znajdujacym sie w Instytucie Cybernetyki Technicznej
 Politechniki Wroclawskiej.  Archiwum listy od kwietnia 1995 roku mozna
 obejrzec na <url url="http://www.ict.pwr.wroc.pl/listserv/linux/">
@@ -377,7 +377,7 @@ obejrzec na <url url="http://www.ict.pwr.wroc.pl/listserv/linux/">
 
 <p> Polish(ed) Linux Distribution - polska grupa majaca na celu
 przygotowanie bezpiecznej dystrybucji Linuxa, wyposazonej w nowinki,
-czyli IPv6 oraz kerberosa, glibc-2.1, ssh, nowe jadra Linuxa; wiecej
+czyli IPv6 oraz kerberosa, glibc-2.1, ssh, now jadra Linuxa; wiecej
 informacji na <url url="http://www.pld.org.pl/">.
 
 <sect1>Licznik polskich uzytkownikow Linuxa.
@@ -386,7 +386,7 @@ Uruchomiono licznik uzytkownikow Linuxa w Polsce.
 
 Tak wiec, kazdy, kto uzywa na swoim PC (Digitalu, IBMie, SUNie, Amidze,
 Macintoshu etc.)  systemu operacyjnego Linux, jest proszony o wyslanie
-listu na adres: 
+listu na address: 
 
 <tt/licznik@arch.pwr.wroc.pl/
 
@@ -398,12 +398,12 @@ Jezeli komus chcialoby sie wiecej napisac, nie ma sprawy, wszystkie
 zgloszenia beda starannie analizowane. Powstanie z tego mapa Linuxow
 w Polsce, mozna wiec w listach do "licznika" przesylac URLe serwerow
 www posadzonych na zglaszanych przez siebie Linuxach.
-Listy przyslane na powyzszy adres sa archiwizowane i jak tylko 
+Listy przyslane na powyzszy address sa archiwizowane i jak tylko 
 nabierze to sensu, udostepniane pod adresem:
 <url url="http://licznik.arch.pwr.wroc.pl/">.
 
 Dziekuje z gory za listy inicjator polish-howto -
-Sergiusz Pawlowicz, <tt/ser@arch.pwr.wroc.pl/
+Sergiusz Pawlowicz, <tt/set@arch.pwr.wroc.pl/
 
 <!-- Koniec... -->
 

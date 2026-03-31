@@ -103,7 +103,7 @@
 <para>
 	Partitioning is a means to divide a single hard drive into many
 	logical drives. A partition is a contiguous set of blocks on a drive
-	that are treated as an independant disk. A partition table (the
+	that are treated as an independent disk. A partition table (the
 	creation of which is the topic of this HOWTO) is
 	an index that relates sections of the hard drive to partitions.
 </para>
@@ -346,7 +346,7 @@ In Linux, partitions are represented by device files. These are phoney
 files located in <filename class="directory">/dev</filename>. Here are a few entries:
 
 <programlisting>
-brw-rw----    1 root     disk       3,   0 May  5  1998 hda
+brw-rw----    1 root     disk       3,   0 May  5  1998 had
 brw-rw----    1 root     disk       8,   0 May  5  1998 sda
 crw-------    1 root     tty        4,  64 May  5  1998 ttyS0
 </programlisting>
@@ -362,9 +362,9 @@ block devices only.
 <sect3 id="NamingConvention"><title>Naming Convention</title>
 <para>
 By convention, IDE drives will be given device
-names <literal>/dev/hda</literal> to <literal>/dev/hdd</literal>.
+names <literal>/dev/had</literal> to <literal>/dev/hdd</literal>.
 <emphasis>H</emphasis>ard <emphasis>D</emphasis>rive
-<emphasis>A</emphasis> (<literal>/dev/hda</literal>) is the first drive and
+<emphasis>A</emphasis> (<literal>/dev/had</literal>) is the first drive and
 <emphasis>H</emphasis>ard <emphasis>D</emphasis>rive
 <emphasis>C</emphasis> (<literal>/dev/hdc</literal>) is the third.
 
@@ -383,7 +383,7 @@ names <literal>/dev/hda</literal> to <literal>/dev/hdd</literal>.
            <entry>drive number</entry>
     </row>
     <row>
-           <entry>/dev/hda</entry>
+           <entry>/dev/had</entry>
            <entry>1</entry>
            <entry>1</entry>
     </row>
@@ -409,7 +409,7 @@ names <literal>/dev/hda</literal> to <literal>/dev/hdd</literal>.
 <para>
 A typical PC has two IDE
 controllers, each of which can have two drives connected to it. For
-example, <filename>/dev/hda</filename> is the first drive (master) on the
+example, <filename>/dev/had</filename> is the first drive (master) on the
 first IDE controller and <filename>/dev/hdd</filename> is
 the second (slave) drive on the second controller (the fourth IDE
 drive in the computer). 
@@ -556,7 +556,7 @@ partition table, which will render the drive unusable.
 	SCSI drives follow a similar pattern; They are represented by 'sd'
 	instead of 'hd'. The first partition of the second SCSI drive would
 	therefore be <filename class="partition">/dev/sdb1</filename>. In
-	the table above, the drive number is arbitraily chosen to be 6 to
+	the table above, the drive number is arbitrarily chosen to be 6 to
 	introduce the idea that SCSI ID numbers do not map onto device names
 	under linux.
 </para>
@@ -683,7 +683,7 @@ SCSI ID #2                         SCSI ID #7        SCSI ID #8
 	The only important thing with a device file are its major and minor
 	device numbers, which are shown instead of the file size:
 <programlisting>
-$ ls -l /dev/hda
+$ ls -l /dev/had
 </programlisting>
 <table frame="all">
   <title>Device file attributes</title>
@@ -706,7 +706,7 @@ $ ls -l /dev/hda
            <entry>3,</entry>
            <entry>0</entry>
            <entry>Jul 18  1994</entry>
-           <entry>/dev/hda</entry>
+           <entry>/dev/had</entry>
     </row>
     <row>
            <entry>permissions</entry>
@@ -1258,7 +1258,7 @@ partitions can be sub-divided.
 	<userinput><command>fdisk</command>
 	<replaceable>device</replaceable></userinput> at the command prompt.
 	<replaceable>device</replaceable> might be something like <filename
-	class="devicefile">/dev/hda</filename> or <filename
+	class="devicefile">/dev/had</filename> or <filename
 	class="devicefile">/dev/sda</filename> (see <xref
 	linkend="NamingConvention"/>). The basic
 	<command>fdisk</command> commands you need are:
@@ -1420,7 +1420,7 @@ Finally, I issue the write command (w) to write the table on the disk.
 Side topics:
 <itemizedlist>
   <listitem><para><xref linkend="swap" /></para></listitem>
-  <listitem><para><xref linkend="formating" /></para></listitem>
+  <listitem><para><xref linkend="formatting" /></para></listitem>
   <listitem><para><xref linkend="mounting" /></para></listitem>
 </itemizedlist>
 
@@ -1543,7 +1543,7 @@ The end result is:
 </programlisting>
 
 Finally, I issue the write command (w) to write the table on the disk.
-To make the partitions usable, I will have to format (<xref linkend="formating" />)
+To make the partitions usable, I will have to format (<xref linkend="formatting" />)
 each partition and then mount (<xref linkend="mounting" />) it.
 </para>
 </sect2>
@@ -2029,7 +2029,7 @@ Credit goes to: Mike Vevea, jedi sys admin, for providing the basic strategy.
 </para>
 <para>
 	However, if you want to make use of it right away, you'll need to
-	activate it maually. As root, type:
+	activate it manually. As root, type:
 </para>
 
 <programlisting>
@@ -2110,7 +2110,7 @@ none        /proc    proc   defaults        0	0
 	speed loss as swap space usage grows.
 </para>
 <para>
-	It is possible to write to all three simulataneously. If each has
+	It is possible to write to all three simultaneously. If each has
 	the same priority, the kernel will write to them much like a RAID,
 	with commensurate speed increases.
 </para>
@@ -2133,8 +2133,8 @@ none        /proc    proc   defaults        0	0
 <sect1 id="appendix">
 <title>Appendix</title> 
 
-<sect2 id="formating">
-<title>Formating Partitions</title> 
+<sect2 id="formatting">
+<title>Formatting Partitions</title> 
 <!--Tony, 1 May 00--> 
 <para>
 At the shell prompt, I begin making the file systems on my
@@ -2278,7 +2278,7 @@ Filesystem           Inodes   IUsed   IFree  %IUsed Mounted on
 </para>
 <para>
 	Data transfer is faster for large contiguous chunks of data, though.
-	That's why ext2 tries to preallocate space in units of 8 contigous
+	That's why ext2 tries to preallocate space in units of 8 contiguous
 	blocks for growing files. Unused preallocation is released when the
 	file is closed, so no space is wasted.
 </para>

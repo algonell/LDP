@@ -140,10 +140,10 @@ Emacspeak - for information on usage, refer to the Emacspeak User's Guide, avail
 <itemizedlist mark="bullet">
 <listitem><para><command>Tk, Tcl,</command> and <command>Tclx</command>: Check to make sure you have these applications.  If not, download and install the following rpms from <ulink url="http://www.rpmfind.net"></ulink>: <filename>tcl-8.3.2-7mdk</filename>, <filename>tk-8.3.2-7mdk</filename>, and <filename>tclx-8.3.2-7mdk</filename>.</para></listitem>
 
-<listitem><para><command>Lesstif</command>: If you want to run the Graphical User Interface (GUI) versions of the ViaVoice sample programs, you'll need these packages. For Emacspeak, the Lesstif packages are only useful if you're running Xwindows, or if you want to use the GUI tools.</para>
+<listitem><para><command>Lesstif</command>: If you want to run the Graphical User Interface (GUI) versions of the ViaVoice sample programs, you'll need these packages. For Emacspeak, the Lesstif packages are only useful if you're running X, or if you want to use the GUI tools.</para>
 
 <para>Lesstif can be downloaded from either the Lesstif home page <ulink url="http://www.lesstif.org"></ulink> or Sourceforge
- <ulink url="http://sourceforge.net/projects/lesstif"></ulink>. Currently, the latest release of Lesstif is version 0.93.14; however, Marty Moore recommends using the 0.92.32 version.  You can either download the gzipped tarball that contains all the necessary files or download the three individual packages (<filename>lesstif-mwm-0.92.32-1.i386.rpm</filename>, <filename>lesstif-clients-0.92.32-1.i386.rpm</filename>, and <filename>lesstif-devel-0.92.32-1.i386.rpm</filename>). If you choose to use the three individual files, be sure to use the <command>--nodeps</command> option when you unpack the RPMs to avoid dependancy errors. </para></listitem>
+ <ulink url="http://sourceforge.net/projects/lesstif"></ulink>. Currently, the latest release of Lesstif is version 0.93.14; however, Marty Moore recommends using the 0.92.32 version.  You can either download the gzipped tarball that contains all the necessary files or download the three individual packages (<filename>lesstif-mwm-0.92.32-1.i386.rpm</filename>, <filename>lesstif-clients-0.92.32-1.i386.rpm</filename>, and <filename>lesstif-devel-0.92.32-1.i386.rpm</filename>). If you choose to use the three individual files, be sure to use the <command>--nodeps</command> option when you unpack the RPMs to avoid dependency errors. </para></listitem>
 
 <listitem><para><command>sndconfig</command>: You will need to run this application from the command line to configure your sound card.  At the command prompt, type <command>sndconfig</command> and follow the instructions.</para>
 <para>If your sound card is not recognized by sndconfig, refer to, <link linkend="troubleshooting">Troubleshooting</link>, for more information.</para></listitem>
@@ -200,7 +200,7 @@ To produce speech output, you need two things: something to parse the informatio
 
 <para>There is a complete list of Linux-compatible sound cards available at <ulink url="http://www.alsa-project.org"></ulink>.  In addition, you can usually find information on your distribution's web site about which sound cards are supported with each distro.</para>
 
-<para>Once you have ensured that your sound card is Linux compatible, you can install a software synthesizer.  Currently the only one that works with Emacspeak is IBM's ViaVoice Text-to-Speech (TTS), formerly called ViaVoice Outloud. Many Emacspeak users use this software synthesizer, because it is free of charge. Instructions for installing ViaVoice can be found in, <link linkend="appendixb">Appendix B</link>.</para>
+<para>Once you have ensured that your sound card is Linux compatible, you can install a software synthesizer.  Currently the only one that works with Emacspeak is IBM's ViaVoice Text-to-Speech (TTS), formerly called ViaVoice Out loud. Many Emacspeak users use this software synthesizer, because it is free of charge. Instructions for installing ViaVoice can be found in, <link linkend="appendixb">Appendix B</link>.</para>
 </sect3>
 </sect2>
 </sect1>
@@ -232,7 +232,7 @@ To produce speech output, you need two things: something to parse the informatio
 <simplelist columns="2" type="horiz">
 
 <member>ViaVoice TTS</member>
-<member>Outloud</member>
+<member>Out loud</member>
 <member>DecTalk Xpress</member>
 <member>dtk-exp</member>
 <member>DecTalk MultiVoice</member>
@@ -307,7 +307,7 @@ in the <filename>/usr/include</filename> directory, then change directories to <
 <orderedlist>
 <listitem><para>First, make sure you are in the <filename>/usr/share/emacs/site-lisp/emacspeak/servers</filename> directory.</para></listitem>
 
-<listitem><para>At the command prompt, type <command>tcl <replaceable>name of speech server</replaceable></command>. The most common speech servers are <command>dtk-exp</command> and <command>outloud</command>.
+<listitem><para>At the command prompt, type <command>tcl <replaceable>name of speech server</replaceable></command>. The most common speech servers are <command>dtk-exp</command> and <command>out loud</command>.
 </para></listitem>
 </orderedlist>
 
@@ -326,7 +326,7 @@ in the <filename>/usr/include</filename> directory, then change directories to <
 
 <programlisting> export DTK_PROGRAM DTK_PROGRAM=<replaceable>name of speech server</replaceable></programlisting>
 
-<para>The most common speech servers, are <command>outloud</command> and <command>dtk-exp</command>. </para></listitem>
+<para>The most common speech servers, are <command>out loud</command> and <command>dtk-exp</command>. </para></listitem>
 </orderedlist>
 			
 <para>If these lines are not in your <filename>profile</filename> file, add them and then re-test tcl. If you are using ViaVoice TTS as your synthesizer, Emacspeak should work correctly at this point. If you are using a hardware synthesizer and you still do not get any sound, check to make sure that the environment variable <varname>DTK_PORT</varname> is set correctly in your <filename>/etc/profile</filename> file.</para>
@@ -388,7 +388,7 @@ your computer. Under Linux, if your synthesizer is plugged into com1, you must s
 <para> Please note that the original instructions for installing Linux over a null modem cable were written for a DOS machine.  I first attempted to reproduce these instructions with my Windows 2000 machine (from the DOS prompt) and Red Hat 7.1.  Although I successfully downloaded and installed JAWS for DOS (available from Freedom Scientific at <ulink url="http://www.freedomscientific.com/fs_downloads/morejaws.asp"></ulink>), I was unable to get a DOS VT100 terminal emulator installed. I tried using TELIX, which was popular several years ago, but when I tried to install TELIX version 3.51, I got a runtime error. Since I was unable to find any other DOS terminal emulators, I decided to try using a Windows screenreader and terminal emulator instead. This section documents the procedure I tried with the Windows machine.</para>
 
 <sect2 id="appendix-a-requirements">
-<title>Requirments</title>
+<title>Requirements</title>
 
 <para>For this process, you will need a machine with a working speech synthesizer and a terminal emulator program. For my test, I used a Windows 2000 machine and tried both Narrarator (which comes with Windows 2000) and JAWS for Windows v.3.5. For the terminal emulator, I used tried both Hyperterminal (which comes with Windows) and CRT (which can be downloaded from <ulink url="http://www.vandyke.com/products/crt"></ulink>). You will also need a second machine (on which to install Linux), a null modem cable, and a copy of your preferred Linux distribution on either floppy disk or CD-ROM. </para>
 </sect2>
@@ -495,7 +495,7 @@ now have two files in your directory, <filename>ttssd.readme.txt</filename> and 
 <orderedlist>
 <listitem><para>Type the <command>cd</command> command to change to the <filename>/usr/lib/ViaVoiceTTS/samples/cmdlinespeak/</filename> directory. </para></listitem>
 	
-<listitem><para>Type the command <command>./runcmdlinespeak</command> at the prompt. You should hear your computer say "Hello, welcome to ViaVoice Outloud for Linux." Normal system volume is often very low, so you may not be able to hear it very well. Refer to, <link linkend="troubleshooting">Troubleshooting</link>, for information on how to increase your system volume.  </para></listitem>
+<listitem><para>Type the command <command>./runcmdlinespeak</command> at the prompt. You should hear your computer say "Hello, welcome to ViaVoice Out loud for Linux." Normal system volume is often very low, so you may not be able to hear it very well. Refer to, <link linkend="troubleshooting">Troubleshooting</link>, for information on how to increase your system volume.  </para></listitem>
 </orderedlist>
 
 <para>If for some reason your test was not successful, refer to the installation notes provided with both the RTK (ttsrt.readme.txt) and the SDK (ttssd.readme.txt) for debugging information. </para>

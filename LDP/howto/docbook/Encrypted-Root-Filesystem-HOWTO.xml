@@ -75,7 +75,7 @@ Version 1.2.
     <sect2 id="partition-layout">
         <title>Setting up the partition layout</title>
         <para>
-Your hard disk (hda) should contain at least three partitions:
+Your hard disk (had) should contain at least three partitions:
         <itemizedlist>
             <listitem><para>
 hda1: this small unencrypted partition will ask for
@@ -96,9 +96,9 @@ Linux distribution is currently installed; /usr and /boot must
         </para><para>
 Here's an example of what your partition layout might look like:
         </para><para>
-<screen># fdisk -l /dev/hda
+<screen># fdisk -l /dev/had
 
-Disk /dev/hda: 255 heads, 63 sectors, 2432 cylinders
+Disk /dev/had: 255 heads, 63 sectors, 2432 cylinders
 Units = cylinders of 16065 * 512 bytes
 
    Device Boot    Start       End    Blocks   Id  System
@@ -193,7 +193,7 @@ Otherwise, update /etc/lilo.conf and run lilo:
         </para><para>
 <screen>cat &gt; /etc/lilo.conf &lt;&lt; EOF
 lba32
-boot=/dev/hda
+boot=/dev/had
 prompt
 timeout=60
 image=/boot/vmlinuz
@@ -466,14 +466,14 @@ title Linux
     kernel /vmlinuz ro root=/dev/ram0
     initrd /initrd.gz
 EOF
-grub-install --root-directory=/loader /dev/hda
+grub-install --root-directory=/loader /dev/had
 umount /loader</screen>
         </para><para>
 If you use lilo:
         </para><para>
 <screen>mkdir /loader/{boot,dev,etc}
 cp /boot/boot.b /loader/boot/
-mknod -m 600 /loader/dev/hda  b 3 0
+mknod -m 600 /loader/dev/had  b 3 0
 mknod -m 600 /loader/dev/hda1 b 3 1
 mknod -m 600 /loader/dev/hda2 b 3 2
 mknod -m 600 /loader/dev/hda3 b 3 3
@@ -481,7 +481,7 @@ mknod -m 600 /loader/dev/hda4 b 3 4
 mknod -m 600 /loader/dev/ram0 b 1 0
 cat &gt; /loader/etc/lilo.conf &lt;&lt; EOF
 lba32
-boot=/dev/hda
+boot=/dev/had
 prompt
 timeout=60
 image=/vmlinuz

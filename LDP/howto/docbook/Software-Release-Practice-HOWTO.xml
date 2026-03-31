@@ -844,7 +844,7 @@ the increasing popularity of that language.</para>
 
 <para>SCons is still a minority choice, and has stiff competition from
 several others, of which CMake and WAF are probably the most
-prominant. Fairly even-handed cross-comparisons, considering the source,
+prominent. Fairly even-handed cross-comparisons, considering the source,
 can be <ulink url="http://www.scons.org/wiki/SconsVsOtherBuildTools">found
 on the SCons wiki</ulink>.</para>
 </sect3>
@@ -1057,7 +1057,7 @@ every distribution needs all of these.</para>
 <varlistentry>
 <term>AUTHORS</term>
 <listitem>
-<para> list of project contributers.</para>
+<para> list of project contributors.</para>
 <para>An older, still-acceptable convention for this is to name it CREDITS</para>
 </listitem>
 </varlistentry>
@@ -1238,7 +1238,7 @@ support for hyperlinks).</para>
 <term>HTML</term>
 <listitem>
 <para>Increasingly common since the Web exploded in 1993-1994. Markup is
-partly structural, mostly presentation. Browseable through any web browser.
+partly structural, mostly presentation. Browsable through any web browser.
 Good support for images and hyperlinks.  Limited built-in facilities for
 indexing, but good indexing and search-engine technologies exist and are
 widely deployed.  Renders to Postscript for printing pretty well.  HTML
@@ -1255,12 +1255,12 @@ markup describes presentation rather than document structure.</para>
 <listitem>
 <para>Texinfo is the documentation format used by the Free Software
 Foundation. It's a set of macros on top of the powerful TeX formatting
-engine. Mostly structural, partly presentation.  Browseable through Emacs
+engine. Mostly structural, partly presentation.  Browsable through Emacs
 or a standalone <command>info</command> program.  Good support for
 hyperlinks, none for images.  Good indexing for both print and on-line
 forms; when you install a Texinfo document, a pointer to it is
 automatically added to a browsable "dir" document listing all the Texinfo
-documents on your system.  Renders to excellent Postscript and useable
+documents on your system.  Renders to excellent Postscript and usable
 HTML.  Texinfo tools are preinstalled on most Linux systems, and available
 at the <ulink url="http://www.gnu.org">Free Software Foundation</ulink>
 website.</para>

@@ -91,7 +91,7 @@ tcsh$ setenv LC_COLLATE sk
 	  <listitem>
 	    <para><simplelist type="inline"><member><envar>LC_MONETARY</envar></member>
 	      <member><envar>LC_NUMERIC</envar></member></simplelist> --- Formát peòa¾ných a
-	      èíselných hodnôt.  Umo¾òuje meni» skupinu nastavení, ktoré sa pou¾ijú pri formátovaní
+	      èíselných hodnôt.  Umo¾òuje menu» skupinu nastavení, ktoré sa pou¾ijú pri formátovaní
 	      peòa¾ných hodnôt alebo v¹etkých ostatných èíselných hodnôt. Sú to desatinná èiarka,
 	      oddeµovaè tisícov, zoskupovanie èíslic, znamienka pre kladné a zaporné hodnoty,
 	      atï.</para>
@@ -375,7 +375,7 @@ jazyk[_územie[.kódovanie]][@modifikátor]
 	<filename class="directory">locales/</filename> sa koneène nachádzajú slovenské miestne
 	nastavenia v èitateµnej (a editovateµnej) forme. Súbory v tomto adresári majú presne danú
 	¹truktúru, ktorá je popísaná v manuálovej stránke locale(5). Pre be¾ného pou¾ívateµa nemá
-	zmysel meni» nastavenia v tomto súbore, keï¾e ide o ¹tandardné nastavenia, ktoré sa
+	zmysel menu» nastavenia v tomto súbore, keï¾e ide o ¹tandardné nastavenia, ktoré sa
 	pou¾ívajú na celom Slovensku. Ale, proti Gustovi ¾iadna putika! Ak sa teda rozhodnete zmeni»
 	nieèo v tomto súbore, musíte aktualizova» súbory v prvom spomínanom adresári
 	<filename class="directory">/usr/share/locales/sk/</filename> príkazom, ktorý údaje v súbore
@@ -489,7 +489,7 @@ sh$ unset LC_MESSAGES LANG
     <section>
       <title>Nastavenie èasovej zóny</title>
 
-      <para>S miestnymi nastaveniami úzko súvisí aj nastavenie èasovej zóny. Vedel by som o tom
+      <para>S miestnymi nastaveniami úzko súvisí aj nastavenie èasovej zóny. Vedel by some o tom
 	rozpráva» celé hodiny, ale ono by to muselo by» zlo¾itej¹ie ako len nastavenie jednej
 	premennej... A to takto:
 	<screen>
@@ -525,7 +525,7 @@ LC_CTYPE=sk
 
       <listitem>
 	<para>U¾ívateµ je normálny, má rád svoj materinský jazyk, ale netrápi ho, keï má polovicu
-	  aplikácií po slovensky a polovicu po anglicky. Po èesky vie. Toto ho pote¹í (nezabudnite
+	  aplikácií po slovensky a polovicu po anglicky. Po èesky via. Toto ho pote¹í (nezabudnite
 	  mu potajomky nain¹talova» aj <application>locales-cs</application>):
 	  <screen>
 LANGUAGE=sk:cs

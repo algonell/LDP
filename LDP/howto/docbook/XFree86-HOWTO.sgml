@@ -277,7 +277,7 @@ have made the process nearly trivial.  It simplifies matters a lot that
 there are no longer separate servers for different kinds of cards, just
 modules loaded by a common server.</para>
 
-<para>If you're enabling X as you intall a Linux distribution, the
+<para>If you're enabling X as you install a Linux distribution, the
 distribution install script will ask the few questions needed to
 configure X.  Otherwise, all you need do to configure it is fire up
 the command <command>XFree86 -configure</command>.</para>
@@ -324,14 +324,14 @@ X clients to run. If this file does not exist, the system default
 
 xterm -fn 7x13bold -geometry 80x32+10+50 &
 xterm -fn 9x15bold -geometry 80x34+30-10 &
-oclock -geometry 70x70-7+7 &
+o'clock -geometry 70x70-7+7 &
 xsetroot -solid midnightblue &
 
 exec fvwm2 
 </screen>
 
 <para>This script will start up two <command>xterm</command> clients, an
-<command>oclock</command>, and set the root window (background) color to
+<command>o'clock</command>, and set the root window (background) color to
 <command>midnightblue</command>.  It will then start up
 <command>fvwm2</command>, the window manager. Note that
 <command>fvwm2</command> is executed with the shell's
@@ -361,7 +361,7 @@ picking up a book such as <emphasis>The Joy of X: An Overview of the X
 Window System</emphasis> by Niall Mansfield (Addison-Wesley 1993, ISBN
 0201-565129).  Using and configuring X is far too in-depth to cover
 here. See the man pages for <command>xterm</command>,
-<command>oclock</command>, and <command>fvwm2</command> for clues on
+<command>o'clock</command>, and <command>fvwm2</command> for clues on
 getting started.</para>
 
 </sect1>

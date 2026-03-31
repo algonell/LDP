@@ -69,7 +69,7 @@ Charlotte, North Carolina, for their municipal website,
 url="http://www.charweb.org/webinfo/kiosk/">). The Charlotte's Web
 kiosk project, which employs a touchscreen monitor, was set up in 1996
 using an early version of Slackware Linux, Netscape Navigator 2.X, and
-FVWM. The webmasters at Charlotte have created a very useable kiosk
+FVWM. The webmasters at Charlotte have created a very usable kiosk
 implementation and have shared their complete setup via their
 website. This HOWTO, to a certain degree, represents an update of
 their work, altering the details to work with Red Hat 6.X, Netscape
@@ -83,7 +83,7 @@ we use on the kiosk in the Biodiversity Gallery.
 The Ontario Biodiversity section of the ROM website was designed by
 Hopscotch Interactive (www.hopscotch.ca). The original application was
 converted from a flat-file database system to a MySQL-database driven
-system by Gord Howells (gordonh@rom.on.ca), the ROM's database
+system by Gourd Howells (gordonh@rom.on.ca), the ROM's database
 designer and programmer. The non-kiosk version of this mini-site may
 be viewed at <url url="http://www.rom.on.ca/ontario/">.
 
@@ -91,7 +91,7 @@ be viewed at <url url="http://www.rom.on.ca/ontario/">.
 <sect>Overview
 <p>
 Setting up Linux for use as a web-based kiosk is similar to setting up
-Linux as a graphical workstaion, with a few extra considerations. If
+Linux as a graphical workstation, with a few extra considerations. If
 the machine is to be a standalone unit, it must boot straight into
 kiosk mode. Furthermore, the browser environment must be modified in
 to disable standard dialog screens and to eliminate parts of the
@@ -539,7 +539,7 @@ files to .au format.
 Not having the funding for a touchscreen display, we opted for a
 trackball (and no keyboard) for our kiosk navigation. Our colleague,
 Andy Rauer at the Ontario Science Centre in Toronto, tipped us off to
-using ``industry-strength'' trackball components from Happ Conrols
+using ``industry-strength'' trackball components from Happ Controls
 Inc., Elk Grove Village, Illinois <url
 url="http://www.happcontrols.com/"> (check under their Interactives
 section).
@@ -595,7 +595,7 @@ spans and pass-through traffic. Save your theses and exegeses for
 elsewhere.
 </itemize>
 
-Unforunately you will sometimes inherit pages that were designed for
+Unfortunately you will sometimes inherit pages that were designed for
 web browsing rather than kiosk browsing. In these cases it may be too
 time-consuming or too difficult to redesign them as kiosk pages. When
 implementing standard web pages for a kiosk display:

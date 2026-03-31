@@ -3,9 +3,9 @@
 # A perl script to create a script and input file for fdisk to
 # re-create the partitions on the hard disk, and format the Linux and
 # Linux swap partitions. The first parameter is the fully qualified
-# path of the device of the hard disk, e.g. /dev/hda. The two
+# path of the device of the hard disk, e.g. /dev/had. The two
 # resulting files are the script make.dev.x and the data file dev.x
-# (where x is the hard drive described, e.g. hda, sdc). make.dev.x is
+# (where x is the hard drive described, e.g. had, sdc). make.dev.x is
 # run at restore time to rebuild hard drive x, prior to running
 # restore.metadata. dev.x is the input file for fdisk.
 
@@ -146,9 +146,9 @@
 # fdisk will spit out a file of the form below if you run it as "fdisk
 # -l".
 
-# root@tester ~/bin $ fdisk -l /dev/hda
+# root@tester ~/bin $ fdisk -l /dev/had
 
-# Disk /dev/hda: 64 heads, 63 sectors, 1023 cylinders
+# Disk /dev/had: 64 heads, 63 sectors, 1023 cylinders
 # Units = cylinders of 4032 * 512 bytes
 
 #    Device Boot    Start       End    Blocks   Id  System
@@ -183,10 +183,10 @@
 
 # You can also edit dev.x to change the sizes of partitions. Don't
 # forget, if you change the size of a FAT partition across the 32MB
-# boundary, you need to change the type as well! Run "fdisk /dev/hda"
+# boundary, you need to change the type as well! Run "fdisk /dev/had"
 # or some such, then the l command to see the available partition
 # types. Then go ahead and edit dev.x appropriately. Also, when moving
-# partition boundarys with hand edits, make sure you move both logical
+# partition boundaries with hand edits, make sure you move both logical
 # and extended partition boundaries appropriately.
 
 # Bad block checking right now is a quick read of the partition. A
@@ -229,7 +229,7 @@ sub gpl {
     my $FILE = shift;
     my $year = shift;
 
-    print $FILE <<FINIS;
+    print $FILE <<FINISH;
 
 # Copyright $year through the last date of modification Charles Curley.
 
@@ -253,7 +253,7 @@ sub gpl {
 # For more information contact the author, Charles Curley, at
 # http://www.charlescurley.com/.
 
-FINIS
+FINISH
 
 }
 
@@ -323,17 +323,17 @@ sub dolvm {
         $mklvs = open (MKLVS, "> ${outputfilepath}bin/make.lvs")
             or die "Couldn't fork: $!\n";
 
-        print MKLVS <<FINIS;
+        print MKLVS <<FINISH;
 #! /bin/sh
 
 # A script to create file systems on logical volumes. Created at bare
 # metal backup time by the Perl script make.fdisk.
-FINIS
+FINISH
 
         &gpl (*MKLVS, "2006");
 
 
-        print MKLVS <<FINIS;
+        print MKLVS <<FINISH;
 
 export blockcheck=\$1;
 
@@ -344,17 +344,17 @@ then
     exit 1;
 fi
 
-FINIS
+FINISH
 
         $mtlvs = open (MTLVS, "> ${outputfilepath}bin/mount.lvs")
             or die "Couldn't fork: $!\n";
 
-        print MTLVS <<FINIS;
+        print MTLVS <<FINISH;
 #! /bin/sh
 
 # A script to mount file systems on logical volumes. Created at bare
 # metal backup time by the Perl script make.fdisk.
-FINIS
+FINISH
 
         &gpl (*MTLVS, "2007");
 
@@ -419,7 +419,7 @@ FINIS
                     print (MTLVS "mount @fstabs[0] /target$fstabs[1]\n\n");
                     $volsfound{@fstabs[0]} = 2;
                 } else {
-                    print ("Opps, unknown type of logical volume, @fstabs[0]\n");
+                    print ("Oops, unknown type of logical volume, @fstabs[0]\n");
                 }
             }
         }
@@ -431,7 +431,7 @@ FINIS
 #         print ("\n");
 
         # Now walk the logical volume devices and pick up any
-        # partitions formated ext3/ext2. This may result in duplicates
+        # partitions formatted ext3/ext2. This may result in duplicates
         # if the partitions have labels but are mounted by device name
         # rather than by label.
 
@@ -547,7 +547,7 @@ FINIS
 
 # print "\$ARGV[0] is $ARGV[0].\n";
 
-$device = defined ($ARGV[0]) ? $ARGV[0] : "/dev/hda";
+$device = defined ($ARGV[0]) ? $ARGV[0] : "/dev/had";
 
 # Need to check to see if $device is a sym link. If it is, the mount
 # point is the target of the link. (Mandrake) Otherwise we search for
@@ -631,7 +631,7 @@ while (<MOUNT>) {
                 # We have a devfs system, e.g. Mandrake. This code
                 # converts back from the devfs designation to the old
                 # /dev/hd* designation for tomsrtb. I have NOT checked
-                # this out for drives other than /dev/hda. Also, this
+                # this out for drives other than /dev/had. Also, this
                 # code does not handle SCSI drives.
 
                 if ( $_[0] =~ /target0/ && $_[0] =~ /bus0/ ) {
@@ -923,17 +923,17 @@ close (FDISK);
 open (OUTPUT, "> ${outputfilepath}bin/make.$outputfilename")
     or die "Couldn't open output file ${outputfilepath}bin/make.$outputfilename.\n";
 
-print OUTPUT <<FINIS;
+print OUTPUT <<FINISH;
 #! /bin/sh
 
 # A script to restore the partition data of a hard drive and format
 # the partitions. Created at bare metal backup time by the Perl script
 # make.fdisk.
-FINIS
+FINISH
 
 &gpl (*OUTPUT, "2001");
 
-print OUTPUT <<FINIS;
+print OUTPUT <<FINISH;
 
 swapoff -a
 # Hideously disty dependent! Turn off LVM.
@@ -950,7 +950,7 @@ then
     exit 1;
 fi
 
-FINIS
+FINISH
 
 # Clean the old partition table out. Turn off swap in case we're using
 # it.
@@ -984,17 +984,17 @@ close (OUTPUT);
 open (OUTPUT, "> ${outputfilepath}bin/mount.$outputfilename")
     or die "Couldn't open output file ${outputfilepath}bin/make.$outputfilename.\n";
 
-print OUTPUT <<FINIS;
+print OUTPUT <<FINISH;
 #! /bin/sh
 
 # A script to create a minimal directory tree on the target hard drive
 # and mount the partitions on it. Created at bare metal backup time by
 # the Perl script make.fdisk.
-FINIS
+FINISH
 
 &gpl (*OUTPUT, "2001");
 
-print OUTPUT <<FINIS;
+print OUTPUT <<FINISH;
 
 # WARNING: If your Linux system mount partitions across hard drive
 # boundaries, you will have multiple "mount.dev.* scripts. You must
@@ -1002,7 +1002,7 @@ print OUTPUT <<FINIS;
 # be mounted first, then the rest in the order they cascade. If they
 # cross mount, you'll have to handle that manually.
 
-FINIS
+FINISH
 
 
 # We have a hash of mount points and devices in %mountpoints. However,

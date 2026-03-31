@@ -23,7 +23,7 @@
       <date>2007-07-15</date>
       <authorinitials>idmh</authorinitials>
       <revremark>Complete revision of document to cover DB2 Express-C 9 and new
-      Linux distrubution levels</revremark>
+      Linux distribution levels</revremark>
     </revision>
     <revision>
       <revnumber>2.0.1</revnumber>
@@ -124,7 +124,7 @@
   of breed DB2 database as freely available software. It is important to
   realize that the DB2 Express-C edition is a gratis, "free as in beer" software product,
   meaning that, although the source code is not distributed as part of the product,
-  this edition of DB2 is freely useable and full featured, not "crippled" in any way.
+  this edition of DB2 is freely usable and full featured, not "crippled" in any way.
   </para>
   <para>A number of other large enterprise class databases have also opted to
   release versions of their software, but DB2 Express-C is the only one that
@@ -149,7 +149,7 @@
   Feature-wise, what's included in the DB2 Express-C download is impressive. To
   start with, you get the same database engine code as the full enterprise-level
   database server, with no connection restrictions. Also included is the full
-  suite of commmand line and graphical user tools to help adminster databases
+  suite of command line and graphical user tools to help administer databases
   and develop database applications. You also get autonomic maintenance features,
   along with development APIs and drivers for C/C++, Java, PHP, Perl and Ruby on
   Rails.

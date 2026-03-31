@@ -184,19 +184,19 @@ Workstation 2 to connect to the Web server. In order to setup the Linux server y
    route add gw default 172.16.0.254
 
 </verb></tscreen>
-To use this gateway everytime you boot the Linux server edit the file <tt>/etc/rc.d/rc.inet1</tt> and change the line containing the gateway definition to <tt>GATEWAY = "172.16.0.254"</tt>. Make sure the line for adding the gateway is not commented out.
+To use this gateway every time you boot the Linux server edit the file <tt>/etc/rc.d/rc.inet1</tt> and change the line containing the gateway definition to <tt>GATEWAY = "172.16.0.254"</tt>. Make sure the line for adding the gateway is not commented out.
 <p>
 ALT: You can add routes to the networks on the other side of the router. This would be done as
 <tscreen><verb>
    route add -net 172.17.0.0 gw 172.16.0.254
 
 </verb></tscreen>
-To add this route everytime you boot Linux add the command to your <tt>/etc/rc.d/rc.local</tt> file.
+To add this route every time you boot Linux add the command to your <tt>/etc/rc.d/rc.local</tt> file.
 <P>
 
 <sect1>Setup the Netware server<label id="SetupNW">
 <p>
-In order to setup the Netware server you should have Supervisor permissions or atleast Console operator permissions. If these cannot be got, try asking your Network Administrator to help you with the setup.
+In order to setup the Netware server you should have Supervisor permissions or at least Console operator permissions. If these cannot be got, try asking your Network Administrator to help you with the setup.
 At the Server enable the Ethernet_II frame type on the LAN by typing these commands or include them in the AUTOEXEC.ncf file.
 <tscreen><verb>
    load NE2000 frame=Ethernet_II name=IPNET
@@ -292,16 +292,16 @@ This section explains how to install the 32bit client on Win95. Firstly you must
 To install these items, click on My Computer, Control Panel, Networks. Click Add. You will now be in a window that displays Client, Adapter, Protocol and Service.
 To install the Client for Netware Networks:
 <tscreen><verb>
-  1. DoubleClick on Client
+  1. double-click on Client
   2. Click on Microsoft or Novell
-  3. DoubleClick on Client for Netware Networks
+  3. double-click on Client for Netware Networks
 </verb></tscreen>
 <p>
 To install the TCP/IP Protocol:
 <tscreen><verb>
-  1. DoubleClick on Protocol
+  1. double-click on Protocol
   2. Click on Microsoft
-  3. DoubleClick on TCP/IP
+  3. double-click on TCP/IP
 </verb></tscreen>
 <p>
 Windows 95 by default installs several other protocols automatically. Remove
@@ -386,16 +386,16 @@ This section explains how to install the 32bit client for Microsoft on Win95. Fi
 To install these items, click on My Computer, Control Panel, Networks. Click Add. You will now be in a window that displays Client, Adapter, Protocol and Service.
 To install the Client for Microsoft Networks:
 <tscreen><verb>
-  1. DoubleClick on Client
+  1. double-click on Client
   2. Click on Microsoft
-  3. DoubleClick on Client for Microsoft Networks
+  3. double-click on Client for Microsoft Networks
 </verb></tscreen>
 <p>
 To install the TCP/IP Protocol:
 <tscreen><verb>
-  1. DoubleClick on Protocol
+  1. double-click on Protocol
   2. Click on Microsoft
-  3. DoubleClick on TCP/IP
+  3. double-click on TCP/IP
 </verb></tscreen>
 <p>
 Windows 95 by default installs several protocols automatically. Remove
@@ -692,7 +692,7 @@ This means that it can be used to create an interface with RDBMS  like ORACLE an
 - CGI gateways - <htmlurl url="HTTP://www.w3.org/hypertext/WWW/RDBGate/Overview.html" name="HTTP://www.w3.org/hypertext/WWW/RDBGate/Overview.html">
 
 <item>Corporate/Department/Individual pages<p>
-As cultures change within organistions to the point where even each department moves towards their own individual mission statements, the Intranet technology provides the ideal medium to communicate current information to the Department or Individual. Powerful search engines provide the means for people to find the group or individual who has the answers to the continuous questions which arise in the normal day-to-day course of doing business.
+As cultures change within organisations to the point where even each department moves towards their own individual mission statements, the Intranet technology provides the ideal medium to communicate current information to the Department or Individual. Powerful search engines provide the means for people to find the group or individual who has the answers to the continuous questions which arise in the normal day-to-day course of doing business.
 <item>Simple Groupware applications<p>
 With HTML forms support, sites can provide sign-up sheets, surveys and simple scheduling.
 <item>Software distribution<p>

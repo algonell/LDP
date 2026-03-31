@@ -1905,7 +1905,7 @@ hdx=ide-floppy
 </para></listitem>
 </itemizedlist>
 [The term <emphasis>hdx</emphasis> is used
-to refer to one of the IDE/ATA devices in {hda, hdb, hdc ...}.]
+to refer to one of the IDE/ATA devices in {had, hdb, hdc ...}.]
 In the 2.4 series "hdx=scsi" was added but it is not very useful, see
 see <xref linkend="sratapi"/>.
 </para>
@@ -2809,7 +2809,7 @@ error. Send warning to log/console.
 <listitem><para>
 [2.4.21] Give new HBAs a new host number (higher than any previously used)
 unless there is a "scsihosts" match. Host numbering sequence "holes" are
-only re-used if there is a "scsihosts" match.
+only reused if there is a "scsihosts" match.
 </para></listitem>
 <listitem><para>
 [2.4.21] stop the SCSI status RECOVERED ERROR being treated as an error

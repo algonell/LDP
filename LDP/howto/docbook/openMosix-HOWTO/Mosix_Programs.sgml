@@ -495,7 +495,7 @@ The start time is displayed on the top/left and you have a full-day view in MOSI
 
 If you are using MOSIXLOAD for looking at "online"-logfiles (current history) you can enable the "refresh"-checkbox and the view will auto-refresh (or use the manual refresh-button).
 
-The load-lines are normally black if the load of one node is smaller 50. If the load increases to &#62;50 the lines are drawn yellow and red if load is higher 80. These values are MOSIX-informations. MOSIXLOAD gets these informations from the files /proc/mosix/nodes/[mosix ID]/load.
+The load-lines are normally black if the load of one node is smaller 50. If the load increases to &#62;50 the lines are drawn yellow and red if load is higher 80. These values are MOSIX-information. MOSIXLOAD gets these information from the files /proc/mosix/nodes/[mosix ID]/load.
 
 The X-button of each nodes calculates the nodes average MOSIX-load. Clicking it will open a small new window in which you get the average load-value and a graphic which displays it colored (black OK, yellow critique, red alert).
 
@@ -538,7 +538,7 @@ The start time is displayed on the top/left and you have a full-day view in MOSI
 
 If you are using MOSIXMEM for looking at "online"-logfiles (current history) you can enable the "refresh"-checkbox and the view will auto-refresh (or use the manual refresh-button).
 
-The displayed values are MOSIX-informations. MOSIXMEM gets these informations from the files
+The displayed values are MOSIX-information. MOSIXMEM gets these information from the files
 
 <PROGRAMLISTING>
 /proc/mosix/nodes/[mosix ID]/mem.

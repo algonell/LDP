@@ -449,7 +449,7 @@ the <quote>smbprint</quote> user:
   printing = cups   
   security = share   
 [printers]   
-  browseable = yes   
+  browsable = yes   
   printable = yes   
   public = yes   
   create mode = 0700   

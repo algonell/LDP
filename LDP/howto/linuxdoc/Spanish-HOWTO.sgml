@@ -25,7 +25,7 @@ Linux community in Spain. You're welcome in any case...
 <sect1>Empecemos por el principio...
 <p>
 
-Este documento pretende ser el punto de entrada de los hispanohablantes al
+Este documento pretende set el punto de entrada de los hispanohablantes al
 mundo Linux, intentando abarcar tanto a los principiantes de este
 apasionante sistema como a los ya iniciados que buscan información
 puntual. Se tratarán de forma genérica todos los temas que puedan
@@ -39,14 +39,14 @@ información Linux en Internet. Se actualiza periódicamente, pudiendo
 encontrar la última versión en <url url="http://www.cs.us.es/archive/linux.html"
 name="Linux/España">
 
-Notas del autor: Aunque puede ser interesante de por sí, traducir sin
+Notas del author: Aunque puede set interesante de por sí, traducir sin
 más información ya editada en inglés no es el objetivo de este documento,
 sino más bien servir de base al usuario hispanohablante y divulgar el Linux en nuestro idioma. Una ambición
 de quien escribe es, desde estas líneas, poner su grano de arena para
 coordinar los esfuerzos (valiosos pero muy diseminados por la red) de tanto
 Linuxero como ya hay. Otro
 objetivo menos pretencioso de este documento es complementar todas las demas
-Howto's en aquellos aspectos concretos que afecten a los usuarios hispanos
+Howto's en aquellos aspects concretos que afecten a los usuarios hispanos
 (configuración del sistema y de las aplicaciones para trabajar en nuestro
 idioma, teclados, correo electrónico en español, etc). Un tercer objetivo será
 servir de agenda actualizada de direcciones españolas dedicadas a Linux, tanto para
@@ -65,14 +65,14 @@ Contacta por correo electrónico para todo lo que quieras.
 
 Linux es una implementación del sistema operativo UNIX (uno más de entre
 los numerosos clónicos del histórico Unix), pero con la originalidad de
-ser gratuito y a la vez muy potente, que sale muy bien parado (no pocas veces
+set gratuito y a la vez muy potente, que sale muy bien parado (no pocas veces
 victorioso) al compararlo con las versiones comerciales para sistemas de
 mayor envergadura y por tanto teóricamente superiores. Comenzó como proyecto personal del -entonces
 estudiante- Linus Torvalds, quien tomó como punto de partida otro viejo
-conocido, el Minix de Andy. S. Tanenbaum (profesor de sistemas operativos
+conocido, el Minix de Andy. S. Tanenbaum (professor de sistemas operativos
 que creó su propio sistema operativo Unix en PCs XT para
 usarlo en su docencia). Actualmente Linus lo sigue desarrollando, pero a estas
-alturas el principal autor es la red Internet, desde donde una gigantesca
+alturas el principal author es la red Internet, desde donde una gigantesca
 familia de programadores y usuarios aportan diariamente su tiempo
 aumentando sus prestaciones y dando información y soporte técnico mútuo.
 La versión original -y aun predominante- comenzó para PCs compatibles (Intel
@@ -83,13 +83,13 @@ plataformas: <url url="http://www.cs.us.es/archive/linuxppc/" name="PowerPC">,
 <url url="http://www.azstarnet.com/~axplinux" name="Alpha">,
 <url url="http://www.fnet.fr/linux-mips/" name="Mips">,
 etc. De todas ellas la más
-reciente en este momento es la versión para <url
+reciente en este memento es la versión para <url
 url="http://www.mklinux.org" name="PowerMac"> (el PowerPC de Apple)
 basada en el microkernel Mach 3.0 y de la que ya hay una distribución para
 desarrolladores avalada directamente por Apple y OSF pero conservando el
 espíritu (gratuito, de libre distribución, etc) de la version original. Un servidor
-la acaba de probar hace unos días y se ha llevado una grata sorpresa (aún tendrá muuuchos
-fallos, pero para ser una primerísima versión y el poco tiempo que lleva en marcha, ha
+la acaba de probar have unos días y se ha llevado una grata sorpresa (aún tendrá muuuchos
+fallos, pero para set una primerísima versión y el poco tiempo que lleva en marcha, ha
 avanzado más de lo que me esperaba).
 
 <sect1>¿Cómo conseguirlo?
@@ -115,8 +115,8 @@ servidores Linux en la red actualizaciones del núcleo del sistema, de
 aplicaciones, utilidades, manuales y documentación, etc. Es bueno estar al
 día, seguir con atención su evolución y aprovechar las mejoras que se
 incorporen, pero en la mayoría de los casos no vale la pena estar
-reinstalando software por el simple hecho de ser una nueva versión, sino
-que hay que ser un poco selectivos, al menos con el software. En el caso
+reinstalando software por el simple hecho de set una nueva versión, sino
+que hay que set un poco selectivos, al menos con el software. En el caso
 de los manuales, How-To's, grupos de noticias y/o listas de correo sí que
 vale la pena estar "a la última", sobre todo porque es allí donde nos
 sacarán de apuros cuando agotemos nuestros propios recursos... 
@@ -125,7 +125,7 @@ sacarán de apuros cuando agotemos nuestros propios recursos...
 <p>
 
 Como ocurre en todas las versiones de Unix, el primer sitio donde mirar
-cuando tenga una duda concreta sobre tal comando, fichero de
+cuando tenga una duda concreta sobre tal commando, fichero de
 configuración, etc. es la orden '<tt/man/', que incluye la ayuda de referencia
 de Unix. Pero sólo es útil en ese ámbito, cuando ya se sabe más o menos lo se que busca, y sólo
 se necesita aclarar dudas concretas. Para todo lo demás la mejor fuente de
@@ -138,8 +138,8 @@ específicos, cualquier duda que pueda surgir. Se actualizan
 permanentemente, y se distribuyen a través del denominado "Linux
 Documentation Project" (LDP) en Internet. La misma información se publica
 en muy diferentes formatos, orientados tanto a la búsqueda y consulta en
-línea como a su lectura convencional. Todas las versiones de Linux incluyen
-estos manuales (al menos la última edición disponible en el momento de
+línea como a su lectura conventional. Todas las versiones de Linux incluyen
+estos manuales (al menos la última edición disponible en el memento de
 recopilar el CDROM correspondiente), y al final de este documento se
 aportan algunas de las muchas direcciones para consultar en la red. 
 
@@ -181,19 +181,19 @@ url="http://www.cdrom.com/"> su distribuidor de origen.
 
 <tag/Red Hat/ Creada por Red Hat Software, en Connecticut, EE.UU. Una de
 sus ventajas es el atractivo sistema de instalación (en modo gráfico) y el
-cómodo mantenimiento de componentes de software, lo que facilita
+cómodo mantenimiento de components de software, lo que facilita
 enormemente las tan frecuentes actualizaciones. Se puede obtener tanto
 gratuitamente en la red como adquiriendo el CDROM correspondiente. Otras
 empresas comercializan también sistemas basados en Red Hat, como Caldera
 Inc. y Pacific Hi-Tech. Aún poco conocida en Espa&ntilde;a pero pujante, sobre
 todo para principiantes. Sus creadores estan en <url
-url="http://www.redhat.com">. El mencionado sistema de gestión de componentes
+url="http://www.redhat.com">. El mencionado sistema de gestión de components
 de software es obra suya, pero lo han ofrecido con carácter abierto y gratuito
 a los demás desarrolladores bajo la licencia de GNU, por lo que es previsible que en el futuro otros
 muchos asuman este sistema en sus propias distribuciones, lo que facilitará
 enormemente las actualizaciones.
 
-<tag/Debian/ La Free Software Fundation (FSF) es bien conocida entre los
+<tag/Debian/ La Free Software Foundation (FSF) es bien conocida entre los
 acérrimos usuarios de software gratuito para Unix. Son los creadores del
 sistema <bf>GNU</bf>, su futuro Unix gratuito. Ya hay mucho material pero no
 un sistema operativo completo, asi que mientras tanto ofrecen un Unix integrado
@@ -207,7 +207,7 @@ url="http://www.debian.org">.
 
 <em>Este es un extracto de la <tt>Installation-HOWTO</tt>, orientada fundamentalmente
 a la instalación de Linux Slackware. Mucha de la información sobre
-instalacion de Slackware es aplicable a cualquier versión de Linux, pero
+instalacion de Slackware es applicable a cualquier versión de Linux, pero
 no necesariamente al pie de la letra.</em>
 
 <p>
@@ -227,16 +227,16 @@ y como tal totalmente independiente, no requiriendo por tanto ningun otro
 sistema operativo en su ordenador (aunque puede convivir perfectamente con
 ellos). Sin embargo es un parque muy amplio el de usuarios que ya tienen
 instalado MSDOS y/o MS-Windows y que, al no considerase expertos, no se atreven en
-un primer momento a reparticionar el disco para sustituir total o parcialmente
+un primer memento a reparticionar el disco para sustituir total o parcialmente
 a su sistema actual. Para ellos, o simplemente para quien quiera ver y probar
-Linux sin ser tan drasticos formateando discos duros, la solución es UMSDOS. Permite crear, a partir
+Linux sin set tan drasticos formateando discos duros, la solución es UMSDOS. Permite crear, a partir
 de un directorio de MSDOS, toda la estructura que tendría un disco nativo
 de Linux. Cuando arranque el sistema, Linux emulará su disco a partir
-de la información en ese directorio. Es totalmente funcional, pero puede
-ser ligeramente más lento en ordenadores de gama media-baja y no aprovecha la
+de la información en ese directorio. Es totalmente functional, pero puede
+set ligeramente más lento en ordenadores de gama media-baja y no aprovecha la
 gestión de disco nativo. Una gran ventaja es que si se libera disco en Linux,
 implícitamente estamos creando espacio que será aprovechable cuando arranquemos
-MSDOS, y viceversa. Además, el día que queramos deshacernos de Linux (¡poco
+MSDOS, y vice-versa. Además, el día que queramos deshacernos de Linux (¡poco
 probable!) o que simplemente nos decidamos a hacer una instalación completa,
 desinstalar ese Linux es tan sencillo como simplemente borrar sin contemplaciones
 el directorio <tt>C:&bsol;LINUX</tt> que creó desde MSDOS.
@@ -246,7 +246,7 @@ el directorio <tt>C:&bsol;LINUX</tt> que creó desde MSDOS.
 
 Salvo la fase inicial en la que se preparan las particiones nativas o el
 UMSDOS, el procedimiento restante de instalación es básicamente el mismo.
-Ya que puede ser el que provoque más dudas, centraremos estos consejos
+Ya que puede set el que provoque más dudas, centraremos estos consejos
 de instalación en la instalación con partición nativa. Pero recuerde que
 
 <code>
@@ -295,7 +295,7 @@ comentará). Después debe defragmentar la partición de DOS con la utilidad
 "defrag" que acompaña a las últimas versiones de DOS, o bien sus equivalentes
 de PCTools o Norton. Ahora puede correr el programa fips y crear una nueva
 partición con el espacio liberado. Lo habitual será crear dos particiones:
-una <em/Linux native/ para el sistema, y una <em/Linux swap/ con por ej. el doble
+una <em/Linux native/ para el sistema, y una <em/Linux swap/ con por ej. el double
 que de RAM, pero en caso de necesidad incluso puede ahorrarse una partición
 específica para swap, y "robar" ese espacio de disco bien a MSDOS o al propio
 Linux.
@@ -307,19 +307,19 @@ Una vez añadida la nueva partición que destinaremos a Linux, hay que preparar
 la siguiente etapa, el arranque de Linux, ya que salvo el apartado anterior
 en el que salvaguardamos la instalación previa de MSDOS, toda la instalación
 se hará desde el propio Linux. Para arrancar necesitaremos dos disquetes
-(en algunas distribuciones como RedHat pueden ser tres), donde grabaremos
+(en algunas distribuciones como RedHat pueden set tres), donde grabaremos
 tanto el núcleo del sistema operativo como los primeros programas con los que
 poder empezar a instalar. El primer disquete es el que etiquetaremos como
 "boot disk", y es donde irá el núcleo del sistema con el que arrancar. Como
 Linux es casi un sistema "a la carta", que puede llevar en el núcleo más o
 menos funcionalidades según nuestras necesidades, deberemos escoger entre
-los núcleos precompilados aquel que se adapte mejor a nuestro caso. En el
+los núcleos precompilados aquel que se adapter mejor a nuestro caso. En el
 futuro será recomendable que incluso recompilemos nuestro propio núcleo
 para personalizarlo aún más, añadir lo que falte y simplificar lo que
 sobre en nuestro caso. El siguiente disquete es el "root disk" o "ramdisk",
 que incluye el software mínimo que cargaremos en memoria para la instalación.
 
-En la distribución de Linux tendremos una serie de ficheros que constituyen
+En la distribución de Linux tendremos una series de ficheros que constituyen
 "imágenes" de esos disquetes. Es decir, una vez elegidas qué diquetes
 necesitaremos, los crearemos a partir de esas imágenes,
 bien desde otro sistema Linux ya funcionando (o incluso de cualquier Unix en
@@ -330,18 +330,18 @@ Una vez hecho esto ya puedes arrancar con tus discos. Introduce el "boot
 disk", arranca el ordenador y sigue sus instrucciones. Cuando finalice la
 fase de arranque Slackware te ofrecerá un símbolo para hacer "login" (entrar en el
 sistema), mientras que RedHat arrancará directamente la aplicación de
-instalación. Utiliza el nombre "root" como nombre de usuario (es el super-usuario
+instalación. Utilize el nombre "root" como nombre de usuario (es el super-usuario
 que administra el sistema). La primera vez no necesitarás clave alguna para
 entrar.
 
 Ya estas en el prompt de Linux, desde donde puedes crear tus particiones y
 tu espacio de swap (es una zona especial de disco que Linux usa como memoria
 virtual que complementa a la memoria RAM del ordenador). Al igual que en MSDOS,
-el comando para gestionar particiones se llama "fdisk". En algunas versiones
+el commando para gestionar particiones se llama "fdisk". En algunas versiones
 hay también una "cfdisk" con un interfaz más asequible, aunque iguales en
 lo básico.
 
-Si posees una partición de MSDOS, no te asustes, sigue adelante, no la vas
+Si posees una partición de MSDOS, no te asustes, sigue adelante, no la was
 a perder simplemente por entrar en fdisk, pero sí que debes tener precaución
 al añadir la partición linux sobre el espacio que le habíamos quitado a MSDOS,
 para no afectar a éste.
@@ -349,9 +349,9 @@ para no afectar a éste.
 Dentro de fdisk usa la opción 'n' para añadir nuevas particiones. Dalas de 
 alta como particiones primarias (si ya tienes una particion de arranque con
 MSDOS, ésta será la partición 1 y a partir de ahí añadirás particiones Linux).
-Es ahora el momento de añadir el espacio de swap, conveniente siempre, e
+Es ahora el memento de añadir el espacio de swap, conveniente siempre, e
 incluso imprescindible si se dispone de memoria igual o inferior a 8Mb. Como
-regla orientativa puede servir tener el doble de swap que RAM (para 8Mb o menos
+regla orientativa puede servir tener el double de swap que RAM (para 8Mb o menos
 de RAM), y 1.5 veces para memorias superiores, pero depende de la disponibilidad
 de disco y de memoria que tengamos, así como del uso que le vayamos a dar. En
 realidad será tu experiencia la que te irá diciendo en sucesivas instalaciones
@@ -379,7 +379,7 @@ con el software de instalación de nuestro Linux. En el caso de Slackware, ese
 software de instalación ya necesita al menos 8Mb de memoria, por lo que si estamos
 justos de memoria tendremos que activar ya mismo el swap antes de ejecutarlo. Si
 ese es el caso, hay que hacerlo en dos pasos: formatear la partición de swap y
-luego activarla para que empiece a complementar la RAM. Los comandos serían
+luego activarla para que empiece a complementar la RAM. Los commandos serían
 
 <code>
   mkswap -c /dev/hdXX
@@ -390,7 +390,7 @@ donde <tt>/dev/hdXX</tt> sería el nombre de la partición que hemos definido
 como swap. Una vez hecho esto, Slackware ya aporta una utilidad de instalación que
 detectará las particiones creadas y procederá con el resto de la instalación
 con la aplicación "setup", que nos guiará durante toda la instalación con un
-sencillo interfaz de menús, que no requiere muchas explicaciones. Durante una de
+sencillo interfaz de menús, que no require muchas explicaciones. Durante una de
 las etapas de la instalación Setup intentará preparar el swap. Si lo hemos hecho
 ya a mano habrá que indicarle que se lo salte, mientras que en el resto de los casos
 dejaremos que setup haga todo lo que tenga que hacer.
@@ -400,7 +400,7 @@ dejaremos que setup haga todo lo que tenga que hacer.
 
 Slackware divide la distribución del sistema operativo en "series" temáticas,
 y a su vez cada una de ellas en directorios que se corresponden perfectamente con
-disquetes de 1.44Mb. Los discos esenciales serían los de la "Serie A", con los que
+disquetes de 1.44Mb. Los discos esenciales serían los de la "Series A", con los que
 el sistema ya es arrancable autónomamente desde el disco duro, aunque en la práctica
 lógicamente instalaremos también la "AP" (aplicaciones básicas), "N" (software
 de red, si vamos a conectarnos con cualquier modalidad), "D" (compiladores y librerías),
@@ -458,18 +458,18 @@ lo reconocerá. Si estamos usando LILO haz lo siguiente para arreglarlo: entra co
 superusuario, copia la imagen que habias usado para generar el "boot disk" sobre el
 fichero "/vmlinuz" del disco duro y ejecuta "lilo" para reinstalar el arranque con el
 núcleo correcto. Si estas usando LOADLIN, simplemente dale como parámetro el fichero
-del núcleo correcto (es facil tener varios núcleos y elegir en cada caso
+del núcleo correcto (es facil tener various núcleos y elegir en cada caso
 el que interese). Seguir arrancando con el disquete como en el caso anterior sería también
 otra posibilidad para no perder ese CDROM, esa tarjeta, etc.
 
 <sect><em/Españolización/ de Linux
 <p>
 
-Uno de los aspectos más molestos es no poder escribir con naturalidad en nuestro
-idioma por falta de soporte de los caracteres especiales en el software. El juego de
-caracteres básico de ASCII
+Uno de los aspects más molestos es no poder escribir con naturalidad en nuestro
+idioma por falta de soporte de los characters especiales en el software. El juego de
+characters básico de ASCII
 es de 7 bits, y no incluye ni las vocales acentuadas ni nuestra maltratada 'ñ'.  Hay
-una norma ISO-8859-1 (ó ISO-Latin1) que sí que abarca todos los caracteres pero
+una norma ISO-8859-1 (ó ISO-Latin1) que sí que abarca todos los characters pero
 que sigue dando la lata en muchas tareas habituales, como el correo electrónico
 (muchos sistemas solo respetan 7 bits, por lo que textos que podemos ver correctamente
 en nuestro ordenador probablemente se visualizarán de forma lamentable cuando los enviemos a otra
@@ -482,7 +482,7 @@ intentar solucionarlas.
 <em/ ...O cómo demonios poder usar acentos en nuestro propio ordenador/
 <p>
 
-Mediante el comando loadkeys se cargan las tablas de traducción del teclado.
+Mediante el commando loadkeys se cargan las tablas de traducción del teclado.
 Estas tablas traducen los códigos que se generan al pulsar las teclas a los que
 reciben los programas. Los ficheros que contienen estas tablas de traducción se
 encuentran en el directorio <tt>/usr/lib/kbd/keytables/</tt> y el fichero que
@@ -491,15 +491,15 @@ que si pulsamos una determinada combinación de teclas, aparezca en pantalla
 el carácter que tenemos pintado en nuestro teclado, y no su equivalente en el
 teclado que se usa en cualquier otro país.
 
-La llamada a este comando suele ser de la forma siguiente, que aparecerá
+La llamada a este commando suele set de la forma siguiente, que aparecerá
 en el arranque por defecto (en Slackware estaría en<tt>/etc/rc.d/rc.keymap</tt>):
 
 <tscreen><verb>
 loadkeys /usr/lib/kbd/keytables/es.map
 </verb></tscreen>
 
-<em/Nota del autor: A igual configuración de teclado, más de una vez me
-han fallado los acentos por recompilar el núcleo, pero en el momento de escribir
+<em/Nota del author: A igual configuración de teclado, más de una vez me
+han fallado los acentos por recompilar el núcleo, pero en el memento de escribir
 estas líneas aún no he visto la causa.../
 
 <sect1>Shell bash
@@ -533,21 +533,21 @@ setenv LC_CTYPE "iso_8859_1"
 <p>
 
 Sería excesivamente largo detallar todas las posibilidades para trabajar
-con caracteres de 8 bits en todas las aplicaciones, utilidades, comandos
+con characters de 8 bits en todas las aplicaciones, utilidades, commandos
 del sistema, etc. Aquí van algunos ejemplos:
 
 <descrip>
 <tag/Editor joe/
-Joe tiene un parámetro <tt/-asis/ para que conserve los caracteres de 8 bits.
+Joe tiene un parámetro <tt/-asis/ para que conserve los characters de 8 bits.
 <tag/less/
-Por defecto muestra solamente los caracteres de 7 bits (los de 8 los
+Por defecto muestra solamente los characters de 7 bits (los de 8 los
 representa por su código ASCII). Ello protege
 de ver en pantalla "basura" si por error intentamos leer ficheros binarios,
 de datos, etc., pero impide ver nuestros acentos. Se puede modificar
 momentáneamente con el modificador <tt/-r/ desde la propia utilidad,
 pero sería mejor tener definida la variable de entorno <tt/LESSCHARSET=latin1/.
 <tag/ls/
-Para que muestre los caracteres especiales en los nombres de los ficheros tiene
+Para que muestre los characters especiales en los nombres de los ficheros tiene
 las opciones <tt/-8 -N/, que se pueden añadir a la variable <tt/LS_OPTIONS/
 que probablemente ya tengas definida por defecto.
 <tag/mc/
@@ -560,8 +560,8 @@ Dispone de una opción <tt/-Tlatin1/
 <sect1>Xwindow
 <p>
 
-El entorno gráfico XWindow usa para configurar el teclado un comando llamado
-<tt/xmodmap/ que tiene la misma funcion que <tt/loadkeys/ para la consola de
+El entorno gráfico XWindow usa para configurar el teclado un commando llamado
+<tt/xmodmap/ que tiene la misma function que <tt/loadkeys/ para la consola de
 texto. Ernest Artiaga (drw@portos.upc.es) preparó un fichero de configuracion
 para Xmodmap que genera los acentos con la tecla [AltGr], que entre otros sitios puede encontrar
 en <url url="ftp://ftp.cs.us.es/pub/Linux/contrib/Xmodmap-es">, y que podemos
@@ -570,8 +570,8 @@ configuración. Existe también una utilidad <tt>/usr/lib/kbd/keytables/mk_modmap<
 que genera un listado para Xmodmap a partir del mapa de teclado usado por loadkeys.
 
 De todas formas este método no es perfecto, ya que muchas aplicaciones bajo Xwindow
-tienen su propia forma de configuración o simplemente no tienen soporte para caracteres
-extendidos por lo que a veces es posible que podamos usar acentos en una ventana y no
+tienen su propia forma de configuración o simplemente no tienen soporte para characters
+extendidos por lo que a veces es possible que podamos usar acentos en una ventana y no
 en la aplicación de la ventana de al lado.
 
 <sect1>Emulador de DOS (DOSEMU)
@@ -579,7 +579,7 @@ en la aplicación de la ventana de al lado.
 
 La linea de configuración del teclado en <tt>/etc/dosemu.conf</tt> deberá
 incluir '<tt/layout es-latin1/' para poder usar la 'ñ' y las aperturas
-de interrogación y admiración. Una vez hecho esto, es posible cargar la
+de interrogación y admiración. Una vez hecho esto, es possible cargar la
 configuración habitual con <tt/keyb sp/ desde el propio emulador de DOS, o
 bien ejecutar '<tt/keybes2.com/, una pequeña utilidad para el propio emulador
 disponible en varias de las direcciones habituales.
@@ -593,7 +593,7 @@ escritos en español sin deformar su contenido ni perder los acentos y
 símbolos propios.
 
 El problema se reduce a lo de siempre: el uso de
-caracteres especiales no incluidos en la tipografía básica sajona requiere
+characters especiales no incluidos en la tipografía básica sajona require
 trabajar con 8 bits, pero aún hay muchos sistemas que siguen trabajando con
 7 bits, lo que trunca o deforma mensajes escritos sin las debidas precauciones.
 
@@ -606,7 +606,7 @@ cada vez más extendida, y que permite a los usuarios escribir con libertad y
 enviar prácticamente cualquier información dejando todos esos detalles al software
 de gestión del correo (tanto los <em/agentes de usuario/ como los <em/agentes de
 transporte/ en los servidores de correo) es mediante el estandar MIME, que
-permite <em/codificar/ nuestros mensajes de 8 bits y reducirlos a caracteres
+permite <em/codificar/ nuestros mensajes de 8 bits y reducirlos a characters
 de 7 bits que puedan pasar a través de cualquier sistema sin peligro de
 perder información. El inconveniente (cada vez menor a medida que este sistema
 se extienda más y más) es que si intentamos leer un mensaje con codificación
@@ -626,7 +626,7 @@ de generar la codificación durante el envío, y de interpretarla en la recepción.
 <p>
 
 <em>Uno de los puntos muy fuertes de Linux es su gran conectividad: incluso
-con recursos modestos en hardware puede ser un hábil servidor de red y
+con recursos modestos en hardware puede set un hábil servidor de red y
 convivir practicamente con cualquier configuracion que ya tengamos funcionando
 en nuestra red. A medida que mejoremos el equipamiento, Linux aprovechará todos
 los recursos convirtiéndose en un potente centro de servicios.
@@ -645,7 +645,7 @@ absolutamente todo el software necesario, ya incluido o de
 más o menos fácil instalacion.
 
 En el nivel físico (cacharreo para entendernos), Linux puede conectarse con
-otros Linux o con cualquier otro sistema usando casi cualquier cosa: cableado serie, paralelo,
+otros Linux o con cualquier otro sistema usando casi cualquier cosa: cableado series, paralelo,
 modems convencionales, tarjetas RDSI, Frame Relay, redes locales ethernet ó token ring,
 radiopaquete (AX.25 para radioaficionados), etc.
 
@@ -660,7 +660,7 @@ puestos de trabajo que usan indistintamente cualquiera de los mencionados protoc
 compartiendo indistintamente sus recursos. Y lo mejor de todo es que nadie fue capaz de
 distinguir desde sus respectivos puestos a Linux del servidor propio que les
 atendía hasta entonces. De hecho lleva
-varios meses en uso ininterrumpido y sólo Linux ha sido capaz de hacer simultáneamente de
+various meses en uso ininterrumpido y sólo Linux ha sido capaz de hacer simultáneamente de
 servidor para usuarios Unix, Windows 3.11, Windows 95, NT, DOS, Netware y
 Mac sin colgarse ni una sola vez y con un coste ridículo. Nadie me garantiza
 que nunca me vaya a fallar, pero lo doy por modesta pero absolutamente
@@ -676,27 +676,27 @@ a pesar de la fuerte carga de trabajo contínuo las 24 horas.
 <p>
 
 Algunas de las situaciones típicas en las que se puede aprovechar la
-capacidad de trabajo en red de Linux podrían ser:
+capacidad de trabajo en red de Linux podrían set:
 
 <sect1>Servidor de terminales
 <p>
 
 ¿Quién no tiene en casa un PC (o algo peor) que se ha quedado antiguo pero
-que aún funciona? Cualquier ordenador con un puerto serie y algun software
-de emulación de terminal puede conectarse a un Linux, permitiendo varios
+que aún funciona? Cualquier ordenador con un puerto series y algun software
+de emulación de terminal puede conectarse a un Linux, permitiendo various
 usuarios trabajando simultaneamente. Para quien no lo haya hecho alguna vez,
 es la forma más simple de comprobar por sí mismo que Linux es un sistema 100%
 multiusuario y multitarea. Todos los recursos de memoria, disco, etc.
-estarán a la vez disponibles para compartirlos entre tantos usuarios como puertos serie
+estarán a la vez disponibles para compartirlos entre tantos usuarios como puertos series
 tengamos.
 
 <sect1>Red PPP
 <p>
 
-Enlazando ordenadores por puertas serie, paralelo, modems, etc, es posible
+Enlazando ordenadores por puertas series, paralelo, modems, etc, es possible
 no solamente que un Linux sea el ordenador principal y otros usuarios accedan a
 través de simples terminales,
-sino que es posible aprovechar la capacidad de todos los equipos sumando recursos.
+sino que es possible aprovechar la capacidad de todos los equipos sumando recursos.
 Desde un equipo se puede acceder a impresoras, discos, etc. de cualquier
 otro equipo. El protocolo PPP permite crear una red TCP/IP entre todos
 ellos, usando como enlace tanto modems como simples cables. A medida que cambiemos
@@ -709,8 +709,8 @@ configuración del propio sistema operativo).
 <p>
 
 Combinando los dos apartados anteriores, podemos unir la capacidad de servidor
-de puertos serie (a los que conectaremos modems) y el protocolo PPP (para dar
-a esas líneas serie la funcionalidad del TCP/IP). Así podemos dar servicio de
+de puertos series (a los que conectaremos modems) y el protocolo PPP (para dar
+a esas líneas series la funcionalidad del TCP/IP). Así podemos dar servicio de
 acceso a Internet a los usuarios que se nos conecten por teléfono.
 
 <sect1>Conexion directa a Internet
@@ -720,20 +720,20 @@ Ciertamente no es lo normal en casa, pero es relativamente frecuente
 encontrarlo en universidades y de un tiempo para acá también es habitual
 en empresas. Si tenemos
 una red local enganchada a su vez a un proveedor
-(académico o comercial), entonces una simple tarjeta de red y una simple
+(académico o commercial), entonces una simple tarjeta de red y una simple
 configuración del sistema serán suficientes para conectar Linux, que actuará como
 un ordenador Unix cualquiera, con todas sus ventajas. De hecho en la red encontraremos
 más de un servidor que esconde un Linux en sus "entrañas", o que precisamente quien
 nos esté haciendo de proveedor de acceso sea un Linux. Pero hay que tener en
 cuenta tambien sus inconvenientes de seguridad: igual que podemos
-conectarnos desde Linux, es perfectamente posible que se conecten a nosotros
+conectarnos desde Linux, es perfectamente possible que se conecten a nosotros
 inadvertidamente, por lo que, salvo que necesitemos mantener abierto algun
 servicio en particular, es recomendable cerrar "todas las ventanas" para
 evitar problemas. Algunos buenos consejos para un Linux de uso personal serían:
 
 <itemize>
 <item>Crea cuentas para los usuarios que realmente vayan a usarlo, y asígnales claves
-dificilmente adivinables (no hace falta complicarse la vida con claves
+dificilmente adivinables (no have falta complicarse la vida con claves
 imposibles, pero tampoco debes ponérselo fácil a los intrusos)
 <item>Hazte cargo de la clave del administrador <tt>root</tt> y procura
 mantenerla a salvo. Si la facilitas a alguien más, mentalízale para que
@@ -744,7 +744,7 @@ nociones básicas de administración de sistemas...)
 mantener accesibles; luego haz "killall -1 inetd". No te cortes y cierralo
 todo, que siempre estaras a tiempo de reabrir aisladamente aquello que eches
 en falta
-<item>Aunque te consideres muy capaz de administrar un sistema de este tipo,
+<item>Aunque te consideres muy capaz de administrator un sistema de este tipo,
 no tengas la mala costumbre de usar <tt>root</tt> como usuario habitual con el que
 te conectes al sistema, o en caso de despiste podrías provocar algun destrozo.
 Es mas seguro que entres como un usuario "raso" y uses <tt>su - root</tt>
@@ -754,7 +754,7 @@ hacer como super-usuario)
 <item>El sistema va dejando muchos mensajes registrando la actividad de los
 usuarios y del propio sistema en múltiples ficheros de contabilidad. Muchos
 de ellos se centralizan a traves del servicio <tt>syslogd</tt>. En cuanto
-empieces a desenvolverte un poco con el manual y los comandos básicos para
+empieces a desenvolverte un poco con el manual y los commandos básicos para
 moverte por el sistema, aprende a recoger la información que genere ese
 servicio, eliminar la inútil, revisar la útil y limpiar la contabilidad
 de vez en cuando (de lo contrario te puedes dar un susto cuando veas
@@ -776,14 +776,14 @@ directo a Internet, pero es un buen intermediario ya que abarata costes
 tanto para el usuario como para el proveedor de acceso a internet, que
 aprovecha su infraestructura sin tener que invertir en una red propia.
 En este sentido es una vía interesante de acceso, pero para evitar confusiones
-hay que tener presente que Infovía NO es Internet, sino un producto comercial de
+hay que tener presente que Infovía NO es Internet, sino un producto commercial de
 Telefónica. Aún despues de habernos conectado a Infovía
 seguimos necesitando un proveedor de acceso a Internet para estar verdaderamente
 conectados a la <em/red de redes/.
 
 Al funcionar igual que Internet (el software de Infovía no es más que
-un PPP y un navegador de web, que utiliza como interfaz de usuario) es
-perfectamente posible usar Linux para conectarse,
+un PPP y un navegador de web, que utilize como interfaz de usuario) es
+perfectamente possible usar Linux para conectarse,
 pero surge el problema típico de configuración: Telefónica facilita su software
 gratuito para entornos comerciales típicos (Windows 3.11, Windows95 y Macintosh) que Linux
 no necesita (ya lo tiene). Pero Linux lo que necesita es conocer la
@@ -795,21 +795,21 @@ configuracion de su red, para poder integrarse en ella.
 El software básico es el <tt/pppd/, que a través del modem creará un enlace
 TCP/IP entre nuestro ordenador e Infovia. Una vez creado, podremos
 contactar con nuestro "verdadero" proveedor, quien
-nos abrirá las puertas a Internet, y a partir de ese momento ya podremos usar
+nos abrirá las puertas a Internet, y a partir de ese memento ya podremos usar
 cualquiera de nuestras propias aplicaciones habituales desde Linux.
 Como complemento de <tt/pppd/ usaremos una utilidad <tt/chat/ que se encargara
 de dialogar via modem con el ordenador remoto al comienzo de la llamada, mientras
-se establece la conexión. También intervendrán varios ficheros de configuración
+se establece la conexión. También intervendrán various ficheros de configuración
 (unos genéricos de Linux para cualquier conexión TCP/IP, otros característicos
 de las conexiones a través de PPP y modem, y por último alguno que usemos en el
 caso concreto de Infovía). Un detalle sobre versiones de software: un inconveniente
-en la evolución de Linux ha sido un cambio en la implementación del PPP que hace
+en la evolución de Linux ha sido un cambio en la implementación del PPP que have
 incompatible algunos <tt/pppd/ con algunas versiones del <em/kernel/. Si nuestro
 núcleo está entre 1.2.13 y 1.3.95 debemos usar un pppd 2.1.2d o superior,
 mientras que necesitaremos un pppd 2.2.0e o superior para los núcleos más recientes.
 
 El listado siguiente es un ejemplo del fichero principal de configuración
-de <tt/pppd/, en el que a su vez se hace referencia a varios ficheros que
+de <tt/pppd/, en el que a su vez se have referencia a various ficheros que
 deberemos crear: identificación y clave facilitada por el proveedor de
 acceso, el guión de inicio de conexión, y el de cierre y cuelgue
 del modem. <tt>/dev/modem</tt> es un enlace (un <em/"symbolic link"/) que
@@ -833,7 +833,7 @@ que si sólo vamos a navegar por Infovía (sin salir a Internet) es suficiente
 con poner <tt/infovia/ como usuario genérico e <tt/infovia/ como clave.
 
 <tt>/etc/ppp/infovia.chat</tt> contiene el guión que utilizará <tt/chat/ en su
-diálogo con el modem. Un ejemplo de su contenido podría ser:
+diálogo con el modem. Un ejemplo de su contenido podría set:
 
 <code>
   TIMEOUT 6

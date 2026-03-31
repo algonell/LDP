@@ -121,7 +121,7 @@ modem daemon in <filename>/usr/sbin/modemd</filename>:</para>
 select((select(STDOUT), $| = 1)[$[]);
 select((select(STDIN), $| = 1)[$[]);
 exec 'cu -s 115200 -l /dev/ttyS1';
-die '$0: Cant exec cu: $!\n';
+die '$0: Can't exec cu: $!\n';
 </programlisting>
 
 <para>The modem daemon is started by the <command>inetd</command> process 

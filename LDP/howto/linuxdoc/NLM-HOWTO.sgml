@@ -159,7 +159,7 @@ simply use the pre-compiled nlmconv from my nlm-kit package.
 <p>
 
 <sect1>The nlm-kit Package<p>
-My nlm-kit package is avaliable from
+My nlm-kit package is available from
 <url url="ftp://ftp.penguin.cz/pub/users/mhi/nlm/">. It contains necessary
 files for NLM development. Extract it and run <tt>"make all"</tt> and
 <tt>"make install"</tt>.
@@ -487,14 +487,14 @@ Default is _Prelude.
 <em>Syntax</em>:<p>
 <bf> TYPE &lt;version&gt;</bf><p>
 
-This directive specifies the format (NLM, LAN, DSK, NAM) of
+This directive specifies the format (NLM, LAN, DSK, NAME) of
 the NLM file to be generated. Valid values are:
 
 <itemize>
 <item> 0 - NLM
 <item> 1 - LAN
 <item> 2 - DSK
-<item> 3 - NAM
+<item> 3 - NAME
 </itemize>
 <p>
 

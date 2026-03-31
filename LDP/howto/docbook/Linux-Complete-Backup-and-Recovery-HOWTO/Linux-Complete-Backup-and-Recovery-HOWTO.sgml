@@ -3,12 +3,12 @@
 <!-- These allow the equivalent of #includes below. C^2 -->
 <!ENTITY make.fdisk SYSTEM "scripts/cooked/make.fdisk">
 <!ENTITY install SYSTEM "scripts/cooked/install">
-<!ENTITY make.dev.hda SYSTEM "scripts/cooked/make.dev.hda">
+<!ENTITY make.dev.had SYSTEM "scripts/cooked/make.dev.had">
 <!ENTITY make.lvs SYSTEM "scripts/cooked/make.lvs">
-<!ENTITY mount.dev.hda SYSTEM "scripts/cooked/mount.dev.hda">
+<!ENTITY mount.dev.had SYSTEM "scripts/cooked/mount.dev.had">
 <!ENTITY mount.lvs SYSTEM "scripts/cooked/mount.lvs">
-<!ENTITY dev.hda SYSTEM "scripts/cooked/dev.hda">
-<!ENTITY dev.hda.sfd SYSTEM "scripts/cooked/dev.hda.sfd">
+<!ENTITY dev.had SYSTEM "scripts/cooked/dev.had">
+<!ENTITY dev.had.sfd SYSTEM "scripts/cooked/dev.had.sfd">
 <!ENTITY save.metadata SYSTEM "scripts/cooked/save.metadata">
 <!ENTITY restore.metadata SYSTEM "scripts/cooked/restore.metadata">
 <!ENTITY back.up.all SYSTEM "scripts/cooked/back.up.all">
@@ -326,7 +326,7 @@ Change notes:
   <sect1 id="Overview">
     <title>Overview</title>
     <para>The process shown below is not easy, and can be hazardous to your data. Practice it before you need it! Do as I did, and <emphasis>practice on a sacrificial computer</emphasis>!</para>
-    <para>The original target computer for this HOWTO was a Pentium computer. Originally, it had a <ulink url="http://www.redhat.com">Red Hat</ulink> 7.1 Linux server or workstation installation on one IDE hard drive. Since then, I have used a number of computers, and they have been ugraded to Red Hat 8.0 and <ulink url="http://fedora.redhat.com/">Fedora Cores 1, 3 and 4.</ulink>. The target computer does not have vast amounts of data because the computer was set up as a <quote>sacrificial</quote> test bed. That is, I did not want to test this process with a production computer and production data. Also, I did a fresh installation before I started the testing so that I could always re-install if I needed to revert to a known configuration.</para>
+    <para>The original target computer for this HOWTO was a Pentium computer. Originally, it had a <ulink url="http://www.redhat.com">Red Hat</ulink> 7.1 Linux server or workstation installation on one IDE hard drive. Since then, I have used a number of computers, and they have been upgraded to Red Hat 8.0 and <ulink url="http://fedora.redhat.com/">Fedora Cores 1, 3 and 4.</ulink>. The target computer does not have vast amounts of data because the computer was set up as a <quote>sacrificial</quote> test bed. That is, I did not want to test this process with a production computer and production data. Also, I did a fresh installation before I started the testing so that I could always re-install if I needed to revert to a known configuration.</para>
     <note>
       <title>NOTE</title><para>The sample commands will show, in most cases, what I had to type to recover the target system. You may have to use similar commands, but with different parameters. It is up to you to be sure you duplicate your setup, and not the test computer's setup.</para>
     </note>
@@ -365,7 +365,7 @@ Change notes:
           <para>Edit the partition table input file. I've done that a few times. You can also do this to add new partitions or delete existing ones (but edit the scripts that use the partition table input file as well).</para>
         </listitem>
         <listitem>
-          <para>Hand build a new partition table and go from there. That is one reason why <link linkend="restore.metadata"><filename>restore.metadata</filename></link> does not call the hard drive rebuilding script. Use the <link linkend="make.dev.hda">rebuilding script</link>.</para>
+          <para>Hand build a new partition table and go from there. That is one reason why <link linkend="restore.metadata"><filename>restore.metadata</filename></link> does not call the hard drive rebuilding script. Use the <link linkend="make.dev.had">rebuilding script</link>.</para>
         </listitem>
       </itemizedlist>
       <para>The scripts shown here only handle ext2fs, FAT12, FAT16 and FAT32. Until some eager volunteer supplies code for doing so in these scripts, you will need other tools for backing up and restoring file systems we haven't covered. However, see the note below on <link linkend="ntfs">NTFS</link>. <ulink url="http://www.partimage.org/">Partition Image</ulink> looks like a useful candidate here.</para>
@@ -394,12 +394,12 @@ Change notes:
   <sect1 id="CreatingtheStage1BackUp">
     <title>Creating the Stage 1 Back Up</title>
     <para>Having made your production backups, you need to preserve your partition information so that you can rebuild your partitions.</para>
-    <para>The script <link linkend="make.fdisk"><filename>make.fdisk</filename></link> scans a hard drive for partition information, and saves it in four files. The first is an executable script, called <link linkend="make.dev.hda"><filename>make.dev.x</filename></link> (where <quote>x</quote> is the name of the device file, e.g. hda). Second is <link linkend="mount.dev.hda"><filename>mount.dev.x</filename></link>, which creates mount points and mounts the newly created partitions on them. The next, <link linkend="dev.hda"><filename>dev.x</filename></link>, is the commands necessary for <command>fdisk</command> to build the partitions. Last is an input file for <command>sfdisk</command> to create partions. (<command>sfdisk</command> is preferable and used if found.) You specify which hard drive you want to build scripts for (and thus the file names) by naming the associated device file as the argument to <link linkend="make.fdisk"><filename>make.fdisk</filename></link>. For example, on a typical IDE system,</para>
-    <programlisting>bash# <command>make.fdisk /dev/hda</command></programlisting>
-    <para>spits out the scripts <link linkend="make.dev.hda"><filename>make.dev.hda</filename></link>, <link linkend="mount.dev.hda"><filename>mount.dev.hda</filename></link> and the input files for <command>fdisk</command> and <command>sfdisk</command>, <link linkend="dev.hda"><filename>dev.hda</filename></link> and <link linkend="dev.hda.sfd"><filename>dev.hda.sfd</filename></link>, respectively.</para>
-    <para>In addition, if <link linkend="make.fdisk"><filename>make.fdisk</filename></link> encounters a FAT partition, it preserves the partition's boot sector in a file named <filename>dev.xy</filename>, where x is the drive's device name (e.g. sdc, hda) and y is the partition number. The boot sector is the first sector, 512 bytes, of the partition. This sector is restored at the same time the partitions are rebuilt, in the script <link linkend="make.dev.hda"><filename>make.dev.hda</filename></link>.</para>
+    <para>The script <link linkend="make.fdisk"><filename>make.fdisk</filename></link> scans a hard drive for partition information, and saves it in four files. The first is an executable script, called <link linkend="make.dev.had"><filename>make.dev.x</filename></link> (where <quote>x</quote> is the name of the device file, e.g. had). Second is <link linkend="mount.dev.had"><filename>mount.dev.x</filename></link>, which creates mount points and mounts the newly created partitions on them. The next, <link linkend="dev.had"><filename>dev.x</filename></link>, is the commands necessary for <command>fdisk</command> to build the partitions. Last is an input file for <command>sfdisk</command> to create partions. (<command>sfdisk</command> is preferable and used if found.) You specify which hard drive you want to build scripts for (and thus the file names) by naming the associated device file as the argument to <link linkend="make.fdisk"><filename>make.fdisk</filename></link>. For example, on a typical IDE system,</para>
+    <programlisting>bash# <command>make.fdisk /dev/had</command></programlisting>
+    <para>spits out the scripts <link linkend="make.dev.had"><filename>make.dev.had</filename></link>, <link linkend="mount.dev.had"><filename>mount.dev.had</filename></link> and the input files for <command>fdisk</command> and <command>sfdisk</command>, <link linkend="dev.had"><filename>dev.had</filename></link> and <link linkend="dev.had.sfd"><filename>dev.had.sfd</filename></link>, respectively.</para>
+    <para>In addition, if <link linkend="make.fdisk"><filename>make.fdisk</filename></link> encounters a FAT partition, it preserves the partition's boot sector in a file named <filename>dev.xy</filename>, where x is the drive's device name (e.g. sdc, had) and y is the partition number. The boot sector is the first sector, 512 bytes, of the partition. This sector is restored at the same time the partitions are rebuilt, in the script <link linkend="make.dev.had"><filename>make.dev.had</filename></link>.</para>
     <para>Fortunately, the price of hard drives is plummeting almost as fast as the public's trust in politicians after an election. So it is good that the output files are text, and allow hand editing. That's the most difficult but most flexible way to rebuild on a larger replacement drive. (See the <link linkend="todo">To Do list</link>.)</para>
-    <para>Other metadata are preserved by the script <link linkend="save.metadata"><filename>save.metadata</filename></link>. The script saves the partition information in the file <filename>fdisk.hda</filename> in the root of the ZIP disk. It is a good idea to print this file and your <filename>/etc/fstab</filename> so that you have hard copy should you ever have to restore the partition data manually. You can save a tree by toggling between two virtual consoles, running <command>fdisk</command> in one and catting <filename>/etc/fstab</filename> or <filename>/fdisk.hda</filename> as needed. However, doing so is error prone.</para>
+    <para>Other metadata are preserved by the script <link linkend="save.metadata"><filename>save.metadata</filename></link>. The script saves the partition information in the file <filename>fdisk.had</filename> in the root of the ZIP disk. It is a good idea to print this file and your <filename>/etc/fstab</filename> so that you have hard copy should you ever have to restore the partition data manually. You can save a tree by toggling between two virtual consoles, running <command>fdisk</command> in one and catting <filename>/etc/fstab</filename> or <filename>/fdisk.had</filename> as needed. However, doing so is error prone.</para>
     <para>You will also want to preserve files relevant to your restoration method. For example, if you use NFS to save your data, you will need to preserve hosts.allow, hosts.deny, exports, etc. Also, if you are using any network-backed restoration process, such as Amanda or Quick Restore, you will need to preserve networking files like HOSTNAME, hosts, etc. and the relevant software tree.</para>
     <para>The simplest way to handle these and similar questions is to preserve the entire <filename>/etc</filename> directory.</para>
     <para>There is no way a 100 MB ZIP drive is going to hold a server installation of a modern distribution of Linux. We have to be much more selective than simply preserving the whole kazoo. What files do we need?</para>
@@ -432,7 +432,7 @@ Change notes:
     </note>
     <note>
       <title>WARNING</title>
-      <para>Recent kernels have incorporated a new ATA (IDE) hard drive driver, libata. Because of this, parallel ATA drives (PATA) now show up as SCSI drives, as serial ATA (SATA) have always done. However, not all rescue distributions (e.g. finix) use this new driver. There is a line toward the bottom of <link linkend="save.metadata"><filename>save.metadata</filename></link> wich very carefully replaces "/dev/sda" with "/dev/hda". Use this as a template if you have multiple IDE hard drives. Comment it out or delete it if this is not an issue for you.</para>
+      <para>Recent kernels have incorporated a new ATA (IDE) hard drive driver, libata. Because of this, parallel ATA drives (PATA) now show up as SCSI drives, as serial ATA (SATA) have always done. However, not all rescue distributions (e.g. finix) use this new driver. There is a line toward the bottom of <link linkend="save.metadata"><filename>save.metadata</filename></link> which very carefully replaces "/dev/sda" with "/dev/had". Use this as a template if you have multiple IDE hard drives. Comment it out or delete it if this is not an issue for you.</para>
       <para>Note that there is no guaranteed mapping! Systems with multiple hard drives may have confusing mappings. Be sure to edit this line carefully. Check it if you add or remove a hard drive of any interface type to or from your system!</para>
       <para>N.B: if you have libata IDE drive issues, the grub-install line at the end of <link linkend="restore.metadata"><filename>restore.metadata</filename></link> won't work. If it doesn't, use your rescue disk to do the same. Or burn and boot to the boot image that is made as part of the first stage backup. Boot to it and do the second state restore as usual. The second state restore should re-run <filename>grub-install</filename> or you can run it manually.</para>
     </note>
@@ -568,7 +568,7 @@ Change notes:
       <sect3>
         <title>Manually</title>
         <para>Run the script(s) that will restore the partition information and create file systems. You may run them in any order, so long as they build dependencies in the correct order. You can read the script <link linkend="first.stage">first.stage</link> to get an idea of the order. e.g.:</para>
-        <programlisting># <command>./make.dev.hda</command></programlisting>
+        <programlisting># <command>./make.dev.had</command></programlisting>
         <para>If you want to check for back blocks, add the <command>-c</command> option.</para>
         <para>This script will:</para>
         <itemizedlist>
@@ -585,13 +585,13 @@ Change notes:
             <para>Make some types of FAT partitions.</para>
           </listitem>
         </itemizedlist>
-        <para>Now is a good time to check the geometry of the drive. Sometimes different versions of Linux pick up different geometries, so the geometry implicit in the file <filename>dev.hdX</filename> is incorrect. To force it to be correct on <ulink url="http://www.knoppix.org/">Knoppix</ulink>, edit <link linkend="make.dev.hda"><filename>make.dev.x</filename></link>. Use the -C, -H and -S options to fdisk to specify the cylnders, heads and sectors, respectively. Those you can get from the file <filename>fdisk.hdX</filename> in the root directory of the ZIP drive. Then re-run it.</para>
+        <para>Now is a good time to check the geometry of the drive. Sometimes different versions of Linux pick up different geometries, so the geometry implicit in the file <filename>dev.hdX</filename> is incorrect. To force it to be correct on <ulink url="http://www.knoppix.org/">Knoppix</ulink>, edit <link linkend="make.dev.had"><filename>make.dev.x</filename></link>. Use the -C, -H and -S options to fdisk to specify the cylinders, heads and sectors, respectively. Those you can get from the file <filename>fdisk.hdX</filename> in the root directory of the ZIP drive. Then re-run it.</para>
         <note>
           <title>NOTE</title><para>If you have other operating systems or file systems to restore, now is a good time to do so. When you've done that, reboot to your restoration Linux and continue your first stage restoration.</para>
         </note>
         <para>If you have LVM volumes to restore, now is the time to run <filename>make.lvs</filename> and <filename>mount.lvs</filename>.</para>
         <para>Now run the script(s) that create mount points and mount the partitions to them.</para>
-        <programlisting># <command>./mount.dev.hda</command></programlisting>
+        <programlisting># <command>./mount.dev.had</command></programlisting>
         <para>Once you have created all your directories and mounted partitions to them, you can run the script <link linkend="restore.metadata"><filename>restore.metadata</filename></link>.</para>
         <programlisting># <command>./restore.metadata</command></programlisting>
 		<para>This will restore the contents of the ZIP drive to the hard drive to give you a minimal bootable system.</para>
@@ -662,7 +662,7 @@ diff /mnt/zip/metadata/rpmVa.txt ~/foo.txt</command></programlisting>
       <para>I used to use <ulink url="http://www.knoppix.org/">Knoppix</ulink>. <ulink url="mailto:pon at iki dot fi">Pasi Oja-Nisula</ulink> reports:</para>
       <blockquote>
         <para>For me the best thing about using Knoppix is that I don't need a specific boot medium for each machine, but I can use the same tools all the time. And hardware support in Knoppix is really great. I don't have that much experience with different platforms, but all the machines I've tried have worked fine, scsi drivers are found and so on.</para>
-        <para>I'm doing this recovery thing by copying the backups over the network to other machine. The restore involves booting the Knoppix cd, fetching the metadata.tar.gz from the network machine. Then make.dev, mount.dev, fetching the other tar.gz files, grub and reboot. Some typing involved but thanks to your scripts it's quite straighforward. Unless changing from ide to scsi or something, but even then it's not that difficult, since Linux is easy to restore to different hardware.</para>
+        <para>I'm doing this recovery thing by copying the backups over the network to other machine. The restore involves booting the Knoppix cd, fetching the metadata.tar.gz from the network machine. Then make.dev, mount.dev, fetching the other tar.gz files, grub and reboot. Some typing involved but thanks to your scripts it's quite straightforward. Unless changing from ide to scsi or something, but even then it's not that difficult, since Linux is easy to restore to different hardware.</para>
       </blockquote>
       <para>Let me add to that <ulink url="http://www.knoppix.org/">Knoppix</ulink> detects USB devices for you, which is really nice. They make excellent (and roomier) substitutes for the ZIP drive.</para>
       <para>Also see <ulink url="http://www-106.ibm.com/developerworks/linux/library/l-knopx.html?ca=dgr-lnxw04Knoppix"><quote>System recovery with Knoppix</quote></ulink>.</para>
@@ -694,7 +694,7 @@ diff /mnt/zip/metadata/rpmVa.txt ~/foo.txt</command></programlisting>
           <programlisting><![ CDATA [
 # Now install the boot sector.
 # chroot $target /sbin/lilo -C /etc/lilo.conf
-chroot $target /sbin/grub-install /dev/hda
+chroot $target /sbin/grub-install /dev/had
 ]]></programlisting>
         </listitem>
         <listitem>
@@ -727,7 +727,7 @@ fi
       <para><ulink url="http://www.arkeia.com/">Arkeia</ulink> is a backup and restore program that runs on a wide variety of platforms. You can use Arkeia as part of a bare metal restoration scheme, but there are two caveats.</para>
       <para>The first is probably the most problematic, as absent any more elegant solution you have to hand select the directories to restore in the navigator at restoration time. The reason is that, apparently, Arkeia has no mechanism for not restoring files already present on the disk, nothing analogous to <command>tar</command>'s -p option. If you simply allow a full restore, the restore will crash as Arkeia over-writes a library which is in use at restore time, e.g. <filename>lib/libc-2.1.1.so</filename>. Hand selection of directories to restore is at best dicey, so I recommend against it.</para>
 
-      <para>The second caveat is that you have to back up the Arkeia data dictionary and/or programs. To do that, modify the <filename>save.metatdata</filename> script by adding Arkeia to the list of directories to save:</para>
+      <para>The second caveat is that you have to back up the Arkeia data dictionary and/or programs. To do that, modify the <filename>save.metadata</filename> script by adding Arkeia to the list of directories to save:</para>
       <programlisting><![ CDATA [# arkeia specific:
 tar cf - usr/knox | gzip -c > $zip/arkeia.tar.gz]]></programlisting>
       <para>You <emphasis>must</emphasis> back up the data dictionary this way because Arkeia does not back up the data dictionary. This is one of my complaints about Arkeia, and I have solved it in the past by saving the data dictionary to tape with <ulink url="http://www.estinc.com/">The TOLIS Group's BRU</ulink>.</para> <!-- bad host name: 2003 07 25 -->
@@ -798,49 +798,49 @@ tar cf - usr/knox | gzip -c > $zip/arkeia.tar.gz]]></programlisting>
       <title>First Stage</title>
       <sect3 id="make.fdisk">
         <title><filename>make.fdisk</filename></title>
-        <para>This script, run at backup time, creates scripts similar to <link linkend="make.dev.hda"><filename>make.dev.hda</filename></link> and <link linkend="mount.dev.hda"><filename>mount.dev.x</filename></link>, below, for you to run at restore time. It also produces data files similar to <link linkend="dev.hda"><filename>dev.hda</filename></link> and <link linkend="dev.hda.sfd"><filename>dev.hda.sfd</filename></link>, below. The names of the scripts and data files produced depend on the device given this script as a parameter. Those script, run at restore time, build and mount the partitions on the hard drive. <filename>make.fdisk</filename> is called from <link linkend="save.metadata"><filename>save.metadata</filename></link>, below.</para>
+        <para>This script, run at backup time, creates scripts similar to <link linkend="make.dev.had"><filename>make.dev.had</filename></link> and <link linkend="mount.dev.had"><filename>mount.dev.x</filename></link>, below, for you to run at restore time. It also produces data files similar to <link linkend="dev.had"><filename>dev.had</filename></link> and <link linkend="dev.had.sfd"><filename>dev.had.sfd</filename></link>, below. The names of the scripts and data files produced depend on the device given this script as a parameter. Those script, run at restore time, build and mount the partitions on the hard drive. <filename>make.fdisk</filename> is called from <link linkend="save.metadata"><filename>save.metadata</filename></link>, below.</para>
         <!-- #include program listings to make updates easier. C^2 -->
         <programlisting>&make.fdisk;</programlisting>
       </sect3>
-      <sect3 id="make.dev.hda">
-        <title><filename>make.dev.hda</filename></title>
-        <para>This script is a sample of the sort produced by <link linkend="make.fdisk"><filename>make.fdisk</filename></link>, above. It uses data files like <link linkend="dev.hda"><filename>dev.hda</filename></link>, below. It builds partitions and puts file systems on some of them. This is the first script run at restore time.</para>
-        <para>If you are brave enough to edit <link linkend="dev.hda"><filename>dev.hda</filename></link> or <link linkend="dev.hda.sfd"><filename>dev.hda.sfd</filename></link> (q.v.), say, to add a new partition, you may need to edit this script as well.</para>
-        <para>If you want make.dev.hda to check for bad blocks when it puts a file system on the partitions, use a &quot;-c&quot; command line option.</para>
-        <programlisting>&make.dev.hda;</programlisting>
+      <sect3 id="make.dev.had">
+        <title><filename>make.dev.had</filename></title>
+        <para>This script is a sample of the sort produced by <link linkend="make.fdisk"><filename>make.fdisk</filename></link>, above. It uses data files like <link linkend="dev.had"><filename>dev.had</filename></link>, below. It builds partitions and puts file systems on some of them. This is the first script run at restore time.</para>
+        <para>If you are brave enough to edit <link linkend="dev.had"><filename>dev.had</filename></link> or <link linkend="dev.had.sfd"><filename>dev.had.sfd</filename></link> (q.v.), say, to add a new partition, you may need to edit this script as well.</para>
+        <para>If you want make.dev.had to check for bad blocks when it puts a file system on the partitions, use a &quot;-c&quot; command line option.</para>
+        <programlisting>&make.dev.had;</programlisting>
       </sect3>
 	  <sect3 id="make.lvs">
 		<title><filename>make.lvs</filename></title>
 		<para><filename>make.lvs</filename> is generated by <link linkend="make.fdisk"><filename>make.fdisk</filename></link>, but only if logical volumes are present. As the name suggests, it builds the logical volumes and makes file systems on them.</para>
 		<programlisting>&make.lvs;</programlisting>
 	  </sect3>
-      <sect3 id="mount.dev.hda">
-        <title><filename>mount.dev.hda</filename></title>
+      <sect3 id="mount.dev.had">
+        <title><filename>mount.dev.had</filename></title>
         <para>This script is a sample of the sort produced by <link linkend="make.fdisk"><filename>make.fdisk</filename></link>, above. It builds mount points and mounts partitions on them, making the target file system ready for restoring files. This is the second script run at restore time.</para>
-        <para>If you are brave enough to edit <link linkend="dev.hda"><filename>dev.hda</filename></link> (q.v.), say, to add a new partition, you may need to edit this script as well.</para>
-        <programlisting>&mount.dev.hda;</programlisting>
+        <para>If you are brave enough to edit <link linkend="dev.had"><filename>dev.had</filename></link> (q.v.), say, to add a new partition, you may need to edit this script as well.</para>
+        <programlisting>&mount.dev.had;</programlisting>
       </sect3>
 	  <sect3 id="mount.lvs">
 		<title><filename>mount.lvs</filename></title>
 		<para><filename>mount.lvs</filename> is generated by <link linkend="make.fdisk"><filename>make.fdisk</filename></link>, but only if logical volumes are present. As the name suggests, it mounts the logical volumes ready for restoration.</para>
 		<programlisting>&mount.lvs;</programlisting>
 	  </sect3>
-      <sect3 id="dev.hda">
-        <title><filename>dev.hda</filename></title>
-        <para>This data file is used at restore time if <command>sfdisk</command> is not present on the restoration Linux. It is fed to <command>fdisk</command> by the script <link linkend="make.dev.hda"><filename>make.dev.hda</filename></link>. It is produced at backup time by <link linkend="make.fdisk"><filename>make.fdisk</filename></link>. Those familiar with <command>fdisk</command> will recognize that each line is an <command>fdisk</command> command or value, such as a cylinder number. Thus, it is possible to change the partition sizes and add new partitions by editing this file. That's why the penultimate command is <command>v</command>, to verify the partition table before it is written.</para>
-        <programlisting>&dev.hda;</programlisting>
+      <sect3 id="dev.had">
+        <title><filename>dev.had</filename></title>
+        <para>This data file is used at restore time if <command>sfdisk</command> is not present on the restoration Linux. It is fed to <command>fdisk</command> by the script <link linkend="make.dev.had"><filename>make.dev.had</filename></link>. It is produced at backup time by <link linkend="make.fdisk"><filename>make.fdisk</filename></link>. Those familiar with <command>fdisk</command> will recognize that each line is an <command>fdisk</command> command or value, such as a cylinder number. Thus, it is possible to change the partition sizes and add new partitions by editing this file. That's why the penultimate command is <command>v</command>, to verify the partition table before it is written.</para>
+        <programlisting>&dev.had;</programlisting>
       </sect3>
-      <sect3 id="dev.hda.sfd">
-        <title><filename>dev.hda.sfd</filename></title>
-        <para>This data file is used at restore time if <command>sfdisk</command> is present on the restoration Linux system. It is fed to <command>sfdisk</command> by the script <link linkend="make.dev.hda"><filename>make.dev.hda</filename></link>. It is produced at backup time by <link linkend="make.fdisk"><filename>make.fdisk</filename></link>. Each line represents a partition. Thus, it is possible to change the partition sizes and add new partitions by editing this file.</para>
-        <programlisting>&dev.hda.sfd;</programlisting>
+      <sect3 id="dev.had.sfd">
+        <title><filename>dev.had.sfd</filename></title>
+        <para>This data file is used at restore time if <command>sfdisk</command> is present on the restoration Linux system. It is fed to <command>sfdisk</command> by the script <link linkend="make.dev.had"><filename>make.dev.had</filename></link>. It is produced at backup time by <link linkend="make.fdisk"><filename>make.fdisk</filename></link>. Each line represents a partition. Thus, it is possible to change the partition sizes and add new partitions by editing this file.</para>
+        <programlisting>&dev.had.sfd;</programlisting>
       </sect3>
       <sect3 id="save.metadata">
         <title><filename>save.metadata</filename></title>
         <para>This is the first script to run as part of the backup process. It calls <link linkend="make.fdisk"><filename>make.fdisk</filename></link>, above. If you have a SCSI hard drive or multiple hard drives to back up, edit the call to <link linkend="make.fdisk"><filename>make.fdisk</filename></link> appropriately.</para>
         <note>
           <title>WARNING</title>
-          <para>Recent kernels have incorporated a new ATA (IDE) hard drive driver, libata. Because of this, parallel ATA (PATA) drives now show up as SCSI drives, as serial ATA (SATA) have always done. However, not all rescue distributions (e.g. Finnix) use this new driver. There is a line toward the bottom of <link linkend="save.metadata"><filename>save.metadata</filename></link> wich very carefully replaces "/dev/sda" with "/dev/hda". Use this as a template if you have multiple IDE hard drives. Comment it out or delete it if this is not an issue for you.</para>
+          <para>Recent kernels have incorporated a new ATA (IDE) hard drive driver, libata. Because of this, parallel ATA (PATA) drives now show up as SCSI drives, as serial ATA (SATA) have always done. However, not all rescue distributions (e.g. Finnix) use this new driver. There is a line toward the bottom of <link linkend="save.metadata"><filename>save.metadata</filename></link> which very carefully replaces "/dev/sda" with "/dev/had". Use this as a template if you have multiple IDE hard drives. Comment it out or delete it if this is not an issue for you.</para>
           <para>Note that there is no guaranteed mapping! Systems with multiple hard drives may have confusing mappings. Be sure to edit this line carefully. Check it if you add or remove a hard drive of any interface type to or from your system!</para>
           <para>N.B: if you have libata IDE drive issues, the grub-install line at the end of <link linkend="restore.metadata"><filename>restore.metadata</filename></link> won't work. If it doesn't, use your rescue disk to do the same. Or burn and boot to the boot image that is made as part of this script. Boot to it and do the second state restore as usual. The second state restore should re-run <filename>grub-install</filename>.</para>
         </note>

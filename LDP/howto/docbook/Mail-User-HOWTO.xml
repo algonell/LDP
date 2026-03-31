@@ -313,7 +313,7 @@ target of an alias which should receive all your mail; it should be a
 single address.  The most common use for this facility is to redirect your
 mail to an account on another machine.</para>
 
-<para>To amplify: The existence of the .forward file, regardless of whats
+<para>To amplify: The existence of the .forward file, regardless of what's
 in it, tells the system to treat the contents of the file as an alias
 target for all your mail. If you create an empty .forward file, your mail
 disappears. Most people use this to forward their mail to another machine,
@@ -375,7 +375,7 @@ manually by the mailing list administrator.</para>
 manager<indexterm><primary>mailing list manager</primary></indexterm>
 has evolved to address these problems and other related ones.  Its
 most important function is to permit mailing list users to subscribe
-and unscubscribe without going through the list maintainer.</para>
+and subscribe without going through the list maintainer.</para>
 
 <para>A mailing-list manager keeps its own user-list information and
 hooks up to the MTA through a program alias in

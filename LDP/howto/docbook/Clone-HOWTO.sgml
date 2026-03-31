@@ -43,7 +43,7 @@
 		<sect2>
 			<title>Disclaimer</title>
 			<para>This article assumes that the reader using the described setup is familiar with the technical concepts and commands. If you are not comfortable issuing the commands in this document or don't understand the clone script, don't try these instructions.</para>
-			<para>Additionally, if you do not know the difference between <filename>/dev/hda</filename> and <filename>/dev/hda1</filename>, please do not use this HOWTO. This may be the difference between restoring a partition and losing all your data. Please note that I take no responsibility for anything that may go wrong, even if the error resulting from any incorrectness in this article.</para>
+			<para>Additionally, if you do not know the difference between <filename>/dev/had</filename> and <filename>/dev/hda1</filename>, please do not use this HOWTO. This may be the difference between restoring a partition and losing all your data. Please note that I take no responsibility for anything that may go wrong, even if the error resulting from any incorrectness in this article.</para>
 			<para>For the purpose of this document, the RedHat 7.3 distribution has been used in both server and client. Although this shouldn't make great difference, no test has been made on other distributions or custom setups.</para>
 		</sect2>
 		<sect2>
@@ -286,9 +286,9 @@ title Clone
 			<para>The script is presented here to show the commands in a formal way and to propose a way to reduce the possibility of damages resulting from mistyping. You have to change the variables <varname>tftp_server</varname>, <varname>nic_module</varname>, <varname>major_a</varname>, <varname>family_a</varname> and <varname>image_a</varname> according to your environment and application.</para>
 			<para>Please note that the arrays <varname>major_a</varname> and <varname>family_a</varname> are corresponding. Wrong major number for a given family name will mislead the user. You can locate the major and minor numbers of the devices of interest (whole disks and partitions) by listing the <filename class="directory">/dev</filename> directory. The major and minor number are where the size of a regular file is, in the output of the command <command>ls -l</command>, separated by a comma.</para>
 			<programlisting>
-<prompt># </prompt>ls -l /dev/fd0 /dev/hda /dev/hda1 /dev/hdc
+<prompt># </prompt>ls -l /dev/fd0 /dev/had /dev/hda1 /dev/hdc
 brw-rw----    1 root     disk       2,   0 Apr 11 11:25 /dev/fd0
-brw-rw----    1 root     disk       3,   0 Apr 11 11:25 /dev/hda
+brw-rw----    1 root     disk       3,   0 Apr 11 11:25 /dev/had
 brw-rw----    1 root     disk       3,   1 Apr 11 11:25 /dev/hda1
 brw-rw----    1 root     disk      22,   0 Apr 11 11:25 /dev/hdc
 			</programlisting>
@@ -301,7 +301,7 @@ brw-rw----    1 root     disk      22,   0 Apr 11 11:25 /dev/hdc
 		</sect2>
 		<sect2>
 			<title>Using fdisk</title>
-			<para>If <command>fdisk</command> command is selected it is invoked for the block device. <command>fdisk</command> is normally run for the whole disk as opposed to one partition. Note that what normally is called <filename>/dev/hda</filename> will be called <filename>/dev/hda0</filename> by the clone script. The input of <command>fdisk</command> could be put in the script to make automatic creation of partitions if desired.</para>
+			<para>If <command>fdisk</command> command is selected it is invoked for the block device. <command>fdisk</command> is normally run for the whole disk as opposed to one partition. Note that what normally is called <filename>/dev/had</filename> will be called <filename>/dev/hda0</filename> by the clone script. The input of <command>fdisk</command> could be put in the script to make automatic creation of partitions if desired.</para>
 		</sect2>
 	</sect1>
 	<sect1 id="extending">
@@ -397,7 +397,7 @@ export PATH=/sbin:/bin
 tftp_server=10.0.0.1
 nic_module=3c59x.o
 major_a=(2 3 22)
-family_a=(fd hda hdc)
+family_a=(fd had hdc)
 image_a=(img0001 img0002 img0003 img0004)
 
 operation_a=(	"Copy from network to device" \

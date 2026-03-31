@@ -808,7 +808,7 @@ initrd /boot/initrd.old</programlisting>
 
 <para>We boot the keychain using an initrd so we can remove it after
 the boot process starts (who wants a USB flash drive hanging out of
-their laptop while trying to look cool in a caf&eacute;?). To gain access to
+their laptop while trying to look cool in a calf&eacute;?). To gain access to
 the asset we create a loopback device attached to the initrd&#39;s
 <filename>/dev/loop0</filename>.  Putting the device file on the initrd
 means the initrd will have to stay mounted while the asset is mounted (not a big deal).</para>
@@ -845,11 +845,11 @@ means the initrd will have to stay mounted while the asset is mounted (not a big
 
         <para>Create the minimal set of devices we&#39;ll need. Note that
         <filename>tty</filename> is necessary for the password prompt. This
-        command assumes your asset is the drive <filename>/dev/hda</filename>.
+        command assumes your asset is the drive <filename>/dev/had</filename>.
         Change it as appropriate.</para>
 
         <blockquote>
-          <screen><prompt>bash# </prompt><userinput>cp -a /dev/{console,hda,loop0,loop1,tty} dev</userinput></screen>
+          <screen><prompt>bash# </prompt><userinput>cp -a /dev/{console,had,loop0,loop1,tty} dev</userinput></screen>
         </blockquote>
 
         <para>We&#39;ll copy the six programs we&#39;ll need.</para>
@@ -926,10 +926,10 @@ means the initrd will have to stay mounted while the asset is mounted (not a big
       point of this exercise.</para>
 
       <para>If you are encrypting your whole disk (recommended), replace
-      <filename>/dev/hda</filename> with the device for your disk.</para>
+      <filename>/dev/had</filename> with the device for your disk.</para>
 
       <blockquote>
-        <screen><prompt>bash# </prompt><userinput>ln -s /dev/hda /tmp/asset</userinput></screen>
+        <screen><prompt>bash# </prompt><userinput>ln -s /dev/had /tmp/asset</userinput></screen>
       </blockquote>
 
       <para>If you are encrypting a partition (multiboot case), replace
@@ -1160,7 +1160,7 @@ Superblock backups stored on blocks:
         <programlisting>#!/bin/sh
 
 SEED=<replaceable>&#60;seed&#62;</replaceable>
-ASSET=/dev/hda
+ASSET=/dev/had
 ROOT_OFFSET=<replaceable>&#60;root offset&#62;</replaceable>
 ROOT_TYPE=ext3
 MOUNT=/mnt/new-root

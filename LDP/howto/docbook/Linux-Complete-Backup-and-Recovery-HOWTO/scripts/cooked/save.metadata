@@ -29,7 +29,7 @@
 # references to ZIP drives. Added a line to deal with the fact that
 # libata (in newer kernels) maps IDE drives to SCSI device names, but
 # not all rescue distributions use libata. So we have to change the
-# device names from SCSI to IDE, e.g. /dev/sda to /dev/hda.
+# device names from SCSI to IDE, e.g. /dev/sda to /dev/had.
 
 # 2006-03-26: had a deprecated option in the sort options; fixed that.
 
@@ -287,7 +287,7 @@ mkbootdisk --iso --device ${zip}/bootdisk.$(uname -r).iso $(uname -r)
 # driver. Because of this, parallel ATA drives now show up as SCSI
 # drives, as serial ATA have always done. However, not all rescue
 # distributions (e.g. finix) use this new driver. So the following
-# line very carefully replaces "/dev/sda" with "/dev/hda". Use this as
+# line very carefully replaces "/dev/sda" with "/dev/had". Use this as
 # a template if you have multiple IDE hard drives.
 
 # Note that there is no guaranteed mapping! Systems with multiple hard
@@ -295,7 +295,7 @@ mkbootdisk --iso --device ${zip}/bootdisk.$(uname -r).iso $(uname -r)
 # carefully. Check it if you add or remove a hard drive of any
 # interface type to or from your system!
 
-find ${zip} -type f | grep -v bz2$ | xargs sed -i 's|/dev/sda|/dev/hda|g'
+find ${zip} -type f | grep -v bz2$ | xargs sed -i 's|/dev/sda|/dev/had|g'
 
 du -hs ${zip}
 df -m

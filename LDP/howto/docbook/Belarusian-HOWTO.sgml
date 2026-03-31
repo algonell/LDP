@@ -17,7 +17,7 @@
 				Charsets used in the setup are either windows-1251 or
 				iso-8859-5.  Belarusian characters can also be found in
 				koi8-ub, koi8-c, koi8-ru and, of course, Unicode. Although
-				this HOWTO is Linux-specific, many advices are applicable to
+				this HOWTO is Linux-specific, many advice are applicable to
 				other UNIX-like systems.
 			</para>
 
@@ -155,9 +155,9 @@
 						<para>
 							To test the setup, execute
 							<screen>
- mount /dev/hda -t vfat -o codepage=866,iocharset=iso8859-5 /mnt/hda
+ mount /dev/had -t vfat -o codepage=866,iocharset=iso8859-5 /mnt/had
 							</screen>
-							as root. Of course, you should replace /dev/hda by the
+							as root. Of course, you should replace /dev/had by the
 							name of your vfat partitions containing names in
 							cyrillic.
 						</para>
@@ -399,13 +399,13 @@ consolechars -m iso05
 						<para>
 							Get the belarusian keyboard layout <filename>by</filename> from the 
 							<ulink url="http://bellinux.sourceforge.net/">the bellinux page</ulink>
-							and put it on the place of any other keyborad layout in 
+							and put it on the place of any other keyboard layout in 
 							<filename>/usr/X11R6/lib/X11/xkb/symbols/</filename>, e.g.
 							instead of the belgian keyboard layout 
 							<filename>/usr/X11R6/lib/X11/xkb/symbols/be</filename>
 						</para>
 						<para>
-							Put the following stings in  your 
+							Put the following strings in  your 
 							<filename>/etc/X11/XF86COnfig</filename>:
 							<screen>
  XkbModel   "microsoft"
@@ -442,7 +442,7 @@ consolechars -m iso05
 						<para>
 							Get the belarusian keyboard layout <filename>by</filename> from the 
 							<ulink url="http://bellinux.sourceforge.net/">the bellinux page</ulink>
-							and put it on the place of any other keyborad layout in 
+							and put it on the place of any other keyboard layout in 
 							<filename>/usr/X11R6/lib/X11/xkb/symbols/</filename>, e.g.
 							instead of the belgian keyboard layout 
 							<filename>/usr/X11R6/lib/X11/xkb/symbols/be</filename>

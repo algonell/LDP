@@ -215,7 +215,7 @@ Establish an encrypted SSL connection.
 
 <sect2>SSL Handshake Protocol
 
-<p>The Handshake Protocol is used to co-ordinate the state of the client
+<p>The Handshake Protocol is used to coordinate the state of the client
 and the server. During the handshake, the following events take place:
 
 <itemize>

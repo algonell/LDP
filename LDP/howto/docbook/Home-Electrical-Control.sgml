@@ -73,7 +73,7 @@
 			program by using <application>ioperm</application> and <application>outb</application>. If you would like to 
 			use my program, you will need g++.</para>
 		<para>Click the following link to download my program. You will need g++ to compile it.
-			<ulink URL="http://edc.sourceforge.net/paralle.tar.gz"> edc.sourceforge.net/paralle.tar.gz</ulink>.</para>
+			<ulink URL="http://edc.sourceforge.net/parallel.tar.gz"> edc.sourceforge.net/parallel.tar.gz</ulink>.</para>
 	</sect1>
 	<sect1 id="Circuit">
 		<title>Electronic Circuit</title>
@@ -216,7 +216,7 @@ relay power off                        relay power on
 			<para>Some relays may have more that 5 pins. More pins just means there are more switches.</para>
 				<para>I wrote a simple program that can control 8 relays. The program is available at the following location and 
 				will need g++ in order to be able to use this program.
-				<ulink URL="http://edc.sourceforge.net/paralle.tar.gz">http://edc.sourceforge.net/paralle.tar.gz</ulink></para>
+				<ulink URL="http://edc.sourceforge.net/parallel.tar.gz">http://edc.sourceforge.net/parallel.tar.gz</ulink></para>
 				<para>A complete circuit can control up to eight relays, that means that a complete circuit can control
 				eight different devices. You will need a DB25 connector. Using a parallel
 				switch cable, connect this relay board to your computer. I put the relay board in a box 

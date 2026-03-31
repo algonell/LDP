@@ -624,7 +624,7 @@ Currently, the following extra packages are available:
 		</listitem>
 	</varlistentry>
 
-	<varlistentry><term><application>ANS</application></term>
+	<varlistentry><term><application>AND</application></term>
 		<listitem>
 			<para>ATM name server (based on <application>named</application> 4.9.5)</para>
 		</listitem>
@@ -633,9 +633,9 @@ Currently, the following extra packages are available:
 </para>
 
 <para>
-Note that <application>text2atm</application> automatically uses ANS if
+Note that <application>text2atm</application> automatically uses AND if
 available, so
-<application>ans</application> only needs to be installed on systems providing
+<application>and</application> only needs to be installed on systems providing
 name server functionality or if ATM-aware maintenance tools
 <application>nslookup</application>, etc.) are needed.
 </para>
@@ -643,8 +643,8 @@ name server functionality or if ATM-aware maintenance tools
 <para>
 A script <application>hosts2ans.pl</application> to convert a 
 <filename>/etc/hosts.atm</filename> file to
-ANS zone files are provided in the
-<filename class=directory>src/extra/ANS/</filename> directory.
+AND zone files are provided in the
+<filename class=directory>src/extra/AND/</filename> directory.
 Its use is described at the beginning of the file.
 </para>
 
@@ -1130,13 +1130,13 @@ explicitly requests only SVC addresses, any PVC addresses will be ignored.
 
 </sect2>
 
-<sect2 id="Signaling.ANS">
-<title>ANS</title>
+<sect2 id="Signaling.AND">
+<title>AND</title>
 
 <para>
-If you have access to the ATM Name Service (ANS, e.g because you've installed
-the ANS extension), you can use it instead of or in addition to the hosts
-file by specifying the host that runs ANS in the
+If you have access to the ATM Name Service (AND, e.g because you've installed
+the AND extension), you can use it instead of or in addition to the hosts
+file by specifying the host that runs AND in the
 <filename>/etc/resolv.conf</filename> file.
 </para>
 

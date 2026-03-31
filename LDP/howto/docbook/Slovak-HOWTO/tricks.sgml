@@ -162,7 +162,7 @@ recode l2 subor.txt
 	</screen>
 	ale zdá sa, ¾e to staèi» nebude. Latka na titul <quote>Linuxový Guru</quote> sa posunula do
 	závratných vý¹ok, preto¾e -- aby ste sa stali jeho nositeµom -- musíte vedie» pomocou tohto
-	programu previes» dokument v latin2 na latin1 alebo dokonca <acronym>ASCII</acronym> (a to
+	programu previes» document v latin2 na latin1 alebo dokonca <acronym>ASCII</acronym> (a to
 	u¾ je pekný Saigon...)</para>
     </section> <!-- tricks-recode-recode -->
   </section> <!-- tricks-recode -->

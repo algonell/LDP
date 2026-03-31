@@ -42,5 +42,5 @@ mount /dev/hda3 /target/
 mkdir /target/boot
 mount /dev/hda2 /target/boot
 
-mount | grep -i "/dev/hda"
+mount | grep -i "/dev/had"
 ]]>

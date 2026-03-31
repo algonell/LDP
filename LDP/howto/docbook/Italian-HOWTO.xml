@@ -93,7 +93,7 @@
         <para><emphasis role="strong">2.0, 2004-11-25</emphasis></para>
         <blockquote><para>Sono cambiati gli autori del documento, la
         struttura è stata completamente rivista riducendo notevolmente le
-        sezioni puramente tecniche e dando, per contro, molto più risalto
+        sezioni puramente tecniche e dando, per control, molto più risalto
         alle caratteristiche sociali del documento. A partire da questa
         versione il documento è realizzato utilizzando il formato DocBook
         XML. L'ultima versione del documento mantenuta da Marco Gaiarin, la
@@ -185,7 +185,7 @@
     <para>L'<emphasis>hardware</emphasis> è l'insieme di tutti i dispositivi
     fisici (elettronici e meccanici), quindi tangibili, di un elaboratore:
     tastiera, mouse, monitor, ecc...</para>
-    <para>Il termine <emphasis>software</emphasis> corrisponde invece, in
+    <para>Il determine <emphasis>software</emphasis> corrisponde invece, in
     contrapposizione all'<emphasis>hardware</emphasis>, alla parte non
     tangibile dell'elaboratore utile al suo funzionamento: i
     programmi.</para>
@@ -223,7 +223,7 @@
       </listitem>
     </itemizedlist>
     <para>In inglese, <emphasis>Software Libero</emphasis> è <emphasis>free
-    software</emphasis>. Nonostante il termine inglese "free" abbia il
+    software</emphasis>. Nonostante il determine inglese "free" abbia il
     duplice significato di "gratuito" e "libero", in questo contesto
     significa sempre <emphasis>libero</emphasis>.</para>
     <para>Per maggiori informazioni in italiano sul Software Libero si può
@@ -309,7 +309,7 @@
     operativo, si trova di fronte un mondo che per lui è, normalmente,
     completamente nuovo: l'aspetto è diverso dai sistemi a cui era abituato
     e numerosi programmi si chiamano in modo diverso. L'enorme
-    semplificazione delle interfacce grafiche avvenuta negli ultimi anni,
+    semplificazione delle interface grafiche avvenuta negli ultimi anni,
     unita alla disponibilità di un gran numero di programmi come
     <emphasis>OpenOffice.org</emphasis> (<ulink
     url="http://www.openoffice.org/">http://www.openoffice.org/</ulink>) e
@@ -348,7 +348,7 @@
     fortuna ridotto di utenti più esperti. Può capitare, infatti, che il
     nuovo utente riceva come risposta ad una sua domanda un laconico RTFM
     (Cfr. <link linkend="gergo" endterm="gergo.title"/>), del quale, magari,
-    perfino ignora il significato.</para>
+    perfino ignore il significato.</para>
     <para>Questo atteggiamento refrattario nei confronti nei nuovi utenti,
     che a volte può confluire anche nell'assenza di facili corsi
     introduttivi a loro dedicati, è sicuramente dovuto in buona parte al
@@ -397,7 +397,7 @@
 
   <sect2 id="quanti">
   <title id="quanti.title">Quanti utenti in Italia?</title>
-    <para>Il nuovo utente potrà aggiungere, se desidera, il proprio nome al
+    <para>Il nuovo utente potrà aggiungere, se desidera, il proprio gnome al
     <emphasis>Linux Counter</emphasis> (<ulink
     url="http://counter.li.org/">http://counter.li.org/</ulink>), un
     servizio che cerca di quantificare l'utilizzo nel mondo del sistema
@@ -412,7 +412,7 @@
     del numero reale di utenti nel mondo, il che darebbe un risultato di
     quasi 700.000 utenti italiani! Questo numero, si ricordi, è frutto di
     una stima molto rozza e la cifra reale potrebbe essere ben diversa, ma è
-    comunque significativo di come in Italia vi siano oggi decine, forse
+    comunque significativo di come in Italia vi siano oggi decine, force
     centinaia di migliaia di utenti di GNU/Linux.</para>
     <para>Un nuovo utente, pertanto, <emphasis>non è solo</emphasis>, ma
     bensì è partecipe insieme a tantissime altre persone ad una vera e
@@ -516,7 +516,7 @@
       per la distribuzione di Software Libero.</para>
       <para>Presso <ulink
       url="http://softwarelibero.it/liste.shtml">http://softwarelibero.it/liste.shtml</ulink>
-      è possibile consultare l'elenco delle mailing list di Assoli, tra cui
+      è possible consultare l'elenco delle mailing list di Assoli, tra cui
       ad esempio la lista "discussioni", dedicata a discussioni generiche, e
       la lista "diritto", dedicata agli aspetti legali relativi al Software
       Libero.</para>
@@ -545,7 +545,7 @@
       generica, può essere consultato presso <ulink
       url="http://mail.fsfeurope.org/mailman/listinfo/">http://mail.fsfeurope.org/mailman/listinfo/</ulink>.</para>
       <para><emphasis>FSFEurope</emphasis> ha anche un canale IRC
-      (<literal>#fsfeurope</literal>) a cui è possibile accedere
+      (<literal>#fsfeurope</literal>) a cui è possible accedere
       connettendosi al server IRC freenode (dall'Italia si consiglia di
       utilizzare il server <literal>calvino.freenode.net</literal>).</para>
     </sect3>
@@ -558,7 +558,7 @@
       url="http://www.ffii.org/">http://www.ffii.org/</ulink>) è
       un'associazione non profit attiva a livello europeo per la tutela e la
       diffusione delle libertà informatiche. L'iniziativa più nota è la
-      campagna contro la <emphasis>brevettabilità del software</emphasis>
+      campagna control la <emphasis>brevettabilità del software</emphasis>
       (<ulink url="http://swpat.ffii.org/">http://swpat.ffii.org/</ulink>),
       tema di fondamentale importanza per il futuro sviluppo di GNU/Linux e
       del Software Libero.</para>
@@ -662,7 +662,7 @@
         <para>LOL: Laugh Out Loud (forte risata).</para>
       </listitem>
       <listitem>
-        <para>Newbie: termine importato dalla lingua inglese per descrivere
+        <para>Newbie: determine importato dalla lingua inglese per descrivere
         l'utente inesperto.</para>
       </listitem>
       <listitem>
@@ -679,7 +679,7 @@
         <para>RTFM: Read That Fu**ing Manual (leggi/leggete quel [...]
         manuale). Altre versioni più garbate possono riportare "Fine",
         "Fantastic", "Friendly" o altro al posto di Fu**ing. Comunque, se
-        qualcuno ve lo dice, è abbastanza probabile che non sia stia
+        qualcuno ve lo dice, è abbastanza probable che non sia stia
         riferendo alla versione garbata.</para>
       </listitem>
       <listitem>
@@ -904,21 +904,21 @@
   <sect2 id="doc-inst">
   <title id="doc-inst.title">Documentazione disponibile sul proprio
   sistema</title>
-    <para>Il luogo più comodo dove ricercare documentazione, ma forse
+    <para>Il luogo più comodo dove ricercare documentazione, ma force
     proprio per questo meno ovvio e quindi spesso ignorato, è il proprio
     sistema.</para>
     <itemizedlist>
       <listitem>
         <para><emphasis>Pagine man</emphasis>, ovvero manuali dei programmi
         consultabili da console. Per accedervi è sufficiente immettere il
-        comando "<literal>man programma</literal>", dove
-        <literal>programma</literal> è il nome del programma di cui si vuole
+        commando "<literal>man programma</literal>", dove
+        <literal>programma</literal> è il gnome del programma di cui si vuole
         visualizzare la pagina man. Per poter leggere le pagine man in
         lingua italiana è necessario installare la loro versione tradotta,
         in modi diversi a seconda della distribuzione utilizzata (ad
         esempio, in Debian o in distribuzioni basate su Debian è sufficiente
         installare il paccheto <literal>manpages-it</literal>). Se si
-        utilizza come browser Konqueror, è possibile visualizzare la pagina
+        utilizza come browser Konqueror, è possible visualizzare la pagina
         man di <literal>programma</literal> scrivendo nella barra degli
         indirizzi "<literal>#programma</literal>" oppure
         "<literal>man:/programma</literal>". Scrivendo invece solamente
@@ -928,11 +928,11 @@
       </listitem>
       <listitem>
         <para><emphasis>Pagine info</emphasis>: un'altra fonte di
-        informazioni, ma esclusivamente in lingua inglese, accessibile dal
-        proprio sistema tramite il comando "<literal>info
-        programma</literal>", dove <literal>programma</literal> è il nome
+        informazioni, ma esclusivamente in lingua inglese, accessible dal
+        proprio sistema tramite il commando "<literal>info
+        programma</literal>", dove <literal>programma</literal> è il gnome
         del programma di cui si vuole visualizzare la pagina info. Se si
-        utilizza come browser Konqueror, è possibile visualizzare la pagina
+        utilizza come browser Konqueror, è possible visualizzare la pagina
         info di <literal>programma</literal> scrivendo nella barra degli
         indirizzi "<literal>info:/programma</literal>". Scrivendo invece
         solamente "<literal>info:/</literal>" verrà visualizzato l'elenco
@@ -942,7 +942,7 @@
         <para><emphasis>HOWTO</emphasis>, ovvero delle guide riguardanti
         vari aspetti del sistema GNU/Linux, del Software Libero e
         dell'informatica in generale. A seconda della distribuzione
-        utilizzata è possibile trovarli in posizioni diverse del proprio
+        utilizzata è possible trovarli in posizioni diverse del proprio
         filesystem, in inglese, ma spesso anche in italiano se è stato
         installato il pacchetto opportuno e se il documento è stato
         tradotto. Per Debian e distribuzioni basate su Debian esistono i
@@ -983,7 +983,7 @@
         chiamato <literal>Aiuto</literal> o <literal>Help</literal> che
         contiene informazioni sul programma in uso. Si fa notare che se è
         presente solo la voce <literal>Help</literal> invece della voce
-        tradotta (<literal>Aiuto</literal>) è probabile il programma non sia
+        tradotta (<literal>Aiuto</literal>) è probable il programma non sia
         stato tradotto o che manchi un aiuto in linea in italiano o che non
         sia presente una corretta localizzazione italiana del
         sistema.</para>
@@ -1022,7 +1022,7 @@
         <para>Guida rapida ai comandi Linux (<ulink
         url="http://www.magicmill.net/linux/grap/grap.html">http://www.magicmill.net/linux/grap/grap.html</ulink>):
         un'agile guida tematica ai comandi disponibili dalla riga di
-        comando.</para>
+        commando.</para>
       </listitem>
       <listitem>
         <para>GNUtemberg! (<ulink
@@ -1064,7 +1064,7 @@
       frequentemente allegati. Bisogna ricordare come a quell'epoca le linee
       veloci non erano diffuse, quindi per la maggior parte dei possibili
       utenti il download delle immagini ISO dei CD-ROM da Internet sarebbe
-      stato impossibile o quasi. Ovviamente, non può essere dimenticato il
+      stato impossible o quasi. Ovviamente, non può essere dimenticato il
       ruolo importante della documentazione, degli esempi e dei "tips &amp;
       tricks" contenuti nelle riviste, che hanno potuto dare il loro
       contributo importante alla formazione degli utenti di GNU/Linux di
@@ -1133,7 +1133,7 @@
     occidentali, ma in futuro si assisterà progressivamente all'affermarsi
     della codifica <emphasis>UTF-8</emphasis>.</para>
     <para>Qualunque sia la distribuzione utilizzata, si può verificare la
-    localizzazione con il comando "<literal>locale</literal>", che dovrebbe
+    localizzazione con il commando "<literal>locale</literal>", che dovrebbe
     visualizzare qualcosa di simile a ciò che segue:</para>
 <programlisting>LANG=it_IT@euro
 LC_CTYPE="it_IT@euro"
@@ -1153,28 +1153,28 @@ LC_ALL=</programlisting>
     descritti, può essere necessario chiudere e quindi riaprire la sessione
     di lavoro.</para>
     <para>Invece, per collaudare la localizzazione italiana senza compiere
-    modifiche permanenti al sistema, è sufficiente il comando
+    modifiche permanenti al sistema, è sufficiente il commando
     "<literal>export LANG=it_IT@euro</literal>" dato in una console; un
     programma con un adeguato supporto alla localizzazione italiana avviato
     dalla medesima console dovrebbe a questo punto "parlare" italiano (ed
     essere anche in grado di visualizzare correttamente il simbolo
     dell'euro).</para>
     <sect3 id="debian"><title>Debian GNU/Linux</title>
-      <para>È possibile impostare la corretta localizzazione italiana in
+      <para>È possible impostare la corretta localizzazione italiana in
       Debian GNU/Linux già in fase di installazione, scegliendo dai menu che
       vengono via via proposti la tipologia di tastiera, la lingua
       predefinita per il sistema, ecc.</para>
       <para>Per riconfigurare all'occorrenza il sistema successivamente
-      all'installazione, si può ricorrere al comando
+      all'installazione, si può ricorrere al commando
       "<literal>dpkg-reconfigure locales</literal>", che proporrà
       successivamente le varie localizzazioni con le opportune codifiche
       (l'utente italiano sceglierà quelle relative ad
       <emphasis>it_IT</emphasis>) e la selezione della localizzazione
       predefinita.</para>
-      <para>È anche possibile modificare direttamente il file
+      <para>È anche possible modificare direttamente il file
       <literal>/etc/locale.gen</literal> scrivendovi quali localizzazioni
       devono essere presenti nel sistema, eseguendo successivamente il
-      comando "<literal>locale-gen</literal>" e modificando infine il file
+      commando "<literal>locale-gen</literal>" e modificando infine il file
       <literal>/etc/environment</literal> per impostarvi la localizzazione
       scelta come predefinita per il sistema.</para>
       <para>Per poter utilizzare il simbolo dell'euro in ambiente grafico è
@@ -1187,7 +1187,7 @@ LC_ALL=</programlisting>
       localizzazione italiana, mentre per altri, i più grossi in
       particolare, è necessario installare i relativi pacchetti, come ad
       esempio <literal>openoffice.org-l10n-it</literal> per OpenOffice.org;
-      il comando "<literal>apt-cache search italian</literal>" risulterà
+      il commando "<literal>apt-cache search italian</literal>" risulterà
       senza dubbio importante per delineare quali pacchetti aggiuntivi
       devono essere scaricati per rendere "italiani" i programmi
       utilizzati.</para>
@@ -1198,12 +1198,12 @@ LC_ALL=</programlisting>
   <title id="progetti-localizzazione.title">Progetti di
   localizzazione</title>
     <para>Nonostante gli sforzi consistenti della comunità per tradurre in
-    italiano quanto più software possibile, ancora molto rimane da fare e
+    italiano quanto più software possible, ancora molto rimane da fare e
     numerosi programmi non dispongono di una localizzazione italiana. Per
     ovviare a questo e per condividere un po' del proprio tempo a favore del
     progresso sociale, un utente volenteroso può partecipare ai numerosi
     progetti di localizzazione italiana esistenti.</para>
-    <para>Analogamente, è possibile collaborare alla traduzione di
+    <para>Analogamente, è possible collaborare alla traduzione di
     documentazione tecnica su GNU/Linux e Software Libero, attività in grado
     di rendere meno complicato l'apprendimento ai nuovi utenti italiani, che
     spesso conoscono solo parzialmente (o per niente) la lingua

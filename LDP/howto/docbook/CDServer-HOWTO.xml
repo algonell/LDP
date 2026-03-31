@@ -852,7 +852,7 @@ The Samba smb.conf file stanzas presented here are
 simplified, and not secure.  Many more options exist for 
 a Samba share which limit who can mount the shares, control how 
 user authentication is performed, and whether the share is even 
-browseable through Network Neighborhood on the Windows machines.
+browsable through Network Neighborhood on the Windows machines.
 </emphasis>
 </para>
 </listitem>
@@ -1186,7 +1186,7 @@ The Linux Kernel HOWTO</ulink>.
 	<filename class="devicefile">/dev/loop0</filename> through 
 	<filename class="devicefile">/dev/loop7</filename>. 
 	To create the <filename class="devicefile">/dev/loop8</filename> device, 
-	use the following command (subsitute the appropriate number you need for 
+	use the following command (substitute the appropriate number you need for 
 	both the <quote>8's</quote> in the example below).
 </para>
 
@@ -1976,11 +1976,11 @@ sgml-shorttag:t
 sgml-minimize-attributes:nil
 sgml-always-quote-attributes:t
 sgml-indent-step:2
-sgml-parent-document: ("referenz.sgml" "appendix")
+sgml-parent-document: ("reference.sgml" "appendix")
 sgml-exposed-tags:nil
 sgml-local-ecat-files:nil
 sgml-local-catalogs: CATALOG
-sgml-validate-command: "nsgmls -s referenz.sgml"
+sgml-validate-command: "nsgmls -s reference.sgml"
 ispell-skip-sgml: t
 End:
 -->

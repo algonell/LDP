@@ -82,7 +82,7 @@ newpath 0 156 moveto 0 0 lineto 147 0 lineto 147 156 lineto closepath clip newpa
   bind def
 /shd {dup dup currentrgbcolor 4 -2 roll mul 4 -2 roll mul
   4 -2 roll mul srgb} bind def
-/reencdict 12 dict def /ReEncode { reencdict begin
+/reencdict 12 dict def /re-encode { reencdict begin
 /newcodesandnames exch def /newfontname exch def /basefontname exch def
 /basefontdict basefontname findfont def /newfont basefontdict maxlength dict def
 basefontdict { exch dup /FID ne { dup /Encoding eq
@@ -119,7 +119,7 @@ newfontname newfont definefont pop end } def
 8#363 /oacute 8#364 /ocircumflex 8#365 /otilde 8#366 /odieresis 8#367 /divide
 8#370 /oslash 8#371 /ugrave 8#372 /uacute 8#373 /ucircumflex
 8#374 /udieresis 8#375 /yacute 8#376 /thorn 8#377 /ydieresis] def
-/Times-Roman /Times-Roman-iso isovec ReEncode
+/Times-Roman /Times-Roman-iso isovec re-encode
 /$F2psBegin {$F2psDict begin /$F2psEnteredState save def} def
 /$F2psEnd {$F2psEnteredState restore end} def
 

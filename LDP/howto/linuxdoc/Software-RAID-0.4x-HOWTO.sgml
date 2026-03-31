@@ -1570,7 +1570,7 @@ mkraid -f --only-superblock raid5.conf
         <quote>
             <bf>A</bf>:
             raidtools-0.42 requires linuxthreads-0.6 from:
-            <url url="ftp://ftp.inria.fr/INRIA/Projects/cristal/Xavier.Leroy">
+            <url url="ftp://ftp.inria.fr/INRIA/Projects/crystal/Xavier.Leroy">
             Alternately, use glibc v2.0.
         </quote>
 
@@ -1970,7 +1970,7 @@ mkraid -f --only-superblock raid5.conf
         of the drives from being <tt>/dev/hdb</tt> to <tt>/dev/hdc</tt>?
 
 	Because of cabling/case size/stupidity issues, I had to 
-	make my RAID sets on the same IDE controller (<tt>/dev/hda</tt>
+	make my RAID sets on the same IDE controller (<tt>/dev/had</tt>
         and <tt>/dev/hdb</tt>). Now that I've fixed some stuff, I want 
         to move <tt>/dev/hdb</tt> to <tt>/dev/hdc</tt>.
 
@@ -1983,13 +1983,13 @@ mkraid -f --only-superblock raid5.conf
              example, if the original config is
             <tscreen>
             <verb>
-mdadd /dev/md0 /dev/hda /dev/hdb
+mdadd /dev/md0 /dev/had /dev/hdb
             </verb>
             </tscreen>
             Then the new config *must* be
             <tscreen>
             <verb>
-mdadd /dev/md0 /dev/hda /dev/hdc
+mdadd /dev/md0 /dev/had /dev/hdc
             </verb>
             </tscreen>
 
@@ -2017,11 +2017,11 @@ mdadd /dev/md0 /dev/hda /dev/hdc
 I will make the following assumptions:
 ---------------------------------------------
 disks 
-original: hda - hdc
+original: had - hdc
 raid1 partitions hda3 - hdc3
 array name /dev/md0
 
-new hda - hdc - hdd
+new had - hdc - hdd
 raid5 partitions hda3 - hdc3 - hdd3
 array name: /dev/md1
 

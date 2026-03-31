@@ -7,7 +7,7 @@
 <date>v2.0.1, 29. December 2001
 
 <abstract>
-Dieses Dokument enth&auml;lt Tips und Informationen f&uuml;r
+Dieses Document enth&auml;lt Tips und Informationen f&uuml;r
 deutschsprachige Linux-Anwender. (Note to English readers: this document
 explains the german specific aspects of Linux. The middle chapter is
 written in English.)
@@ -22,8 +22,8 @@ written in English.)
 <p>
 Die Bezeichnung Howto ist eine Zusammenschreibung von how to, was Sie mit
 &dquot;so mache ich...&dquot; &uuml;bersetzen k&ouml;nnen. Das Linux German Howto
-beschreibt also wie man deutschsprachige Eigenheiten unter Linux
-aktiviert. Gesprochen wird es als Dsch&ouml;rman Hautu. Im Folgenden schreibe
+beschreibt also wie man deutschsprachige Eigenheiten under Linux
+aktiviert. Gesprochen wird es also Dsch&ouml;rman Hautu. Im Folgenden schreibe
 ich lieber vom Deutschen Sowirdsgemacht f&uuml;r Linux. Schon bin ich Punk.
 
 Was sind denn nun deutsche Eigenheiten? Ledertrachten, Weissw&uuml;rste, Bier
@@ -60,15 +60,15 @@ Schwerpunkt ab sofort mehr auf der Beschreibung von Grundlagen liegt.
 &copy Winfried Tr&uuml;mper &lt;me@wt.xpilot.org&gt; 1994-2001. Alle Rechte
 vorbehalten.
 
-Vertrieb und Benutzung dieses Dokuments sind unter den folgenden
-Bedingungen gestattet: Der Name des Autors darf nicht zur Vermarktung
-von Produkten verwendet werden, die auf diesem Dokument beruhen, und
-ge&auml;nderte Versionen dieses Dokuments m&uuml;ssen klar als solche erkennbar sein.
+Vertrieb und Benutzung dieses Dokuments sind under den folgenden
+Bedingungen gestattet: Der Name des Authors darf nicht zur Vermarktung
+von Produkten verwendet werden, die auf diesem Document beruhen, und
+ge&auml;nderte Versionen dieses Dokuments m&uuml;ssen klar also solche erkennbar sein.
 
-Text, Abbildungen und Programme in diesem Dokument wurden mit grosser
+Text, Abbildungen und Programme in diesem Document wurden mit grosser
 Sorgfalt erarbeitet. Trotzdem sind Fehler nicht ganz
 auszuschliessen. Angesichts der Komplexit&auml;t und der Schnelllebigkeit
-heutiger Computer-Systeme kann der Autor weder die Richtigkeit noch die
+heutiger Computer-Systeme kann der Author weder die Richtigkeit noch die
 Anwendbarkeit der gelieferten Informationen garantieren. Kurz: Benutzung
 auf eigene Gefahr.
 
@@ -111,7 +111,7 @@ in der Einleitungen nehme ich dort ebenfalls entgegen.
 <p>
 
 In vielen St&auml;dten haben sich Linux-Anwender zu sogenannten Linux
-User Groups (LUGs) zusammengetan. Diese Benutzergruppen sind offen
+User Groups (LUGs) zusammengetan. Diese Benutzergruppen sind often
 f&uuml;r jeden und halten regelm&auml;&szlig;ige Sitzungen ab. Sie sind der
 ideale Treffpunkt f&uuml;r all diejenigen, die sich nicht nur im "Cyberspace"
 mit anderen Linuxern austauschen wollen. Eine &uuml;bersicht befindet sich
@@ -145,7 +145,7 @@ Derzeit gibt es drei grosse &uuml;berregionale Veranstaltungen zu Linux in
 Deutschland: den <url url="http://www.linuxtag.org/" name="LinuxTag">, den 
 <url url="http://www.linux-kongress.de" name="Linux-Kongress"> und die
 <url url="http://www.linuxworldexpo.de" name="LinuxWorld Expo">. Dar&uuml;ber
-hinaus gibt es zahlreiche lokale Veranstaltungen, die in den Kalendern der
+hinaus gibt es zahlreiche locale Veranstaltungen, die in den Kalendern der
 Portal-Seiten zu finden sind.
 
 
@@ -198,13 +198,13 @@ Deutsche. Auf den Webseiten des Projekts kann man eine Liste aller
 <p>
 Rechner sind Ger&auml;te, die auf der Grundlage von digitalen Zahlen arbeiten.
 Menschen sind Wesen, die mit Zahlen und auch mit Namen arbeiten. Setzt man
-einen Menschen vor einen Rechner und verkauft dem Menschen den Rechner als
+einen Menschen for einen Rechner und verkauft dem Menschen den Rechner also
 Universalger&auml;t, dann muss der Rechner neben den Zahlen auch mit Namen
 umgehen k&ouml;nnen. Dies wird mit einem Kunstgriff erreicht: Das Alfabet wird
 durchnummeriert, d.h. Buchstaben werden Zahlen zugeordnet, mit denen der
 Rechner wiederum umgehen kann. Beispiel: Der Buchstabe A hat die Nummer
 65. Zeichentabelle oder Zeichensatz wird diese Zuordnung genannt. Sie
-listet neben den Buchstaben auch noch Symbole und Sonderzeichen auf. Der
+listet neben den Buchstaben auch noch Symbol und Sonderzeichen auf. Der
 Zeichensatz ist eine rein logische Definition; erst die Schriftart bestimmt
 die Darstellung des Zeichensatzes auf dem Bildschirm.
 
@@ -262,12 +262,12 @@ Tabelle 1: Ausschnit des Zeichensatzes ISO-8859-1
 Die derzeitige L&ouml;sung ist der internationale Unicode-Zeichensatz (identisch
 zu ISO-10646). Unicode steht f&uuml;r unique code und bezeichnet eindeutige
 Nummern von derzeit &uuml;ber 90.000 definierten Zeichen in einer einzigen
-Zuordnungstabelle. Der Prozess der Standardisierung ist weit
+Zuordnungstabelle. Der Process der Standardisierung ist weit
 fortgeschritten, aber noch nicht abgeschlossen. Sch&auml;tzungen gehen davon
-aus, dass niemals mehr als ca. 2.1 Millionen (21 Bit) Zeichen definiert
+aus, dass niemals mehr also ca. 2.1 Millionen (21 Bit) Zeichen definiert
 sein werden. Um eine ausreichende Reserve vorzuhalten, wurden die
 Unicode-Tabelle mit 32 Bit pro Zeichen ausgelegt, was zur Nummerierung von
-mehr als 4 Millarden Zeichen ausreicht.  Unicode bricht also mit einer
+mehr also 4 Millarden Zeichen ausreicht.  Unicode bricht also mit einer
 gel&auml;ufigen Annahme: 8 Bit (ein Byte) pro Zeichen. Die vier Byte scheinen
 grossz&uuml;gig dimensioniert und werfen Fragen des Speicherverbrauchs auf: Mit
 unserem mitteleurop&auml;ischen Zeichensatz ISO-8859-1 belegt jedes Zeichen acht
@@ -278,7 +278,7 @@ ausgelegt werden. Das erschien nicht durchf&uuml;hrbar, weshalb zur effektiveren
 Speicherung verschiedene Unicode Bit Transformationen (UTF) eingef&uuml;hrt
 wurden: UTF-8, UTF-16 und UTF-32. Letztere Transformation &auml;ndert nichts,
 spart deswegen auch nichts und belegt somit in verschwenderischer Manier
-f&uuml;r jedes Zeichen konstant 32 Bit im Speicher. Erstere Transformationen
+f&uuml;r jedes Zeichen constant 32 Bit im Speicher. Erstere Transformationen
 (UTF-8) belegt zwischen acht und 48 Bits, je nach Standort des Zeichens in
 der Tabelle. Oft ben&ouml;tigte Zeichen (US-ASCII) stehen vorne in der Tabelle
 und belegen nur acht Bits, die deutschen Umlaute stehen mehr zur Mitte hin
@@ -301,7 +301,7 @@ Euro-Symbol eher wie ein mechanischer Wecker aussieht, dann verwenden Sie
 noch die alten Schriftarten. In diesem Fall sollten Sie Ihre
 Linux-Distribution aktualisieren, denn ein Austausch aller denkbaren
 Schriftarten geht weit &uuml;ber die M&ouml;glichkeiten dieses Sowirdsgemacht
-hinaus. (Schriftarten waren schon immer ein Problem unter Linux, was das
+hinaus. (Schriftarten waren schon immer ein Problem under Linux, was das
 Euro-Symbol nur best&auml;tigt.)  Ob sich eine Aktualisierung angesichts des
 robusteren ISO-K&uuml;rzels EUR &uuml;berhaupt lohnt, m&uuml;ssen Sie selbst entscheiden.
 
@@ -313,7 +313,7 @@ Tastenkombination AltGr-C gibt das bekannte Cent-Symbol.
 
 <sect1>Tastatur
 <p>
-Alle dem Autor bekannten Distributionen stellen die deutsche
+Alle dem Author bekannten Distributionen stellen die deutsche
 Tastaturbelegung selbstst&auml;ndig bei der Installation ein. Ist man mit dem
 Resultat nicht zufrieden, so lassen sich mit den Kommandozeilen-Werkzeugen
 loadkeys (Text-Konsolen) und xmodmap (X11) andere Belegungen
@@ -321,14 +321,14 @@ einstellen. Eine genauere Beschreibung der Werkzeuge geht &uuml;ber den Anspruch
 dieses Dokuments hinaus.
 
 Bei dieser Gelegenheit soll ein wenig Licht in die Konzepte der
-Tastaturbelegung gebracht werden, um unter Unix/Linux in Zukunft weniger
-Probleme mit den Tastenbelegungen zu haben. Die Bet&auml;tigung einer Taste
+Tastaturbelegung gebracht werden, um under Unix/Linux in Zukunft weniger
+Problem mit den Tastenbelegungen zu haben. Die Bet&auml;tigung einer Taste
 sendet eine Kennzahl. Andere Tastaturen geben andere Kennzahlen. &Auml;hnlich zu
 den weiter oben beschriebenen Zeichens&auml;tzen, kommen auch bei der Tastatur
-Zuordnungstabellen zum Einsatz, die den Kennzahlen Symbole zuordnen. Die
+Zuordnungstabellen zum Einsatz, die den Kennzahlen Symbol zuordnen. Die
 Zuordnungstabellen heissen Tastaturbelegungen. Eine Tastaturbelegung
-definiert unter Umst&auml;nden nicht direkt die auszugebenden Zeichen, sondern
-machen einen Zwischenschritt &uuml;ber symbolische Namen. Beispiel: Unter X11
+definiert under Umst&auml;nden nicht direkt die auszugebenden Zeichen, sondern
+machen einen Zwischenschritt &uuml;ber symbolische Namen. Beispiel: Under X11
 sendet eine Taste die Kennzahl 22. Die Tastaturbelegung definiert f&uuml;r diese
 Kennzahl (Terminus "keycode") das Symbol BackSpace, womit die Taste zum
 L&ouml;schen des linken Zeichens auf der PC-Tastatur gemeint
@@ -349,21 +349,21 @@ Taste verursacht selbst keine Ausgabe auf dem Bildschirm, sondern
 komponiert die beiden nachfolgend eingegebenen Zeichen zu einem. Mit
 anderen Worten: Die Zeichen werden &uuml;bereinander gedruckt. Beispiel: Die
 Tastenfolge &lt;Compose&gt; &lt;&tilde;&gt; &lt;a&gt; ergibt ein &atilde;.
-Unter Linux ist meist eine der Tasten rechts von der Leertaste mit der
+Under Linux ist meist eine der Tasten rechts von der Leertaste mit der
 Kompositions-Funktion belegt. (Hinweis f&uuml;r Xmodmap-Bastler: Das
 XFree-Tasten-Symbol der Kompositions-Taste ist Multi_key.)
 
 
 <sect2>St&auml;ndige Komposition
 <p>
-Bestimmte Tasten k&ouml;nnen als st&auml;ndig komponierend konfiguriert werden. Die
+Bestimmte Tasten k&ouml;nnen also st&auml;ndig komponierend konfiguriert werden. Die
 Bet&auml;tigung solcher Tasten f&uuml;hrt zun&auml;chst zu keiner Ausgabe auf dem
 Bildschirm, sondern das betreffende Symbol wird &uuml;ber das n&auml;chste
 Zeichen gedruckt, das eingetippt wird. 
 
-Die Funktion wird im Englischen manchmal mit "dead keys" bezeichnet, was
+Die Function wird im Englischen manchmal mit "dead keys" bezeichnet, was
 eine Fehlbezeichnung ist, denn tote Tasten verursachen &uuml;berhaupt keine
-Funktion.
+Function.
 
 
 <sect2>Das Bootprompt
@@ -412,13 +412,13 @@ tats&auml;chliche Zeitzone, n&auml;mlich in unserem Fall die Mitteleurop&auml;is
 (Central European Time, CET) bzw. die Mitteleurop&auml;ische Sommerzeit
 (Central European Summer Time, CEST).
 
-Das fr&uuml;her gebr&auml;uchliche MET sollte unter keinen Umst&auml;nden
+Das fr&uuml;her gebr&auml;uchliche MET sollte under keinen Umst&auml;nden
 weiterverwendet werden. Von Markus Kuhn stammt folgende Information zu
 diesem Thema: Die Datei MET existiert nur zwecks
 R&uuml;ckw&auml;rtskompatibilit&auml;t.  Die Autoren der Zeitzonentabellen
 (Olson/Eggert/et al.) wollen eigentlich, da&szlig; deutsche Anwender statt
 MET die Datei Europe/Berlin verwenden.  Dann stimmen sogar die
-historischen Sommerzeiten vor 1945, die Linux auch alle
+historischen Sommerzeiten for 1945, die Linux auch alle
 kennt. Au&szlig;erdem wird dann in der neuesten Version der
 Zeitzonentabelle "Mitteleurop&auml;ische Zeit (MEZ)" endlich korrekt ins
 Englische mit "Central European Time (CET)" &uuml;bersetzt, denn "MET" ist
@@ -427,17 +427,17 @@ deswegen sogar beim Physikalisch-Technischen Bundesamt nachgefragt,
 die f&uuml;r die deutsche Zeit verantwortlich sind.
 
 Der gemeinsame Bezugspunkt f&uuml;r alle Zeitzonen ist die Universalzeit
-(Universal Time, UTC), fr&uuml;her auch Greenwich Mean Time (GMT) genannt. Unter
+(Universal Time, UTC), fr&uuml;her auch Greenwich Mean Time (GMT) genannt. Under
 Linux l&auml;sst man die CMOS-Uhr auf der Hauptplatine &uuml;blicherweise mit UTC
 laufen. Der Linux-Kernel &uuml;bernimmt den Wert der CMOS-Uhr beim Systemstart
-und errechnet daraus die Sekunden seit dem 1. Januar 1970, 0 Uhr (Unix
+und errechnet daraus die Sekunden seit dem 1. January 1970, 0 Uhr (Unix
 Epoch Time). Intern arbeitet der Linux-Kernel nur mit dieser Sekunden-Zahl,
 die &uuml;blicherweise auch in UTC l&auml;uft. Soll dem Anwender ein Datum oder eine
-Zeit angezeigt werden, dann wird aus der Systemzeit unter Ber&uuml;cksichtigung
+Zeit angezeigt werden, dann wird aus der Systemzeit under Ber&uuml;cksichtigung
 der Zeitzone und der Lokalisierung (siehe oben) eine Zeichenfolge
 konstruiert.
 
-Zusammenfassend kann man sagen, dass es unter Linux 3 Zeiten gibt: Die der
+Zusammenfassend kann man sagen, dass es under Linux 3 Zeiten gibt: Die der
 auf dem Motherboard installierten CMOS-Uhr, die Systemzeit des
 Linux-Kernels und die dem Anwender von verschiedenen Uhren angezeigte
 Zeit. Die Kommandozeilen-Werkzeuge hwclock ("hardware clock") und date
@@ -453,7 +453,7 @@ verbildlicht die Zusammenh&auml;nge:
 </verb></tscreen>
 
 Zwar liest der Kernel schon beim Booten die CMOS-Uhr aus und interpretiert
-sie als UTC. Aber um systematische Fehler der CMOS-Uhr zu korrigieren, wird
+sie also UTC. Aber um systematische Fehler der CMOS-Uhr zu korrigieren, wird
 die Uhrzeit von einem der Systemstart-Skripte im Verzeichnis /etc/init.d/
 ein weiteres Mal gelesen. &Uuml;bernimmt man die Linux-Systemzeit mit dem Kommando
 netdate von einem Zeit-Server, dann muss man die CMOS-Uhr mit dem Kommando
@@ -476,8 +476,8 @@ Internationalisierung und Lokalisierung sind auch im Englischen lange
 W&ouml;rter, weshalb sie mit i18n und i10n abgek&uuml;rzt werden. Die Zahlen geben
 an, wieviele Buchstaben in der englischen Schreibweise ausgelassen wurden.
 
-Mit i18n wird die Ver&auml;nderung eines Programms zur Unterst&uuml;tzung mehrerer
-Sprachen bezeichnet. Bei diesem Prozess wird normalerweise der angezeigte
+Mit i18n wird die Ver&auml;nderung eines Programs zur Unterst&uuml;tzung mehrerer
+Sprachen bezeichnet. Bei diesem Process wird normalerweise der angezeigte
 Text (Men&uuml;s, Meldungen, usw.) vom Programmcode getrennt. Auf diese Weise
 k&ouml;nnen sich mehrere &Uuml;bersetzungen denselben sprachenunabh&auml;ngigen
 Programmcodes teilen. Ins Deutsche &uuml;bersetzte Programmeldungen k&ouml;nnen &uuml;ber
@@ -497,7 +497,7 @@ l&auml;sst sich an folgendem Beispiel ablesen:
 
 <tscreen><verb>
 # im Jahre 1997:
-tar: Kann Archiv 'foo.tgz' nicht &ouml;ffnen: Permission denied
+tar: Kann Archive 'foo.tgz' nicht &ouml;ffnen: Permission denied
 
 # im Jahre 2001:
 tar: foo.tgz: Cannot open: Keine Berechtigung
@@ -522,10 +522,10 @@ Beispiel von IBM erh&auml;ltlich: <url url="http://www-124.ibm.com/developerwork
 
 <sect3>Ausnahmen von der Regel
 <p>
-Sowohl f&uuml;r die Textkonsole als auch f&uuml;r X11 existieren
+Sowohl f&uuml;r die Textkonsole also auch f&uuml;r X11 existieren
 Zeichens&auml;tze, die nicht alle Zeichen aus ISO-8859-1 enthalten. Dies
 gilt erst recht f&uuml;r Unicode. Die fehlenden Zeichen (z.B. Umlaute) werden
-als Leerzeichen oder gar nicht auf dem Bildschirm dargestellt.  In diesem
+also Leerzeichen oder gar nicht auf dem Bildschirm dargestellt.  In diesem
 Fall hilft nat&uuml;rlich die nachfolgend beschriebene Konfiguration der
 Anwendungen nicht weiter, sondern es mu&szlig; ein anderer
 (vollst&auml;ndiger) Zeichensatz gew&auml;hlt werden.
@@ -534,7 +534,7 @@ Anwendungen nicht weiter, sondern es mu&szlig; ein anderer
 <tscreen><verb>
 Anwendung    Einstellung                vorgenommen in/auf
 -------------------------------------------------------------------
-LaTex        \usepackage{a4}            im Dokument
+LaTex        \usepackage{a4}            im Document
 gnuplot	     set encoding iso_8859_1	~/.gnuplotrc
 xfig         Fig*inches:   false        Xresource
 xfig         -metric                    Kommandozeilenoption
@@ -573,13 +573,13 @@ kermit                                  ~/.mykermrc und /etc/kermit.ini
 <sect3>Das Papierformat DIN A4
 <p>
 In Amerika wird haupts&auml;chlich das Papierformat US-Letter verwendet, welches
-ein wenig breiter und niedriger ist als das in Europa gebr&auml;uchliche DIN A4.
+ein wenig breiter und niedriger ist also das in Europa gebr&auml;uchliche DIN A4.
 Oft muss man Anwendungen ausdr&uuml;cklich auf DIN A4 einstellen. Beispiele:
 
 <tscreen><verb>
 Anwendung    Einstellung                vorgenommen in/auf
 -------------------------------------------------------------------
-LaTex        \usepackage{a4}            im Dokument
+LaTex        \usepackage{a4}            im Document
 xdvi         XDvi.paper: a4             X-Resource
 ghostview    Ghostview.pageMedia: A4    X-Resource
 ghostscript  -sPAPERSIZE=a4             Kommandozeile
@@ -595,7 +595,7 @@ ImageMagick  -page A4                   Kommandozeile
 
 Die Textformate von DOS/Windows-basierten System, Apple-Computern und UNIX
 unterscheiden sich in zwei Punkten: Zeichensatz und Zeilenenden. Linux
-macht am Ende einer Textzeile nur einen Zeilenvorschub, &Auml;pfel machen nur
+macht am End einer Textzeile nur einen Zeilenvorschub, &Auml;pfel machen nur
 einen Wagenvorlauf und DOS-basierte Systeme machen beides.
 
 Die Programme <tt/fromdos/, <tt/todos/ und <tt/frommac/, <tt/tomac/
@@ -620,12 +620,12 @@ alias mac2unix='recode mac.lat1'
 <p>
 
 Die folgenden &Uuml;berlegungen betreffen nur Text-Dateien. Grafiken oder die
-Ausgabe von Textverarbeitungen werden als Punktmuster zum Drucker
+Ausgabe von Textverarbeitungen werden also Punktmuster zum Drucker
 geschickt und sind daher nicht betroffen.
 
 G&auml;ngige Drucker-Modelle erwarten Texte im DOS-Format. Schickt man eine
 Textdatei im Unix-Format zum Drucker, dann erh&auml;lt man einen
-Treppenstufen-Effekt, weil der Text am Ende der Zeile keinen Wagenr&uuml;cklauf
+Treppenstufen-Effekt, weil der Text am End der Zeile keinen Wagenr&uuml;cklauf
 aufweist. Beispiel: lpr /etc/nsswitch.conf. Entweder konvertiert man
 Textdateien wie oben beschrieben in das DOS-Format oder man wandelt sie mit
 Werkzeugen wie atp, mpage, a2ps, ascii2ps, encode oder gencode in das
@@ -677,7 +677,7 @@ Dampfschifffahrtspensionskassenchefsekret&auml;rinnenhalbjahresbetriebsausflugsb
 The typsetter will surely hate me for using such a long word. D78g, now
 all-together: Nyia-hahaha. As you can imagine, most applications will die
 because of string buffer overflows when german users start to type in their
-unusal long words. That is what the German Howto is about.
+unusual long words. That is what the German Howto is about.
 
 Not to forget our German speaking friends at the south: Austria and
 Switzerland. Read this Howto and learn how to manage your secret swiss
@@ -698,7 +698,7 @@ honors this evolution by concentrating on basic knowledge instead of
 endless parameter listings.
 
 The English part of the Howto is much shorter than the German one. It is
-only inteded as an overview of the situation.
+only intended as an overview of the situation.
 
 
 <sect1>Copyright, licence and disclaimer
@@ -766,7 +766,7 @@ at system administrators. Three large conventions are held each year, the
 <url url="http://www.linuxtag.org/" name="LinuxTag"> (LinuxDay), the
 <url url="http://www.linux-kongress.de" name="Linux-Kongress"> and the
 <url url="http://www.linuxworldexpo.de" name="LinuxWorld Expo">. Local
-events are usally organised by the Linux User Groups and can be found in
+events are usually organised by the Linux User Groups and can be found in
 the calendars. The newsgroup hierarchy de.comp.os.unix.linux.* is a quite
 busy part of the german usenet. The same is true for the IRC channels
 #debian.de and #linuxger.
@@ -794,7 +794,7 @@ english keyboard. Not to speak of the special characters like the
 slash. Now imagine you want to type yes and it always gives zes. Or you
 want to type /dev/sda and it gives ?dev?sda. Short: a keyboard mapping is
 required in europe. Every european country has its own keyboard layout. The
-right mapping can be choosen at installation time for all modern Linux
+right mapping can be chosen at installation time for all modern Linux
 distributions. Suitable for germany and austria is de-latin1-nodeadkeys,
 whereas the swiss people need sf-latin1 (swiss-french) or sg-latin1
 (swiss-german).
@@ -810,14 +810,14 @@ these characters on the keyboard, it would be necassary to map up to four
 symbols per key. For cases where you access the complete set only
 occasionally,such a mapping would be a too high learning effort.
 One solution is the use of the compose key. After pressing the compose key,
-which is usally mapped to the right control key, the next character is not
+which is usually mapped to the right control key, the next character is not
 displayed but instead printed over the following character. Example:
 the sequence Right-Ctrl ~ A is composed as the character Ã (capital a with
 a tilde on top).
 
 An alternative is the feature of always composing keys. Under such
 mappings, characters like ~ are never displayed but always printed over the
-following character. Usally this feature is refered to as dead keys, which
+following character. Usually this feature is referred to as dead keys, which
 is a little bit misleading. I'm not aware of anybody using the dead keys
 feature.
 
@@ -876,12 +876,12 @@ Europe/Zurich. This gives correct results even before the Unix Epoch.
 
 <sect2>Internationalization and lokalization
 <p>
-Internationalization and lokalization are unusal long words (but not as
-long as D78g, see above) and thus abreviated by i18n and i10n. The numbers
+Internationalization and lokalization are unusual long words (but not as
+long as D78g, see above) and thus abbreviated by i18n and i10n. The numbers
 indicate how many characters have been left out.
 
 I18n denotes the changes to the program code in order to have a multi
-lingual output. A common implementation is to seperate the messages from the
+lingual output. A common implementation is to separate the messages from the
 code. This way several translated texts share the same code base. German
 messages are activated with the LANG environment variable. Examples:
 
@@ -899,7 +899,7 @@ the evolution of the problem:
 
 <tscreen><verb>
 # in 1997:
-tar: Kann Archiv 'foo.tgz' nicht &ouml;ffnen: Permission denied
+tar: Kann Archive 'foo.tgz' nicht &ouml;ffnen: Permission denied
 
 # in 2001:
 tar: foo.tgz: Cannot open: Keine Berechtigung
@@ -922,7 +922,7 @@ longer side.
 
 <sect>Fun f&uuml;r Dich: Denglish
 <p>
-Das erste Kapitel in Deutsch, das zweite in Englisch. Was liegt n&auml;her, als
+Das erste Kapitel in Deutsch, das zweite in Englisch. Was liegt n&auml;her, also
 im Dritten beide Sprachen zu mischen? Zur genaueren Er&ouml;rterung dieser Frage
 m&ouml;chte ich an dieser Stelle ein Beispiel aus der Welt der
 Programmiersprachen geben. Programmiersprachen haben den Vorteil, dass sie
@@ -943,7 +943,7 @@ Die Perl-Funktion system ruft den Bourne-Interpreter auf, der seinerseits
 das externe Programm rm zur Entfernung der Datei gesch&auml;ftsbericht.txt
 aufruft. Eine Recht komplizierte Vorgehensweise, welche aber oft in
 Computer-Programmen von Anf&auml;ngern zu finden ist, denen noch die Erfahrung
-im Umgang mit der Sprache fehlt. Das fehlende Wissen &uuml;ber die Funktion unlink
+im Umgang mit der Sprache fehlt. Das fehlende Wissen &uuml;ber die Function unlink
 wird kompensiert durch die Kombination der Universal-Funktion system mit
 dem Wissen &uuml;ber das externe Werkzeug rm zur Entfernung von Dateien. Auf
 diese Weise ist das Programm in k&uuml;rzester Zeit lauff&auml;hig.
@@ -951,7 +951,7 @@ diese Weise ist das Programm in k&uuml;rzester Zeit lauff&auml;hig.
 Jeder erfahrene Perl-Programmierer wird bei der oben gezeigten Mischung der Sprachen einen Schrei des Entsetzens ausstossen, weil er um die
 damit verbundenen Gefahren weiss. Die Bedenken sind technischer Art, zum
 Beispiel k&ouml;nnten sich rm oder der Bourne-Interpreter sp&auml;ter anders
-verhalten, schliesslich sind beide nicht Teil von Perl als Sprache.  Als
+verhalten, schliesslich sind beide nicht Teil von Perl also Sprache.  Also
 Folge k&ouml;nnte die Datei nicht oder eine andere Datei gel&ouml;scht werden.  Und
 weil das in der Praxis tats&auml;chlich vorkommt, wird immer wieder geraten, die
 M&ouml;glichkeiten einer Programmiersprache auszusch&ouml;pfen, bevor man andere
@@ -961,20 +961,20 @@ Leider ist es in den letzten Jahren &uuml;blich geworden, viel Englisch in die
 Deutsche Sprache zu mischen, obwohl dazu keine Notwendigkeit besteht. Aber
 bevor ich auf die m&ouml;glichen Ursachen eingehe, ist es noch notwendig, den
 Bezug zu den Programmiersprachen herzustellen. Die deutsche Schriftsprache
-ist sicherlich sehr viel komplexer als Perl. Trotzdem ist der Zweck in
+ist sicherlich sehr viel komplexer also Perl. Trotzdem ist der Zweck in
 beiden F&auml;llen gleich: Informationen zu &uuml;bermitteln, ohne dass deren Urheber
-zugegen w&auml;re. Bei einem Buch werden in Abwesenheit des Autors Informationen
+zugegen w&auml;re. Bei einem Buch werden in Abwesenheit des Authors Informationen
 an den Leser &uuml;bermittelt, bei einem Programmtext an den Prozessor des
 Rechners.  Genau das ist der Unterschied zur gesprochenen Sprache, bei der
 immerhin eine unterst&uuml;tzende Betonung gegeben werden kann, wenn nicht sogar
-der Autor pers&ouml;nlich zugegen ist und auf diese Weise Gesten oder R&uuml;ckfragen
+der Author pers&ouml;nlich zugegen ist und auf diese Weise Gesten oder R&uuml;ckfragen
 m&ouml;glich sind. In diesem Sinne geh&ouml;rt auch eine eingetippte Plauderei
 (engl. chat) im IRC, den virtuellen R&auml;umen oder im Heise Newsticker trotz
 der Verwendung von Buchstaben eher zur gesprochenen Sprache.
 
-Man kann also festhalten, dass es f&uuml;r die Informations&uuml;bermittlung
+Man kann also festhalten, dass es f&uuml;r die Information&uuml;bermittlung
 Medien mit verschiedenen Bandbreiten gibt. Papier ist sozusagen das alte Modem,
-getippte Plaudereien sind schon DSL und die Anwesenheit vor Ort ist
+getippte Plaudereien sind schon DSL und die Anwesenheit for Ort ist
 100base-T Ethernet. Der R&uuml;ckschluss "Im Chat haben mich immer alle
 verstanden, daher brauche ich zum Schreiben eines Buch keine
 Grammatik-Kenntnisse" f&uuml;hrt daher nicht zum Erfolg: Was bleibt von einem 
@@ -1004,8 +1004,8 @@ weil noch andere (unerforschte?) Bedeutungen in "mount" stecken w&uuml;rden.
 </itemize>
 
 Nat&uuml;rlich gibt es auch den umgekehrten Fall, n&auml;mlich dass
-deutsche Worte hin und wieder in der englischen Sprache verwendet
-werden. Beispiele: Kindergarden, Autobahn oder heimlich. Aber dieser Anteil
+deutsche Wrote hin und wieder in der englischen Sprache verwendet
+werden. Beispiele: Kindergarten, Autobahn oder heimlich. Aber dieser Anteil
 ist ohne Bedeutung und bleibt tatsächlich im Rahmen einer Bereicherung der
 Sprache, nicht der einer Verdrängung.
 

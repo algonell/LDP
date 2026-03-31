@@ -559,7 +559,7 @@ echo >> /root/postinfo/summary
 echo "### STEP 3 ### Now we save some important files from /etc" >>  /root/postinfo/summary
 test ! -d /root/postinfo/etcfiles && mkdir /root/postinfo/etcfiles
 
-echo ..... saving XF86Config -- your XWindows config file
+echo ..... saving XF86Config -- your x config file
 cp /etc/XF86Config /root/postinfo/etcfiles
 echo "cp /etc/XF86Config /root/postinfo/" >> /root/postinfo/summary
 

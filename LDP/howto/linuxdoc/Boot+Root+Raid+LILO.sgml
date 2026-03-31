@@ -72,7 +72,7 @@ This document is GNU copyleft by Michael Robinton
 <p>
 The packages you need and the documentation that answers the most common
 questions about setting up and running raid are listed below. Please review
-them throughly.
+them thoroughly.
 
 <sect1>Required Packages
 
@@ -191,7 +191,7 @@ A conventional LILO config file stripped down looks like this:
 
 <verb>
 # lilo.conf - assumes drive less than 1024
-        boot = /dev/hda
+        boot = /dev/had
         delay = 40               # extra, but nice
         vga = normal             # not normally needed
         image = /bzImage
@@ -204,7 +204,7 @@ A conventional LILO config file stripped down looks like this:
 A raid LILO config file pair would look like this:
 
 <verb>
-# lilo.conf.hda - primary ide master
+# lilo.conf.had - primary ide master
         disk=/dev/md0
         bios=0x80
         sectors=63
@@ -212,7 +212,7 @@ A raid LILO config file pair would look like this:
         cylinders=39770
         partition=/dev/md1
         start=63
-        boot=/dev/hda
+        boot=/dev/had
         map=/boot/map
         install=/boot/boot.b
         image=/boot/bzImage
@@ -252,9 +252,9 @@ command:
 
 <verb>
 fdisk -ul (little L)
-fdisk -ul /dev/hda
+fdisk -ul /dev/had
 
-Disk /dev/hda: 16 heads, 63 sectors, 39770 cylinders
+Disk /dev/had: 16 heads, 63 sectors, 39770 cylinders
 Units = sectors of 1 * 512 bytes
 
    Device Boot    Start       End    Blocks   Id  System
@@ -265,13 +265,13 @@ Units = sectors of 1 * 512 bytes
 * note the listing of the START of each partition
 </verb>
 
-<sect1>Detailed explaination of lilo.conf for raid boot
+<sect1>Detailed explanation of lilo.conf for raid boot
 
 <p>
 The raid lilo.conf file above, commented in detail for each entry.
 
 <verb>
-# lilo.conf.hda - primary ide master
+# lilo.conf.had - primary ide master
 #       the location of the /boot directory that will be
 #       designated below as containing the kernel, map, etc...
 #	note that this is NOT the actual partition containing
@@ -308,7 +308,7 @@ The raid lilo.conf file above, commented in detail for each entry.
      start=63
 
 #       the real device that LILO will write the boot information to
-     boot=/dev/hda
+     boot=/dev/had
 
 #       logically where LILO will put the boot information
      map=/boot/map
@@ -359,7 +359,7 @@ that the raid flavors you will use are supported by the new kernel.
 
 <p>
 The new disk will be added to an additional IDE controller as the master
-device, thus becomming /dev/hdc
+device, thus becoming /dev/hdc
 
 <verb>
     /dev/hdc1     16megs -- more than enough for several kernel images
@@ -453,7 +453,7 @@ may have to modify the procedure somewhat.
 Make a boot floppy and rdev the kernel.
 
 <verb>
-    dd if=kernal.image of=/dev/fd0 bs=2k
+    dd if=kernel.image of=/dev/fd0 bs=2k
     rdev /dev/fd0 /dev/md0
     rdev -r /dev/fd0 0
     rdev -R /dev/fd0 1
@@ -530,9 +530,9 @@ Filesystem           1k-blocks      Used Available Use% Mounted on
 
 # --------------------------
 
- fdisk -ul /dev/hda
+ fdisk -ul /dev/had
 
-Disk /dev/hda: 16 heads, 63 sectors, 39770 cylinders
+Disk /dev/had: 16 heads, 63 sectors, 39770 cylinders
 Units = sectors of 1 * 512 bytes
 
    Device Boot    Start       End    Blocks   Id  System
@@ -595,7 +595,7 @@ disk=/dev/md0
 # start of device "disk" above
   start=63
 
-boot=/dev/hda
+boot=/dev/had
 map=/boot/map
 install=/boot/boot.b
 
@@ -797,9 +797,9 @@ Filesystem           1k-blocks      Used Available Use% Mounted on
 
 # ----------------------------
 
- fdisk -ul /dev/hda
+ fdisk -ul /dev/had
 
-Disk /dev/hda: 4 heads, 46 sectors, 903 cylinders
+Disk /dev/had: 4 heads, 46 sectors, 903 cylinders
 Units = sectors of 1 * 512 bytes
 
    Device Boot    Start       End    Blocks   Id  System
@@ -930,7 +930,7 @@ contents of initrd
 ./dev/md3
 ./dev/md4
 ./dev/console
-./dev/hda
+./dev/had
 ./dev/hda1
 ./dev/hda2
 ./dev/hda3
@@ -989,9 +989,9 @@ Filesystem           1k-blocks      Used Available Use% Mounted on
 
 # ----------------------------
 
- fdisk -ul /dev/hda
+ fdisk -ul /dev/had
 
-Disk /dev/hda: 8 heads, 46 sectors, 903 cylinders
+Disk /dev/had: 8 heads, 46 sectors, 903 cylinders
 Units = sectors of 1 * 512 bytes
 
    Device Boot    Start       End    Blocks   Id  System
@@ -1101,7 +1101,7 @@ contents of initrd.gz
 ./dev/md2
 ./dev/md3
 ./dev/console
-./dev/hda
+./dev/had
 ./dev/hda1
 ./dev/hda2
 ./dev/hda3
@@ -1136,7 +1136,7 @@ contents of initrd.gz
 
 # ----------------------------
 
- cat lilo.conf.hda
+ cat lilo.conf.had
 # GLOBAL SECTION
 # device containing /boot directory
 disk=/dev/md2
@@ -1146,7 +1146,7 @@ disk=/dev/md2
   heads=8
   sectors=46
 # geometry for 2nd disk
-# bios will be the same because it will have to be moved to hda
+# bios will be the same because it will have to be moved to had
 #  cylinders=762
 #  heads=8
 #  sectors=39
@@ -1161,7 +1161,7 @@ disk=/dev/md2
 # seem to have some trouble with 2.2.14 recognizing the right IRQ
   append = "ide1=0x170,0x376,12 ether=10,0x300,eth0 ether=5,0x320,eth1"
 
-boot=/dev/hda
+boot=/dev/had
 map=/boot/map
 install=/boot/boot.b
 
@@ -1184,7 +1184,7 @@ disk=/dev/md2
 #  heads=8
 #  sectors=46
 # geometry for 2nd disk
-# bios will be the same because it will have to be moved to hda
+# bios will be the same because it will have to be moved to had
   cylinders=762
   heads=8
   sectors=39

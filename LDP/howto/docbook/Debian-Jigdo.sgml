@@ -527,7 +527,7 @@
       
       -----------------------------------------------------------------
       If you already have a previous version of the CD you are
-      downloading, jigdo can re-use files on the old CD that are also
+      downloading, jigdo can reuse files on the old CD that are also
       present in the new image, and you do not need to download them
       again. Mount the old CD ROM and enter the path it is mounted under
       (e.g. `/mnt/cdrom').
@@ -769,7 +769,7 @@
       
       -----------------------------------------------------------------
       If you already have a previous version of the CD you are
-      downloading, jigdo can re-use files on the old CD that are also
+      downloading, jigdo can reuse files on the old CD that are also
       present on the new image, and you do not need to download them
       again.  You found the secret message; you're a very careful
       reader.  Mount the old CD ROM and enter the path it is mounted
@@ -788,7 +788,7 @@
   role="directory">/mnt</filename>.  If you're updating a CD, enter the mount directory of your CD,
   which is most likely <literal>/cdrom</literal>.  In either case,
   <application>jigdo-lite</application> will scan the directory of your mounted media, determine
-  which files need updating and re-use the files which don't need updating.  See also <xref
+  which files need updating and reuse the files which don't need updating.  See also <xref
   linkend="more-about-scan">, "More About Scan Sources".</para>
   
   <para>You may see something like:</para>
@@ -843,7 +843,7 @@
       
       -----------------------------------------------------------------
       If you already have a previous version of the image you are
-      downloading, jigdo can re-use files on the old image that are also
+      downloading, jigdo can reuse files on the old image that are also
       present on the new image, and you do not need to download them
       again. Mount the old CD ROM and enter the path it is mounted under
       (e.g. `/mnt/cdrom'). Alternatively, just press enter if you want
@@ -873,7 +873,7 @@
       
       -----------------------------------------------------------------
       If you already have a previous version of the image you are
-      downloading, jigdo can re-use files on the old image that are also
+      downloading, jigdo can reuse files on the old image that are also
       present on the new image, and you do not need to download them
       again. Mount the old CD ROM and enter the path it is mounted under
       (e.g. `/mnt/cdrom'). Alternatively, just press enter if you want
@@ -1190,7 +1190,7 @@
 
 
 
-		<sect2 id="wgetoptions"><title>Jigdo-lite is too verbose.  How can I supress some or all of its messages?</title>
+		<sect2 id="wgetoptions"><title>Jigdo-lite is too verbose.  How can I suppress some or all of its messages?</title>
 
       <para>Jigdo-lite uses wget, and wget's output can be quite verbose.  If this is unsettling,
       you can make wget more quiet by adding <literal>--non-verbose</literal> to the

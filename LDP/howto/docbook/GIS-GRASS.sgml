@@ -734,7 +734,7 @@
     <para>
       World Wide Web-based training materials, including training in GRASS, 
       are highlighted in the
-      <ulink url="http://www.ngdc.noaa.gov/seg/tools/gis/referenc.html"><citetitle>CyberInstute Short Course in GIS</citetitle></ulink>
+      <ulink url="http://www.ngdc.noaa.gov/seg/tools/gis/reference.html"><citetitle>CyberInstute Short Course in GIS</citetitle></ulink>
       (then scan down for the link(s) to Web-based tutorials in GIS).
     </para>
     
@@ -1118,7 +1118,7 @@
       bookstore (in many cases these are campus bookstores at schools with 
       good GIS programs or top-notch technical or general bookstores - you 
       know that ones are near you..), or the following URL for the 
-      <ulink url="http://www.ngdc.noaa.gov/seg/tools/gis/referenc.html"><citetitle>CyberInstitute Short Course on Geographic Information Systems</citetitle></ulink>
+      <ulink url="http://www.ngdc.noaa.gov/seg/tools/gis/reference.html"><citetitle>CyberInstitute Short Course on Geographic Information Systems</citetitle></ulink>
       (convened by myself):
     </para>
     
@@ -1237,7 +1237,7 @@ Installation instructions:
 * compiled on: April 7, 1994
 
 ********************************************************************
-System Requiremnts:
+System Requirements:
 
         35 MB disk space to hold the binary distribution
 
@@ -1358,7 +1358,7 @@ following configuration:
 THE LINUX GRASS 4.15 BINARIES ONLY WORK ON ELF-LINUX. THE BINARIES MAY 
 NOT WORK WITH EARLY VERSION OF KERNEL AND/OR GCC AND FLEX.
 
-The binaries was tared and gziped, then split into 9 (close to 1.3 MB 
+The binaries was tared and gzipped, then split into 9 (close to 1.3 MB 
 - 1200 x 1K block) files named from linuxg.aa to linuxg.ai.
 
 You should ftp all the linuxg.a* in binary mode and also get this 

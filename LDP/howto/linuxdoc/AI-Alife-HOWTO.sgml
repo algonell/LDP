@@ -100,7 +100,7 @@ GNU/Linux specifically in mind.
 
     <p>New entries: <ref id="Eprover">, <ref id="Player">, <ref id="Logfun">,
     <ref id="Livingstone2">, <ref id="Quackle">, <ref id="LingPipe">, <ref
-    id="GATE">, <ref id="Infon Battle Arena">, <ref id="CLARAty">, <ref
+    id="GATE">, <ref id="Infon Battle Arena">, <ref id="clarity">, <ref
     id="Reverend">, <ref id="Shogun">, <ref id="Nanopond">, <ref
     id="Polyworld">, <ref id="Fluidiom">, <ref id="NEAT">, <ref
     id="Framsticks">, <ref id="URBI">, <ref id="RobotFlow">, <ref id="Nero">,
@@ -278,7 +278,7 @@ United States.
                 name="sourceforge.net/projects/aikernel/">
         </itemize>
 
-        The AI Kernel is a re-usable artificial intelligence engine that uses
+        The AI Kernel is a reusable artificial intelligence engine that uses
         natural language processing and an Activator / Context model to allow
         multi tasking between installed cells.
 
@@ -377,7 +377,7 @@ United States.
      </itemize>
      
       The CIL (Chess In Lisp) foundation is a Common Lisp
-      implementaion of all the core functions needed for development
+      implementation of all the core functions needed for development
       of chess applications.  The main purpose of the CIL project is
       to get AI researchers interested in using Lisp to work in the
       chess domain.
@@ -625,7 +625,7 @@ United States.
         of the Loom language. Declarative knowledge in Loom consists of
         definitions, rules, facts, and default rules. A deductive engine called
         a classifier utilizes forward-chaining, semantic unification and
-        object-oriented truth maintainance technologies in order to compile the
+        object-oriented truth maintenance technologies in order to compile the
         declarative knowledge into a network designed to efficiently support
         on-line deductive query processing.
 
@@ -636,7 +636,7 @@ United States.
         components permits programmers to utilize logic programming, production
         rule, and object-oriented programming paradigms in a single
         application. Loom can also be used as a deductive layer that overlays
-        an ordinary CLOS network. In this mode, users can obtain many of the
+        an ordinary CLOSE network. In this mode, users can obtain many of the
         benefits of using Loom without impacting the function or performance of
         their CLOS-based applications.
 
@@ -838,7 +838,7 @@ United States.
       constraint logic programming languages such as CHiP and CLP(R).
       Furthermore, Screamer is fully integrated with Common
       Lisp. Screamer programs can coexist and interoperate with other
-      extensions to Common Lisp such as CLOS, CLIM and Iterate.
+      extensions to Common Lisp such as CLOSE, CLIM and Iterate.
 
 
     <label id="SimpleAI">
@@ -997,7 +997,7 @@ United States.
       literals) and rewriting. No special rules for non-equational literals
       have been implemented, i.e., resolution is simulated via paramodulation
       and equality resolution. The basic calculus is extended with rules for AC
-      redundancy elemination, some contextual simplification, and
+      redundancy elimination, some contextual simplification, and
       pseudo-splitting. The latest version of E also supports simultaneous
       paramodulation, either for all inferences or for selected inferences.
 
@@ -1197,7 +1197,7 @@ United States.
         LISA (Lisp-based Intelligent Software Agents) is a production-rule
         system heavily influenced by JESS (Java Expert System Shell). It has at
         its core a reasoning engine based on the Rete pattern matching
-        algorithm. LISA also provides the ability to reason over ordinary CLOS
+        algorithm. LISA also provides the ability to reason over ordinary CLOSE
         objects.
 
 
@@ -1890,7 +1890,7 @@ United States.
 
         Features
         <itemize>
-         <item>Standart back-propagation networks creation.
+         <item>Standard back-propagation networks creation.
          <item>Saving network as a text file, which can be edited and loaded
                back.
          <item>Saving/loading binary file
@@ -2295,7 +2295,7 @@ United States.
                 name="www.sprave.com/Ease/Ease.html">
         </itemize>
 
-        Ease - Evolutionary Algorithms Scripting Evironment - is an extension
+        Ease - Evolutionary Algorithms Scripting Environment - is an extension
         to the Tcl scripting language, providing commands to create, modify,
         and evaluate populations of individuals represented by real number
         vectors and/or bit strings.
@@ -2538,7 +2538,7 @@ United States.
                     url="http://packages.qa.debian.org/g/genetic.html">
         </itemize>
 
-        This is a package for genetic algorythms and AI in Python.
+        This is a package for genetic algorithms and AI in Python.
 
         Genetic can typically solve ANY problem that consists to minimize a 
         function.
@@ -3432,7 +3432,7 @@ United States.
                 name="sourceforge.net/projects/glife/">
         </itemize>
         
-        This program is similiar to "Conway's Game of Life" but yet it is very
+        This program is similar to "Conway's Game of Life" but yet it is very
         different. It takes "Conway's Game of Life" and applies it to a society
         (human society). This means there is a very different (and much larger)
         rule set than in the original game. Things need to be taken into account
@@ -3533,7 +3533,7 @@ United States.
                 name="www.nobleape.com/sim/">
         </itemize>
 
-        The Noble Ape Simulation has been developed (as the Nervana Simulation)
+        The Noble Ape Simulation has been developed (as the Nirvana Simulation)
         since 1996. The aim of the simulation is to create a detailed
         biological environment and a cognitive simulation. The Simulation is
         intended as a palette for open source development. It provides a stable
@@ -3684,7 +3684,7 @@ United States.
 <label id="Agents">
     <p>
 
-        Software brains for computers that do stuff. Everythin from fun and
+        Software brains for computers that do stuff. Everything from fun and
         games to data mining to physical robotics. This is a great hobbiest
         area of AI with many areas of interest to pursue. I've broken it down
         loosely into 2 sections. AI for purely software based agents and that
@@ -4401,7 +4401,7 @@ United States.
         <item>industry standard Tcl/Tk scripting
             with built-in routine optimization, speculative evaluation
             and xf86 JIT compiler users can create complex models without
-            sacrificing perfomance </item>
+            sacrificing performance </item>
         <item>user friendly interface </item>
         <item>save and restore program runs </item>
         <item>change model parameters on the fly </item>
@@ -4667,7 +4667,7 @@ name="www.csee.umbc.edu/tkqml/">
         have teams and special rules for a game. 
 
         The hardware for use in your bot includes weapons, engine, scanners,
-        CPU, etc. The programming lauguage is dependent on the CPU type and is
+        CPU, etc. The programming language is dependent on the CPU type and is
         similar to an assembly language. 
 
 
@@ -4707,19 +4707,19 @@ name="www.csee.umbc.edu/tkqml/">
 
 	CARMEN, the Carnegie Mellon Robot Navigation Toolkit. CARMEN is an
 	open-source collection of software for mobile robot control. CARMEN is
-	modular software designed to provide basic navigation primatives
+	modular software designed to provide basic navigation primitives
 	including: base and sensor control, logging, obstacle avoidance,
 	localization, path planning, and mapping. 
 
 
-    <label id="CLARAty">
-    <tag/CLARAty/
+    <label id="clarity">
+    <tag/clarity/
         <itemize>
             <item>Web site: <htmlurl
-                url="http://claraty.jpl.nasa.gov/man/overview/">
+                url="http://clarity.jpl.nasa.gov/man/overview/">
         </itemize>
 
-        CLARAty is an integrated framework for reusable robotic software. It
+        clarity is an integrated framework for reusable robotic software. It
         defines interfaces for common robotic functionality and integrates
         multiple implementations of any given functionality. Examples of such
         capabilities include pose estimation, navigation, locomotion and
@@ -5386,7 +5386,7 @@ name="www.csee.umbc.edu/tkqml/">
         Perceptrons and features algorithms to train hidden markov models. The
         input feature-objects can be dense, sparse or strings and of type
         int/short/double/char and can be converted into different feature
-        types. Chains of preprocessors (e.g. substracting the mean) can be
+        types. Chains of preprocessors (e.g. subtracting the mean) can be
         attached to each feature object allowing for on-the-fly pre-processing.
 
         SHOGUN is implemented in C++ and interfaces to Matlab(tm), R, Octave
@@ -5491,7 +5491,7 @@ name="www.csee.umbc.edu/tkqml/">
 
     <p>
 
-    This is my area for old or bad entries. The MIA section is for entires for
+    This is my area for old or bad entries. The MIA section is for entries for
     which I no longer have a valid home page. If you have any information
     regarding where I can find these now please let me know. The Dead section
     is for projects that seem dead. Moving them here allows me to keep my
@@ -5758,13 +5758,13 @@ name="www.csee.umbc.edu/tkqml/">
         </itemize>
 
         A set of ANSI C packages that illustrate Adaline networks,
-        back-propagation, the Hopfield model, BAM, Boltzman, CPN, SOM, and
+        back-propagation, the Hopfield model, BAM, Boltzman, CPN, SOME, and
         ART1. Coded in portable, self-contained ANSI C. With complete example
         applications from a variety of well-known application domains.
 
 
-    <label id="Neureka ANS">
-    <tag/Neureka ANS (nn&#47;xnn)/
+    <label id="Neureka AND">
+    <tag/Neureka AND (nn&#47;xnn)/
         <itemize>
          <item>FTP site: ftp://ftp.ii.uib.no/pub/neureka/
         </itemize>
@@ -6037,10 +6037,10 @@ name="www.csee.umbc.edu/tkqml/">
         with support for different, customizable personalities.
 
 
-    <label id="ViSe">
-    <tag/Virtual Secretary Project (ViSe)/ (Tcl/Tk)
+    <label id="vice">
+    <tag/Virtual Secretary Project (vice)/ (Tcl/Tk)
     <itemize>
-        <item>Web site: http://www.vise.cs.uit.no/vise/
+        <item>Web site: http://www.vice.cs.uit.no/vice/
     </itemize>
 
       The motivation of the Virtual Secretary project is to construct

@@ -43,7 +43,7 @@ bunzip2 -dc $TARGET.tar.bz2 | ssh $host "umask 000 ; cd / ; tar -xpkf - "
 # bunzip2 -dc $host.dos.$DATE.tar.bz2 | ssh $host "umask 000 ;\
 # mount /mnt/dosc ; cd / ; tar -xpkf - "
 
-# Note libata issue! We boot to /dev/sda, not /dev/hda, as IDE drives
+# Note libata issue! We boot to /dev/sda, not /dev/had, as IDE drives
 # now show up as SCSI drives.
 
 ssh $host "chown root:lock /var/lock ; grub-install /dev/sda"

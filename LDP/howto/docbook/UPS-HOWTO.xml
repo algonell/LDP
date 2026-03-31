@@ -993,7 +993,7 @@ included.</para>
 "color book" series, especially the following:</para>
 
 <itemizedlist>
-   <listitem><para>The Emerald Book, IEEE Recommeded Practice for Powering and Grounding Electronic Equipment, Std. 1100-1999, 1999.</para></listitem>
+   <listitem><para>The Emerald Book, IEEE Recommended Practice for Powering and Grounding Electronic Equipment, Std. 1100-1999, 1999.</para></listitem>
    <listitem><para>The Gold Book, IEEE Recommended Practice for the Design of Reliable Industrial and Commercial Power Systems, Std. 493-1997, 1997.</para></listitem>
    <listitem><para>The Green Book, IEEE Recommended Practice for Grounding of Industrial and Commercial Power Systems, Std. 241-1990, 1990.</para></listitem>
 </itemizedlist>
@@ -1004,7 +1004,7 @@ included.</para>
 <para>Substantial portions of this document, notably the bits on
 maintaining your UPS, were originally part of the
 <application>apcupsd</application> documentation. The project
-maintainers have graciously permitted me to re-use them here.  Other
+maintainers have graciously permitted me to reuse them here.  Other
 parts were part of my <ulink url='&howto;/Unix-Hardware-Buyer-HOWTO/'>Unix
 Hardware Buyer HOWTO</ulink>.</para>
 

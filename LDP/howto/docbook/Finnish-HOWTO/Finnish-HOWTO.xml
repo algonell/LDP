@@ -216,7 +216,7 @@
                <date>2001-09-26</date>
                <authorinitials>am</authorinitials>
                <revremark>
-                Corrected the erraneous revhistory order.
+                Corrected the erroneous revhistory order.
                </revremark>
             </revision>
             <revision>
@@ -287,7 +287,7 @@ Tämän dokumentin tarkoituksen on antaa ohjeet GNU/Linuxin
 asetusten suomalaistamiseksi asennuksen
 jälkeen. Lähtökohtana on tekijän
 käyttämä <emphasis>Debian GNU/Linux</emphasis> (kirjoitushetkellä
-versio 3.0), mutta dokumentista on todennäköisesti
+version 3.0), mutta dokumentista on todennäköisesti
 hyötyä myös muiden jakeluiden käyttäjille,
 vaikka erityisesti erilaisten käynnistysskriptien nimet ja paikat
 vaihtelevat eri distribuutioiden välillä hyvinkin paljon.
@@ -321,7 +321,7 @@ url="http://arska.org/finnish-howto/">
 http://arska.org/finnish-howto/</ulink> vaikka myös 
 <ulink url="http://www.tlpd.org/">Linux Documentation Project</ulink> 
 levittää sitä niin se on usein huomattavasti vanhempi kuin viralliselta 
-kotisivulta löytyvä versio.
+kotisivulta löytyvä version.
 </para>
 
 </sect1>

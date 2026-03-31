@@ -199,11 +199,11 @@ name="http://www.correct.nl/~ftape">.
 
 <sect1>Contacts<p>
 
-The maintainer of the source for <tt/ftape/ is Claus Heine <htmlurl
+The maintainer of the source for <tt/ftape/ is Clause Heine <htmlurl
 url="mailto:heine@math1.rwth-aachen.de"
 name="&lt;heine@math1.rwth-aachen.de&gt">.  He has a web page at
-<htmlurl url="http://www-math.math.rwth-aachen.de/~LBFM/claus/ftape/"
-name="http://www-math.math.rwth-aachen.de/~LBFM/claus/ftape/">.
+<htmlurl url="http://www-math.math.rwth-aachen.de/~LBFM/clause/ftape/"
+name="http://www-math.math.rwth-aachen.de/~LBFM/clause/ftape/">.
 
 If you have a problem or questions about ftape, try posting to the
 <tt/Linux Tape/ mailing list <tt/linux-tape@vger.rutger.edu/ (see <ref
@@ -234,7 +234,7 @@ of trouble.
 
 If you email me, please include the string <tt/ftape/ in the subject
 line.  This will help ensure the mail doesn't inadvertently get
-buried. But preferrably you should email to the Linux Tape mailing list
+buried. But preferably you should email to the Linux Tape mailing list
 at <htmlurl url="mailto:linux-tape@vger.rutgers.edu"
 name="&lt;linux-tape@vger.rutgers.edu&gt"> instead of contacting me
 directly.
@@ -312,8 +312,8 @@ I recommend that you download the latest stable version of <tt/ftape/
 which is 4.02 at the time of this writing and is available from
 
 <htmlurl
-url="http://www-math.math.rwth-aachen.de/~LBFM/claus/ftape/archives.html"
-name="http://www-math.math.rwth-aachen.de/~LBFM/claus/ftape/archives.html">
+url="http://www-math.math.rwth-aachen.de/~LBFM/clause/ftape/archives.html"
+name="http://www-math.math.rwth-aachen.de/~LBFM/clause/ftape/archives.html">
 
 as well as from
 
@@ -406,7 +406,7 @@ in this document.
 
 <tt/ftape-3.x/ supported user transparent on-the-fly compression in
 software. This feature (or <em/bug/) has vanished in <tt/ftape-4.x/ as
-it made further improvements concerning the realiability of backups
+it made further improvements concerning the reliability of backups
 very very hard. This means, <tt/ftape-4.x/ comes without compression
 support.
 
@@ -423,7 +423,7 @@ The <tt/ftape-manual/ contained in the <tt/ftape-doc/ package contains
 much more detailed information about <tt/ftape`s/ file system
 interface as well as implementation notes which by far exceed the
 scope of this HOWTO. See <ref id="getting" name="Getting Ftape"> for
-informations about where to obtain the manual.
+information about where to obtain the manual.
 
 
 
@@ -790,7 +790,7 @@ like "dumb tape stop" and has since been unreliable
 (&lt;ttait@tiac.net&gt).
 
 <quote>
-No recent informations available
+No recent information available
 </>
 
 <tag/Escom or Archive (Hornet) 31250Q/<p>
@@ -1092,7 +1092,7 @@ examples can be found in the <tt/ftape-manual/ of the <tt/ftape-doc/
 package. The <tt/ftape-tools/ contains some simple automated
 <tt/DejaGnu/<footnote>Package for writing automated tests.</>
 test-suites. See section <ref id="getting" name="Getting ftape"> for
-informations about where to download those additional packages from.
+information about where to download those additional packages from.
 
 <sect1>Writing an archive to a tape<label id="write-backup"><p>
 
@@ -1115,8 +1115,8 @@ on this subject at some point in the future.
 
 There are more links pointing to backup software at
 <htmlurl
-url="http://www-math.math.rwth-aachen.de/~LBFM/claus/ftape/"
-name="http://www-math.math.rwth-aachen.de/~LBFM/claus/ftape/"> in the
+url="http://www-math.math.rwth-aachen.de/~LBFM/clause/ftape/"
+name="http://www-math.math.rwth-aachen.de/~LBFM/clause/ftape/"> in the
 <tt/software/ section of that page.
 
 To make a backup of your kernel source tree using <tt/tar/, do this
@@ -1272,7 +1272,7 @@ didn't try to create an emergency boot floppy with recent versions of
 </comment>
 
 
-This section was written by Claus T&oslash;ndering
+This section was written by Clause T&oslash;ndering
 <tt/&lt;ct@login.dknet.dk&gt/.
 
 Once you are the happy owner of a tape drive and several tapes full of
@@ -1308,7 +1308,7 @@ procedures:
 	<tscreen><verb>
 	/dev/fd0	/		minix	defaults
 	none		/proc		proc	defaults
-	/dev/hda	/mnt		ext2	defaults
+	/dev/had	/mnt		ext2	defaults
 	</verb></tscreen>
 	Once you have booted from your floppy, give the command:
 	<tscreen><verb>
@@ -1353,7 +1353,7 @@ FAQ distribution ****** -->
 <comment>
 This is the literal inclusion of the Ftape Frequently Asked questions
 collection which is maintained by <htmlurl
-url="mailto:jo@correct.nl" name="Johan De Wit
+url="mailto:jo@correct.nl" name="Johan De With
 &lt;jo@correct.nl&gt;"> and which may be viewed on the web at
 <htmlurl url="http://www.correct.nl/~ftape"
 name="http://www.correct.nl/~ftape">.  As Linuxdoc SGML doesn't include
@@ -1366,7 +1366,7 @@ collected while version 3.04d of the <tt/ftape/ driver was the newest
 one. If any answer given in the FAQ contradicts any other statement of
 this HOWTO, then please disregard the answer in the FAQ and drop me
 (&lt;heine@math1.rwth-aachen.de&gt;) as well as the maintainer of the
-<tt/Ftape-FAQ/ (Johan De Wit &lt;jo@correct.nl&gt;) a note
+<tt/Ftape-FAQ/ (Johan De With &lt;jo@correct.nl&gt;) a note
 </bf>
 
 <!-- ****** Include the FAQ here, strip the trailing and leading
@@ -1379,15 +1379,15 @@ this document:
 <item>The maintainer of the Ftape FAQ :
 
 	<htmlurl url="mailto:jo@correct.nl" 
-	name="Johan De Wit &lt;jo@correct.nl&gt;">
+	name="Johan De With &lt;jo@correct.nl&gt;">
 <item>The Ftape maintainer :
 
 	<htmlurl url="mailto:heine@math1.rwth-aachen.de" 
-	name="Claus-Justus Heine &lt;claus@momo.math.rwth-aachen.de&gt;">
+	name="Claus-Justus Heine &lt;clause@momo.math.rwth-aachen.de&gt;">
 <item>The Ftape Home Page :
 
-	<htmlurl url="http://www-math.math.rwth-aachen.de/~LBFM/claus/ftape/" 
-	name="&lt;http://www-math.math.rwth-aachen.de/~LBFM/claus/ftape/&gt;"> 
+	<htmlurl url="http://www-math.math.rwth-aachen.de/~LBFM/clause/ftape/" 
+	name="&lt;http://www-math.math.rwth-aachen.de/~LBFM/clause/ftape/&gt;"> 
 
 <item>Mirrors of the Ftape Home Page :
 <p>
@@ -1452,18 +1452,18 @@ Always the latest stable version which is _supposed_ to be available from
 <htmlurl url="ftp://sunsite.unc.edu/pub/Linux/kernel/tapes"
 name="ftp://sunsite.unc.edu/pub/Linux/kernel/tapes">
 and
-<htmlurl url ="http://www-math.math.rwth-aachen.de/~LBFM/claus/ftape/"
-name="http://www-math.math.rwth-aachen.de/~LBFM/claus/ftape/">
+<htmlurl url ="http://www-math.math.rwth-aachen.de/~LBFM/clause/ftape/"
+name="http://www-math.math.rwth-aachen.de/~LBFM/clause/ftape/">
 
 At time of this writing the latest stable version is <tt/ftape-4.02/.
 
-&lt;answer from Claus Heine&gt;
+&lt;answer from Clause Heine&gt;
 <sect1>I'm having problems getting my XYZ drive to run under the 2.0.xx kernel with the built-in driver.  How do I fix this?<p>
 
 The default version of <em/Ftape/ included in the 2.0.xx kernel sources is   
 2.08 or 2.09 and is very out of date.  Please update the <em/Ftape drivers/   
 to the latest from the 
-<htmlurl url="http://www-math.math.rwth-aachen.de/~LBFM/claus/ftape/"
+<htmlurl url="http://www-math.math.rwth-aachen.de/~LBFM/clause/ftape/"
 name="Ftape Home Page">.
 
 &lt;answer from Tim Jones&gt;
@@ -1473,7 +1473,7 @@ You need to add <tt/-D__SMP__/ to the <tt/KERNEL_OPT/ variable in the
 file <tt/MCONFIG/. In newer <tt/ftape/ versions you only need to
 uncomment a certain line in the <tt/MCONFIG/ file.
 
-&lt;answer from Claus Heine&gt;
+&lt;answer from Clause Heine&gt;
 
 <sect1>Why does depmod complain about "undefined symbols"?<p>
 
@@ -1489,7 +1489,7 @@ modprobe zftape
 </verb></tscreen>
 If this fails, something is wrong.
 
-&lt;answer from Claus Heine&gt;
+&lt;answer from Clause Heine&gt;
 
 <sect1>"insmod" says the kernel version is wrong<p>
 
@@ -1572,14 +1572,14 @@ your kernel without support for <em/Ftape/ (<tt/CONFIG_FTAPE/) and
 recompile and install it.
 </itemize>
 
-&lt;answer from Claus Heins&gt;
+&lt;answer from Clause Heins&gt;
 
 <sect1>My Ditto DASH/FC-20/Exabyte Accelerator card works under Microsoft Windows, but I get a drive not found type of error in /var/log/messages when trying to use it under Linux.<p>
 
 You are probably trying to use the same IRQ and DMA settings as your on-board  
 FDC. This does not work in versions of <em/Ftape/ prior to 3.03b. Please   
 update the <em/Ftape Drivers/ to the latest from the
-<htmlurl url="http://www-math.math.rwth-aachen.de/~LBFM/claus/ftape/"
+<htmlurl url="http://www-math.math.rwth-aachen.de/~LBFM/clause/ftape/"
 name="Ftape Home Page">.
 
 &lt;answer from Tim Jones&gt;
@@ -1689,7 +1689,7 @@ Change the 3 to whatever is appropriate and recompile.
 <sect1>I'm having problems with Ftape.  I'm using the latest version of Ftape from the Ftape Home Page and believe that I've located a real bug. What should I do?<p>
 
 Check the 
-<htmlurl url="http://www-math.math.rwth-aachen.de/~LBFM/claus/ftape/"
+<htmlurl url="http://www-math.math.rwth-aachen.de/~LBFM/clause/ftape/"
 name="Ftape Home Page">.
 for an even newer version. Then check the FAQ contained in the that package   
 if your problem is listed there. Next, try to check if the manual that comes   
@@ -1786,12 +1786,12 @@ by any other application. And kernel memory cannot be swapped out. If you
 decide to use this kind of multi-buffering then you should unload the driver   
 as soon as it isn't needed any longer.
 
-&lt;answer by Claus Heine&gt;
+&lt;answer by Clause Heine&gt;
 
 <sect1>Do I have to reboot to the DOS world to format tapes? <p>
 
 Not if you are using the latest version of the <em/Ftape drivers/ from  the  
-<htmlurl url="http://www-math.math.rwth-aachen.de/~LBFM/claus/ftape/"
+<htmlurl url="http://www-math.math.rwth-aachen.de/~LBFM/clause/ftape/"
 name="Ftape Home Page">.
 
 To format a QIC-80, TR-1, TR-3, QICWide 3010 or 3020 tape, get the
@@ -1807,7 +1807,7 @@ Do not try to format Ditto 2GB tapes.
 Do not try to format Ditto Max or Max Pro tapes.
 </>
 
-&lt;answers from Tim Jones and Claus Heine&gt; 
+&lt;answers from Tim Jones and Clause Heine&gt; 
 
 <sect1>Is it possibly to format Ditto 2GB tapes with ftape?<p>
 
@@ -1916,7 +1916,7 @@ One shouldn't use tar's builtin compression with large backups as it makes the
 entire data stream one huge compressed block.  If such archives are corrupted
 right at the beginning it will be very difficult to recover.
 
-&lt;answer by Claus Heine&gt;
+&lt;answer by Clause Heine&gt;
 
 <sect1>I/O errors and FDC - some explanations.<p>
 
@@ -1931,7 +1931,7 @@ Cannot write to /dev/qft0: I/O error
 
 The explanations: 
 
-"FDC" menas "Floppy Disk Controller". The
+"FDC" means "Floppy Disk Controller". The
 problem is that your floppy disk controller must be able to support
 something that is called "perpendicular mode" to be able to read and
 write QIC-3020/QIC-3010 cartridges (i.e. TR-3 cartridges). To my
@@ -1953,7 +1953,7 @@ Seagate ships its TR-3 drives (i.e. the TST-3200) together with such a
 controller.
 
 
-&lt;answer from Claus Heine&gt;
+&lt;answer from Clause Heine&gt;
 
 <sect1>Why do I get "/dev/qft0: No such device" errors?<p>
 
@@ -1975,7 +1975,7 @@ You need to load the <em/zftape.o/ module as well. With Ftape-3.&ast; the
 <em/ftape.o/ module doesn't implement the VFS interface. This is done by   
 <em/zftape.o/.
 
-&lt;answer from Claus Heine&gt;
+&lt;answer from Clause Heine&gt;
 
 <sect1>I get "device busy" when I make multiple backups on a tape using some script.<p>
 
@@ -2034,7 +2034,7 @@ Don't know if the considerations above also apply to bru. If there is
 no grandchild and the parent process properly waits for its childs
 then there shouldn't be a problem.
 
-&lt;answer from Claus Heine&gt
+&lt;answer from Clause Heine&gt
 
 <sect1>How do I "..." with tar?<p>
 
@@ -2112,7 +2112,7 @@ with serious backups as a single bad byte at the beginning of the
 archive can make the entire archive unusable, well, it will be at
 least quite difficult to recover.
 
-&lt;Answer from Claus Heine&gt;
+&lt;Answer from Clause Heine&gt;
 
 <sect1>How does zftape compression compare to say gzip -9?<p>
 
@@ -2120,7 +2120,7 @@ least quite difficult to recover.
 compression is comparable with the Un*x <it/compress/ program, but should
 be faster, and is faster than <it/gzip/.
 
-&lt;Answer from Claus Heine&gt;
+&lt;Answer from Clause Heine&gt;
 
 <sect1>I don't trust compression, but hear that the sftape interface is going away. What should I do?<p>
 
@@ -2172,7 +2172,7 @@ the sense, that it not only overwrites the "file" the tape is
 positioned at, but also deletes all following files.  
 
 &lt;from the Ftape-Howto&gt;
-&lt;Answer from Claus Heine&gt;
+&lt;Answer from Clause Heine&gt;
 
 <sect1>When I made backups before using taper, under the 2.0.29 ftape my drive didn't support fsf, under the new zftape it does, why would this be, and what exactly is fsf ?<p>
 
@@ -2224,7 +2224,7 @@ mt -f /dev/nqft0 fsf
 tar -xvf /dev/nqft0 
 </verb></tscreen>
 
-&lt;Answer from Claus Heine&gt;
+&lt;Answer from Clause Heine&gt;
 
 <sect1>What exactly is the difference between ftape, and zftape?<p>
 
@@ -2245,9 +2245,9 @@ package, but the new <em/Ftape/ versions (since ftape-3.00) contain a
 <em/zftape.o/ module that needs to be loaded on top of <em/ftape.o/
 (i.e. you need to load BOTH modules to be able to access your floppy
 tape drive) and implements the file system interface and the advanced
-(?) features of the previous verions <em/zftape/.
+(?) features of the previous versions <em/zftape/.
 
-&lt;Answer from Claus Heine&gt;
+&lt;Answer from Clause Heine&gt;
 
 <sect1>What is the difference between a rewinding, and non rewinding drive?<p>
 
@@ -2276,7 +2276,7 @@ mt -f /dev/nqft0 fsf
 , because when the <it/mt/ process finishes then the tape device is closed  
 which would result in rewinding the cartridge with the rewinding devices.
 
-&lt;Answer from Claus Heine&gt;
+&lt;Answer from Clause Heine&gt;
 
 <sect1>Can someone tell me how to use mt to rewind my TR-3 drive one record using zftape record, so I can verify it?<p>
 
@@ -2293,7 +2293,7 @@ positions on the <tt/EOT/ side of the last skipped file mark. This means,
 an "mt bsf 2" will position right at the beginning of the previous  
 volume. 
 
-&lt;answer form Claus Heine&gt;
+&lt;answer form Clause Heine&gt;
 
 <sect1>By non-rewinding, they mean that it doesn't automatically rewind, correct? It doesn't mean that under no circumstances it will rewind, right?  I tried using /dev/zqft0, and it instantly rewinds the tape.<P>
 
@@ -2303,7 +2303,7 @@ rewound when the tape device is closed (but you can, of course, use
 the tape motion commands BSF/FSF etc. to position the tape head at  
 every position you like).
 
-&lt;answer form Claus Heine&gt;
+&lt;answer form Clause Heine&gt;
 
 <sect1>What is the difference between what mt considers a record and what it considers a file?<p>
 
@@ -2329,7 +2329,7 @@ beginning is delimited by either <tt/BOT/ or the file mark of the previous
 tape "file". That tape "files" are the things that can be skipped with
 the <tt>MTBSF/FSF</tt> commands.
 
-&lt;answer form Claus Heine&gt;
+&lt;answer form Clause Heine&gt;
 
 <sect1>Reusing tapes with zftape without reformatting the tape.<p>
 
@@ -2337,7 +2337,7 @@ We try to answer the followong questions :
 <itemize>
 <item>
 Is there a good way to erase, as in remove the data or at least the volumes 
-from a tape, without reformating?  
+from a tape, without reformatting?  
 <item>
 Can you overwrite the last volume on a tape with making a mess out of it? 
 <item>
@@ -2381,7 +2381,7 @@ If the tape is at BOT (Begin Of Tape) then every write access to the
 tape will silently erase all file marks and overwrite the data already
 existing on the tape.
 
-&lt;answer by Claus Heine&gt;
+&lt;answer by Clause Heine&gt;
 
 <sect1>This script implements a simple contents listing for the zftape package using the "MTIOCVOLINFO" ioctl.<p>
 
@@ -2397,13 +2397,13 @@ Rewind the cartridge
 <item>
 Issue the volinfo command:
 <tscreen><verb>
-   claus@thales:~&dollar; mt volinfo
+   clause@thales:~&dollar; mt volinfo
    file number          = 1
    block size           = 10240
    physical space used  =  522.0 kilobytes
    real size of volume  =  520.0 kilobytes
 </verb></tscreen>
-Parse the ouput and place the values in appropriate variables
+Parse the output and place the values in appropriate variables
 <item>
 Skip to the next volume with "mt fsf"
 <item>
@@ -2458,7 +2458,7 @@ for short options too.
 --usage           Same as '-h'.
 -V, --version         Print version information.
 
-Author: Claus-Justus Heine <claus\@momo.math.rwth-aachen.de>
+Author: Claus-Justus Heine <clause\@momo.math.rwth-aachen.de>
 EOT
 
 while ($ARGV[0] =~ /^-/) &lcub;
@@ -2611,7 +2611,7 @@ done
 
 </code>
 
-&lt;answer from Claus Heine&gt;
+&lt;answer from Clause Heine&gt;
 
 <sect>FAQ: "Tape and Drivers" related questions !<p>
 
@@ -2619,7 +2619,7 @@ done
 
 I was the UNIX Product Manager at Archive Corp (Prior to the Conner/Seagate   
 mess) and we performed extensive tests of tape media for compatibility   
-certification, including retentivity, flaking and length consistancy.  Based   
+certification, including retentivity, flaking and length consistency.  Based   
 on the results of the tests, we selected the best of these certified   
 manufacturers' products to private label as our own media.  Here is the   
 order in which we selected vendors up through 1995 (when I lost contact   
@@ -2696,7 +2696,7 @@ book.
 
 Yes, if you are using version <tt/ftape-3.x/ or later of the <em/Ftape
 drivers/ from the <htmlurl
-url="http://www-math.math.rwth-aachen.de/~LBFM/claus/ftape/"
+url="http://www-math.math.rwth-aachen.de/~LBFM/clause/ftape/"
 name="Ftape Home Page"> or from
 <htmlurl url="ftp://sunsite.unc.edu/pub/Linux/kernel/tapes"
 name="ftp://sunsite.unc.edu/pub/Linux/kernel/tapes">.
@@ -2706,7 +2706,7 @@ name="ftp://sunsite.unc.edu/pub/Linux/kernel/tapes">.
 As the Ditto 2GB is a Tr-3 tape (though it can only store 1GB instead of the  
 1.6GB you get with a regular Tr-3 drive) you need an FDC (FDC means: Floppy  
 Disk Controller) that is capable of at 1Mbit/sec transfer rate. You don't need  
-to worry about this if you have an accellerator card (i.e. the Ditto Dash  
+to worry about this if you have an accelerator card (i.e. the Ditto Dash  
 controller). Otherwise try to purchase an FDC that claims to be capable of  
 driving 2.88Mb floppies because this implies that the FDC is capable of 1Mbit  
 transfer rate.
@@ -2717,18 +2717,18 @@ files like this:
 ftape-ctl.c (ftape_init_drive) - Highest FDC supported data rate: 500 Kbps.
 </verb>
 
-&lt;answer from Claus Heine&gt;
+&lt;answer from Clause Heine&gt;
 
 <sect1>Is the Iomega Ditto Max drive supported?<p>
 
 Yes, if you are using version <tt/ftape-4.02/ or later of the
 <em/Ftape drivers/ from the <htmlurl
-url="http://www-math.math.rwth-aachen.de/~LBFM/claus/ftape/"
+url="http://www-math.math.rwth-aachen.de/~LBFM/clause/ftape/"
 name="Ftape Home Page"> or from <htmlurl
 url="ftp://sunsite.unc.edu/pub/Linux/kernel/tapes"
 name="ftp://sunsite.unc.edu/pub/Linux/kernel/tapes">.
 
-&lt;answer from Claus Heine&gt;
+&lt;answer from Clause Heine&gt;
 
 <sect1>Is the Iomega Ditto Max Pro drive supported?<p>
 
@@ -2736,7 +2736,7 @@ Yes. But if you want to use the 5GB (10GB with compression) cartridges
 you don't need it. With <tt/ftape/ there doesn't seem to be any
 difference between the <tt/Ditto Max/ and the <tt/Ditto Max Pro/.
 
-&lt;answer from Claus Heine&gt;
+&lt;answer from Clause Heine&gt;
 
 <sect>FAQ: Miscellaneous !<p>
 
@@ -2753,7 +2753,7 @@ subscribe linux-tape
 in its body. Please store the answer you get from majordomo in a safe place   
 because it contains instructions how to <tt/UNSUBSCRIBE/ from the mailing list.
 
-&lt;answer from Claus Heine&gt;
+&lt;answer from Clause Heine&gt;
 
 <sect1>How to un-subscribe from the Ftape Mailing List?<p>
 
@@ -2770,7 +2770,7 @@ address that you used when subscribing to the list. Note that you must
 have received an email with instructions how to unsubscribe from the   
 mailing list at the time you subscribed to it.
 
-&lt;answer from Claus Heine&gt;
+&lt;answer from Clause Heine&gt;
 
 <sect1>Links to related information.<p>
 
@@ -2862,10 +2862,10 @@ coming in midstream.  My sincerest apologies if I've inadvertently left
 someone important off the list. You can view anoterh attempt to collect
 such kind of information at
 <htmlurl
-url="http://samuel.math.rwth-aachen.de/~LBFM/claus/ftape/halloffame.html"
+url="http://samuel.math.rwth-aachen.de/~LBFM/clause/ftape/halloffame.html"
 name="Ftape's Hall of Fame">
 
-<tt/Johan De Wit/ &lt;jo@correct.nl&gt: The maintainer of the Ftape
+<tt/Johan De With/ &lt;jo@correct.nl&gt: The maintainer of the Ftape
 FAQ.
 
 <tt/Kevin Johnson/ &lt;kjj@pobox.com&gt: The previous maintainer of
@@ -2909,7 +2909,7 @@ additions to the HOWTO.<p>
  -->
 <!--  LocalWords:  ndering grahamc org au Chapman's init inittab getty rc sh fd
  -->
-<!--  LocalWords:  fstab minix hda mnt av RAMDISK jdewit unicall Linuxdoc claus
+<!--  LocalWords:  fstab minix had mnt av RAMDISK jdewit unicall Linuxdoc clause
  -->
 <!--  LocalWords:  http www LBFM LDP XYZ SMP depmod modprobe insmod ftmt EZ PnP
  -->
@@ -2933,7 +2933,7 @@ additions to the HOWTO.<p>
  -->
 <!--  LocalWords:  Imation QMaxell Maxell OEM'd DIC QICXL DLT Tr Mb
  -->
-<!--  LocalWords:  Carrillo Mbit accellerator ctl Kbps ehhh EISA ISA VL kmsg ac
+<!--  LocalWords:  Carrillo Mbit accelerator ctl Kbps ehhh EISA ISA VL kmsg ac
  -->
 <!--  LocalWords:  ucl
  -->

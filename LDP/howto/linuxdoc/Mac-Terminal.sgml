@@ -161,7 +161,7 @@ take /usr/local/bin/ckermit.local.ini
 On the Macintosh side, set the same communication parameters for bps,
 stop bits, parity, and word length.  Some older versions of Mac Kermit
 do not support 2k packets, so you might need to set a smaller packet
-size.  Howerver, <tt>kermit</tt> sets the communication packet length
+size.  However, <tt>kermit</tt> sets the communication packet length
 based on the receive packet-length setting, so you need to set a shorter
 packet size on the Linux end, too.
 
@@ -197,7 +197,7 @@ are type <tt>TEXT</tt>, so replace the question marks in the Text box
 with that.  The Creator code depends on your text editor or word
 processor.  Each one is unique, incidentally, and is how the Mac
 identifies different apps.  The Creator code for GNU Emacs on the Mac
-is <tt>EMAC</tt>, for example.  If in doubt what the creator code of
+is <tt>EMACS</tt>, for example.  If in doubt what the creator code of
 your text editor or word processor is, use <tt>ttxt</tt>, which is the
 creator code for TeachText (which is the Mac equivalent of
 <tt>EDLIN.EXE</tt>.)  Then your real word processor or text editor can

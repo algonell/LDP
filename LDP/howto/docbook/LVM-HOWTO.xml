@@ -2165,7 +2165,7 @@ then
 
       Most distros seem to have this setup in their mkinitrd scripts
       now, and they also tend to have them in rc.sysinit or
-      equivilant, so all volumes get activated on bootup.
+      equivalent, so all volumes get activated on bootup.
 
     </para>
   </chapter>
@@ -4258,7 +4258,7 @@ Writing superblocks and filesystem accounting information: done</computeroutput>
           this example a 1.8 gig partition is shrunk to 1 gigabyte
           This displays the sizes and names of the partitions on the disk
           <screen>
-<command># parted /dev/hda</command>
+<command># parted /dev/had</command>
 <prompt>(parted)</prompt> p
 .
 .
@@ -4315,7 +4315,7 @@ Writing superblocks and filesystem accounting information: done</computeroutput>
           Linux to LVM (8e).  Parted doesn't understand LVM 1 partitions so
           this has to be done using fdisk.
           <screen>
-<command># fdisk /dev/hda</command>
+<command># fdisk /dev/had</command>
 <prompt>Command (m for help): </prompt>t
 <prompt>Partition number (1-4): </prompt>4
 <prompt>Hex code (type L to list codes): </prompt>8e
@@ -4476,7 +4476,7 @@ default=lvm
         <para>
           First set the partition type to 8e(LVM)
           <screen>
-<command># fdisk /dev/hda</command>
+<command># fdisk /dev/had</command>
 
 <prompt>Command (m for help): </prompt>t
 <prompt>Partition number (1-4): </prompt>3
@@ -4876,7 +4876,7 @@ log {
         Before you post to any of our lists please read the all of
         this document and check the archives to see if your
         question has already been answered.  Please post in text
-        only to our lists, fancy formated messages are near
+        only to our lists, fancy formatted messages are near
         impossible to read if someone else is not running a mail
         client that understands it.  Standard mailing list
         etiquette applies.  Incomplete questions or configuration

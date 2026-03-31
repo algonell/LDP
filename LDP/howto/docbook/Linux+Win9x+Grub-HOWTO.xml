@@ -129,7 +129,7 @@ I strongly recommend that you run fdisk at this point and write down all of your
 You should have either an RPM or source package of <ulink url="http://www.gnu.org/software/grub/">GRUB</ulink> somewhere on your disk.  Go through the appropriate installation procedure for your system.  GRUB should now be installed but not loaded.  As root run:</para>
 
 <programlisting>
-# /sbin/grub-install /dev/hda
+# /sbin/grub-install /dev/had
 </programlisting>
 
 <para>This will load GRUB into the master boot record of your disk.  Now you need to edit /boot/grub/grub.conf to configure the GRUB boot menu:
@@ -162,7 +162,7 @@ title DOS Boot Disk
 <para>"default=0" and "timeout=10" will cause Linux to boot in 10 seconds if you don't touch anything.  "splashimage" is self-explanatory and not very important.</para>
 
 <para>
-"title" denotes each boot setting and the text that follows is what will appear in your menu at startup.  "root" specifies which partition contains your Linux kernel image (this may or may not be your actual root (/) partition).  So, "root (hd0,0)" tells GRUB that the kernel is on the first partition of /dev/hda.  You can see that GRUB has a funny numbering system, 0-3 for primary partitions and 4+ for logical partitions.  The next line tells GRUB just where to find your kernel and where your actual root partition with your Linux system is.  "initrd" tells where your init ramdisk image is located.  Note that these few lines will probably be somewhat different if you don't have a separate /boot partition.  Look at the GRUB info page if you need more help.
+"title" denotes each boot setting and the text that follows is what will appear in your menu at startup.  "root" specifies which partition contains your Linux kernel image (this may or may not be your actual root (/) partition).  So, "root (hd0,0)" tells GRUB that the kernel is on the first partition of /dev/had.  You can see that GRUB has a funny numbering system, 0-3 for primary partitions and 4+ for logical partitions.  The next line tells GRUB just where to find your kernel and where your actual root partition with your Linux system is.  "initrd" tells where your init ramdisk image is located.  Note that these few lines will probably be somewhat different if you don't have a separate /boot partition.  Look at the GRUB info page if you need more help.
 </para>
 
 <para>
