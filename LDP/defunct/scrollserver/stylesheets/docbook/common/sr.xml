@@ -78,8 +78,8 @@
    <l:gentext key="refname" text="Ime"/>
    <l:gentext key="RefSection" text=""/>
    <l:gentext key="refsection" text=""/>
-   <l:gentext key="RefSynopsisDiv" text="Sinopsis"/>
-   <l:gentext key="refsynopsisdiv" text="Sinopsis"/>
+   <l:gentext key="RefSynopsisDiv" text="Synopsis"/>
+   <l:gentext key="refsynopsisdiv" text="Synopsis"/>
    <l:gentext key="RevHistory" text="Istorija revizija"/>
    <l:gentext key="revhistory" text="Istorija revizija"/>
    <l:gentext key="Revision" text="Revizija"/>

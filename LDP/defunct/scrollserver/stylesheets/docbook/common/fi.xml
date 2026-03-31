@@ -82,8 +82,8 @@
    <l:gentext key="refsynopsisdiv" text="Synopsis"/>
    <l:gentext key="RevHistory" text="Versiohistoria"/>
    <l:gentext key="revhistory" text="Versiohistoria"/>
-   <l:gentext key="Revision" text="Versio"/>
-   <l:gentext key="revision" text="Versio"/>
+   <l:gentext key="Revision" text="Version"/>
+   <l:gentext key="revision" text="Version"/>
    <l:gentext key="Section" text="Kohta"/>
    <l:gentext key="section" text="kohta"/>
    <l:gentext key="see" text="Katso"/>

@@ -289,9 +289,9 @@ Defaults to the context node.</para>
   <xsl:variable name="section.level">
     <xsl:call-template name="qanda.section.level"/>
   </xsl:variable>
-  <xsl:variable name="anc.divs" select="ancestor::qandadiv"/>
+  <xsl:variable name="and.divs" select="ancestor::qandadiv"/>
 
-  <xsl:value-of select="count($anc.divs) + number($section.level)"/>
+  <xsl:value-of select="count($and.divs) + number($section.level)"/>
 </xsl:template>
 
 <xsl:template name="question.answer.label">
@@ -748,7 +748,7 @@ of media objects is that the first acceptable graphic should be used.
 	<xsl:when test="$count = 1 and count($olist) = 1">
 	  <xsl:text>1</xsl:text>
 	</xsl:when>
-	<!-- Otherwise, see if this one is a useable graphic -->
+	<!-- Otherwise, see if this one is a usable graphic -->
         <xsl:otherwise>
           <xsl:choose>
             <!-- peek inside imageobjectco to simplify the test -->

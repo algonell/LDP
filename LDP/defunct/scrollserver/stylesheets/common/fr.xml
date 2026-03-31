@@ -11,8 +11,8 @@
 <gentext key="copyright"                text="Copyright"/>
 <gentext key="dedication"               text="D&#x00E9;dicace"/>
 <gentext key="edition"                  text="&#x00C9;dition"/>
-<gentext key="equation"                 text="&#x00C9;quation"/>
-<gentext key="example"                  text="Exemple"/>
+<gentext key="equation"                 text="&#x00C9;equation"/>
+<gentext key="example"                  text="Example"/>
 <gentext key="figure"                   text="Figure"/>
 <gentext key="glosssee"                 text="Voir"/>
 <gentext key="glossseealso"             text="Voir aussi"/>
@@ -63,17 +63,17 @@
 <gentext key="and"                      text="et"/>
 <gentext key="Notes"                    text="Notes"/>
 <gentext key="TableNotes"               text="Remarques"/>
-<gentext key="nonexistantelement"       text="Cet &#x00E9;l&#x00E9;ment n'existe pas"/>
+<gentext key="nonexistantelement"       text="Cet &#x00E9;l&#x00E9;meant n'existe pas"/>
 <gentext key="Pgs"                      text="Pages"/>
 <gentext key="unsupported"              text="Non reconnu par le syst&#x00E8;me"/>
 <gentext key="xrefto"                   text="R&#x00E9;f&#x00E9;rence vers"/>
-<gentext key="unexpectedelementname"    text="Nom d'&#x00E9;l&#x00E9;ment non attendu"/>
+<gentext key="unexpectedelementname"    text="Nom d'&#x00E9;l&#x00E9;meant non attendu"/>
 <gentext key="Revisedby"                text="Revised by: "/>
 
 <gentext key="ListofTables"             text="Liste des tableaux"/>
-<gentext key="ListofExamples"           text="Liste des exemples"/>
+<gentext key="ListofExamples"           text="Liste des examples"/>
 <gentext key="ListofFigures"            text="Liste des illustrations"/>
-<gentext key="ListofEquations"          text="Liste des &#x00E9;quations"/>
+<gentext key="ListofEquations"          text="Liste des &#x00E9;equations"/>
 <gentext key="ListofUnknown"            text="Liste des inconnues"/>
 
 <gentext key="nav-prev"                 text="Pr&#x00E9;c&#x00E9;dent"/>

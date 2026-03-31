@@ -1,6 +1,6 @@
 <localization language="pl">
 
-<gentext key="abstract"                 text="Abstrakt"/>
+<gentext key="abstract"                 text="Abstract"/>
 <gentext key="appendix"                 text="Dodatek"/>
 <gentext key="article"                  text="Article"/>
 <gentext key="bibliography"             text="Bibliografia"/>
@@ -67,7 +67,7 @@
 <gentext key="unexpectedelementname"    text="Unexpected element name"/>
 <gentext key="Revisedby"                text="Revised by: "/>
 
-<gentext key="ListofTables"             text="Spis tabel"/>
+<gentext key="ListofTables"             text="Spis table"/>
 <gentext key="ListofExamples"           text="Spis przyk&#179;ad&#243;w"/>
 <gentext key="ListofFigures"            text="Spis rysunk&#243;w"/>
 <gentext key="ListofEquations"          text="Spis r&#243;wna&#241;"/>

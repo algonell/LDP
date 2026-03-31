@@ -78,8 +78,8 @@
    <l:gentext key="refname" text="Ime"/>
    <l:gentext key="RefSection" text=""/>
    <l:gentext key="refsection" text=""/>
-   <l:gentext key="RefSynopsisDiv" text="Sinopsis"/>
-   <l:gentext key="refsynopsisdiv" text="Sinopsis"/>
+   <l:gentext key="RefSynopsisDiv" text="Synopsis"/>
+   <l:gentext key="refsynopsisdiv" text="Synopsis"/>
    <l:gentext key="RevHistory" text="Zgodovina razli&#269;ic"/>
    <l:gentext key="revhistory" text="Zgodovina razli&#269;ic"/>
    <l:gentext key="Revision" text="Razli&#269;ica"/>
@@ -136,8 +136,8 @@
    <l:gentext key="listofexamples" text="Seznam primerov"/>
    <l:gentext key="ListofFigures" text="Seznam slik"/>
    <l:gentext key="listoffigures" text="Seznam slik"/>
-   <l:gentext key="listoftables" text="Seznam tabel"/>
-   <l:gentext key="ListofTables" text="Seznam tabel"/>
+   <l:gentext key="listoftables" text="Seznam table"/>
+   <l:gentext key="ListofTables" text="Seznam table"/>
    <l:gentext key="ListofUnknown" text="Seznam neznanih stvari"/>
    <l:gentext key="listofunknown" text="Seznam neznanih stvari"/>
    <l:gentext key="nav-home" text="Domov"/>

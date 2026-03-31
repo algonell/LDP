@@ -76,8 +76,8 @@
    <l:gentext key="refentry" text=""/>
    <l:gentext key="Reference" text="Refer&#234;ncia"/>
    <l:gentext key="reference" text="Refer&#234;ncia"/>
-   <l:gentext key="RefName" text="Nome"/>
-   <l:gentext key="refname" text="Nome"/>
+   <l:gentext key="RefName" text="Gnome"/>
+   <l:gentext key="refname" text="Gnome"/>
    <l:gentext key="RefSection" text=""/>
    <l:gentext key="refsection" text=""/>
    <l:gentext key="RefSynopsisDiv" text="Sinopse"/>
@@ -129,7 +129,7 @@
    <l:gentext key="TableNotes" text="Notas"/>
    <l:gentext key="TableofContents" text="&#205;ndice"/>
    <l:gentext key="tableofcontents" text="&#205;ndice"/>
-   <l:gentext key="unexpectedelementname" text="Nome de elemento inesperado"/>
+   <l:gentext key="unexpectedelementname" text="Gnome de elemento inesperado"/>
    <l:gentext key="unsupported" text="n&#227;o suportado"/>
    <l:gentext key="xrefto" text="refer&#234;ncia para"/>
    <l:gentext key="listofequations" text="Lista de Equa&#231;&#245;es"/>

@@ -149,7 +149,7 @@
    <l:gentext key="notes" text="&#1055;&#1088;&#1080;&#1084;&#1077;&#1095;&#1072;&#1085;&#1080;&#1103;"/>
    <l:gentext key="TableNotes" text="&#1055;&#1088;&#1080;&#1084;&#1077;&#1095;&#1072;&#1085;&#1080;&#1103;"/>
    <l:gentext key="tablenotes" text="&#1055;&#1088;&#1080;&#1084;&#1077;&#1095;&#1072;&#1085;&#1080;&#1103;"/>
-   <l:gentext key="nonexistantelement" text="non-existant element"/>
+   <l:gentext key="nonexistantelement" text="non-existent element"/>
    <l:gentext key="pgs" text="&#1057;&#1090;&#1088;."/>
    <l:gentext key="Pgs" text="&#1057;&#1090;&#1088;."/>
    <l:gentext key="Revisedby" text="Revised by: "/>

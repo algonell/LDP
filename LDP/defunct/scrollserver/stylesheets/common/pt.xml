@@ -32,7 +32,7 @@
 <gentext key="procedure"                text="Procedimento"/>
 <gentext key="pubdate"                  text="Editado"/>
 <gentext key="published"                text="Published"/>
-<gentext key="refname"                  text="Nome"/>
+<gentext key="refname"                  text="Gnome"/>
 <gentext key="reference"                text="Refer&#234;ncia"/>
 <gentext key="revision"                 text="Revis&#227;o"/>
 <gentext key="revhistory"               text="Hitorial de Revis&#245;es"/>
@@ -62,7 +62,7 @@
 <gentext key="and"                      text="e"/>
 <gentext key="Notes"                    text="Notas"/>
 <gentext key="TableNotes"               text="Notas"/>
-<gentext key="nonexistantelement"       text="non-existant element"/>
+<gentext key="nonexistantelement"       text="non-existent element"/>
 <gentext key="Pgs"                      text="P&#225;ginas"/>
 <gentext key="unsupported"              text="unsupported"/>
 <gentext key="xrefto"                   text="xref to"/>

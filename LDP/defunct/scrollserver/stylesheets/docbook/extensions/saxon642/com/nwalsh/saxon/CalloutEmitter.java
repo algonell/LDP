@@ -144,8 +144,8 @@ public class CalloutEmitter extends CopyEmitter {
 	if (node.getNodeName().equalsIgnoreCase("areaset")) {
 	  coNum++;
 	  NodeList areas = node.getChildNodes();
-	  for (int acount = 0; acount < areas.getLength(); acount++) {
-	    Node area = areas.item(acount);
+	  for (int account = 0; account < areas.getLength(); account++) {
+	    Node area = areas.item(account);
 	    if (area.getNodeType() == Node.ELEMENT_NODE) {
 	      if (area.getNodeName().equalsIgnoreCase("area")) {
 		addCallout(coNum, area, defaultColumn);
@@ -277,7 +277,7 @@ public class CalloutEmitter extends CopyEmitter {
    * the global callout array if it can be interpreted.</p>
    *
    * <p>Only the <tt>linecolumn</tt> and <tt>linerange</tt> units are
-   * supported. If no unit is specifed, <tt>linecolumn</tt> is assumed.
+   * supported. If no unit is specified, <tt>linecolumn</tt> is assumed.
    * If only a line is specified, the callout decoration appears in
    * the <tt>defaultColumn</tt>.</p>
    *
@@ -321,7 +321,7 @@ public class CalloutEmitter extends CopyEmitter {
     while (st.hasMoreTokens()) {
       tokenCount++;
       if (tokenCount > 2) {
-	System.out.println("Unparseable coordinates");
+	System.out.println("Unparsable coordinates");
 	return;
       }
       try {
@@ -332,7 +332,7 @@ public class CalloutEmitter extends CopyEmitter {
 	  c1 = coord;
 	}
       } catch (NumberFormatException e) {
-	System.out.println("Unparseable coordinate");
+	System.out.println("Unparsable coordinate");
 	return;
       }
     }
@@ -447,12 +447,12 @@ public class CalloutEmitter extends CopyEmitter {
       AttributeCollection attr = (AttributeCollection) elem.getAttributes();
       AttributeCollection newAttr = new AttributeCollection(namePool);
 
-      for (int acount = 0; acount < attr.getLength(); acount++) {
-	String localName = attr.getLocalName(acount);
-	int nameCode = attr.getNameCode(acount);
-	String type = attr.getType(acount);
-	String value = attr.getValue(acount);
-	String uri = attr.getURI(acount);
+      for (int account = 0; account < attr.getLength(); account++) {
+	String localName = attr.getLocalName(account);
+	int nameCode = attr.getNameCode(account);
+	String type = attr.getType(account);
+	String value = attr.getValue(account);
+	String uri = attr.getURI(account);
 	String prefix = "";
 
 	if (localName.indexOf(':') > 0) {

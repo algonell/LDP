@@ -99,8 +99,8 @@
    <l:gentext key="sidebar" text="ekskursie"/>
    <l:gentext key="step" text="stap"/>
    <l:gentext key="Step" text="Stap"/>
-   <l:gentext key="table" text="Tabel"/>
-   <l:gentext key="Table" text="Tabel"/>
+   <l:gentext key="table" text="Table"/>
+   <l:gentext key="Table" text="Table"/>
    <l:gentext key="TIP" text="LEIDRAAD"/>
    <l:gentext key="Tip" text="Leidraad"/>
    <l:gentext key="tip" text="Leidraad"/>
@@ -209,7 +209,7 @@
       <l:template name="setindex" text="%t"/>
       <l:template name="sidebar" text="%t"/>
       <l:template name="step" text="%t"/>
-      <l:template name="table" text="Tabel %n. %t"/>
+      <l:template name="table" text="Table %n. %t"/>
       <l:template name="tip" text="%t"/>
       <l:template name="toc" text="%t"/>
       <l:template name="variablelist" text="%t"/>
@@ -293,7 +293,7 @@
       <l:template name="reference" text="%t"/>
       <l:template name="set" text="%t"/>
       <l:template name="setindex" text="%t"/>
-      <l:template name="table" text="Tabel %n"/>
+      <l:template name="table" text="Table %n"/>
    </l:context>
 
    <l:context name="section-xref">

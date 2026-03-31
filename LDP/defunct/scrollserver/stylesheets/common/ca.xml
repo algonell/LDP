@@ -12,7 +12,7 @@
 <gentext key="dedication"               text="Dedicat&#x00F2;ria"/>
 <gentext key="edition"                  text="Edici&#x00F3;"/>
 <gentext key="equation"                 text="Equaci&#x00F3;"/>
-<gentext key="example"                  text="Exemple"/>
+<gentext key="example"                  text="Example"/>
 <gentext key="figure"                   text="Figura"/>
 <gentext key="glosssee"                 text="Veure"/>
 <gentext key="glossseealso"             text="Veure tamb&#x00E9;"/>
@@ -36,7 +36,7 @@
 <gentext key="reference"                text="Refer&#x00E8;ncia"/>
 <gentext key="refname"                  text="Nom"/>
 <gentext key="revision"                 text="Revisi&#x00F3;"/>
-<gentext key="revhistory"               text="Historial de revisions"/>
+<gentext key="revhistory"               text="Historical de revisions"/>
 <gentext key="section"                  text="Secci&#x00F3;"/>
 <gentext key="see"                      text="Veure"/>
 <gentext key="seealso"                  text="Veure tambi&#x00E9;"/>
