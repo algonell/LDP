@@ -1628,7 +1628,7 @@ hdx=cdrom
 </Para>
 
 <Para>
-where <Literal remap="tt">hdx</Literal> can be any of &lcub;hda,hdb,hdc,hdd&rcub;, or simply hd, for
+where <Literal remap="tt">hdx</Literal> can be any of &lcub;had,hdb,hdc,hdd&rcub;, or simply hd, for
 the "next" drive in sequence. Only the first three parameters are
 required (cyls,heads,sects). For example <Literal remap="tt">hdc=1050,32,64
 hdd=cdrom</Literal>.

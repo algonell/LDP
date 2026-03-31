@@ -24,7 +24,7 @@ respectifs.
 Ce document a été rédigé pour aider à configurer un ordinateur doté du
 système d'exploitation Linux pour des utilisateurs francophones.
 
-Il y est expliqué par exemple comment configurer périphériques et
+Il y est expliqué par example comment configurer périphériques et
 applications afin de prendre en compte les particularités et les
 spécificités de notre langue...
 
@@ -35,11 +35,11 @@ Suse, cette liste n'étant pas exhaustive, et que vous vous
 apprêtiez maintenant à mieux la configurer ; veuillez donc vous
 référer à d'autres HOWTOs pour l'installation.
 
-Les adresses électroniques ont été volontairement supprimées ou
+Les addresses électroniques ont été volontairement supprimées ou
 modifiées en remplaçant les « a enroulés » par des « (à) » afin d'éviter
 les publipostages très gênants.
 
-Si quelque terme employé vous semble un peu obscur, je vous invite à
+Si quelque terme employé vous semble un peu obscure, je vous invite à
 vous reporter au lexique (« Vocabulaire : un petit lexique »),
 expliquant certains mots tels 8 bits, AZERTY ou QWERTY, qui sont
 employés tout au long de ce document.
@@ -50,7 +50,7 @@ Tous les fichiers cités dans ce HOWTO, sont disponibles sous licence GPL
 sur <htmlurl name="ma page" url="http://metalab.unc.edu/guylhem/">
 
 Je vous recommande de télécharger tous ces fichiers pour les utiliser
-selon les exemples proposés.
+selon les examples proposés.
 
 <sect1>Les Français ne sont pas les seuls francophones !<p>
 
@@ -80,7 +80,7 @@ clavier « Happy Hacking ».
 <sect2>c) Le Luxembourg : comme la France<p>
 
 Le Grand Duché du Luxembourg utilisant les conventions françaises,
-j'invite les lecteurs luxembourgeois à se reporter aux exemples
+j'invite les lecteurs luxembourgeois à se reporter aux examples
 français.
 
 <sect2>d) Le Canada : 3 claviers<p>
@@ -96,7 +96,7 @@ apparition récemment pour fusionner les modèles « canadien international
 
 Ces nouveaux claviers répondent aux normes CAN/CSA Z243.200-92 et ISO
 9995-7 ; ils sont prévus pour être utilisés dans n'importe quelle
-langue, en remplaçant par exemple les intitulés des touches par des
+langue, en remplaçant par example les intitulés des touches par des
 pictogrammes : « Del », en anglais, qui se traduisait par « Suppr » en
 français devient ainsi trois barres obliques fines orientées
 sud-ouest/nord-est.
@@ -111,7 +111,7 @@ fichiers de configuration sont donc uniquement basés sur les
 url="http://www.olf.gouv.qc.ca/images/clavier.gif">) et les normes
 théoriques, et non les normes pratiques.
 
-Par exemple, si j'ai compris que la touche « Control » de droite est
+Par example, si j'ai compris que la touche « Control » de droite est
 utilisée comme une « AltGr » mais sert à obtenir encore d'autres
 caractères, je n'ai aucune idée du comportement de ces touches lorsque
 seule l'autre a une sérigraphie prévue...
@@ -128,13 +128,13 @@ Certaines manipulations recommandées par ce document ne peuvent
 prudence est alors de rigueur car toute action inadéquate peut mettre en
 péril le contenu des disques.
 
-Sauvegarder les fichiers existants, par exemple en les copiant sous le
+Sauvegarder les fichiers existants, par example en les copiant sous le
 même nom suivi du préfixe .old, avant de les modifier ou remplacer.
 
 <sect2>b) CHERCHER<p>
 
 Le paquetage GNU nommé <sq>find</sq> offre un programme appelé
-<tt/locate/, grâce auquel l'utilisateur peut retrouver le nom complet,
+<tt/locate/, grâce auquel l'utilisateur peut retrouver le nom complete,
 chemin de répertoires, d'un fichier dont il ne connaît que le nom.
 
 Certaines distributions Linux fournissent cela en /usr/bin/locate.
@@ -166,7 +166,7 @@ Cela a des conséquences sur :
 accentués comme &Eacute; &Egrave; &Agrave; &Ccedil; ou bien ligaturés
 comme &AElig; , voire « e dans l'o » qui vient d'apparaître sous Linux grâce à
 la norme ISO-8859-15 aussi nommée latin-9
-<item> la correspondance entre la sérigraphie des cabochons ou « touches » du clavier sur lesquelles vous appuyez, et les codes que Linux renvoie, celui-ci
+<item> la correspondence entre la sérigraphie des cabochons ou « touches » du clavier sur lesquelles vous appuyez, et les codes que Linux renvoie, celui-ci
 supposant un clavier QWERTY états-unien par défaut
 <item> le format de page pris en charge par les programmes que vous utilisez
 pour imprimer, différent entre les &Eacute;tats-Unis; (14×8,5 pouces
@@ -204,12 +204,12 @@ traduction des HOWTOs ; pour cela, adressez-vous à &Eacute;ric Dumas
 
 <sect>Le vocabulaire : petit lexique<p>
 
-Tout d'abord, un mot sur le vocabulaire employé :
+Tout d'abord, un not sur le vocabulaire employé :
 
 <sect1>8 bits<p>
 
 Des caractères sont dits « 8 bits » s'ils correspondent à des accents ou
-à des signes spéciaux comme « § », non inclus dans le standard
+à des signs spéciaux comme « § », non inclus dans le standard
 <tt/ASCII/ « 7 bits ».
 
 Ce standard, sans accents ni caractères spéciaux, correspond aux 128
@@ -217,19 +217,19 @@ Ce standard, sans accents ni caractères spéciaux, correspond aux 128
 
 Pour des raisons historiques (place disponible, inutilité pour les états
 uniens) seuls les 128 (2^7) premiers caractères ont été normalisés par
-l'ASCII : par exemple le A qui est le 65e caractère de la table ASCII
+l'ASCII : par example le A qui est le 65e caractère de la table ASCII
 s'écrit 0100 0001 en notation binaire.
 
 Pour les caractères situés hors de la norme ASCII, différentes « normes
 » ou « standards » incompatibles, comme l'Unicode, l'iso-8859, le latin,
-le cp (...) fixent ces correspondances.
+le cp (...) fixent ces correspondences.
 
-Par exemple, dans le standard ASCII étendu par l'iso-8859-1, le 224ème
+Par example, dans le standard ASCII étendu par l'iso-8859-1, le 224ème
 caractère équivalent noté « eb » en hexadécimal correspond à « ë ».
 
 <sect1>La police de caractères<p>
 
-Une police de caractères est une correspondance entre des codes
+Une police de caractères est une correspondence entre des codes
 informatiques et des caractères (alphanumériques...) affichables par
 l'ordinateur.
 
@@ -259,7 +259,7 @@ Swahili.
 Le Swahili, n'utilise aucun caractère accentué (comme l'Anglais, le
 Malais et l'Indonésien), donc n'importe quel version fait l'affaire.
 
-Pour l'Afrikaans, je ne sais plus exactement quel était le choix initial
+Pour l'Afrikaans, je ne says plus exactement quel était le choix initial
 (c'est-à-dire où avait été rangé le 'n au départ), mais il ne me semble
 pas que ce soit dans Latin 1.
 
@@ -348,7 +348,7 @@ d'une version révisée de l'ISO 8859-1 latin 1 pour inclure tous les
 caractères des pays européens ; ainsi on y retrouve les caractères
 Français manquant, l'euro, et des caractères finlandais manquants.
 <item>latin 0 : l'ISO 8859-15 latin 9 est souvent incorrectement
-abrégée en latin0, qui correspondait au nom du projet, de par
+abrégée en latin0, qui correspondait au nom du project, de par
 son ambition à remplacer le latin 1 un jour. Je vous renvoie au
 <htmlurl name="site de l'ISO"
 url="http://www.iso.ch/catf/d29505.html"> et à la
@@ -362,7 +362,7 @@ où les caractères Islandais peu utilisés ont été remplacés par les
 caractères turcs.
 <item>cp1254 : équivalent sous Windows de cette police, aussi
 incompatible, qui apporte les caractères manquant au Français
-précédemment cités et remplace les caractères Islandais peu utilisés par
+précédemment cités et replace les caractères Islandais peu utilisés par
 les caractères turcs.
 </itemize>
 
@@ -375,7 +375,7 @@ pour diverses raisons :
 <itemize>
 <item>Il supporte l'intégralité des caractères utilisés en Français de
 manière standard sur les UNIX, pour les échanges de fichiers entre
-Solaris et Linux par exemple
+Solaris et Linux par example
 <item>Il s'agit de la police 8 bits choisie par l'union européenne si
 l'Unicode, évolution du 8 bits, n'est pas disponible
 <item>Il permet d'écrire des textes avec l'intégralité des
@@ -385,7 +385,7 @@ messagerie électronique au sens large, supplantant progressivement l'ISO
 8859-1 latin 1
 </itemize>
 
-Le Francophones HOWTO utilise donc le latin 9 dans tous les exemples, car il y
+Le Francophones HOWTO utilise donc le latin 9 dans tous les examples, car il y
 a de grandes chances que votre système ne soit pas encore compatible
 latin 9... autant donc vous proposer des manipulations et des travaux
 pratiques utiles :-)
@@ -394,7 +394,7 @@ Toutefois, si vous ne pouvez utiliser l'ISO 8859-15 latin 9 et
 décidez d'en choisir une autre, je vous recommande d'éviter les cp
 propres au monde DOS/Windows et de vous rabattre sur l'ISO
 8859-1 latin 1 qui est encore un standard fort répandu : dans chaque
-exemple je vous invite alors à remplacer les « latin9 » par des « latin1 »
+example je vous invite alors à remplacer les « latin9 » par des « latin1 »
 
 <sect1>Table de clavier<p>
 
@@ -405,7 +405,7 @@ obtenu sur l'écran de l'ordinateur.
 Pour linux, ces fichiers sont dans /usr/lib/kbd/keytables/ ou
 /usr/share/kbd/keytables/
 
-Par exemple, les claviers français AZERTY ont une table de clavier
+Par example, les claviers français AZERTY ont une table de clavier
 différente des claviers suisse romands QWERTZ, ou des claviers du reste
 du monde, QWERTY.
 
@@ -418,7 +418,7 @@ clavier francophone.
 <sect1>« Home », « End », « Page_Up » et « Page_Down »<p>
 
 Les touches « Home », « End », « Page_Up » et « Page_Down » dont les noms
-varient selon les claviers sont les touches permettant respectivement
+variant selon les claviers sont les touches permettant respectivement
 d'aller en début/fin de ligne et de monter/descendre d'une page.
 
 Les codes affectes à ces touches sont respectivement 102 et 107 pour «
@@ -464,16 +464,16 @@ remplacer le « bip » en cas d'erreur par un éclair blanc à l'écran.
 
 Les touches mortes sont des touches qui ne produisent pas de caractères
 en elles-mêmes, mais qui modifient la façon dont la frappe suivante va
-être interprétée, par exemple, le tréma ou l'accent circonflexe sont en
+être interprétée, par example, le tréma ou l'accent circonflexe sont en
 général des touches mortes.
 
-Une touche morte est une touche qui doit donc être suivie d'un espace
+Une touche morte est une touche qui doit donc être suivie d'un escape
 pour obtenir l'accent seul, ou dans le cas où elle est suivie d'une
-voyelle y positionne un accent, par exemple :
+voyelle y positionne un accent, par example :
 
 <tscreen><verb>
 	« ^ » puis « e » donne « ê »
-	« ^ » puis « espace » donne « ^ »
+	« ^ » puis « escape » donne « ^ »
 </verb></tscreen>
 
 Les touches mortes sont :
@@ -548,7 +548,7 @@ C'est le temps UTC, défini à Paris, qui sert de référence aux
 différentes heures légales.
 
 L'acronyme « GMT » est employé 99% du temps pour
-désigner UTC, mais c'est une erreur ou un abus de langage.
+désigner UTC, mais c'est une erreur ou un abus de language.
 
 Enfin, à titre purement indicatif, il existe l'heure astronomique, aussi
 comptée sur des étalons atomiques mais décalée de 4 minutes par jour de
@@ -590,8 +590,8 @@ ou :
 	stty erase ^?
 </verb></tscreen>
 
-« stty erase » ne sert en effet qu'à établir une correspondance
-entre le code que renvoie une touche et la fonction <tt/erase/ pour
+« stty erase » ne sert en effet qu'à établir une correspondence
+entre le code que renvoie une touche et la function <tt/erase/ pour
 effacer le caractère.
 
 Les tables ici fournies fonctionnent correctement et ne nécessitent donc
@@ -604,7 +604,7 @@ commandes « shell », comme .bashrc, .bash_profile ou .tcshrc .
 <sect1>Faire de ces modifications les défauts au démarrage<p>
 
 D'habitude, loadkeys est exécuté par des scripts au
-démarrage ; par exemple dans <tt>/etc/rc.d/init.d/keytable</tt> ou
+démarrage ; par example dans <tt>/etc/rc.d/init.d/keytable</tt> ou
 <tt>/etc/rc.d/rc.local</tt>, <tt>init.d/keytable</tt> ou <tt>rc.keymap</tt>.
 
 La commande :
@@ -671,7 +671,7 @@ l'euro ni les autres caractères français.
 
 Vous trouverez aussi des fichiers « .uni » qui ne sont utiles que pour
 créer des polices ou pour ceux qui utilisent l'unicode : ils fixent des
-correspondances entre les « dessins » des caractères dans la police et
+correspondences entre les « dessins » des caractères dans la police et
 les codes des dits caractères, un même dessin pouvant correspondre à
 plusieurs codes dans l'example de d'unicode.
 
@@ -687,7 +687,7 @@ répertoire /usr/lib/kbd/consoletrans avec la commande:
 </verb></tscreen>
 
 D'habitude, setfont est exécuté par des scripts au démarrage ; par
-exemple dans <tt>/etc/rc.d/init.d/keytable</tt> ou
+example dans <tt>/etc/rc.d/init.d/keytable</tt> ou
 <tt>/etc/rc.d/rc.local</tt>, <tt>init.d/keytable</tt> ou
 <tt>rc.keymap</tt>.
 
@@ -715,8 +715,8 @@ Dans <tt>/etc/sysconfig/i18n</tt> rajouter une ligne de la forme :
 <item> xxx représente le type de police ; il doit s'agir d'une lat
 pour les francophones ce qui signifie ISO 8859 ou latin.
 Sans cela il n'y a plus de caractères « étendus » comme les voyelles
-accentués, symboles de ponctuation comme paragraphe...
-<item> E représente l'encodage latin, par exemple 1 pour latin1, 0 ou 9
+accentués, symbols de punctuation comme paragraphe...
+<item> E représente l'encodage latin, par example 1 pour latin1, 0 ou 9
 pour latin9
 <item> NNN représente la taille individuelle de chaque caractère ; 08
 est presque illisible mais 16 est un peu gros... &Agrave; régler selon
@@ -785,9 +785,9 @@ En résumé :
 <item> AltGr (*) : ³
 </itemize>
 
-<sect2>b) dollar / livre / symbole monétaire international<p>
+<sect2>b) dollar / livre / symbol monétaire international<p>
 
-Étant donné que le symbole monétaire international n'est plus disponible
+Étant donné que le symbol monétaire international n'est plus disponible
 dans la norme d'encodage ISO 8859-15, il a été remplacé par la division
 centésimale de l'euro : le cent, disponible donc en AltGr ($).
 
@@ -795,7 +795,7 @@ Dans les précédentes versions, le dollar & la livre, des monnaies
 étrangères, avaient été déplacés pour laisser la place à l'euro et au
 cent, notre monnaie.
 
-De telles modifications étaient permises par les recommandations
+De telles modifications étaient permises par les recommendations
 officielles de l'EURO WORKSHOP mais allaient à l'encontre de la norme
 AZERTY : si la position AltGr (e) est déjà occupée sur un clavier, la
 position de l'euro est laissée au libre choix des programmeurs.
@@ -806,7 +806,7 @@ est sérigraphié en AltGr (e), j'ai du déplacer le ê en AltGr + Shift
 ($).
 
 Désolé d'avoir rompu la « tradition » linuxienne pour conserver la
-compatibilité à la norme AZERTY & aux recommandations officielles de
+compatibilité à la norme AZERTY & aux recommendations officielles de
 l'EURO WORKSHOP !
 
 En résumé :
@@ -823,7 +823,7 @@ L'euro & les cents ont été rajoutés respectivement en AltGr (e) & en
 AltGr (c).
 
 La touche AltGr a donc été rajoutée ; pour utiliser ces
-fonctions avec toute table de clavier, il suffit de charger
+functions avec toute table de clavier, il suffit de charger
 other-latin9.map après votre table nationale.
 
 La plupart des améliorations du clavier français ont été transposées aux
@@ -843,7 +843,7 @@ Des « Composes », séquences à préfixer par la touche compose ( «
 ImprÉcran » ou « Print Screen » par défaut) ont été rajoutées, mais cela
 reste transparent pour l'utilisateur.
 
-Par exemple:
+Par example:
 <itemize>
 <item> COMPOSE ^ suivi d'une des lettres (s,S,z,Z) sert à obtenir les lettres finlandaises rajoutées
 <item> COMPOSE " suivi d'une des lettres (y,Y) sert à obtenir les y trémas franco-néerlandais rajoutés
@@ -893,7 +893,7 @@ aussi xkb ou modifier des bibliothèques de programmes !
 confiance à X pour cette tâche.
 
 En réalité, il n'est pas compliqué de gérer des touches mortes, il suffit
-d'utiliser la bonne fonction, XmbLookupString() dans les programmes
+d'utiliser la bonne function, XmbLookupString() dans les programmes
 Motif, au lieu de XLookupString().
 
 <sect1>Le clavier en pratique<p>
@@ -942,7 +942,7 @@ ScrollLock      Compose                 # Pour faire des caractères spéciaux.
                                         # Utiliser sinon une des 3 touches des
                                         # nouveaux claviers 105 touches...
 
-RightCtl        Control                 # Garder la touche normale
+RightCtl        Control                 # Garder la touche normal
 
 XkbKeycodes     "xfree86"
 XkbRules        "xfree86"
@@ -971,9 +971,9 @@ votre clavier...
 Une autre méthode pour obtenir des caractères 8 bits :
 
 Dans <tt>/usr/X11R6/lib/X11/locale/iso8859-1/Compose</tt> se trouve une
-table de « correspondance » entre deux caractères et un résultat ; les
+table de « correspondence » entre deux caractères et un résultat ; les
 deux caractères sont «mélangés» lors de l'appui sur la touche Compose :
-par exemple;
+par example;
 <tscreen><verb>
 	COMPOSE suivi de « e » puis « ^ »
 </verb></tscreen>
@@ -1003,7 +1003,7 @@ Thomas Quinot &lt;Thomas.Quinot(à)cuivre.fdn.fr&gt; vous propose donc sa
 manière transparente pour tous les clients.
 
 Elle permet également de traiter les séquences composées
-inconnues comme des paires de caractères, par exemple :
+inconnues comme des paires de caractères, par example :
 
 <tscreen><verb>
 	~ + / = ~/
@@ -1050,24 +1050,24 @@ Il convient donc d'utiliser une table adaptée avec xkb.
 Je vous conseille de choisir les tables <tt/latin9/ que je maintiens à
 jour, plus récentes que les versions <tt/latin1/, permettant d'utiliser
 de multiples améliorations, détaillées dans la section clavier sous
-linux-console, pour disposer du plus de confort possible
+linux-console, pour disposer du plus de comfort possible
 et plus adaptées car maintenu par des francophones.
 
 Les nombreuses améliorations dont elles bénéficient permettent de
 pallier au déficiences de nombreux programmes.
 
-Par exemple, certains programmes en Motif comme Netscape (tm) ne savent
+Par example, certains programmes en Motif comme Netscape (tm) ne savent
 pas encore gérer les touches mortes ... donc impossible de taper par
-exemple des ê ou des î sur les claviers des Belges et Français, puisque
+example des ê ou des î sur les claviers des Belges et Français, puisque
 la touche morte « accent circonflexe » est le seul moyen d'obtenir ces
 caractères !
 
 « fr-latin9 » répond à ce problème en proposant une solution de
-remplacement : AltGr (voyelle) permet d'obtenir la voyelle avec un
+replacement : AltGr (voyelle) permet d'obtenir la voyelle avec un
 accent grave, AltGr+Shift (voyelle) permet d'obtenir la voyelle avec un
 tréma !
 
-<sect1>Table de correspondances<p>
+<sect1>Table de correspondences<p>
 
 <itemize>
 <item> AltGr (voyelle) : voyelle accent grave
@@ -1078,7 +1078,7 @@ tréma
 <item> AltGr + Shift (minuscule accentuée) : majuscule accentuée
 </itemize>
 
-Par exemple :
+Par example :
 
 <itemize>
 <item> AltGr (a) : â
@@ -1096,15 +1096,15 @@ Donc même dans les pires conditions, si aucune touche morte ne
 fonctionne, on peut quand même accéder à toutes les
 voyelles accentuées, majuscules et minuscules !
 
-Vous y trouverez en plus les guillemets français (« »), les symboles
-employés en physique (&szlig;, &aring;, delta, phi ...), des signes
+Vous y trouverez en plus les guillemets français (« »), les symbols
+employés en physique (&szlig;, &aring;, delta, phi ...), des signs
 de monnaies (yen, cent) ou de copyright (<tt/tm/, &copy;) ainsi que des
 lettres d'autres langues (&Oslash;, &AElig; ...).
 
-Tous ces signes s'obtiennent grâce à AltGr (lettre), par exemple
+Tous ces signs s'obtiennent grâce à AltGr (lettre), par example
 AltGr (b) donne &szlig;, AltGr (r) donne <tt/tm/, AltGr (y) donne yen...
 
-Pour vous rapeller simplement de tout celà, tapez par exemple :
+Pour vous rapeller simplement de tout celà, tapez par example :
 
 <tscreen><verb>
         more /usr/lib/kbd/keytables/i386/azerty/fr-latin9.map
@@ -1124,7 +1124,7 @@ Il faut donc utiliser l'utilitaire de conversion « bdftopcf » qui en
 quelque sorte permet de compiler les polices de caractères fournies.
 
 Placez-vous dans le répertoire de l'archive que vous avez récupéré puis
-sous root, taper par exemple pour Xlat9-10x20.bdf ou un autre bdf :
+sous root, taper par example pour Xlat9-10x20.bdf ou un autre bdf :
 
 <tscreen><verb>
 	bdftopcf Xlat9-10x20.bdf > Xlat9-10x20-lat9.pcf
@@ -1133,7 +1133,7 @@ sous root, taper par exemple pour Xlat9-10x20.bdf ou un autre bdf :
 	mkfontdir /usr/X11R6/lib/X11/fonts/misc
 </verb></tscreen>
 
-Celà crée un fichier « Xlat9-10x20-lat9.pcf » qu'il faut compresser avec
+Celà crée un fichier « Xlat9-10x20-lat9.pcf » qu'il faut compressor avec
 gzip, on obtient alors le fichier « Xlat9-10x20-lat9.pcf.gz » qui doit
 être mis dans le répertoire adéquat, pour lequel l'index des polices de
 caractères sera mis à jour.
@@ -1169,7 +1169,7 @@ Ou plus simplement, taper :
 	grep Xlat9-10x20.pcf /usr/X11R6/lib/X11/fonts/misc/*
 </verb></tscreen>
 
-Puis utiliser le second paramètre comme nom de police, par exemple avec
+Puis utiliser le second paramètre comme nom de police, par example avec
 rxvt, xiterm, aterm ou wterm:
 
 <tscreen><verb>
@@ -1190,7 +1190,7 @@ assurez-vous-en donc avec :
 </verb></tscreen>
 
 Ensuite, il convient de s'assurer que l'application est apte à supporter
-les caractères 8 bits : par exemple, ispell n'est pas compilé
+les caractères 8 bits : par example, ispell n'est pas compilé
 pour des caractères 8 bits par défaut : il faut le recompiler
 sans l'option :
 
@@ -1223,7 +1223,7 @@ Mais plusieurs de ces normes étaient nécessaire du fait de
 l'impossibilité de faire tenir les caractères de toutes les langues du
 monde sur 8 bits.
 
-La norme ISO 8859-1 latin 1, la plus utilisée, se destine par exemple au
+La norme ISO 8859-1 latin 1, la plus utilisée, se destine par example au
 langues d'Europe de l'ouest, du nord, d'Amérique, la norme ISO 8859-2
 latin 2 est prévue pour l'Europe de l'est...
 
@@ -1240,7 +1240,7 @@ implémenté.
 En effet, il est impossible de l'utiliser en pratique sous
 linux-console, la mémoire exigüe de la carte vidéo ne permettant pas de
 stocker tous les caractères de l'Unicode, et sous X la gestion actuelle
-des polices rendrait son utilisation trop inconfortable.
+des polices rendrait son utilisation trop uncomfortable.
 
 Attendons un peu que les polices « True Type » se répandent sous X, grâce
 à des outils comme freetype, xfstt (...) et le très attendu XFree 4 qui
@@ -1271,7 +1271,7 @@ Français et les Finlandais :
 
 <itemize>
 <item> « e dans l'o » en majuscule et minuscule pour les Français, par
-exemple pour les mots oeuf, coeur, boeuf, oeil ...
+example pour les mots oeuf, coeur, boeuf, oeil ...
 <item> « s chapeau inversé » en majuscule et minuscule pour les Finlandais
 <item> « z chapeau inversé » en majuscule et minuscule pour les Finlandais
 <item> « l'EURO » pour tous les pays européens
@@ -1289,12 +1289,12 @@ Or il en existe plusieurs types répondant différemment à la même norme
 iso-8859-15 latin9 « latin0 » sous linux :
 <itemize>
 <item> par tradition l'opposition latN/latNu selon l'inclusion ou non d'une
-table de correspondance Unicode.
+table de correspondence Unicode.
 <item> en réalité les différences vont bien plus loin, de l'ordre dans
 lequel sont les caractères de la police, ce qui joue sur l'aspect des
-applications semi graphique, les correspondances avec des caractères
+applications semi graphique, les correspondences avec des caractères
 latin1 ± latin9 ± Unicode ce qui a un rôle dans la compatibilité croisée
-ou exclusive, par exemple purement Unicode...
+ou exclusive, par example purement Unicode...
 </itemize>
 
 J'ai donc complété par 2 types de ma création pour répondre au mieux aux
@@ -1317,10 +1317,10 @@ lat9w |     oui       |      oui        |     non       |lat1+lat9+Unicode
 Voici plus d'explications :
 
 <itemize>
-<item> les lat9 tout court ne contiennent pas de table de correspondance
-Unicode, ce qui fait que tous les symboles monétaires internationaux
+<item> les lat9 tout court ne contiennent pas de table de correspondence
+Unicode, ce qui fait que tous les symbols monétaires internationaux
 apparaîtront comme des euro, ce qui peut poser des problèmes pour les
-fichiers issus d'un ordinateur sous windows ; le cp1252 ou le latin1 sont
+fichiers issues d'un ordinateur sous windows ; le cp1252 ou le latin1 sont
 « incompatibles » avec le latin9, mais ce dernier a l'avantage de fonctionner
 tout de suite sous linux.
 
@@ -1328,17 +1328,17 @@ Dans les versions récentes du noyau, selon le <htmlurl name="site de
 Yann Dirson"
 url="http://www.multimania.com/ydirson/en/lct/lct/lct-6.html">, il
 semble donc que toutes les polices devraient contenir une table de
-correspondance Unicode...
+correspondence Unicode...
 
 <item> des lat9u encodées dans un ordre non standard, mais identique à
 celui des polices latXu de kbd, par rapport aux polices précédentes, en
 amenant les mêmes problèmes avec le cp1252 et le latin1 mais en incluant
-une table de correspondance Unicode, ce qui permet d'avoir de jolis
+une table de correspondence Unicode, ce qui permet d'avoir de jolis
 caractères semi graphiques sous Yast, mc, ou d'autres programmes basés
 sur ncurses ou dialog.
 
 <item> des lat9v encodées dans l'ordre officiel iso comme les
-lat9 mais avec une table Unicode complète : là aucun symbole monétaire
+lat9 mais avec une table Unicode complète : là aucun symbol monétaire
 international ne sera remplacé par l'euro !
 Ces polices sont utiles pour éviter les problèmes d'export, grâce à
 l'Unicode *pur*, avec une table de clavier Unicode adaptée : tous les
@@ -1383,7 +1383,7 @@ lat9w :
 Une alternative est l'Unicode, mais les programmes l'utilisant sont encore trop
 peu nombreux pour qu'elle soit valable.
 
-Citons quand même yuedit et le projet « 9 » (9term, 9wm... rien à voir
+Citons quand même yuedit et le project « 9 » (9term, 9wm... rien à voir
 avec l'opérateur télécom français du même nom) qui utilisent l'Unicode
 sous X, avec plus ou moins de succès.
 
@@ -1397,7 +1397,7 @@ langues baltiques, asiatiques, est-africaines...
 
 <sect2>e) Utiliser les possibilités Unicode<p>
 
-Essayez par exemple ce fichier <tt/unicode-lance/ pour passer en mode Unicode:
+Essayez par example ce fichier <tt/unicode-lance/ pour passer en mode Unicode:
 
 <tscreen><verb>
 #!/bin/sh
@@ -1417,11 +1417,11 @@ loadkeys fr-latin9.map
 setfont lat9w-16.psf
 </verb></tscreen>
 
-Essayez par exemple de lire le fichier <tt/unicode.txt/, encodé en
+Essayez par example de lire le fichier <tt/unicode.txt/, encodé en
 Unicode, une fois <tt/unicode-lance/ activé.
 
 Vous ne verrez sinon qu'un texte mal encodé, sans caractères 8 bits,
-comme cet exemple :
+comme cet example :
 
 <tscreen><verb>
 Ceci est un essai de texte en UNICODE !
@@ -1457,7 +1457,7 @@ C'est agréable n'est-ce pas ?
  PR> ce genre.
 
 Il faudrait regarder les sources de sort...
-La fonction à utiliser est strcoll() :
+La function à utiliser est strcoll() :
 
 				  ****
 
@@ -1465,7 +1465,7 @@ STRCOLL(3)         Manuel du programmeur Linux         STRCOLL(3)
 
 
 NOM
-       strcoll - Comparaison de deux chaînes suivant la localisa-
+       strcoll - Comparison de deux chaînes suivant la localisa-
        tion en cours.
 
 SYNOPSIS
@@ -1474,10 +1474,10 @@ SYNOPSIS
        int strcoll (const char *s1, const char *s2);
 
 DESCRIPTION
-       La fonction strcoll() compare les deux chaînes s1  et  s2.
+       La function strcoll() compare les deux chaînes s1  et  s2.
        Elle renvoie un entier inférieur, égal ou supérieur a zéro
        si  s1 est respectivement inférieure, égale, ou supérieure
-       a  s2.   La  comparaison est effectuée en se basant sur la
+       a  s2.   La  comparison est effectuée en se basant sur la
        localisation en cours pour la catégorie LC_COLLATE.  (Voir
        setlocale(3)).
 
@@ -1491,26 +1491,26 @@ Qui s'y colle ? Ça devrait être assez simple à réaliser sur un système GNU
 en tout cas.
 </verb></tscreen>
 
-Il existe différente variables à exporter, avec chacune une fonction
+Il existe différente variables à exporter, avec chacune une function
 spécifique ; le format standardisé est:
 
 <tscreen><verb>
 	langue[_PAYS[.CHARSET]][@variante]
 </verb></tscreen>
 
-Les crochets dénotent l'optionalité, par exemple: 'fr', 'fr_BE',
+Les crochets dénotent l'optionalité, par example: 'fr', 'fr_BE',
 'fr_CH.ISO-8859-15', no@bokmaal, no@nynorsk,...
 
-Les fonctions de la libc, celle de GNU en tout cas, iront chercher dans
-« l'ordre décroissant » si on peut dire; par exemple si on spécifie
+Les functions de la libc, cell de GNU en tout cas, iront chercher dans
+« l'ordre décroissant » si on peut dire; par example si on spécifie
 'fr_CH.ISO-8859-15' elles chercheront d'abord avec cette valeur, puis
 avec 'fr_CH' puis avec 'fr'.
 
 <itemize>
-<item> LC_COLLATE  définit les équivalences de caractères pour les comparaisons
+<item> LC_COLLATE  définit les équivalences de caractères pour les comparisons
 (&aelig; peut être équivalent à ae), pour les ligatures et pour les césures.
 <item> LC_CTYPE    définit les caractères affichables
-<item> LC_MONETARY définit le format et le symbole de la monnaie utilisée
+<item> LC_MONETARY définit le format et le symbol de la monnaie utilisée
 <item> LC_NUMERIC  définit le format numérique : regroupement, marqueur
 décimal...
 <item> LC_MESSAGES définit la langue des messages
@@ -1538,14 +1538,14 @@ Les valeurs utilisables pour les francophones sont:
 <item> fr_CA français du Canada
 </itemize>
 
-Par exemple, si vous être un Français de France, il suffit d'indiquer
+Par example, si vous être un Français de France, il suffit d'indiquer
 sous bash :
 
 <tscreen><verb>
 	export LANGUAGE=fr_FR
 </verb></tscreen>
 
-Exemple :
+Example :
 
 <tscreen><verb>
 	bash# export LANGUAGE=es_ES
@@ -1579,7 +1579,7 @@ Pour cela, installer les nouveaux fichiers sources de locales dans
    cp locales/* /usr/share/i18n/locales/
 </verb></tscreen>
 
-Alors, régénérer les locales « binaires » de <tt>/usr/share/locales</tt>, par exemple :
+Alors, régénérer les locales « binaires » de <tt>/usr/share/locales</tt>, par example :
 
 <tscreen><verb>
    localedef -i fr_FR@euro -f ISO-8859-15 fr_FR@euro
@@ -1589,7 +1589,7 @@ fr_FR@euro inclus les caractères latin 9, c'est utile pour l'utilisation
 de LC_COLLATE et LC_CTYPE en fait, et la nouvelle monnaie unique.
 
 Pour le moment, le Franc Français (FRF) est toujours la monnaie
-officielle en France par exemple, mais lorsque ce sera l'euro, il
+officielle en France par example, mais lorsque ce sera l'euro, il
 suffira de remplacer la locale fr_FR par fr_FR@euro.
 
 <tscreen><verb>
@@ -1616,7 +1616,7 @@ url="http://metalab.unc.edu/guylhem/francophones-howto.tgz">.
 <sect1>Son linux en français<p>
 
 Pour se faire <tt/SON/ linux en français il faut en pratique disposer des
-sources de la libc et d'un minimum de compétences en langage C ; ces
+sources de la libc et d'un minimum de compétences en language C ; ces
 manipulations sont inutiles pour l'utilisateur standard de Linux qui
 se contentera d'utiliser les locales de la section précédente.
 
@@ -1630,7 +1630,7 @@ locales et un truc appelé nls.
 
 Les locales, sous Linux, ça va par défaut dans /usr/lib/locale,
 et ça contient de quoi préciser entre autres le format des
-nombres (LC_NUMERIC), les retours des fonctions ctype (isalpha etc) (LC_CTYPE),
+nombres (LC_NUMERIC), les retours des functions ctype (isalpha etc) (LC_CTYPE),
 le format des sommes d'argent (LC_MONETARY), le format des dates (LC_TIME) et
 encore d'autres détails. Sur certains Unix, il y a aussi LC_MESSAGES,
 qui contient les messages de l'OS dans la langue choisie par la variable
@@ -1649,7 +1649,7 @@ boulot (du moins je suppose).
 Si l'on veut en plus que les programmes qui utilisent setlocale() utilisent nos
 règles françaises, là il faut aller dans les sources de
 libc/locale et dans chacun des sous-répertoires jeter un oeil sur le
-fichier exemple, le modifier pour le français (c'est des tout petits
+fichier example, le modifier pour le français (c'est des tout petits
 fichiers), et faire « make », avant de copier le résultat dans
 /usr/lib/local/fr/ et de faire un « export LC_ALL=fr ».
 </verb></tscreen>
@@ -1688,7 +1688,7 @@ mettez les donc dans <tt/.bashrc/ et <tt/.bash_login/, <tt/.tcshrc/ ou
 /etc/profile :
 
 <tscreen><verb>
-# pour tcsh, utiliser setenv au lieu de export, par exemple «setenv LANG fr»
+# pour tcsh, utiliser setenv au lieu de export, par example «setenv LANG fr»
 
 # Les locales
 LC_CTYPE=ISO-8859-1
@@ -1759,7 +1759,7 @@ pour aller au début et à la fin de la ligne en cours
 d'édition.
 
 Pour pouvoir employer une touche il suffit d'obtenir son code et
-l'associer à une fonction grâce à ce fichier ; pour obtenir le code
+l'associer à une function grâce à ce fichier ; pour obtenir le code
 d'une touche invoquer cat puis appuyer sur la touche : son code
 apparaît.
 
@@ -1771,7 +1771,7 @@ Le code physique :
 
 correspond à la séquence d'échappement.
 
-Par exemple, si le code de « Home » est « ^[[7~ » il suffit d'ajouter
+Par example, si le code de « Home » est « ^[[7~ » il suffit d'ajouter
 une ligne :
 
 <tscreen><verb>
@@ -1835,7 +1835,7 @@ alias netscape="export LC_ALL=en_EN ; netscape $* ; LC_ALL=fr_FR"
 
 Le fichier .bash_profile ou .bash_login, exécuté par bash(1) lors des
 logins, y est strictement identique mais peut, si vous le voulez,
-présenter des différences pour afficher par exemple une citation en
+présenter des différences pour afficher par example une citation en
 laçant le programme « fortune ».
 
 <sect1>zsh<p>
@@ -1909,7 +1909,7 @@ puis
 date
 </tt>
 
-La première heure est celle du bios, la seconde celle calculée
+La première heure est cell du bios, la seconde cell calculée
 par Linux à partir de <tt>/etc/zoneconfig</tt>.
 
 Pour peu que vous ayez installé timezone, votre machine peut jongler
@@ -1983,7 +1983,7 @@ Dès lors, clock et date doivent vous retourner la même heure...
 Si vous lisez ce document en été, le décalage de l'heure
 locale par rapport à l'heure de Greenwich est de deux heures, on va donc
 mettre temporairement le fuseau en GMT-2, soit vous lisez ce document en hiver
-et il convient de remplacer tous les « 2 » par des « 1 » dans les exemples
+et il convient de remplacer tous les « 2 » par des « 1 » dans les examples
 suivants...
 
 GMT-2 ?!!? Alors que le fuseau est GMT+2 ?
@@ -2028,12 +2028,12 @@ faisant automatiquement.
 
 Si vous habitez hors Europe, procédez de même en remplaçant
 les « -2 » par « X », X représentant l'opposé de votre
-décalage horaire (par exemple -4 au Québec, donc X=+4...)
+décalage horaire (par example -4 au Québec, donc X=+4...)
 
 e) Modifier le fuseau horaire :
 
 Si vous partez à l'étranger, il est alors simple de modifier
-l'heure locale de votre portable : par exemple si vous partez pour Moscou :
+l'heure locale de votre portable : par example si vous partez pour Moscou :
 
 <tt>
 ln -sf /usr/lib/zoneinfo/Europe/Moscow /etc/zoneconfig
@@ -2069,10 +2069,10 @@ set bs=2
 " Fixer la césure automatique de la ligne à N caractères :
 set tw=72
 
-" Faire apparaître les tabulations et les espaces
+" Faire apparaître les tabulations et les escapes
 set list
 
-" Changer les défauts pour voir les espaces inutiles et les tabulations
+" Changer les défauts pour voir les escapes inutiles et les tabulations
 set listchars=tab:»·,trail:·
 hi nontext ctermfg=red
 hi nontext ctermbg=blue
@@ -2086,7 +2086,7 @@ hi nontext ctermbg=blue
 " Ligne
 set nowrapscan
 
-" Montrer les correspondances :
+" Montrer les correspondences :
 set showmatch
 
 " Montrer le mode
@@ -2107,7 +2107,7 @@ map \e[3~ x
 " Cacher la souris lorsqu'on tape :
 set mousehide
 
-" Faire voir les correspondances lors de recherches :
+" Faire voir les correspondences lors de recherches :
 " set hlsearch
 
 " Colorer à l'intérieur des commentaires en C :
@@ -2331,16 +2331,16 @@ ispell-dictionary-alist des dictionnaires.
 Cette liste contient :
 <itemize>
 <item> le nom du dictionnaire
-<item> la liste des caractères composant un mot
-<item> la lise opposée des caractères ne composant pas un mot
+<item> la liste des caractères component un not
+<item> la lise opposée des caractères ne component pas un not
 <item> les caractères de liaison à l'intérieur des mots ("-", "'"...)
 <item> vrai ou faux si ces caractères peuvent être présents en plusieurs
-exemplaire dans le mot
+exemplaire dans le not
 <item> une liste d'arguments pour ispell
 <item> le mode d'ispell (tex, nroff..)
 </itemize>
 
-Par exemple, dans le fichier <tt/.emacs/ :
+Par example, dans le fichier <tt/.emacs/ :
 
 <tscreen><verb>
 (setq ispell-dictionary-alist
@@ -2484,7 +2484,7 @@ alias d="ls --color=auto -N"
 
 Un simple <tt>d</tt> remplacera le classique <tt>ls</tt>, en y ajoutant la
 couleur, alors que <tt>ll</tt> vous offrira une liste complète de tous
-les fichiers présents dans le répertoire, avec leurs attributs,
+les fichiers présents dans le répertoire, avec leurs attributes,
 leurs tailles...
 
 --color=auto est préférable car --color=yes fera avoir des codes escape
@@ -2588,7 +2588,7 @@ url="ftp://ftp.vlsivie.tuwien.ac.at/pub/8bit">
 Pour gs et xdvi, il faut utiliser des options spéciales (sur ma machine,
 ce sont des alias). En effet, ils sont souvent configurés pour un papier
 états-unien dit « légal », de taille proche, mais non exactement égale,
-à celle du standard « A4 ».
+à cell du standard « A4 ».
 
 Ces options sont les suivantes :
 
@@ -2599,7 +2599,7 @@ Ces options sont les suivantes :
 </tt>
 
 Pour que dvips convertisse les documents dans un format papier a4, il faut
-spécifier dans le fichier config.ps (le chemin varie en  fonction des versions
+spécifier dans le fichier config.ps (le chemin varie en  function des versions
 de LaTeX) : /usr/lib/texmf/dvips/config.ps ou <tt>.dvipsrc</tt>
 
 <tt>
@@ -2630,16 +2630,16 @@ sélectionner lors de l'installation.
 De là, deux possibilités :
 
 <itemize>
-<item> soit vous ne voulez que des manuels en Français, auquel cas il
+<item> soit vous ne voulez que des manuals en Français, auquel cas il
 faut faire un :
 
 <tscreen><verb>
 export MANPATH=/usr/man/fr_FR
 </verb></tscreen>
 
-NB: fr_FR se remplace par fr_BE, fr_CA, fr_CH ou fr_LU selon le pays concerné.
+NB: fr_FR se replace par fr_BE, fr_CA, fr_CH ou fr_LU selon le pays concerné.
 
-<item> soit vous préférez par défaut des manuels en
+<item> soit vous préférez par défaut des manuals en
 Français et si la page n'existe pas, vous vous rabattez vers l'Anglais,
 il suffira alors de taper :
 
@@ -2720,11 +2720,11 @@ Lisez ensuite <tt>.pgp/fr.hlp</tt> pour apprendre à vous servir de pgp !
 
 <sect1>Impression en mode ascii<p>
 
-Pour l'impression de texte simple, beaucoup d'imprimantes attendent des lettres
+Pour l'impression de texte simple, beaucoup d'imprimantes attendant des lettres
 en codage IBM (cp850) comme sous MS DOS.
 
 Si le fichier est codé en latin1, on doit utiliser « recode latin1:ibmpc »
-(à placer dans les filtres lpr de /etc/ par exemple), sous peine de voir
+(à placer dans les filtres lpr de /etc/ par example), sous peine de voir
 imprimer des « alpha » à la place de « à », et autres choses du même genre.
 
 Il existe d'autres utilisation au programme <tt/recode/ : « ibmpc:lat1 » ou
@@ -2741,17 +2741,17 @@ chanae.alphanet.ch) dans un message explicant la différence Unicode/latin/cp :
 
 Normal et logique.
 
- DB>   --> en un mot la table de conversion « Unicode » est désactivée
+ DB>   --> en un not la table de conversion « Unicode » est désactivée
  DB>       ce qui transforme le « e accent aigü (dec 130) » en « théta (dec 233) »
 
 Non. Il ne transforme rien du tout, il affiche tout simplement sans 
 *aucune* transformation au contraire, à toi de t'assurer que la police
-que tu charges possèdes les glyphes à la bonne place par rapport au codage
+que tu charges possèdes les glyphs à la bonne place par rapport au codage
 de caractères que tu utilises (iso-8859-1).
 
 Autrement dit si ta police n'est pas iso-8859-1 tu dois dire à setfont de
 faire des mappings; en particulier s ic'est une police qui utilise l'encodage
-DOS cp437 tu fais « setfont -u cp437 nomdelapolice ». Moi par exemple j'aime
+DOS cp437 tu fais « setfont -u cp437 nomdelapolice ». Moi par example j'aime
 beaucoup la police « t.fnt » de la Slackware, et j'ai donc quelque part
 dans /etc/rc.d/* une ligne « setfont -u cp437 t.fnt »
 
@@ -2806,20 +2806,20 @@ Ou sinon, si tu ne veux pas lancer setfont et tu veux donc garder la
 police de la carte graphique; essaye un « echo -e \033(B » (l'ennuyant
 c'est que tu dois le faire dans chaque console)
 
- DB>                 (en général setfont -u def.uni (par exemple) renvoie une
+ DB>                 (en général setfont -u def.uni (par example) renvoie une
  DB>                  erreur : PIO_UNIMAPCLR: Invalid argument et je reste
- DB>                  en caracteres « graphiques »)
+ DB>                  en characters « graphiques »)
 
 Ah ? Chez moi ça marche; quels kernel et kbd as-tu ?
 
 Sinon je te conseille « cp437 » plutôt que « def », ils font _presque_ la même
-chose, mais « cp437 » est visuellement plus agréable car il remplace les
+chose, mais « cp437 » est visuellement plus agréable car il replace les
 caractères non présents dans la police par les lettres non accentuées si c'est
 des lettres, C pour © et R pour ® et par un carré blanc pour le reste, ce qui
 permet de garder le formatage et la lecture agréables; « def » lui ne mets
 totu simplement rien pour les caractères manquants, si bien que tu te
 trouves avec des trous, ce qui est l'horreur si tu édites un texte par
-exemple avec vi, puisque le curseur est affiché plusieurs caractères
+example avec vi, puisque le curseur est affiché plusieurs caractères
 à gauche à cause des caractères de largeur nulle :) 
 
 Essaye aussi la police « t.fnt », elle est assez jolie, toute en rondeurs, je la
@@ -2829,7 +2829,7 @@ peuvent travailler avec :)
 </verb></tscreen>
 
 Lire aussi les articles de news : « FAQ - les accents français et Usenet»  de F.
-Yergeau dans les groupes fr.usenet.reponses et fr.usenet.8bits » ISO
+Yergeau dans les groupes fr.usenet.responses et fr.usenet.8bits » ISO
 8859-1 National Character Set FAQ» de mike (à) vlsivie.tuwien.ac.at dans
 comp.answers .
 
@@ -2859,7 +2859,7 @@ ce soit justement cette version qui soit encore livrée sur la plupart
 des distributions (RedHat 4.2, 5.0, 5.1, Slackware 3.2, Debian 1.9) en
 tout cas.
 
-Symptôme : la fonction  wgetch() de ncurses renvoie les codes suivants :
+Symptôme : la function  wgetch() de ncurses renvoie les codes suivants :
 
 <itemize>
 <item> je tape 'é' et wgetch retourne  « meta-i »    code 233 (decimal)
@@ -2893,7 +2893,7 @@ perl: warning: Falling back to the "C" locale.
 En libc6 le format des fichiers binaires de définition des locales a
 (encore) changé : il faut les régénérer à partir des sources <htmlurl
 name="sources WG15collection.tar.gz"
-url="ftp://ftp.lip6.fr:/pub/linux/GCC"> par exemple et des programmes «
+url="ftp://ftp.lip6.fr:/pub/linux/GCC"> par example et des programmes «
 locale » et « localedef » qui sont fournis dans les sources de la libc.
 
 Sinon on peut également se passer des locales :
@@ -2955,9 +2955,9 @@ LC_MESSAGES. À quand la suite Éric ? ;-) )
 
 <item> compléter éventuellement l'initialisation des variables du shell comme
 décrit dans la section sur bash ou tcsh
-<item> dans un programme, utilisez la fonction  setlocale() (man setlocale.3)
+<item> dans un programme, utilisez la function  setlocale() (man setlocale.3)
 pour fixer les paramètres locaux CAR le noyau linux initialise toujours cette
-fonction avec l'argument une locale « C » (POSIX) donc sans accents !
+function avec l'argument une locale « C » (POSIX) donc sans accents !
 
 <tscreen><verb>
           setlocale(LC_CTYPE,"fr_FR");
@@ -2980,7 +2980,7 @@ graphiques », qui permettent de dessiner des cadres
 
 Pour le premier cas, la seule solution est de changer de police, mais
 dans le second cas, il suffit en général de charger la table avec
-loadunimap par exemple :
+loadunimap par example :
 
 <tscreen><verb>
           loadunimap lat1u.uni
@@ -3001,7 +3001,7 @@ disquettes, afin de gagner le maximum de place :
 <sect1>Lilo<p>
 
 Depuis la version 20, on peut spécifier un clavier (français, par
-exemple) au démarrage de LILO.
+example) au démarrage de LILO.
 
 Bien sur, cela ne fait qu'échanger quelques touches (a/q,m/:,... pour un
 clavier fr) mais cela est assez utile lorsque l'on veut taper « win ».
@@ -3107,9 +3107,9 @@ Verr. Num allumé et Verr. Num éteint.
 X international terminal (xiterm pour les intimes) est bien sûr sous GPL et
 mis à jour pour suivre parallèlement l'évolution de rxvt.
 
-Sur par exemple  <htmlurl name="mon site"
+Sur par example  <htmlurl name="mon site"
 url="http://metalab.unc.edu/guylhem/xiterm"> vous trouverez donc xiterm,
-qui remplace votre xterm classique en y apportant la couleurs, les
+qui replace votre xterm classique en y apportant la couleurs, les
 accents et les touches étendues.
 
 Pour l'installer, compilez-le, devenez root et tapez :

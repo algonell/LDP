@@ -815,7 +815,7 @@ It is GNU software and is distributed under the GNU General Public License.
         An amazing amount of free source code for Numerical Methods. Netlib
         is THE source code repository which contains an innumerable
   amount of source code for Numerical Methods. It also has an active
-  <ulink url="http://www.netlib.org/utk/discus">discussion forum
+  <ulink url="http://www.netlib.org/utk/discuss">discussion forum
   </ulink> wherein you can submit your queries and stay posted for
   help. Netlib also has a <ulink url="http://www.nhse.org/ptlib">
   Parallel Tools Library </ulink> and a search by subject.
@@ -1028,7 +1028,7 @@ It is GNU software and is distributed under the GNU General Public License.
   <ulink url="http://plasma-gate.weizmann.ac.il/Grace/">Grace</ulink>
  Grace is a WYSIWYG 2D plotting tool for the X Window System and Motif.
  Grace runs on practically any version of Unix. Grace is a descendant of
- ACE/gr, also known as Xmgr. It is lisenced under the GNU public license.
+ ACE/gr, also known as Xmgr. It is licenced under the GNU public license.
  This link also has a tutorial and download information.
  </para>
  </listitem>

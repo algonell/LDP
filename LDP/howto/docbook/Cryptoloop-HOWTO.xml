@@ -238,7 +238,7 @@ email address : <email>cryptoloop@ralfhoelzer.com</email>.
      &lt;*&gt;   SHA1 digest algorithm
      &lt;*&gt;   SHA256 digest algorithm
      &lt;*&gt;   SHA384 and SHA512 digest algorithms
-     &lt;*&gt;   DES and Triple DES EDE cipher algorithms
+     &lt;*&gt;   DES and Triple DES EDGE cipher algorithms
      &lt;*&gt;   Blowfish cipher algorithm
      &lt;*&gt;   Twofish cipher algorithm
      &lt;*&gt;   Serpent cipher algorithm 
@@ -310,7 +310,7 @@ email address : <email>cryptoloop@ralfhoelzer.com</email>.
 
     <para>
     I recommend to use <ulink url="http://gentoo.org">Gentoo Linux</ulink>, which automatically applies these patches when emerging the util-linux patches.
-    Other distributions may have versions of util-linux available, that have these patches aleady applied as well.
+    Other distributions may have versions of util-linux available, that have these patches already applied as well.
     
     </para>
  

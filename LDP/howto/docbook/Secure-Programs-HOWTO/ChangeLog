@@ -81,7 +81,7 @@
 
 	* Added a note about FD_SET() and FD_CLR() thanks to the
 	  Timo Sirainen (tss, at, iki dot fi), who very helpfully noted:
-	   Just occured to me a while ago that FD_SET() and FD_CLR() don't
+	   Just occurred to me a while ago that FD_SET() and FD_CLR() don't
 	   do any buffer size checks. After a bit of googleing I didn't
 	   see this mentioned pretty anywhere else than
 	   in recent pppd vulnerability, which exploited exactly this problem.
@@ -175,7 +175,7 @@
 	* Added note about avoiding off-by-one bugs.  That's really
 	  a general "avoid bugs" issue, but I thought it'd be
 	  worth mentioning.
-	* Spelling error fixed ("relased" -> "released").
+	* Spelling error fixed ("released" -> "released").
 
 2002-3-8  David A. Wheeler <dwheeler@dwheeler.com>
 	* Added info about spam.
@@ -286,7 +286,7 @@
 	* Switched to DocBook version 4.1 (from 3.1).
 	* Began using a stylesheet.
 	* Switched to a different spelling checker (aspell), which found
-	  a number of speeling priblems.
+	  a number of spelling priblems.
 	* Added a lot of material about web authentication.
 	* Added a long discussion on cryptography, including suggestions
 	  on recommended algorithms.
@@ -300,7 +300,7 @@
 2001-7-6  David A. Wheeler <dwheeler@dwheeler.com>
 	* Added a new section on PHP.  This is based on Clowes' work,
 	  though many of the actual recommendations are my own.
-	* Fixed a number of grammer and typo errors - my thanks to
+	* Fixed a number of grammar and typo errors - my thanks to
 	  Moritz Jodeit, who sent me a nice long set of fixes!
 
 2001-7-5  David A. Wheeler <dwheeler@dwheeler.com>

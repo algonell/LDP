@@ -1,4 +1,4 @@
-# partition table of /dev/hda
+# partition table of /dev/had
 unit: sectors
 
 /dev/hda1 : start=       63, size=   116865, Id= 6, bootable

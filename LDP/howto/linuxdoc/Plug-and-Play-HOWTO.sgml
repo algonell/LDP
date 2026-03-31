@@ -2005,7 +2005,7 @@ which is not covered by this howto.
 <item>nictools-pci (and nictools-nopci)  for ethernet cards
 <item>hdparm: configure hard drive hardware
 <item>hotplug: used by kernel
-<item>xvidtune: tune video for use with Xwindows (See
+<item>xvidtune: tune video for use with X (See
  XFree86-Video-Timings-HOWTO)
 
 </itemize>
@@ -2042,7 +2042,7 @@ in a configuration register located in the device chip.
 <sect1>History: From ISA to PCI Interrupts
 <p>Before the PCI bus, PCs used the ISA bus and then during the
 transition to the newer PCI bus, most PC computers used both the PCI
-and ISA busses.  The ISA bus had all interrupt lines going to every
+and ISA buses.  The ISA bus had all interrupt lines going to every
 card so any card could change its irq number just by sending out its
 interrupt signal on a different line (on a different pin).  All the
 interrupt signals were sent to the in interrupt controller which then

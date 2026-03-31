@@ -25,7 +25,7 @@
     </keywordset>
   
     <abstract>
-      <para>Tento dokument poskytuje informácie týkajúce sa problematiky miestnych nastavení v
+      <para>Tento document poskytuje informácie týkajúce sa problematiky miestnych nastavení v
         prostredí opera&ccaron;ných systémov GNU/Linux s oh&lcaron;adom na potreby slovenského u&zcaron;ívate&lcaron;a.</para>
     </abstract>
   </articleinfo>
@@ -39,13 +39,13 @@
   <section id="intro-licence">
     <title>Licencia</title>
 
-    <para>Áno, mô&zcaron;ete &ccaron;íta&tcaron; tento dokument, a to aj na komer&ccaron;né u&ccaron;ely!</para>
+    <para>Áno, mô&zcaron;ete &ccaron;íta&tcaron; tento document, a to aj na komer&ccaron;né u&ccaron;ely!</para>
 
     <para>Autori nenesú zodpovednos&tcaron; za materiálnu &ccaron;i psychickú ujmu spôsobenú &ccaron;itate&lcaron;ovi, jeho
       rodinným príslu&scaron;níkom, domácim a hospodárskym zvieratám, prípadne po&ccaron;íta&ccaron;ovému
       zariadeniu.</para>
 
-    <para>Toto je <quote>free</quote> dokument --- mô&zcaron;ete ho &scaron;íri&tcaron; a/alebo modifikova&tcaron; v súlade s
+    <para>Toto je <quote>free</quote> document --- mô&zcaron;ete ho &scaron;íri&tcaron; a/alebo modifikova&tcaron; v súlade s
       podmienkami licencie <citetitle><acronym>GNU</acronym> Free Documentation Licence</citetitle>,
       ktorej znenie nájdete na adrese <ulink url="http://www.gnu.org/licenses/fdl.html">
       http://www.gnu.org/licenses/fdl.html</ulink>.</para>
@@ -92,7 +92,7 @@
 	    </systemitem> v adresári
 	    <filename class="directory">/cvsroot/LDP/howto/docbook/Slovak-HOWTO/</filename>. Bli&zcaron;&scaron;ie
 	    informácie o získaní CVS konta a webovskom rozhraní k CVS serveru nájdete v
-	    <citetitle><acronym>LDP</acronym> Autor Guide</citetitle>.
+	    <citetitle><acronym>LDP</acronym> Author Guide</citetitle>.
 	    </simpara>
 	</listitem>
 	    
@@ -107,20 +107,20 @@
 	  <simpara>Ak je to nie&ccaron;o vä&ccaron;&scaron;ie, dajte mi najskôr vedie&tcaron;, &ccaron;o chystáte, preto&zcaron;e je mo&zcaron;né,
 	    &zcaron;e u&zcaron; na tom niekto maká a teda bu&dcaron; na to zabudnete, alebo to skúsite dorobi&tcaron; s danou
 	    osobou. (Vzh&lcaron;adom na to, &zcaron;e zatia&lcaron; sa do tohto dokumentu dostalo asi 20 riadkov
-	    cudzieho textu, zdá sa mi predchádzajúca veta maximálne smie&scaron;na. Ha-ha, zasmial som
+	    cudzieho textu, zdá sa mi predchádzajúca veta maximálne smie&scaron;na. Ha-ha, zasmial some
 	    sa...)</simpara>
 	</listitem>
 
 	<listitem>
 	  <simpara>Va&scaron;e meno a adresa budú automaticky zverejnené spolu s va&scaron;im príspevkom. Ak si
-	    to ne&zcaron;eláte, musíte o to výslovne po&zcaron;iada&tcaron;. Takisto, autor príspevku u&zcaron; jeho zaslaním
+	    to ne&zcaron;eláte, musíte o to výslovne po&zcaron;iada&tcaron;. Takisto, author príspevku u&zcaron; jeho zaslaním
 	    implicitne súhlasí s aplikáciou licencie tohto dokumentu na &ccaron;as&tcaron;, ktorej je
 	    autorom.</simpara>
 	</listitem>
 
 	<listitem>
 	  <simpara>V <citetitle>Czech-HOWTO</citetitle> sa hovorí: <quote>Kdy&zcaron; u&zcaron; n&ecaron;kdo podobný
-	    dokument &ccaron;te, d&ecaron;lá to z nutnosti a ne pro své pobavení.</quote> Musíme v&scaron;ak zobra&tcaron; do
+	    document &ccaron;te, d&ecaron;lá to z nutnosti a ne pro své pobavení.</quote> Musíme v&scaron;ak zobra&tcaron; do
 	    úvahy, &zcaron;e v &Ccaron;echách je vy&scaron;&scaron;ia &zcaron;ivotná úrove&ncaron; a oni a&zcaron; to&lcaron;ko srandy
 	    nepotrebujú...</simpara>
 	</listitem>
@@ -142,7 +142,7 @@
 
       <listitem>
 	<simpara><author><firstname>Ján</firstname><surname>Ondrej</surname>
-	  <othername>(SAL)</othername></author> -- Autor pôvodného Slovak-HOWTO.</simpara>
+	  <othername>(SAL)</othername></author> -- Author pôvodného Slovak-HOWTO.</simpara>
       </listitem>
 
       <listitem>
@@ -248,7 +248,7 @@ tcsh$ setenv LC_COLLATE sk
 	  <listitem>
 	    <para><simplelist type="inline"><member><envar>LC_MONETARY</envar></member>
 	      <member><envar>LC_NUMERIC</envar></member></simplelist> --- Formát pe&ncaron;a&zcaron;ných a
-	      &ccaron;íselných hodnôt.  Umo&zcaron;&ncaron;uje meni&tcaron; skupinu nastavení, ktoré sa pou&zcaron;ijú pri formátovaní
+	      &ccaron;íselných hodnôt.  Umo&zcaron;&ncaron;uje menu&tcaron; skupinu nastavení, ktoré sa pou&zcaron;ijú pri formátovaní
 	      pe&ncaron;a&zcaron;ných hodnôt alebo v&scaron;etkých ostatných &ccaron;íselných hodnôt. Sú to desatinná &ccaron;iarka,
 	      odde&lcaron;ova&ccaron; tisícov, zoskupovanie &ccaron;íslic, znamienka pre kladné a zaporné hodnoty,
 	      at&dcaron;.</para>
@@ -532,7 +532,7 @@ jazyk[_územie[.kódovanie]][@modifikátor]
 	<filename class="directory">locales/</filename> sa kone&ccaron;ne nachádzajú slovenské miestne
 	nastavenia v &ccaron;itate&lcaron;nej (a editovate&lcaron;nej) forme. Súbory v tomto adresári majú presne danú
 	&scaron;truktúru, ktorá je popísaná v manuálovej stránke locale(5). Pre be&zcaron;ného pou&zcaron;ívate&lcaron;a nemá
-	zmysel meni&tcaron; nastavenia v tomto súbore, ke&dcaron;&zcaron;e ide o &scaron;tandardné nastavenia, ktoré sa
+	zmysel menu&tcaron; nastavenia v tomto súbore, ke&dcaron;&zcaron;e ide o &scaron;tandardné nastavenia, ktoré sa
 	pou&zcaron;ívajú na celom Slovensku. Ale, proti Gustovi &zcaron;iadna putika! Ak sa teda rozhodnete zmeni&tcaron;
 	nie&ccaron;o v tomto súbore, musíte aktualizova&tcaron; súbory v prvom spomínanom adresári
 	<filename class="directory">/usr/share/locales/sk/</filename> príkazom, ktorý údaje v súbore
@@ -646,7 +646,7 @@ sh$ unset LC_MESSAGES LANG
     <section>
       <title>Nastavenie &ccaron;asovej zóny</title>
 
-      <para>S miestnymi nastaveniami úzko súvisí aj nastavenie &ccaron;asovej zóny. Vedel by som o tom
+      <para>S miestnymi nastaveniami úzko súvisí aj nastavenie &ccaron;asovej zóny. Vedel by some o tom
 	rozpráva&tcaron; celé hodiny, ale ono by to muselo by&tcaron; zlo&zcaron;itej&scaron;ie ako len nastavenie jednej
 	premennej... A to takto:
 	<screen>
@@ -682,7 +682,7 @@ LC_CTYPE=sk
 
       <listitem>
 	<para>U&zcaron;ívate&lcaron; je normálny, má rád svoj materinský jazyk, ale netrápi ho, ke&dcaron; má polovicu
-	  aplikácií po slovensky a polovicu po anglicky. Po &ccaron;esky vie. Toto ho pote&scaron;í (nezabudnite
+	  aplikácií po slovensky a polovicu po anglicky. Po &ccaron;esky via. Toto ho pote&scaron;í (nezabudnite
 	  mu potajomky nain&scaron;talova&tcaron; aj <application>locales-cs</application>):
 	  <screen>
 LANGUAGE=sk:cs
@@ -1518,7 +1518,7 @@ fi
   <section id="console-summary">
     <title>Zhrnutie nastavení konzoly</title>
 
-    <para>Pokia&lcaron; som sa niekde nesekol, tak minimálne v distribúciách
+    <para>Pokia&lcaron; some sa niekde nesekol, tak minimálne v distribúciách
       <systemitem class="osname">RedHat</systemitem> a
       <systemitem class="osname">Mandrake</systemitem> by po týchto zmenách mala do pohody za&scaron;lapa&tcaron;
       slovenská podpora (fonty + klávesnica).
@@ -1752,7 +1752,7 @@ sh# killall -USR1 xfs
 	<step>
 	  <para>Skopírujte súbory s <application>TrueType</application> fontami napr. do adresára
 	    <filename class="directory">/usr/share/fonts/ttf/win/</filename>. Odporú&ccaron;am zmeni&tcaron;
-	    mená súborov s fontami aj ich prípony na malé písmená -- mal som s tým
+	    mená súborov s fontami aj ich prípony na malé písmená -- mal some s tým
 	    problémy.</para>
 	</step>
 
@@ -2194,7 +2194,7 @@ name[Group2] = "Slovak";
       </step>
     </procedure>
       
-    <para>E&scaron;te by som rád pripomenul, &zcaron;e nie v&scaron;etky my&scaron;i sú rovnako odolné vo&ccaron;i zmenám národného
+    <para>E&scaron;te by some rád pripomenul, &zcaron;e nie v&scaron;etky my&scaron;i sú rovnako odolné vo&ccaron;i zmenám národného
       prostredia a preto sa v&zcaron;dy pri kúpe my&scaron;i informujte na mo&zcaron;nosti posloven&ccaron;ovania toho ktorého
       výrobku.</para>
   </section> <!-- xwindow-mouse -->
@@ -2663,7 +2663,7 @@ int main(int argc, char **argv)
     mo&zcaron;né, &zcaron;e autori pridali túto podporu len v nov&scaron;ích verziách.</para>
 
   <para>Niektoré z nasledovných popisov nie sú pôvodné a niektoré nemusia by&tcaron; ani odskú&scaron;ané. Preto
-    je pri ka&zcaron;dom uvedený autor a jeho adresa a prípadný zdroj, z ktorého sa návod dostal do
+    je pri ka&zcaron;dom uvedený author a jeho adresa a prípadný zdroj, z ktorého sa návod dostal do
     <citetitle>Slovak-HOWTO</citetitle>.</para>
 
   <section id="apps-bash">
@@ -2719,11 +2719,11 @@ bash$ exec bash
 
 	<listitem>
 	  <para><firstterm>Assumed document character set</firstterm>
-	    (<varname>ASSUME_CHARSET</varname>) --- aká znaková sada sa má pou&zcaron;i&tcaron;, ak html dokument
+	    (<varname>ASSUME_CHARSET</varname>) --- aká znaková sada sa má pou&zcaron;i&tcaron;, ak html document
 	    neobsahuje informáciu o svojom kódovaní a nastavenie <computeroutput>Raw
 	    8-bit</computeroutput> je vypnuté.  <acronym>HTTP</acronym> &scaron;tandardom je
 	    <acronym>ISO-8859-1</acronym> tak&zcaron;e tak. Vä&ccaron;&scaron;inou majú dokumenty s iným kódovaním ako
-	    <acronym>ISO-8859-1</acronym> informáciu o svojej znakovej sade, vtedy sa toto
+	    <acronym>ISO-8859-1</acronym> informáciu o svojej znakovej sad, vtedy sa toto
 	    nastavenie neberie do úvahy. Ak chcete, aby sa dokumenty, ktoré nemajú explicitne danú
 	    sadu znakov, pova&zcaron;ovali za súbory s kódovaním Latin 2, nastavte si túto premennú. Mo&zcaron;no
 	    ju nastavi&tcaron; len v súbore <filename>/etc/lynx.cfg</filename> (teda nie pre ka&zcaron;dého
@@ -2773,7 +2773,7 @@ export NLSPATH=/usr/share/locale/%l/%N
 	na &scaron;tandardy a starý &scaron;rot, ke&dcaron; to funguje len bez tej premennej. Samozrejme, ak vám to
 	funguje aj s &ncaron;ou, zabudnite na m&ncaron;a.</para>
 
-      <para>V prípade, &zcaron;e nemô&zcaron;ete meni&tcaron; <filename>/etc/profile</filename>, vlo&zcaron;te si do svojho
+      <para>V prípade, &zcaron;e nemô&zcaron;ete menu&tcaron; <filename>/etc/profile</filename>, vlo&zcaron;te si do svojho
 	<filename>~/.profile</filename> riadok
 	<programlisting>
 unset NLSPATH
@@ -3115,7 +3115,7 @@ recode l2 subor.txt
 	</screen>
 	ale zdá sa, &zcaron;e to sta&ccaron;i&tcaron; nebude. Latka na titul <quote>Linuxový Guru</quote> sa posunula do
 	závratných vý&scaron;ok, preto&zcaron;e -- aby ste sa stali jeho nosite&lcaron;om -- musíte vedie&tcaron; pomocou tohto
-	programu previes&tcaron; dokument v latin2 na latin1 alebo dokonca <acronym>ASCII</acronym> (a to
+	programu previes&tcaron; document v latin2 na latin1 alebo dokonca <acronym>ASCII</acronym> (a to
 	u&zcaron; je pekný Saigon...)</para>
     </section> <!-- tricks-recode-recode -->
   </section> <!-- tricks-recode -->

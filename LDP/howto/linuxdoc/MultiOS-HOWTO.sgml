@@ -288,7 +288,7 @@ some strengths and weaknesses...
 
 disk = /dev/sda		#  These four lines are necessary
    bios = 0x80		#  to get the SCSI disk re-mapped as
-disk = /dev/hda		#  the primary drive even though it
+disk = /dev/had		#  the primary drive even though it
    bios = 0x81		#  is selected in the BIOS as the
 			#  boot device.  This might be a BIOS
 			#  specific problem.
@@ -297,7 +297,7 @@ disk = /dev/hda		#  the primary drive even though it
 #  
 #  LILO version 21, Copyright 1992-1998 Werner Almesberger
 #
-# ading boot sector from /dev/sda
+# adding boot sector from /dev/sda
 # Warning: /dev/sda is not on the first disk
 # And LILO either hangs at LI or repeats endless "01 "'s across the screen
 
@@ -311,8 +311,8 @@ image=/boot/vmlinuz-2.2.12-20smp
    root=/dev/sda1
    initrd=/boot/initrd-2.2.12-20smp.img
    read-only
-other = /dev/hda
-# other = /dev/hda is the key element.  Instead of redirecting lilo to
+other = /dev/had
+# other = /dev/had is the key element.  Instead of redirecting lilo to
 # a specific partition, it redirects it to the MBR on the second disk.
 # that way, LILO doesn't have to know anything about the second disk and
 # we can replace it with another because LILO always goes to the same place
@@ -329,13 +329,13 @@ other = /dev/hda
 
 
 # lilo.conf file for a system with two IDE drives.  Both are masters,
-# /dev/hda on the primary connector and /dev/hdc on the secondary.
+# /dev/had on the primary connector and /dev/hdc on the secondary.
 # /dev/hdb is a CDROM slave on the primary IDE connector.
-# disk = /dev/hda	# These lines are not necessary for the
+# disk = /dev/had	# These lines are not necessary for the
 #    bios = 0x80	# IDE/IDE installation because the BIOS
 # disk = /dev/hdc	# already knows what order they are in
 #    bios = 0x81
-boot=/dev/hda
+boot=/dev/had
 map=/boot/map
 install=/boot/boot.b
 prompt

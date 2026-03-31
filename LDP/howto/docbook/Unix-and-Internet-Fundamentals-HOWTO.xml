@@ -522,7 +522,7 @@ directory</primary></indexterm>, the place in the Unix file system where
 your personal files will live.  Finally, your account entry also sets your
 <firstterm>shell</firstterm><indexterm><primary>shell</primary></indexterm>,
 the command interpreter that <command>login</command> will start up to
-accept your commmands.</para>
+accept your commands.</para>
 
 <para>What happens after you have successfully logged in depends on how you
 did it. On a text console, <command>login</command> will launch a shell
@@ -1605,7 +1605,7 @@ asks the &howto-toplevel; server to tell it the IP address of a
 nameserver to tell it the address of the host &howto-host;.</para>
 
 <para>Most of the time, your nameserver doesn't actually have to work that
-hard.  Nameservers do a lot of cacheing; when yours resolves a hostname, it
+hard.  Nameservers do a lot of caching; when yours resolves a hostname, it
 keeps the association with the resulting IP address around in memory for a
 while.  This is why, when you surf to a new website, you'll usually only
 see a message from your browser about "Looking up" the host for the first

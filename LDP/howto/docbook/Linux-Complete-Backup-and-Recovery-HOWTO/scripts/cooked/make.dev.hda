@@ -36,7 +36,7 @@ then
     exit 1;
 fi
 
-dd if=/dev/zero of=/dev/hda bs=512 count=2
+dd if=/dev/zero of=/dev/had bs=512 count=2
 
 swapoff -a
 sync
@@ -44,10 +44,10 @@ sync
 # see if we have sfdisk & if so use it.
 if which sfdisk ; then
   echo "Using sfdisk."
-  sfdisk  -H 128 -S 63 -C 523 /dev/hda < dev.hda.sfd
+  sfdisk  -H 128 -S 63 -C 523 /dev/had < dev.had.sfd
 else
   echo "using fdisk."
-  fdisk  -H 128 -S 63 -C 523 /dev/hda < dev.hda
+  fdisk  -H 128 -S 63 -C 523 /dev/had < dev.had
 fi
 
 sync
@@ -69,5 +69,5 @@ mke2fs -j $blockcheck -L / /dev/hda3
 echo Making /dev/hda5 a swap partition.
 mkswap $blockcheck /dev/hda5
 
-fdisk -l "/dev/hda"
+fdisk -l "/dev/had"
 ]]>

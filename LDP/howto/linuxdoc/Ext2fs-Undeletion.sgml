@@ -434,7 +434,7 @@ A short word of warning: if you use <tt/kerneld/ (or its replacement
 kernel modules, then don't unmount the ramdisk until you've copied any files
 from it onto non-volatile storage.  Once you unmount it, <tt/kerneld/
 assumes it can unload the module (after the usual waiting period), and once
-this happens, the memory gets re-used by other parts of the kernel, losing
+this happens, the memory gets reused by other parts of the kernel, losing
 all the painstaking hours you just spent recovering your data.
 
 If you have a Zip, Jaz, or LS-120 drive, or something similar, it would

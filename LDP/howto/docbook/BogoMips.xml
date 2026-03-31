@@ -256,7 +256,7 @@ are reported to be available in
   Spanish (by Juan Carlos Dur&aacute;n Garc&iacute;a)</ulink>, 
 <ulink url="http://filip.hroch.sk/howto-bogo.shtml"> 
   Slovak (by Filip Hroch)</ulink> 
-and several other languages (German, Norwegian, Polish, Japanese, Portugese), 
+and several other languages (German, Norwegian, Polish, Japanese, Portuguese), 
 unfortunately without details yet, all from the appropriate archives. </para>
 
 <para>An explanatory <ulink url="http://kinetic.org/bogo-mips.html">
@@ -717,7 +717,7 @@ for, <emphasis>SMP</emphasis> for Symmetric MultiProcessing, and
    386SX/16               2.2    Lech Marcinkowski &lt;puolalm@_tekla.fi&gt;
    386SX/16               2.23   Andrew Bulhak &lt;acb@_yoyo.cc.monash.edu.au&gt;
    386SX/16               2.23   Steven M. Gallo &lt;smgallo@_cs.buffalo.edu&gt;
-   386SX/16               2.34   Kevin Burtch &lt;kburtch@_pts.mot.com&gt;
+   386SX/16               2.34   Kevin Burtch &lt;kburtch@_pts.not.com&gt;
    386SX/16 turbo         2.38   Andrew Haylett &lt;ajh@_gec-mrc.co.uk&gt;
    386SX/16 0c            2.43   Adam Clarke &lt;adamc@_loose.apana.org.au&gt;
    386SX/16               2.49   Waymon &lt;waymon@_pacifier.com&gt;
@@ -876,7 +876,7 @@ for, <emphasis>SMP</emphasis> for Symmetric MultiProcessing, and
    486DX2/50             25.04   Mats Wikholm &lt;mwikholm@_news.abo.fi&gt;
    486DX2/50             25.04   J C Delepine &lt;delepine@_linux.u-picardia.fr&gt;
    486DX/50              25.04   J C Delepine &lt;delepine@_linux.u-picardia.fr&gt;
-   486DX/50              25.04   Kevin Burtch &lt;kburtch@_pts.mot.com&gt;
+   486DX/50              25.04   Kevin Burtch &lt;kburtch@_pts.not.com&gt;
    486DX/50 notebook     25.04   Pierre Frenkiel &lt;frenkiel@_cdfap1.in2p3.fr&gt;
    486DX/50              25.10   Heuler &lt;heuler@_informatik.uni-wuerzburg.edu&gt;
    486DX2/50             25.4    Brian Kennedy &lt;bkenned@_hubcap.clemson.edu&gt;
@@ -1208,7 +1208,7 @@ for, <emphasis>SMP</emphasis> for Symmetric MultiProcessing, and
    Pentium/90               36.08  Alan Skelley &lt;askelley@_gpu.srv.ualberta.ca&gt;
    Pentium/90               36.08  Ralph Sims &lt;ralphs@_locus.halcyon.com&gt;
    Pentium/90               36.08  Julian Bradbury &lt;julian@_xabcs.demon.co.uk&gt;
-   Pentium/90               36.08  Dan Langrill &lt;langrlld@_mussel.cig.mot.com&gt;
+   Pentium/90               36.08  Dan Langrill &lt;langrlld@_mussel.cig.not.com&gt;
    Pentium/90               36.08  Ravi Krishna Swamy &lt;rkswamy@_eos.ncsu.edu&gt;
    Pentium/90               36.08  J.L. Brothers &lt;brothers@_halcyon.com&gt;
    Pentium/90 Micronics     36.09  Andrew Brown &lt;andrewbrown@_acm.org&gt;
@@ -1270,7 +1270,7 @@ for, <emphasis>SMP</emphasis> for Symmetric MultiProcessing, and
    Pentium/133              53.26  Jon Trowbridge &lt;trow@_kremlin.emccta.com&gt;
    Pentium/133              53.26  Charny Peete Mitchell &lt;cpmiche@_eos.ncsu.edu&gt;
    Pentium/133 256c         53.26  David Wuertele &lt;dave@_gctech.com&gt;
-   Pentium/133 256c         53.68  Guiseppe Miceli &lt;ferdy@_ccii.unipi.it&gt;
+   Pentium/133 256c         53.68  Giuseppe Miceli &lt;ferdy@_ccii.unipi.it&gt;
    Pentium/133              53.68  Michael Kress &lt;kress@_hal.saar.de&gt;
    Pentium/150 Intel        59.80  Joel D. Young &lt;jdyoung@_afit.af.mil&gt;
    Pentium/150              60.01  Joost de Greef &lt;joost@_stack.nl&gt;
@@ -1312,7 +1312,7 @@ for, <emphasis>SMP</emphasis> for Symmetric MultiProcessing, and
 <screen>
    System                BogoMips  Reporter
    Pentium/66                2.18  Bob Myers &lt;root@_shyguy.lonestar.org&gt;
-   Pentium/90 notebook       9.5   Mark Maybee &lt;markm@_cs.colorado.edu&gt;
+   Pentium/90 notebook       9.5   Mark Maybe &lt;markm@_cs.colorado.edu&gt;
    6x86/120 Cyrix           52.32  Joel Boring &lt;dwild@_eskimo.com&gt;
    Pentium/83 Overdrive     82.85  Brian Smith &lt;smithb@_laraby.tiac.net&gt;
    Pentium/83 Overdrive     83.32  Scott Francis &lt;mord@_netcom.com&gt;
@@ -1354,7 +1354,7 @@ for, <emphasis>SMP</emphasis> for Symmetric MultiProcessing, and
    Pentium MMX/200         398.95  Eric Beymer &lt;beymer@_soundex.com&gt;
    Pentium MMX/200         398.95  Duane Steel &lt;dsteele@_direct.ca&gt;
    Pentium MMX/200         398.95  &lt;ndpilatz@_undergrad.math.uwaterloo.ca&gt;
-   Pentium MMX/200 mobile  398.95  Nam &lt;nam@_netvigator.com&gt;
+   Pentium MMX/200 mobile  398.95  Name &lt;name@_netvigator.com&gt;
    Pentium MMX/200         399.77  Wei-shi Tsai &lt;perdita@_dallas.crosswinds.net&gt;
    Pentium MMX/200         399.77  Erik Terpstra &lt;erik@_solidcode.net&gt;
    Pentium MMX/200         400     Rob Jokinen &lt;rjokinen@_rt66.com&gt;
@@ -1476,7 +1476,7 @@ for, <emphasis>SMP</emphasis> for Symmetric MultiProcessing, and
 *  Celeron/466             929.07  Dominic.Baines &lt;dombaines@mmbq.demon.co.uk&gt;
 *  Celeron/500             996.15  McWilliam &lt;hamishpmcwilliam@_netscape.net&gt;
 *  Celeron/500             999.42  Pekka Tiitanen &lt;peti@_kauha.kauhajoki.fi&gt;
-*  Celeron/533            1064.96  F. Alfaro &lt;al528580@_mail.mty.itesm.mx&gt;
+*  Celeron/533            1064.96  F. Alfaro &lt;al528580@_mail.mty.items.mx&gt;
 *  Celeron/566            1127.22  Bacsi Roland &lt;broland@_freemail.hu&gt;
 *  Celeron/600            1192.75  Shaun Ewing &lt;shaun@_shaunewing.com&gt;
 *  Celeron/633            1264.84  Jan Verner &lt;jan@_jan.cz&gt;
@@ -1765,7 +1765,7 @@ Opteron), Centaur</title>
    AMD K6/266              532.48  Holly Sommer &lt;sommer@_mugs.net&gt;
    AMD K6/266              534.12  Andreas Czerniak &lt;cognac@_toppoint.de&gt;
    AMD K6-2/300            598.02  Pasa Guglielmo &lt;gpasa@_omedia.ch&gt;
-   AMD K6-2/300 3D overcl  598.02  Jozsef &lt;formater@_eunet.yu&gt;
+   AMD K6-2/300 3D overcl  598.02  Jozsef &lt;formatter@_eunet.yu&gt;
    AMD K6-2/300            599.65  Ivo Plana &lt;ipv@_tinet.fut.es&gt;
    AMD K6-2/300            599.65  Juan Domenech &lt;domenech@_mail.seric.es&gt;
    AMD K6-2/300            599.65  Scrambo &lt;pinche@_my-deja.com&gt;
@@ -1985,7 +1985,7 @@ Opteron), Centaur</title>
    Centaur VIA III/700    1399.19  Rudy Ketterer &lt;ideur@_yahoo.com&gt;
    Centaur VIA Sam2/735   1461.45  Jim Jozwiak &lt;av832@_lafn.org&gt;
    Centaur VIA Sam2/735   1468.00  Francisco Romo &lt;fcoromo@_opensys.com.mx&gt;
-   Centaur VIA Exra/900   1789.13  Duke Robillard &lt;duke@_dummy-io.com&gt;
+   Centaur VIA Extra/900   1789.13  Duke Robillard &lt;duke@_dummy-io.com&gt;
    Centaur VIA Ezra/930   1861.22  Marc van Lieshout &lt;marc@_lithia.nl&gt;
    Centaur VIA Neh/1000   1985.74  Christian Lederer &lt;mail@_cpu-museum.de&gt;
    Centaur VIA Neh/1000   1985.74  Felix Dierich &lt;phaelicks@_web.de&gt;
@@ -2022,7 +2022,7 @@ Opteron), Centaur</title>
    21066/166               163.05  Jon Spreha &lt;jxs557@_psu.edu&gt;
    21066/166               164.59  David Mosberger-Tang &lt;davidm@_cs.arizona.edu&gt;
    21066/166 Multia        164.63  Rudolf Gabler &lt;rug@_usm.uni-muenchen.de&gt;
-   21066/166               165     Gareth Bult &lt;gareth@_ftech.net&gt;
+   21066/166               165     Gareth Built &lt;gareth@_ftech.net&gt;
    21066/166               165.04  Craig Ruff &lt;cruff@_ncar.ucar.edu&gt;
    21066/200               196.9   Danny ter Haar &lt;danny@_cistron.nl&gt;
    21066/200 UDB overcl    198     Kari Davidsson &lt;d154402@_cs.tut.fi&gt;
@@ -2056,7 +2056,7 @@ Opteron), Centaur</title>
    21164/433 PC164         429.91  Bernd Meyer &lt;bmeyer@_cs.monash.edu.au&gt;
    21164/433 Maita         429.91  Bill Broadley &lt;bill@_math.ucdavis.edu&gt;
    21164/433 PC164         430.96  &lt;rainer.landes@_physik.uni-karlsruhe.de&gt;
-   21164/433 EB164         430.96  &lt;metod.kozelj@_rzs-hm.si&gt;
+   21164/433 EB164         430.96  &lt;method.kozelj@_rzs-hm.si&gt;
    21164/433 PC164         430.96  H. Sumargo &lt;habibie@_robotic.eng.fiu.edu&gt;
    21164/433 PC164         431.94  Timm Gleason &lt;timm@_bess.com&gt;
    21164/466 PC164         464.51  Daryll Strauss &lt;daryll@_d2.com&gt;
@@ -2246,7 +2246,7 @@ Opteron), Centaur</title>
    PowerPC 604/120 Mac8500 239.21  Jason Colflesh &lt;jason.colflesh@_sap.com&gt;
    PowerPC 604/132 Mac9500 263.78  Matt Templeton &lt;cybear@_pacbell.net&gt;
    PowerPC 604/132 Mac7500 263.78  Patrick Murmann &lt;murmann@_mi.uni-erlangen.de&gt;
-   PowerPC 604/133 MOT PS  266.24  Christoper Harrel &lt;cnh@_eng.mindspring.net&gt;
+   PowerPC 604/133 NOT PS  266.24  Christoper Harrel &lt;cnh@_eng.mindspring.net&gt;
    PowerPC 604/150 Mac9500 297.73  Jean-Philippe Lord &lt;jpl@_binex.com&gt;
    PowerPC 604e/300        299     Guido Lehwalder &lt;guido@_lehwalder.de&gt;
    PowerPC 604e/195        359.63  Mike Potts &lt;pottsjam@_flyernet.udayton.edu&gt;
@@ -2479,7 +2479,7 @@ iDragon, Vax, CRIS Etrax, XScale, Rise</title>
 *  Dual Pentium III/600   2401.89  Shawn Hicks &lt;shicks@_impulse.net&gt;
 *  Dual Pentium III/600   2401.89  John Wiggins &lt;jwiggins@_csce.uark.edu&gt;
 *  Dual Pentium III/750   2992.90  George Hauser &lt;hausergj@_pop.nwnexus.com&gt;
-*  Dual Pentium III/750   3001.55  Jesse Tie Ten Quee &lt;tie@_mountlinux.com&gt;
+*  Dual Pentium III/750   3001.55  Jesse Tie Ten Queue &lt;tie@_mountlinux.com&gt;
    Dual Pentium Pro/800   3181.77  NN &lt;ulisses@_pusa.informat.uv.es&gt;
 *  Dual Pentium III/800   3188.32  Daniel Path &lt;danielp@_r-medialine.hu&gt;
 *  Dual Pentium III/800   3188.33  Steve Bradtke &lt;sjbradtke@_home.com&gt;
@@ -2612,7 +2612,7 @@ iDragon, Vax, CRIS Etrax, XScale, Rise</title>
    Sparc Sun Sparcstation2     SUNOS     26.00  &lt;gong@_cs.msu.su&gt;
    SparcClassic/50             Solaris   32.00  &lt;gong@_cs.msu.su&gt;
    Sparc Sun ELC               SUNOS     32.00  &lt;tranter@_software.mitel.com&gt;
-   HP-PA 9000-720              HP-UX     32.00  &lt;metod.kozelj@_rzs-hm.si&gt;
+   HP-PA 9000-720              HP-UX     32.00  &lt;method.kozelj@_rzs-hm.si&gt;
    Sparc Sun SS10              SUNOS     34.00  &lt;tranter@_software.mitel.com&gt;
    Sparc Sun SS10              SUNOS     34.00  &lt;makler@_man.torun.pl&gt;
    Pentium/100                 Win-NT    36.21  &lt;marcus@_healthchex.com&gt;
@@ -2623,7 +2623,7 @@ iDragon, Vax, CRIS Etrax, XScale, Rise</title>
    Intel Pentium/100           MSDOS     40.71  &lt;hamishpmcwilliam@_netscape.net&gt;
    Mips R4000/100 Indy         (?)       48.00  &lt;p.verwer@_organon.akzonobel.nl&gt;
    Mips R4000/100 SGI IndySC   Irix      48.00  &lt;lziegler@_csbsju.edu&gt;
-   HP-PA 9000-720              HP-UX     48.00  &lt;metod.kozelj@_rzs-hm.si&gt;
+   HP-PA 9000-720              HP-UX     48.00  &lt;method.kozelj@_rzs-hm.si&gt;
    Sparc SS10                  SUNOS     48.00  &lt;makler@_man.torun.pl&gt;
    IBM RS-6000-250/66          AIX       52.00  &lt;gl23@_e4.hrz.uni-giessen.de&gt;
    Sparc Sun Sparcstation10d   SUNOS     54.0   &lt;korpela@_ssl.berkeley.edu&gt;
@@ -2637,7 +2637,7 @@ iDragon, Vax, CRIS Etrax, XScale, Rise</title>
    Sparc Sun SS20/712          Solaris   74     &lt;spohr@_qmos.com&gt;
    Mips R4400/150 Challenge    (?)       74.00  &lt;p.verwer@_organon.akzonobel.nl&gt;
    Mips R4400/150 Indigo2Extr  (?)       74.00  &lt;p.verwer@_organon.akzonobel.nl&gt;
-   HP-PA 9000-715              HP-UX     74.00  &lt;metod.kozelj@_rzs-hm.si&gt;
+   HP-PA 9000-715              HP-UX     74.00  &lt;method.kozelj@_rzs-hm.si&gt;
    Centaur C6/200              WinNT4    77.00  &lt;hamishpmcwilliam@_netscape.net&gt;
    Centaur C6/200              Win98     78.48  &lt;hamishpmcwilliam@_netscape.net&gt;
    Centaur C6/200              MSDOS     78.79  &lt;hamishpmcwilliam@_netscape.net&gt;
@@ -2674,9 +2674,9 @@ iDragon, Vax, CRIS Etrax, XScale, Rise</title>
    Intel Pentium MMX/166       WIN95    331.40  &lt;hamishpmcwilliam@_netscape.net&gt;
    Sparc Ultra-1 sun4u         SUNOS    334.00  &lt;chrisv@_allegria.com&gt;
    Intel Pentium MMX/166       MSDOS    336.93  &lt;hamishpmcwilliam@_netscape.net&gt;
-   Alpha 3000-600S             VMS      348.61  &lt;metod.kozelj@_rzs-hm.si&gt;
+   Alpha 3000-600S             VMS      348.61  &lt;method.kozelj@_rzs-hm.si&gt;
    AMD Duron/750               BeOS5    372.05  &lt;hamishpmcwilliam@_netscape.net&gt;
-   Alpha server 1000-4/200     VMS      397.68  &lt;metod.kozelj@_rzs-hm.si&gt;
+   Alpha server 1000-4/200     VMS      397.68  &lt;method.kozelj@_rzs-hm.si&gt;
    Sparc Sun-Ultra30/248       Solaris  482.00  &lt;marc.Quinton@_stna.dgac.fr&gt;
    Intel Celeron/500           MSDOS    488.55  &lt;hamishpmcwilliam@_netscape.net&gt;
    Intel Celeron/500           BeOS5    494.81  &lt;hamishpmcwilliam@_netscape.net&gt;
@@ -2723,7 +2723,7 @@ Where did they get these voracious reading habits? Would having
 <screen>
 ------------------------------------------------------------------------
 Wim van Dorst, Clifton Scientific Text Services, tel/fax +31 355 242 319
-                   This sentence have three erors
+                   This sentence have three errors
 </screen>
 </para>
 </sect1>

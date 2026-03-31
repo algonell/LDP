@@ -7,13 +7,13 @@
   <section id="intro-licence">
     <title>Licencia</title>
 
-    <para>Áno, mô¾ete èíta» tento dokument, a to aj na komerèné uèely!</para>
+    <para>Áno, mô¾ete èíta» tento document, a to aj na komerèné uèely!</para>
 
     <para>Autori nenesú zodpovednos» za materiálnu èi psychickú ujmu spôsobenú èitateµovi, jeho
       rodinným príslu¹níkom, domácim a hospodárskym zvieratám, prípadne poèítaèovému
       zariadeniu.</para>
 
-    <para>Toto je <quote>free</quote> dokument --- mô¾ete ho ¹íri» a/alebo modifikova» v súlade s
+    <para>Toto je <quote>free</quote> document --- mô¾ete ho ¹íri» a/alebo modifikova» v súlade s
       podmienkami licencie <citetitle><acronym>GNU</acronym> Free Documentation Licence</citetitle>,
       ktorej znenie nájdete na adrese <ulink url="http://www.gnu.org/licenses/fdl.html">
       http://www.gnu.org/licenses/fdl.html</ulink>.</para>
@@ -60,7 +60,7 @@
 	    </systemitem> v adresári
 	    <filename class="directory">/cvsroot/LDP/howto/docbook/Slovak-HOWTO/</filename>. Bli¾¹ie
 	    informácie o získaní CVS konta a webovskom rozhraní k CVS serveru nájdete v
-	    <citetitle><acronym>LDP</acronym> Autor Guide</citetitle>.
+	    <citetitle><acronym>LDP</acronym> Author Guide</citetitle>.
 	    </simpara>
 	</listitem>
 	    
@@ -75,20 +75,20 @@
 	  <simpara>Ak je to nieèo väè¹ie, dajte mi najskôr vedie», èo chystáte, preto¾e je mo¾né,
 	    ¾e u¾ na tom niekto maká a teda buï na to zabudnete, alebo to skúsite dorobi» s danou
 	    osobou. (Vzhµadom na to, ¾e zatiaµ sa do tohto dokumentu dostalo asi 20 riadkov
-	    cudzieho textu, zdá sa mi predchádzajúca veta maximálne smie¹na. Ha-ha, zasmial som
+	    cudzieho textu, zdá sa mi predchádzajúca veta maximálne smie¹na. Ha-ha, zasmial some
 	    sa...)</simpara>
 	</listitem>
 
 	<listitem>
 	  <simpara>Va¹e meno a adresa budú automaticky zverejnené spolu s va¹im príspevkom. Ak si
-	    to ne¾eláte, musíte o to výslovne po¾iada». Takisto, autor príspevku u¾ jeho zaslaním
+	    to ne¾eláte, musíte o to výslovne po¾iada». Takisto, author príspevku u¾ jeho zaslaním
 	    implicitne súhlasí s aplikáciou licencie tohto dokumentu na èas», ktorej je
 	    autorom.</simpara>
 	</listitem>
 
 	<listitem>
 	  <simpara>V <citetitle>Czech-HOWTO</citetitle> sa hovorí: <quote>Kdy¾ u¾ nìkdo podobný
-	    dokument ète, dìlá to z nutnosti a ne pro své pobavení.</quote> Musíme v¹ak zobra» do
+	    document ète, dìlá to z nutnosti a ne pro své pobavení.</quote> Musíme v¹ak zobra» do
 	    úvahy, ¾e v Èechách je vy¹¹ia ¾ivotná úroveò a oni a¾ toµko srandy
 	    nepotrebujú...</simpara>
 	</listitem>
@@ -110,7 +110,7 @@
 
       <listitem>
 	<simpara><author><firstname>Ján</firstname><surname>Ondrej</surname>
-	  <othername>(SAL)</othername></author> -- Autor pôvodného Slovak-HOWTO.</simpara>
+	  <othername>(SAL)</othername></author> -- Author pôvodného Slovak-HOWTO.</simpara>
       </listitem>
 
       <listitem>

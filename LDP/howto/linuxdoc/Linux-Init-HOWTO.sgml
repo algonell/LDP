@@ -352,7 +352,7 @@ This is the sum of 2 registers, normalized to 1 KB chunk sizes:
 %ecx = memory size from 1 MB to 16 MB range, in 1 KB chunks +
 %edx = memory size above 16 MB, in 64 KB chunks.
 
-Ye Olde Traditional Methode: <newline>
+Ye Olde Traditional Method: <newline>
 BIOS int. 0x15/AH=0x88 returns the memory size (up to 16 MB or 64 MB,
 depending on the BIOS).
 We always use this method, regardless of the results of the other
@@ -914,7 +914,7 @@ This performs architecture-specific initializations
 Then back to architecture-independent initialization....
 
 The remainder of start_kernel() is done as follows for all
-processor architecures, although several of these function
+processor architectures, although several of these function
 calls are to architecture-specific setup/init functions.
 
 <sect1>Continue architecture-independent init<p>
@@ -1147,7 +1147,7 @@ and mm_struct.
 (in linux/fs/dcache.c)
 
 Call kmem_cache_create() to create slab caches for buffer_head,
-names_cache, filp, and for CONFIG_QUOTA, dquot.
+names_cache, flip, and for CONFIG_QUOTA, dquot.
 
 Call dcache_init() to create the dentry_cache and dentry_hashtable.
 
@@ -1192,7 +1192,7 @@ Call kmem_cache_create() to create the "bdev_cache" SLAB cache.
 
 <itemize>
 <item> Allocate memory for the inode_hashtable.
-<item> Intialize the inode_hashtable list heads.
+<item> Initialize the inode_hashtable list heads.
 <item> Call kmem_cache_create() to create the inode SLAB cache.
 </itemize>
 

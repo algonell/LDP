@@ -425,7 +425,7 @@ claiming them as yours. Feel free to use them in your programs as appropriate.
 <sect2 id="otherformats"><title>Other Formats of the document </title> 
 
 <para>
-This howto is also availabe in various other formats on the tldp.org site.
+This howto is also available in various other formats on the tldp.org site.
 Here are the links to other formats of this document.
 </para>
 
@@ -491,7 +491,7 @@ If above links are broken or if you want to experiment with sgml read on.
 
 <para>
 See <ulink url="http://www.tldp.org/LDP/LDP-Author-Guide/">
-LDP Author guide</ulink> for more details. If all else failes, mail me at 
+LDP Author guide</ulink> for more details. If all else fails, mail me at 
 <ulink url= "ppadala@gmail.com">ppadala@gmail.com</ulink>
 </para>
 </sect3>
@@ -658,8 +658,8 @@ later </link>.
 <para>
 The next line printw prints the string "Hello World !!!" on to the screen. This
 function is analogous to normal printf in all respects except that it prints
-the data on a window called stdscr at the current (y,x) co-ordinates. Since our
-present co-ordinates are at 0,0 the string is printed at the left hand corner
+the data on a window called stdscr at the current (y,x) coordinates. Since our
+present coordinates are at 0,0 the string is printed at the left hand corner
 of the window.
 </para>
 
@@ -743,7 +743,7 @@ getch() etc. functions. Most of the interactive programs call
 <literal remap="tt">noecho()</literal> at initialization and do the echoing
 of characters in a controlled manner. It gives the programmer the flexibility
 of echoing characters at any place in the window without updating current (y,x)
-co-ordinates. 
+coordinates. 
 </para>
 </sect2>
 
@@ -860,7 +860,7 @@ same convention. For each function there usually are three more functions.
     wprintw(win, string);  /* Print on window win at present cursor position */
                            /* in the window */
     mvwprintw(win, y, x, string);   /* Move to (y, x) relative to window */
-                                    /* co-ordinates and then print         */
+                                    /* coordinates and then print         */
 </programlisting>
 
 <para>
@@ -936,7 +936,7 @@ with the attributes until it is turned off.
 <para>
 Additionally, <literal remap="tt">curses</literal> provides some special
 characters for character-based graphics. You can draw tables, horizontal or
-vertical lines, etc. You can find all avaliable characters in the header file
+vertical lines, etc. You can find all available characters in the header file
 <literal remap="tt">ncurses.h</literal>.  Try looking for macros beginning
 with <literal remap="tt">ACS_</literal> in this file. 
 </para>
@@ -1057,9 +1057,9 @@ screen. If n is negative, then the entire string will be added.
 
 <sect2 id="acaution"><title>A word of caution</title>
 <para>
-All these functions take y co-ordinate first and then x in their arguments.
+All these functions take y coordinate first and then x in their arguments.
 A common mistake by beginners is to pass x,y in that order. If you are
-doing too many manipulations of (y,x) co-ordinates, think of dividing the
+doing too many manipulations of (y,x) coordinates, think of dividing the
 screen into windows and manipulate each one separately. Windows are explained
 in the <link linkend="windows"> windows </link> section.
 </para>
@@ -1174,9 +1174,9 @@ switched off by <literal remap="tt"> attroff()</literal> .
 The above program also introduces us to two useful functions
 <literal remap="tt">getyx() </literal> and
 <literal remap="tt">move()</literal>. The first function gets the
-co-ordinates of the present cursor into the variables y, x. Since getyx() is a
+coordinates of the present cursor into the variables y, x. Since getyx() is a
 macro we don't have to pass pointers to variables. The function
-<literal remap="tt">move()</literal> moves the cursor to the co-ordinates
+<literal remap="tt">move()</literal> moves the cursor to the coordinates
 given to it. 
 </para>
 
@@ -1424,7 +1424,7 @@ it produces some thing like
 <para>
 You can also see in the above examples, that I have used the variables COLS,
 LINES which are initialized to the screen sizes after initscr(). They can be
-useful in finding screen dimensions and finding the center co-ordinate of the
+useful in finding screen dimensions and finding the center coordinate of the
 screen as above. The function <literal remap="tt">getch()</literal> as usual
 gets the key from keyboard and according to the key it does the corresponding
 work. This type of switch- case is very common in any GUI based programs.
@@ -1744,7 +1744,7 @@ mouse interaction. To make things simpler, key handling is removed.
 
 <para>
 The functions mouse_trafo() and wmouse_trafo() can be used to convert to mouse
-co-ordinates to screen relative co-ordinates. See curs_mouse(3X) man page for details.
+coordinates to screen relative coordinates. See curs_mouse(3X) man page for details.
 </para>
 
 <para>
@@ -1767,7 +1767,7 @@ important in writing games.
 <para>
 
 The function <literal remap="tt">getyx()</literal> can be used to find out
-the present cursor co-ordinates. It will fill the values of x and y co-ordinates
+the present cursor coordinates. It will fill the values of x and y coordinates
 in the arguments given to it. Since getyx() is a macro you don't have to pass
 the address of the variables. It can be called as
 </para>
@@ -1775,22 +1775,22 @@ the address of the variables. It can be called as
 <programlisting>
     getyx(win, y, x);
     /* win: window pointer
-     *   y, x: y, x co-ordinates will be put into this variables 
+     *   y, x: y, x coordinates will be put into this variables 
      */
 </programlisting>
 
 <para>
-The function getparyx() gets the beginning co-ordinates of the sub window
+The function getparyx() gets the beginning coordinates of the sub window
 relative to the main window. This is some times useful to update a sub window.
 When designing fancy stuff like writing multiple menus, it becomes difficult to
-store the menu positions, their first option co-ordinates etc. A simple solution
+store the menu positions, their first option coordinates etc. A simple solution
 to this problem, is to create menus in sub windows and later find the starting
-co-ordinates of the menus by using getparyx().
+coordinates of the menus by using getparyx().
 </para>
 
 <para>
 The functions getbegyx() and getmaxyx() store current window's beginning and
-maximum co-ordinates. These functions are useful in the same way as above in
+maximum coordinates. These functions are useful in the same way as above in
 managing the windows and sub windows effectively.
 </para>
 </sect2>
@@ -2362,10 +2362,10 @@ taken accordingly. The action to be taken is explained in the man page as,
        window (e.g. inside the menu display area or  the  decora&shy;
        tion  window)  are handled. If you click above the display
        region of the menu, a REQ_SCR_ULINE is generated,  if  you
-       doubleclick  a  REQ_SCR_UPAGE  is  generated  and  if  you
+       double-click  a  REQ_SCR_UPAGE  is  generated  and  if  you
        tripleclick a REQ_FIRST_ITEM is generated.  If  you  click
        below  the  display region of the menu, a REQ_SCR_DLINE is
-       generated, if you doubleclick a REQ_SCR_DPAGE is generated
+       generated, if you double-click a REQ_SCR_DPAGE is generated
        and  if  you  tripleclick a REQ_LAST_ITEM is generated. If
        you click at an item inside the display area of the  menu,
        the menu cursor is positioned to that item.
@@ -3858,7 +3858,7 @@ url="http://invisible-island.net/dialog/">Thomas Dickey</ulink>'s site.
 
 <para>
 The above-mentioned article gives a very good overview of its uses and
-capabilites.  The man page has more details. It can be used in variety of
+capabilities.  The man page has more details. It can be used in variety of
 situations. One good example is building of linux kernel in text mode. Linux
 kernel uses a modified version of dialog tailored for its needs. 
 </para>
@@ -3946,7 +3946,7 @@ of life.
 <para>
 Magic Square, another wonder of math, is very simple to understand but very
 difficult to make. In a magic square sum of the numbers in each row, each column
-is equal.  Even diagnol sum can be equal. There are many variations which have
+is equal.  Even diagonal sum can be equal. There are many variations which have
 special properties.
 </para>
 

@@ -432,7 +432,7 @@ MusE is a Qt 2.1-based MIDI sequencer for Linux with editing and recording capab
 
 <!--img src="musemain.png"-->
 
-<url url="http://muse.seh.de/">
+<url url="http://muse.she.de/">
 
 <sect2>Rosegarden<p>
 
@@ -492,7 +492,7 @@ UltraMaster Juno-6 is a faithful virtual reproduction of a Roland Juno-6 Polypho
 
 <sect2>Pure-Data (PD)<p>
 
-"Pd" stands for "pure data". Pd is a real-time software system for live musical and multimedia performances. It is in active development by Miller Puckette , and perhaps others. The system is unfinished, but quite useable for sophisticated projects. It has been ported to Linux, IRIX, and many flavors of Windows.
+"Pd" stands for "pure data". Pd is a real-time software system for live musical and multimedia performances. It is in active development by Miller Puckette , and perhaps others. The system is unfinished, but quite usable for sophisticated projects. It has been ported to Linux, IRIX, and many flavors of Windows.
 
 <url url="http://www.pure-data.org/">
 
@@ -1100,7 +1100,7 @@ As shown, this means, that all MIDI data sent to /dev/midi20 (or port 80:0 or /d
 
 <sect2>MusE<p>
 
-MusE is a full-featured MIDI sequencer written by Werner Schweer, available at http://muse.seh.de. We will need to
+MusE is a full-featured MIDI sequencer written by Werner Schweer, available at http://muse.she.de. We will need to
 configure the virtual MIDI port as an output port in the section 'Config->MIDI Ports'. In MusE, the ports are
 named by their ALSA names 'VirMIDI X-X': 
 
@@ -1126,7 +1126,7 @@ and you're good to go...
 <sect2>Shaketracker<p>
 
 Juan Linietsky's Shaketracker revives the MIDI tracker interface like ttrk, but it has a more complete translation of
-the classic tracker effects to MIDI data. Unfortunatly it uses the OSS sequencer device (/dev/sequencer) for its MIDI
+the classic tracker effects to MIDI data. Unfortunately it uses the OSS sequencer device (/dev/sequencer) for its MIDI
 output, not the raw MIDI devices, and I could not get it to work with aconnect. But there is a workaround that
 involves aseqview. If we start aseqview before Shaketracker, the tracker will recognize and use the aseqview port. One
 just has to select it in the 'User Devices' section of Shaketracker, where it shows up by its ALSA name 'Viewer Port

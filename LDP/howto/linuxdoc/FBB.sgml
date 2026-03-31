@@ -74,7 +74,7 @@ from an Internet email) and to paste it into a
 packet radio message, or vice versa.
 
 <p>Update: In July 2001, I added  more 128 MB of RAM 
-so my home system is very confortable now.
+so my home system is very comfortable now.
 
 <p>Finally, you should be aware what I want to
 have here:
@@ -991,7 +991,7 @@ reverse procedure must be put in place.</em>
 <p>
 <item>So far - so good. Now you should *uninstall* the
       7.03 package (of course, <tt>.703</tt> files won't
-      be unistalled automatically). Uninstall? Why? You will
+      be uninstalled automatically). Uninstall? Why? You will
       find out soon, read on ...
 
 <p>
@@ -1203,7 +1203,7 @@ that command couldn't be found. Anyway, <em>xfbbC v3.01</em>
 itself appeared to work nice. It is still possible to monitor the
 working channel too (using the "M" command from within the
 gateway), but this is not a valuable solution because
-while "Monitor ON", it is not confortable to do
+while "Monitor ON", it is not comfortable to do
 anything else within the gateway. Once again, solutions
 are welcomed!
 
@@ -2117,10 +2117,10 @@ executable files. A new fact for me was that the base directory tree
 of LinFBB keeps changing (it started to change from version 7.04n).
 Now, almost all parts of the program have to be placed in subdirectories
 of <bf>/usr/local</bf> but at the first moment I missed that point.
-To be precize, I was used earlier to put new executables into /usr/sbin
+To be precise, I was used earlier to put new executables into /usr/sbin
 directory with other similar files, the configuration files into /etc, etc.
 When I tried to activate xfbbd within the old locations, nothing happened so
-I thought the compilation process might have failured. After recognizing
+I thought the compilation process might have failed. After recognizing
 my mistake and moving the program parts in accordance with instructions
 provided (always read the manuals!), another incarnation of LinFBB
 <em>daemon</em> started to run immediately. To be honest, I haven't
@@ -2133,7 +2133,7 @@ name="http://f6bvp.free.fr/logiciels/BBS-f6fbb/xd704o_i386.tgz"> which I
 supposed to be a version for older CPUs, like PI or PII. Instead, it
 appeared that it was the complete structure of LinFBB's new directory
 tree, including already compiled versions of xfbbd and other executables,
-minus the client xfbbX - which found me a bit disapointed.
+minus the client xfbbX - which found me a bit disappointed.
 
 <p>
 I did not have any option but to try compilation of xfbbX by myself. At
@@ -2199,7 +2199,7 @@ haven't produced either xfbbX or xfbbX_cl files (or I happened not to
 find them elsewhere?). The only idea I've got was just to try executing
 (i.e. mouse clicking on) the original xfbbX <em>shell script</em> (dated
 09/07/03) which resulted in opening XFBB's main GUI window, asking
-for callsign, pasword etc. I am not so sure if things should have gone
+for callsign, password etc. I am not so sure if things should have gone
 that way, because as explained in earlier installations, I managed to
 compile xfbbX and xfbbX_cl files, move them to /usr/sbin and activate from
 there.
@@ -2491,7 +2491,7 @@ make casual connections to my LinFBB server without problems.
 On the other side, I always wanted to offer a 24/7 mailbox service to
 the radio amateurs in my area. Having in mind that the computer
 the LinFBB server runs on is everything but a brand new machine, and
-if it failured I would stay without my primary working computer, I
+if it failed I would stay without my primary working computer, I
 started thinking to use the old 80286 box as a full-time mailbox. In
 fact, JNOS might be one of the best solutions for that:
 
@@ -2611,7 +2611,7 @@ software that is used as an interface between LinFBB server computer and
 other amateur radio mailbox systems (more details about the specific setup
 in my case will follow in the next versions of this document). The good
 thing at the JNOS side is that it also does not need a "node" or "switch"
-software that runs bellow the JNOS software itself. That means both LinFBB
+software that runs below the JNOS software itself. That means both LinFBB
 and JNOS system operators ('sysops' in the ham terminology) are required
 just to activate and configure native AXIP or AXUDP features of their mailbox
 systems. In opposite to that, WinFBB (FBB for Windows) sysops have to
@@ -2705,12 +2705,12 @@ are welcome to help.</em>
 Imate ograniceni izbor naredbi:
 
 B  : bye-diskonekt
-H  : ovaj tekst
-KM : brise sve PROCITANE poruke za vas
-LM : ispis naslova SVIH poruka za vas
+H  : ovaj text
+KM : brise sve PROCITANE poruke za was
+LM : ispis naslova SVIH poruka za was
 O  : izbor opcija (jezik,stranice..)
-RM : cita sve poruke za vas
-RN : cita sve NOVE poruke za vas
+RM : cita sve poruke za was
+RN : cita sve NOVE poruke za was
 S  : upucuje poruku (SEND)
 T  : poziva SysOp-a
 
@@ -2761,8 +2761,8 @@ Mozete upisati i svoje podatke ....(preporucujemo).
 
 Lokatori
 --------
-Razni proracuni vezani uz lokator (iz koordinata u LOC, iz LOC u koordinate,
-QRB, sumirajuci QRB vise lokatora, azimuti...).
+Razni proracuni vezani uz lokator (iz koordinata u LOC, iz LOC u coordinate,
+QRB, sumirajuci QRB vice lokatora, azimuti...).
 
 @@ 0 T
 
@@ -2797,8 +2797,8 @@ Naredbom: B <enter> prekidate QSO sa bbs-om.
 Q : proracun koordinata iz lokatora,
 L : proracun lokatora iz koordinata,
 D : proracun QRB i azimuta izmedju dva lokatora,
-C : sabiranje QRB izmedju pocetnog LOC i vise drugih lokatora,
-F : povratak u server meni,
+C : sabiranje QRB izmedju pocetnog LOC i vice drugih lokatora,
+F : povratak u server menu,
 B : diskonekt iz bbs-a.
 
 Ukucajte: ? <slovo> za detaljniju pomoc (na pr.. ? L).
@@ -2808,15 +2808,15 @@ Ukucajte: ? <slovo> za detaljniju pomoc (na pr.. ? L).
 naredba Q
 ---------
 
-Izracunava koordinate iz lokatora. Rezultat je u stepenima/min. i gradima.
-Gradijani nam bas i nisu zanimljivi pa zavisno od jezika se nece ni ispisati.
+Izracunava coordinate iz lokatora. Rezultat je u stepenima/min. i gradima.
+Gradijani name bas i nisu zanimljivi pa zavisno od jezika se nece ni ispisati.
 
 @@ 2 L
 
 naredba L
 ---------
 
-Izracunava lokator iz koordinata. Koordinate se mogu uneti u decimalnim 
+Izracunava lokator iz koordinata. Coordinate se mogu uneti u decimalnim 
 stepenima, stepen./min. i gradijanima.
 
 Primer unosa u stepenima i minutima:   1:45:00 (smer)
@@ -2846,7 +2846,7 @@ Ako nemate digitron ili racunar mozete ovde izracunati rezultate contesta :))
 naredba F
 ---------
 
-Vraca vas nazad u SERVER mod pa mozete probati neki drugi modul servera.
+Vraca was nazad u SERVER mod pa mozete probati neki drugi module servera.
 Ako ponovo posaljete F <enter> vracate se u BBS mod.
 
 @@ 2 B
@@ -2930,7 +2930,7 @@ I        : abecedni spisak stanica koje su koristile BBS. Moguci su i
 naredba F
 ---------
 
-Vraca vas nazad u SERVER-MENI pa mozete da probate neki drugi modul servera.
+Vraca was nazad u SERVER-MENI pa mozete da probate neki drugi module servera.
 Ako ponovo posaljete: F <enter> vracate se u BBS mod.
 
 
@@ -2951,7 +2951,7 @@ Naredbom: B <enter> prekidate vezu, bez potrebe da se vracate u BBS mod.
 Dokumentacija
 -------------
 
-Da bi procitali neki tekst sa liste samo upisite njegov broj.
+Da bi procitali neki text sa liste samo upisite njegov broj.
 Nove stvari se upisuju putem NEWDOC servera iz BBS-a (? NEWDOC).
 
 L ispisuje listu fajlova.
@@ -2963,7 +2963,7 @@ Sysop: OPIS se moze menjati D naredbom ( na pr.. D BBS.DOC opis).
 naredba F
 ---------
 
-Vracate se nazad u SERVER-MENI pa mozete probati neki drugi modul servera.
+Vracate se nazad u SERVER-MENI pa mozete probati neki drugi module servera.
 Ako ponovo posaljete: F <enter> vracate se u BBS-mod.
 
 @@ 4 D
@@ -3001,7 +3001,7 @@ Ako ste otisli u neki od DOCS poddirektorijuma sa R se vracate na raniji DIR.
 N : promena licnih podataka: imena, adrese...,
 R : pretrazuje bazu za podacima o nekoj stanici,
 I : lista konektovanih znakova,
-F : povratak u server meni,
+F : povratak u server menu,
 B : diskonekt iz bbs-a.
 
 Ukucajte: ? <slovo> za detalje o naredbi (na pr..  ? N ).
@@ -3042,7 +3042,7 @@ Abecedni popis stanica koje su do sada konektovale ovaj BBS.
 naredba F
 ---------
 
-Vraca vas nazad u SERVER-MENI pa mozete probati neki drugi modul servera.
+Vraca was nazad u SERVER-MENI pa mozete probati neki drugi module servera.
 Ako ponovo posaljete: F <enter> vracate se u BBS.
 
 @@ 5 B
@@ -3061,9 +3061,9 @@ Naredbom: B <enter> prekidate vezu, bez potrebe da se vracate u BBS mod.
 *** nema takve naredbe !!!
 
 T : izracunava putanju/polozaj nekog satelita,
-P : prikazuje orbitalne parametre,
+P : prikazuje orbitalne parameter,
 C : karakteristike amaterskih satelita,
-F : povratak u server meni,
+F : povratak u server menu,
 B : diskonekt iz bbs-a.
 
 
@@ -3088,7 +3088,7 @@ Za popis satelita upisite L <enter>.
 naredba P
 ---------
 
-Ispisuje orbitalne parametre satelita koji se koriste u proracunima.
+Ispisuje orbitalne parameter satelita koji se koriste u proracunima.
 
 Za popis satelita upisite L <enter>.
 
@@ -3106,7 +3106,7 @@ Za popis satelita upisite L <enter>.
 naredba F
 ---------
 
-Vraca vas nazad u SERVER-MENI pa mozete probati neki drugi modul servera.
+Vraca was nazad u SERVER-MENI pa mozete probati neki drugi module servera.
 Ako ponovo posaljete: F <enter> vracate se u BBS-mod.
 
 
@@ -3125,15 +3125,15 @@ Naredbom: B <enter> prekidate vezu bez potrebe da se vracate u BBS-mod.
 
 Moguce naredbe u DosFBB delu su:
 
-? i HELP     : ovaj tekst,
+? i HELP     : ovaj text,
 O            : opcije (stranice po liniji, bazni broj...),
 BGET         : Autobin download,
 BPUT         : Autobin upload,
 DIR          : ispis sadrzaja direktorijuma (LIST je daleko bolja)
 DU           : disk usage - spisak DOS dir's sa pojedinacnim zauzecem,
 EDIT         : editovanje fajla,
-GET          : download (ispis) tekst fajla,
-PUT          : upload (upis) tekst fajla,
+GET          : download (ispis) text fajla,
+PUT          : upload (upis) text fajla,
 CD           : promena direktorijuma,
 COPY         : kopiranje fajla,
 DEL          : brisanje fajla,
@@ -3154,7 +3154,7 @@ NEW          : ispis novih fajlova od zadnje primene NEW,
 EXIT,F i QUIT: povratak u BBS-mod,
 B            : diskonekt iz bbs-a.
 
-Diskove mozete menjati kao i u DOS sa A:,C:,D: (ukoliko postoji vise diskova)
+Diskove mozete menjati kao i u DOS sa A:,C:,D: (ukoliko postoji vice diskova)
 
 Za detalje ukucajte ? <naredba>    (na pr..  ? WHERE).
 
@@ -3218,7 +3218,7 @@ DU (Disk Usage) ispisuje zauzet/slobodni prostor na disku.
 naredba EDIT
 ------------
 
-Sluzi za editovanje (ispravku) tekst fajlova. Nakon njene primene ulazi se
+Sluzi za editovanje (ispravku) text fajlova. Nakon njene primene ulazi se
 u poseban editor sa malom grupom posebnih naredbi, sto je previse pa ne bi
 dalje o ovome ....
 
@@ -3234,7 +3234,7 @@ Sve znace isto: izlaz iz DosFBB nazad u BBS-mod.
 naredba GET
 -----------
 
-Ovo upotrebite ako zelite da preuzmete/procitate neki TEKST fajl sa BBS-a.
+Ovo upotrebite ako zelite da preuzmete/procitate neki TEXT fajl sa BBS-a.
 Ispis je kontinuiran. Na pr. GET PHONE.BBS.
 
 Pazite, neki fajlovi nisu tekstualni i ova naredba nije za njih. Tacnije,
@@ -3271,7 +3271,7 @@ naredba O
 
 Daje dosta raznih stvari:
 
-O <enter> ispisuje stanje ovoga ispod za vas slucaj,
+O <enter> ispisuje stanje ovoga ispod za was slucaj,
 
 OP     - iskljucuje ispis po stranicama,
 OP br. - ukljucuje ispis po stranicama sa <br.> brojem linija po strani,
@@ -3290,8 +3290,8 @@ OM     - uklj/isklj mogucnost auto-listanja novih licnih poruka kod konekta.
 naredba PUT
 -----------
 
-Sluzi za upis nekog vaseg tekst fajla u BBS. Ukoliko vec postoji isto ime,
-stari fajl se prvo mora obrisati (naravno, samo ako je to bio vas fajl).
+Sluzi za upis nekog vaseg text fajla u BBS. Ukoliko vec postoji isto ime,
+stari fajl se prvo mora obrisati (naravno, samo ako je to bio was fajl).
 
 Na pr. PUT INFO.C64 snima u bbs fajl pod imenom INFO.C64
 
@@ -3300,7 +3300,7 @@ Na pr. PUT INFO.C64 snima u bbs fajl pod imenom INFO.C64
 naredba PRIV
 ------------
 
-PRIV naredba daje pristup u posebni direktorijum, samo vas ili jos neciji.
+PRIV naredba daje pristup u posebni direktorijum, samo was ili jos neciji.
 To moze u dogovoru sa SysOp-om, ako ima mesta na hard disku.
 
 Takav DIR moze da postavi samo SysOp.
@@ -3317,7 +3317,7 @@ Brise prazan direktorijum koji ste vi napravili.
 naredba TYPE
 ------------
 
-Daje ispis tekst fajla po STRANICAMA ukoliko tako zelite (vidi OP naredbu).
+Daje ispis text fajla po STRANICAMA ukoliko tako zelite (vidi OP naredbu).
 
 @@ 9 VIEW
 
@@ -3376,7 +3376,7 @@ kroz mrezu dok "A" ne stigne do BBS i prekine ispis....
 
 @@ 14 B
 
-B naredba vas diskonektuje iz BBS-a (uz jos neke podatke).
+B naredba was diskonektuje iz BBS-a (uz jos neke podatke).
 
 Bitno je da samo tako izlazite iz BBS-a, a ne diskonektom jer ce vam samo tako
 ostati podesene nove vrednosti za naredbu L ("List").
@@ -3387,15 +3387,15 @@ Ukoliko se veza prekine tako necete izgubiti poslednje stanje.
 
 CW naredba ispisuje stanice u konferenciji.
 
-C  naredba vas ubacuje u konferenciju tj... "bla-bla" okrugli sto u kojem sve
+C  naredba was ubacuje u konferenciju tj... "bla-bla" okrugli sto u kojem sve
    sto pisete ide svima koji su takodje trenutno u konferenciji na bbs-u.
 
 U konferenciji sve naredbe pocinju sa tackom u prvoj koloni !!!
 
 .C[port] call [via digi1 digi2...] konektuje stanicu na portu,
-.H vam daje ovaj tekst,
+.H vam daje ovaj text,
 .W ispisuje prisutne stanice u konferenciji,
-.Q vraca vas iz konferencije nazad u BBS-mod.
+.Q vraca was iz konferencije nazad u BBS-mod.
 
 @@ 14 CB
 
@@ -3406,12 +3406,12 @@ U konferenciji sve naredbe pocinju sa tackom u prvoj koloni !!!
 
 Naredba ima dvostruko znacenje:
 
-1. Samo D bez argumenata vas prebacuje iz BBS u DOS mod. Tu mozete kao i na PC
+1. Samo D bez argumenata was prebacuje iz BBS u DOS mod. Tu mozete kao i na PC
    slati/skidati fajlove, kopirati, citati.....
    Paznja: DOS deo ima svoje, drukcije naredbe. Napravite HELP kada udjes u 
    njega !
 
-2. D uz argument vam daje download nekog tekst fajla. Na pr D \yaesu\ft-411.mod 
+2. D uz argument vam daje download nekog text fajla. Na pr D \yaesu\ft-411.mod 
    i BBS ce vam poslati fajl FT-411.MOD iz  YAESU direktorijuma. U vezi ovog 
    pogledajte i pomoc za W naredbu (?W).
 
@@ -3422,36 +3422,36 @@ VAZNO: samo programi koji imaju uobicajene ekstenzije tipa: .TXT, .DOC, .INF
 @@ 14 F
 
 F naredba vam daje pristup serveru i dodatnim mogucnostima.
-Server koristi sistem menija gde ulazite prvo u glavni meni.
+Server koristi system menija gde ulazite prvo u glavni menu.
 Za objasnjenja koristite uvek samo: ? <enter>.
 
 @@ 14 G
 
 G naredba daje pristup Gateway-u. Upotrebljivo tek kod BBS-ova sa
-vise portova na razlicitim frekvencijama.
+vice portova na razlicitim frekvencijama.
 
 @@ 14 ?|H|HELP
 
-Spisak mogucih naredbi ili GRUPE naredbi (vise njih sa istim PRVIM slovom).
+Spisak mogucih naredbi ili GRUPE naredbi (vice njih sa istim PRVIM slovom).
 
 A :(abort) - prekida ispisivanje necega,
 B :(bye)   - diskonekt,
-C :(conference) - ulaz u konferenciju (bla-bla vise stanica),
+C :(conference) - ulaz u konferenciju (bla-bla vice stanica),
 CB: Trazenje adrese ARS sa CD ROM-a (ako je ugradjen CD citac),
 D :(DOS)   - ulaz u FbbDOS ili download fajla,
 F :(FBB)   - ulaz u server (adresar, sateliti, lokatori...),
 G :(gateway) - pristup drugim frekvencijama BBS-a (ako postoje),
-H :(pomoc) - tekst za pomoc kad vam zatreba,
+H :(pomoc) - text za pomoc kad vam zatreba,
 I :(info)  - info o sistemu ili grupa naredbi White Page servera,
 J :(jheard)- spisak nekoliko poslednjih konektovanih/slusanih stanica,
 K :(kill)  - brisanje poruka,
 L :(list)  - listanje poruka,
 M :(make)  - kopira poruku/bilten u fajl,
 N :(name)  - menja vase ime,
-NH:        - upisuje BBS na koji ce ici poruke za vas (MYBBS, HomeBBS...)
+NH:        - upisuje BBS na koji ce ici poruke za was (MYBBS, HomeBBS...)
 NZ:        - upisuje postanski broj vaseg QTH,
-NQ:        - upisuje vas grad ili mesto,
-NL:        - upisuje vas QTH lokator,
+NQ:        - upisuje was grad ili mesto,
+NL:        - upisuje was QTH lokator,
 O :(option)- odabir opcija (stranice, jezika.....),
 PS:        - spisak prisutnih servera (nije isto sto i "server mod"),
 PG:        - pokretanje ili popis posebnih DOS programa,
@@ -3465,8 +3465,8 @@ WP:        - White Page server, pomoc detaljnije sa:   ? WP,
 X :(expert)- menja status korisnika: normal ili expert,
 Y :(yapp)  - protokol za prenos binarnih (najcesce programskih) fajlova,
 Z :(delete)- brise fajl,
-> :(text)  - salje kratki tekst nekom drugom korisniku (sada) u BBS-u,
-= :(conn.) - konektuje vas sa nekim drugim korisnikom (sada) u BBS-u,
+> :(text)  - salje kratki text nekom drugom korisniku (sada) u BBS-u,
+= :(conn.) - konektuje was sa nekim drugim korisnikom (sada) u BBS-u,
 ! :(info)  - kratki info o bbs-u,
 
 Opsirniju pomoc za sve naredbe dobijate ukoliko otkucate: ? <naredba>.
@@ -3498,7 +3498,7 @@ JK CALL daje spisak nekoliko poslednjih konekta stanice CALL,
 
 K  broj1 broj2 .. brise poruke koje ste poslali ili primili. Mozete obrisati
    i ono sto niste procitali od licnih poruka.
-KM naredba brise SVE poruke za vas koje ste procitali. Ovo NECE obrisati one
+KM naredba brise SVE poruke za was koje ste procitali. Ovo NECE obrisati one
    koje niste procitali.
 
 
@@ -3537,7 +3537,7 @@ MV <por.br.> <ime> : isto, ali kao kod citanja u formatu V naredbe,
 Napomena: sve ove naredbe ce PREPISATI preko starog fajla (ako postoji).
 
 Naredbe: MA, MHA i MVA imaju istu upotrebu, ali nece prepisati stari fajl 
-nego ce DODATI novi tekst na kraj starog fajla.
+nego ce DODATI novi text na kraj starog fajla.
 
 @@ 14 N|NAME
 
@@ -3550,7 +3550,7 @@ Pogledajte jos i: NP, NL, NQ, NZ, NH naredbe.
 
 Ovom naredbom upisite svoj maticni ("home") BBS na koji vam dolaze poruke.
 Na pr. NH YU7A
-Sve licne poruke za vas, koje kasnije stignu, bice upucene na BBS koji ste 
+Sve licne poruke za was, koje kasnije stignu, bice upucene na BBS koji ste 
 naredbom NH odredili.
 
 @@ 14 NP
@@ -3572,13 +3572,13 @@ Naredbom NZ upisite svoj postanski broj. Na pr. NZ 21000
 
 @@ 14 O|OP|OR|OL|ON|OM
 
-Naredba O ispisuje vase licne parametre u ovom BBS i to:
+Naredba O ispisuje vase licne parameter u ovom BBS i to:
 
 - jezik koji koristite,
 - da li je ispis po stranicama i sa koliko linija (pre pitanja: Dalje?),
 - bazni broj za poruke,
-- zelite li da vidite i tudje licne poruke ili ne (ako sistem dozvoljava),
-- zelite li spisak novih poruka za vas odmah po ulasku u BBS.
+- zelite li da vidite i tudje licne poruke ili ne (ako system dozvoljava),
+- zelite li spisak novih poruka za was odmah po ulasku u BBS.
 
 OL sluzi za izbor jezika na kojem ce BBS komunicirati sa vama.
 Otkucajte OL za spisak mogucih jezika, a onda ponovite sa odabranim jezikom.
@@ -3601,10 +3601,10 @@ naredbe: ON 20 i ON 20000 su ista stvar.
 
 Naredbom OR mozete odabrati da li zelite da citate/listate licne poruke 
 ostalih korisnika bbs-a. Ako je ukljuceno, moze biti nezgodno ako vam stigne 
-ispis, recimo 200 komadica nekog fajla koji vas ne zanima.
+ispis, recimo 200 komadica nekog fajla koji was ne zanima.
 
 Naredbom OM, prilikom svakog konekta u bbs, prvo dobijate spisak NOVIH 
-poruka za vas a zatim uobicajeni bbs prompt.
+poruka za was a zatim uobicajeni bbs prompt.
 
 @@ 14 PG
 
@@ -3620,13 +3620,13 @@ korisnika odrade razne stvari automatski. Sa serverom se komunicira kao i sa
 nekim amaterom - slanjem "licne" poruka tom serveru.
 
 Na pr. REQDIR server ce vam spremiti sadrzaj direktorija koji zelite i u vidu
-licne poruke za vas uputiti na vas maticni BBS.
+licne poruke za was uputiti na was maticni BBS.
 
 Primer:
 
 Naredba: SP REQDIR <enter>
 Naslov:  \yapp\*.* @ YU1A <enter>
-Tekst:   Ostavite prazno, na kraju: CTRL-Z <enter>
+Text:   Ostavite prazno, na kraju: CTRL-Z <enter>
 
 ce vam poslati licnu poruku na bbs YU1A, u kojoj je sadrzaj YAPP 
 direktorijuma ovog BBS.
@@ -3635,11 +3635,11 @@ direktorijuma ovog BBS.
 
 R <broj>  cita poruku <broj>,
 R <broj1> <broj2> itd   cita poruke po navedenim brojevima,
-RM cita SVE poruke za vas - i one vec procitane (ne zaboravite na brisanje),
-RN cita sve NOVE poruke za vas (samo NEprocitane),
-RU cita sve poruke za vas koje jos niste procitali,
+RM cita SVE poruke za was - i one vec procitane (ne zaboravite na brisanje),
+RN cita sve NOVE poruke za was (samo NEprocitane),
+RU cita sve poruke za was koje jos niste procitali,
 R< <poz_znak>  cita sve poruke koje su poslate od strane stanice <poz_znak>,
-R> <tekst>  cita sve poruke za pozivni znak ili temu <tekst>.
+R> <text>  cita sve poruke za pozivni znak ili temu <text>.
 
 @@ 14 S|SB|SR|SC|SP
 
@@ -3651,7 +3651,7 @@ SP YT7MPB@YU7A   za licnu poruku YT7MPB koja treba da ode/ostane u bbs-u YU7A,
 SR <broj>        salje odgovor na poruku <broj>. BBS ce sam da doda sve ostalo 
                  u vezi adrese primaoca, kao i "Re:" u naslovu.
 SC <broj> <CALL> kopira poruku <broj> za <CALL>. Na pr. dvojici primalaca ide 
-                 isti tekst. Pre CTRL-Z mozete dopisati neki komentar, a 
+                 isti text. Pre CTRL-Z mozete dopisati neki komentar, a 
                  kopija poruke <broj> se sama dopise posle tog komentara.
 
 To je moguce u svim varijacijama (@EU, @YUG, @WW, @YU7 itd.).
@@ -3678,7 +3678,7 @@ broj            - idi na teme <broj>.
 
 @@ 14 U
 
-Naredbom U mozete da posaljete neki tekst fajl u BBS. Sintaksa je kao
+Naredbom U mozete da posaljete neki text fajl u BBS. Sintaksa je kao
 i kod MS-DOS. Pogledajte i pomoc za D i W naredbe (? D ? W).
 
 @@ 14 V
@@ -3707,13 +3707,13 @@ imenu korisnika, postanskom broju i "home"-BBS-u sa H-adresom.
 
 Ukoliko je WP aktivan, mozete bilo kome poslati licnu poruku iako ne znate 
 koji je njegov "home"-BBS. Ukoliko server ima tu informaciju, sam ce je 
-dodati, ako je (ponekad) nema - trazice od vas da adresu sami unesete.
+dodati, ako je (ponekad) nema - trazice od was da adresu sami unesete.
 
 Sa bilo kojeg BBS-a, mozete WP serveru poslati pitanje o nekom korisniku:
 
 Naredba: SP WP @BBS  (@BBS zamenite sa znakom BBS-a sa kojeg zelite odgovor),
-Naslov:  unesite neki tekst (nebitno, napr. Info)
-Tekst:   YU1A ?      (napr. trazite info o YU1A)
+Naslov:  unesite neki text (nebitno, napr. Info)
+Text:   YU1A ?      (napr. trazite info o YU1A)
 /EX ili CTRL-Z
 
 Takodje je dozvoljeno koristiti i dzokere pa mozete traziti info za 
@@ -3729,7 +3729,7 @@ U vezi sa ovim, pogledajte i pomoc za I naredbe (? I).
 
 @@ 14 X
 
-Naredba X prebacuje vas korisnicki status iz "normal" u "expert" i obrnuto.
+Naredba X prebacuje was korisnicki status iz "normal" u "expert" i obrnuto.
 
 Status "normal" daje kompletniji i opsirniji odgovor od BBS-a, 
 Status "expert" daje kratki i sazetiji odgovor od BBS-a.       
@@ -3792,7 +3792,7 @@ Naredba ! daje spisak stanica u BBS i jos poneke informacije o sistemu.
 
 Gateway naredbe:
 
-B : bye -diskonekt za drugog, a vas vraca nazad u BBS,
+B : bye -diskonekt za drugog, a was vraca nazad u BBS,
 K : converse mod,
 C : konekt,
 D : diskonekt,
@@ -3802,7 +3802,7 @@ P : direktni skok s porta na port. P1 - idi na port1 (port je sam TNC),
 M : monitor on/off,
 W : W <fajl> otvara "capture" file, samo W <enter> ga zatvara.
 
-Prvo odaberete port. Ukoliko nije zauzet, bice vam dodeljen i preuzece vas 
+Prvo odaberete port. Ukoliko nije zauzet, bice vam dodeljen i preuzece was 
 znak. Kad nekog konektujete, ulazite u "converse" mod (kao i primenom K 
 naredbe). Povratak u "command" mod je ESC ili:  >  <enter>.
 
@@ -3814,7 +3814,7 @@ CW naredba: ispisuje stanice koje su u konferenciji.
 Napomena: sve naredbe u konferenciji pocinju tackom u prvoj koloni!
 
 .C<port> <call>   konektuje stanicu <call> na portu <port>,
-.H                daje vam ovaj tekst,
+.H                daje vam ovaj text,
 .W                ispisuje spisak stanica u konferenciji,
 .Q                izlazite iz konferencije.
 </verb></tscreen>
@@ -3886,7 +3886,7 @@ Upisite sa NZ postanski broj (na pr.. NZ 21000) : $W
 #
 Zdravo $I, na raspolaganju vam je ogranicen izbor naredbi.$W
 #
-# tekst za onog ko uleti na 'BBS only' port:
+# text za onog ko uleti na 'BBS only' port:
 #
 Ovaj kanal je samo za BBS stanice!  //q $W
 #
@@ -3894,9 +3894,9 @@ Ovaj kanal je samo za BBS stanice!  //q $W
 #
 Pozdrav za prvi konekt ovom BBS-u!$WOdgovorite na pitanja, snimite HELP i prijatna vam zabava!$W
 #
-# poruke za vas:
+# poruke za was:
 #
-Niste procitali nove poruke za vas: $0 kom.$W
+Niste procitali nove poruke za was: $0 kom.$W
 #
 # procitane, neobrisane poruke:
 #
@@ -3928,7 +3928,7 @@ ENTER = nastavak, A = prekid, R broj = procitaj broj ->
 *** Greska  $I: Pogresna naredba $0.$W
 *** Greska  $I: Zaboravili ste razmak posle naredbe !$W
 *** Greska  $I: Samo su brojevi dozvoljeni !$W
-*** Greska  $I: Nedostaje tekst posle poz.znaka.$W
+*** Greska  $I: Nedostaje text posle poz.znaka.$W
 *** Zalim   $I, nema pomoci za $0.$W
 *** Greska  $I: Nedostaje znak primaoca.$W
 *** Greska  $I: Nedostaje znak.$W
@@ -3967,7 +3967,7 @@ ENTER = nastavak, A = prekid, R broj = procitaj broj ->
 #
 ($*) $O BBS >$W
 #
-# gost prompt:
+# ghost prompt:
 #
 ($*) $O BBS (B,H,KM,LM,O,RM,SP SYSOP,T,?) >$W
 #
@@ -3978,9 +3978,9 @@ ENTER = nastavak, A = prekid, R broj = procitaj broj ->
 # ostale poruke:
 #
 Nema takve poruke (filter za listanje je (LC): $l).$W
-Nema novih poruka za vas.$W
+Nema novih poruka za was.$W
 Naslov poruke za %G (max. 30 slova):$W
-Tekst poruke, zavrsite sa Ctrl-Z ili /EX u novom redu : $W
+Text poruke, zavrsite sa Ctrl-Z ili /EX u novom redu : $W
 Poruka %M je obrisana.$W
 #
 # odgovor na V naredbu:
@@ -3999,7 +3999,7 @@ $V nije prisutan, mozete da mu ostavite poruku (SP SYSOP).$W
 Pricekajte malo dok pozovem SysOp-a .....$W
 $V nije u blizini. Pozovite ga ponovo (T) ili mu ostavite poruku (SP SYSOP).$W
 $V je na vezi:$W
-Molim vas pricekajte, SysOp bi da razgovara s vama.$W
+Molim was pricekajte, SysOp bi da razgovara s vama.$W
 Ekspertni mod. Otkucajte: X <enter> za povratak u Normal mod.$W
 Normalni mod. Otkucajte: X <enter> za povratak u Ekspert mod.$W
 Server mod. Otkucajte: F <enter> za povratak u BBS mod.$W
@@ -4029,7 +4029,7 @@ Poruka od   : $P$WZa          : $G$0$WTip/Status  : $t$s$WDatum/vreme : %j %K$WB
 #
 # zaglavlje kod listanja poruka:
 #
-Vas filter za listanje (LC) je: $l$W$WPor#   TSLD  Duz  Za    @ BBS   Od       Datum      Tema   $W
+Was filter za listanje (LC) je: $l$W$WPor#   TSLD  Duz  Za    @ BBS   Od       Datum      Tema   $W
 #
 # sadrzaj svake  linije kod listanja poruka:
 #
@@ -4056,7 +4056,7 @@ Upisite odgovor za $G @ $v$W
 ###############################################################################
 # New texts for 5.14
 OR: Pristup svim licnim porukama$W
-OM: Ispis novih licnih poruka za vas po ulasku u BBS : $0$W
+OM: Ispis novih licnih poruka za was po ulasku u BBS : $0$W
 Upisite pozivni znak BBS-a na koji zelite da vam se salju poruke:$W
 Upisite svoj postanski broj :$W
 HomeBBS : $0$W     Post.br : $1$W
@@ -4078,7 +4078,7 @@ Poruka je prihvacena i zadrzana na uvid SysOp-u pre razmene.$W
 *** $0 nije konektovan..$W
 $W$B*** Connected to $0 kroz BBS (prekid sa Ctrl-Z).$W
 *** Disconnected$W
-*** Trenutna poruka  ("break") od $0 *** (odgovor sa:  > $0 tekst...)$W
+*** Trenutna poruka  ("break") od $0 *** (odgovor sa:  > $0 text...)$W
 *** Kraj poruke ("break") ***$W
 Mali prekid za poruku od $0.$W
 Zahtev "Stop" je zatrazen od $0. Code : $1$W
@@ -4088,7 +4088,7 @@ ENTER=nastavi  A=prekid -->$W
 Zahtev za prekid je odbijen.$W
 BBS mod. Otkucajte: F <enter> za povratak u server mod.$W
 #
-# server meni
+# server menu
 #
 # T_MEN
 #
@@ -4198,7 +4198,7 @@ $WQTH-LOKATOR (C,D,L,Q,F,B  ?=pomoc) >
 $W
 $W(Q) QTH -> duz.i sir.$W(L) duz.i sir. -> QTH$W(D) QRB i azimut$W(C) QRB sabirnica$W(F) Povratak u SERVER-MENI$W(B) Disconn.$W$WZa pomoc ukucaj ? slovo$W$WQTH-LOC (C,D,L,Q,F,B,  ?=pomoc) >
 $WQTH Lokator :
-Koordinate u centru polja :$W
+Coordinate u centru polja :$W
 Duzina : $0 step. $1' $2 : $3 grad. $2$W
 Sirina : $0 step. $1' $2 : $3 grad. $2$W
 $WRadni format$WU stepenima    : 1 : 45 : 00 (smer).U gradijanima   : 1.5 (smer)$W(smer) zamenite sa Sever, Jug, Istok, Zapad.$W
@@ -4214,7 +4214,7 @@ $WDo QTH LOC ?    (F,Q=kraj) :
 Proracun br. $0 - Ukupna udaljenost: $1 Km$W
 Kraj proracuna.$W
 #
-# Modul DOS
+# Module DOS
 #
 #T_DOS
 #
@@ -4231,7 +4231,7 @@ $WMoguce naredbe su:$W
 Fajl $f obrisan.$W
 $0 bytes slobodno.$W
 #
-# Modul dokumentacija
+# Module dokumentacija
 #
 #T_INF
 #
@@ -4259,7 +4259,7 @@ Saljem $f...$W
 Otvoren $f log fajl.$W
 Zatvoren $f log fajl.$W
 #
-# Modul YAPP
+# Module YAPP
 #
 #T_YAP
 #
@@ -4308,7 +4308,7 @@ following example:
 # File that decides what language each user will use in the first
 # connect.  He can change language himself later...
 # All prefixes not listed here, will receive language no 1 (English).
-# 3 parametres : 
+# 3 parameters : 
 # Number of languages - Number in PC at the time - Console-language.
 13 2 1
 #
@@ -4563,17 +4563,17 @@ combined!
       - "U prilog I.A.C. (2)", MI (the youth scientists' organization
          newspaper), No. 70, 1990.
 
-      - "Vise od radio-amaterskog hobija", Vojska, No. 163, 1995.
+      - "Vice od radio-amaterskog hobija", Vojska, No. 163, 1995.
 
       - "Korak ka zvezdama", Vojska, No. 200, 1996.
 
       - "Die Gefahr von Innen - Internet gegen Amateurfunk",
          AMSAT-DL Journal, No. 4, Dez./Feb. 96/97.
 
-      - "Kakva nam organizacija (ne) treba?", Radioamater,
+      - "Kakva name organizacija (ne) treba?", Radioamater,
          Feb. 1997.
 
-      - "Kakva nam organizacija (ne) treba? (2)", Radioamater,
+      - "Kakva name organizacija (ne) treba? (2)", Radioamater,
          Apr./May. 1997.
 
       - "Sateliti umiru padajuci", Vojska, No. 235, 1997.

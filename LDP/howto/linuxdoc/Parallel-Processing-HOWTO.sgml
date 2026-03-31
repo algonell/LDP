@@ -22,7 +22,7 @@ contact info, it has many broken links and some information is
 seriously out of date. Rather than just repairing links, this
 document is being heavily rewritten as a Guide which we expect
 to release in July 2004. At that time, the HOWTO will be obsolete.
-The prefered home URL for both the old and new documents is
+The preferred home URL for both the old and new documents is
 <url url="http://aggregate.org/LDP/">
 
 <sect>Introduction
@@ -562,7 +562,7 @@ compute-intensive parallel programs even if there is only one PCI bus,
 I/O operations occur at no better than uniprocessor performance...
 and probably a little worse due to bus contention from the
 processors.  Thus, if you are looking to speed-up I/O, make sure that
-you get an MPS system with multiple independent PCI busses and I/O
+you get an MPS system with multiple independent PCI buses and I/O
 controllers (e.g., multiple SCSI chains).  You will need to be careful
 to make sure SMP Linux supports what you get.  Also keep in mind that
 the current SMP Linux essentially allows only one processor in the
@@ -1935,7 +1935,7 @@ for consumer electronics.  The showcase application is connecting DV
 digital video camcorders to computers, but FireWire is intended to be
 used for applications ranging from being a SCSI replacement to
 interconnecting the components of your home theater.  It allows up to
-64K devices to be connected in any topology using busses and bridges
+64K devices to be connected in any topology using buses and bridges
 that does not create a cycle, and automatically detects the
 configuration when components are added or removed.  Short (four-byte
 "quadlet") low-latency messages are supported as well as ATM-like
@@ -1974,9 +1974,9 @@ years, HiPPI crossbar switches have become common and prices have
 dropped sharply; unfortunately, serial HiPPI is still pricey, and that
 is what PCI bus interface cards generally support.  Worse still, Linux
 doesn't yet support HiPPI.  A good overview of HiPPI is maintained by
-CERN at <url url="http://www.cern.ch/HSI/hippi/">; they also maintain
+CERN at <url url="http://www.cern.ch/HIS/hippi/">; they also maintain
 a rather long list of HiPPI vendors at <url
-url="http://www.cern.ch/HSI/hippi/procintf/manufact.htm">.
+url="http://www.cern.ch/HIS/hippi/procintf/manufact.htm">.
 
 <sect2>IrDA (Infrared Data Association)
 <p>
@@ -2109,7 +2109,7 @@ interface card and 4-way switches (up to 16 machines can be connected
 by cascading four 4-way switches) from Dolphin, <url
 url="http://www.dolphinics.com/">, as their CluStar product line.  A
 good set of links overviewing SCI is maintained by CERN at <url
-url="http://www.cern.ch/HSI/sci/sci.html">.
+url="http://www.cern.ch/HIS/sci/sci.html">.
 
 <sect2>SCSI
 <p>
@@ -3937,7 +3937,7 @@ Fortran code for shared memory multiprocessors, and may soon be
 retargeted to PAPERS Linux clusters.
 
 <item>PREPARE, <url
-url="http://www.irisa.fr/EXTERNE/projet/pampa/PREPARE/prepare.html">,
+url="http://www.irisa.fr/EXTERNE/project/pampa/PREPARE/prepare.html">,
 targets MPI clusters...  it is not clear if it can generate code to
 run on IA32 processors.
 
@@ -3964,7 +3964,7 @@ corrections to <htmlurl url="hankd@engr.uky.edu" name="hankd@engr.uky.edu">.
 <p>
 
 GLU (Granular Lucid) is a very high-level programming system based on
-a hybrid programming model that combines intensional (Lucid) and
+a hybrid programming model that combines intentional (Lucid) and
 imperative models.  It supports both PVM and TCP sockets.  Does it run
 under Linux?  More information is available at <url
 url="http://www.csl.sri.com/GLU.html">.
@@ -4129,7 +4129,7 @@ the concept that your system is available for use nearly all the
 time...  the system may crash when components fail, but the system is
 quickly repaired and rebooted.  There is a High-Availability HOWTO
 that discusses many of the basic issues.  However, especially for
-clusters, high availablity can be achieved simply by having a few
+clusters, high availability can be achieved simply by having a few
 spares.  I recommend at least one spare, and prefer to have at least
 one spare for every 16 machines in a large cluster.  Discarding faulty
 hardware and replacing it with a spare can yield both higher

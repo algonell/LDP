@@ -324,7 +324,7 @@ share -o rw=slave1,slave2 -d "Master Usr" /usr
    </para>
    <para>
      Finally, there is an issue with root squashing on Solaris: root gets
-     mapped to the user <computeroutput>noone</computeroutput>, which 
+     mapped to the user <computeroutput>no one</computeroutput>, which 
      is not the same as the user <computeroutput>nobody</computeroutput>.
      If you are having trouble with file permissions as root on the client
      machine, be sure to check that the mapping works as you expect.

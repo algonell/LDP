@@ -15,7 +15,7 @@
     mo¾né, ¾e autori pridali túto podporu len v nov¹ích verziách.</para>
 
   <para>Niektoré z nasledovných popisov nie sú pôvodné a niektoré nemusia by» ani odskú¹ané. Preto
-    je pri ka¾dom uvedený autor a jeho adresa a prípadný zdroj, z ktorého sa návod dostal do
+    je pri ka¾dom uvedený author a jeho adresa a prípadný zdroj, z ktorého sa návod dostal do
     <citetitle>Slovak-HOWTO</citetitle>.</para>
 
   <section id="apps-bash">
@@ -71,11 +71,11 @@ bash$ exec bash
 
 	<listitem>
 	  <para><firstterm>Assumed document character set</firstterm>
-	    (<varname>ASSUME_CHARSET</varname>) --- aká znaková sada sa má pou¾i», ak html dokument
+	    (<varname>ASSUME_CHARSET</varname>) --- aká znaková sada sa má pou¾i», ak html document
 	    neobsahuje informáciu o svojom kódovaní a nastavenie <computeroutput>Raw
 	    8-bit</computeroutput> je vypnuté.  <acronym>HTTP</acronym> ¹tandardom je
 	    <acronym>ISO-8859-1</acronym> tak¾e tak. Väè¹inou majú dokumenty s iným kódovaním ako
-	    <acronym>ISO-8859-1</acronym> informáciu o svojej znakovej sade, vtedy sa toto
+	    <acronym>ISO-8859-1</acronym> informáciu o svojej znakovej sad, vtedy sa toto
 	    nastavenie neberie do úvahy. Ak chcete, aby sa dokumenty, ktoré nemajú explicitne danú
 	    sadu znakov, pova¾ovali za súbory s kódovaním Latin 2, nastavte si túto premennú. Mo¾no
 	    ju nastavi» len v súbore <filename>/etc/lynx.cfg</filename> (teda nie pre ka¾dého
@@ -125,7 +125,7 @@ export NLSPATH=/usr/share/locale/%l/%N
 	na ¹tandardy a starý ¹rot, keï to funguje len bez tej premennej. Samozrejme, ak vám to
 	funguje aj s òou, zabudnite na mòa.</para>
 
-      <para>V prípade, ¾e nemô¾ete meni» <filename>/etc/profile</filename>, vlo¾te si do svojho
+      <para>V prípade, ¾e nemô¾ete menu» <filename>/etc/profile</filename>, vlo¾te si do svojho
 	<filename>~/.profile</filename> riadok
 	<programlisting>
 unset NLSPATH

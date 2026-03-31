@@ -282,7 +282,7 @@ RedHat Linux distribution (the instructions are exactly applicable to RedHat
 callers and use others for virtual hosting more than 1 is needed, the upper
 number is the maximum number of IP-based virtual hosts allowed without
 recompiling the stock RedHat kernel, lower is one real IP, one modem and one virtual
-IP - see reference for sinlge IP virtual hosting below).
+IP - see reference for single IP virtual hosting below).
 <item>
 some sort of permanent network connection (using some modems for dialin while
 providing the Internet access via another modem is considered <it>totally weird</it>
@@ -1870,7 +1870,7 @@ tool for configuring virtual services based on Perl script
 name="Linux Public Access HOWTO">an old and not updated for 5 years document
 describing Linux-based ISP, some nice hints on equipment (serial boards) and performance
 <item>
-<htmlurl url="http://www.globalserve.net/~vertigo/virtual.html" name="Sinlge
+<htmlurl url="http://www.globalserve.net/~vertigo/virtual.html" name="Single
 IP virtual hosting">, nice doc describing how to host everything on a single IP.
 </enum>
 <p>

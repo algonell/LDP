@@ -431,7 +431,7 @@
 
 <indexentry>
   <primaryie>Aemmenet,
-    <ulink url="aknowledgements.html#AEN1321" role="AEN1321">Aknowledgements</ulink>
+    <ulink url="acknowledgements.html#AEN1321" role="AEN1321">Acknowledgements</ulink>
   </primaryie>
 </indexentry>
 
@@ -657,7 +657,7 @@
 
 <indexentry>
   <primaryie>ations,
-    <ulink url="aknowledgements.html#AEN1301" role="AEN1301">Aknowledgements</ulink>,
+    <ulink url="acknowledgements.html#AEN1301" role="AEN1301">Acknowledgements</ulink>,
     <ulink url="phpmyadmin-other-commands.html#AEN2977" role="AEN2977">phpMyAdmin: other commands</ulink>,
     <ulink url="more-than-one-php-nuke-sites.html#AEN3691" role="AEN3691">Different PHP-Nuke sites from the same database</ulink>,
     <ulink url="more-than-one-php-nuke-sites.html#AEN3725" role="AEN3725">Different PHP-Nuke sites with the same user base</ulink>,
@@ -771,7 +771,7 @@
 
 <indexentry>
   <primaryie>baby,
-    <ulink url="aknowledgements.html#AEN1347" role="AEN1347">Aknowledgements</ulink>
+    <ulink url="acknowledgements.html#AEN1347" role="AEN1347">Acknowledgements</ulink>
   </primaryie>
 </indexentry>
 
@@ -979,8 +979,8 @@
 
 <indexentry>
   <primaryie>Bechini,
-    <ulink url="aknowledgements.html#AEN1305" role="AEN1305">Aknowledgements</ulink>,
-    <ulink url="aknowledgements.html#AEN1384" role="AEN1384">Aknowledgements</ulink>
+    <ulink url="acknowledgements.html#AEN1305" role="AEN1305">Acknowledgements</ulink>,
+    <ulink url="acknowledgements.html#AEN1384" role="AEN1384">Acknowledgements</ulink>
   </primaryie>
 </indexentry>
 
@@ -1156,7 +1156,7 @@
     <ulink url="communities.html#AEN1951" role="AEN1951">The PHP-Nuke Communities</ulink>,
     <ulink url="how-secure-is-php-nuke.html#AEN15268" role="AEN15268">How secure is PHP-Nuke?</ulink>,
     <ulink url="security-fixes.html#AEN15816" role="AEN15816">Security fixes</ulink>,
-    <ulink url="solve-common-problems-php-nuke.html#AEN18297" role="AEN18297">How to solve common probems with PHP-Nuke</ulink>
+    <ulink url="solve-common-problems-php-nuke.html#AEN18297" role="AEN18297">How to solve common problems with PHP-Nuke</ulink>
   </primaryie>
 </indexentry>
 
@@ -1238,7 +1238,7 @@
 
 <indexentry>
   <primaryie>Campoli,
-    <ulink url="aknowledgements.html#AEN1382" role="AEN1382">Aknowledgements</ulink>
+    <ulink url="acknowledgements.html#AEN1382" role="AEN1382">Acknowledgements</ulink>
   </primaryie>
 </indexentry>
 
@@ -1725,7 +1725,7 @@
 </indexentry>
 
 <indexentry>
-  <primaryie>consntants,
+  <primaryie>constants,
     <ulink url="allow-anonymous-web-link-submissions.html#AEN18817" role="AEN18817">How to allow anonymous web link submissions</ulink>
   </primaryie>
 </indexentry>
@@ -2137,7 +2137,7 @@
 <indexentry>
   <primaryie>diagram,
     <ulink url="licence.html#AEN306" role="AEN306">Licence</ulink>,
-    <ulink url="aknowledgements.html#AEN1340" role="AEN1340">Aknowledgements</ulink>
+    <ulink url="acknowledgements.html#AEN1340" role="AEN1340">Acknowledgements</ulink>
   </primaryie>
 </indexentry>
 
@@ -2233,7 +2233,7 @@
 
 <indexentry>
   <primaryie>documentation,
-    <ulink url="aknowledgements.html#AEN1535" role="AEN1535">Aknowledgements</ulink>
+    <ulink url="acknowledgements.html#AEN1535" role="AEN1535">Acknowledgements</ulink>
   </primaryie>
 </indexentry>
 
@@ -2408,7 +2408,7 @@
 
 <indexentry>
   <primaryie>English,
-    <ulink url="aknowledgements.html#AEN1308" role="AEN1308">Aknowledgements</ulink>,
+    <ulink url="acknowledgements.html#AEN1308" role="AEN1308">Acknowledgements</ulink>,
     <ulink url="php-nuke-webcam-module.html#AEN8558" role="AEN8558">WebCam module</ulink>
   </primaryie>
 </indexentry>
@@ -2937,7 +2937,7 @@
     <ulink url="security-measures.html#AEN16013" role="AEN16013">Security measures </ulink>,
     <ulink url="turck-mmcache.html#AEN16960" role="AEN16960">How to use Turck MMCache</ulink>,
     <ulink url="mod_rewrite.html#AEN17241" role="AEN17241">mod_rewrite</ulink>,
-    <ulink url="solve-common-problems-php-nuke.html#AEN18300" role="AEN18300">How to solve common probems with PHP-Nuke</ulink>,
+    <ulink url="solve-common-problems-php-nuke.html#AEN18300" role="AEN18300">How to solve common problems with PHP-Nuke</ulink>,
     <ulink url="mysql-frontend.html#AEN21106" role="AEN21106">MySQL Front, how to administer a MySQL DB from Windows </ulink>
   </primaryie>
 </indexentry>
@@ -3293,7 +3293,7 @@
 
 <indexentry>
   <primaryie>HOWTO,
-    <ulink url="aknowledgements.html#AEN1363" role="AEN1363">Aknowledgements</ulink>,
+    <ulink url="acknowledgements.html#AEN1363" role="AEN1363">Acknowledgements</ulink>,
     <ulink url="common-installation-problems.html#AEN3791" role="AEN3791">Common installation problems</ulink>,
     <ulink url="html-create-link.html#AEN20641" role="AEN20641">How to create a link in HTML</ulink>
   </primaryie>
@@ -4108,7 +4108,7 @@
 
 <indexentry>
   <primaryie>management,
-    <ulink url="aknowledgements.html#AEN1495" role="AEN1495">Aknowledgements</ulink>,
+    <ulink url="acknowledgements.html#AEN1495" role="AEN1495">Acknowledgements</ulink>,
     <ulink url="php-nuke-vs-xoops.html#AEN2190" role="AEN2190">PHP-Nuke vs. XOOPS</ulink>,
     <ulink url="preinstalled-modules.html#AEN5844" role="AEN5844">The preinstalled modules</ulink>,
     <ulink url="phpbb-forum-administration.html#AEN7056" role="AEN7056">phpBB Forum administration</ulink>,
@@ -4147,7 +4147,7 @@
 
 <indexentry>
   <primaryie>Matarrazzo,
-    <ulink url="aknowledgements.html#AEN1367" role="AEN1367">Aknowledgements</ulink>
+    <ulink url="acknowledgements.html#AEN1367" role="AEN1367">Acknowledgements</ulink>
   </primaryie>
 </indexentry>
 
@@ -4190,7 +4190,7 @@
 
 <indexentry>
   <primaryie>members,
-    <ulink url="aknowledgements.html#AEN1479" role="AEN1479">Aknowledgements</ulink>,
+    <ulink url="acknowledgements.html#AEN1479" role="AEN1479">Acknowledgements</ulink>,
     <ulink url="php-nuke-approve-membership-module.html#AEN8167" role="AEN8167">Approve Membership module</ulink>,
     <ulink url="php-nuke-workboard-module.html#AEN9072" role="AEN9072">WorkBoard Module</ulink>
   </primaryie>
@@ -4804,7 +4804,7 @@
 
 <indexentry>
   <primaryie>nukeforums.com,
-    <ulink url="aknowledgements.html#AEN1413" role="AEN1413">Aknowledgements</ulink>,
+    <ulink url="acknowledgements.html#AEN1413" role="AEN1413">Acknowledgements</ulink>,
     <ulink url="translate-php-nuke-howto.html#AEN1697" role="AEN1697">How to translate this HOWTO</ulink>
   </primaryie>
 </indexentry>
@@ -5226,7 +5226,7 @@
     <ulink url="purpose.html#AEN1744" role="AEN1744">Purpose</ulink>,
     <ulink url="phpmyadmin2.html#AEN2734" role="AEN2734">phpMyAdmin: How to administer MySQL via Web</ulink>,
     <ulink url="cookies.html#AEN16182" role="AEN16182">Cookies - timeout and configuration</ulink>,
-    <ulink url="solve-common-problems-php-nuke.html#AEN18294" role="AEN18294">How to solve common probems with PHP-Nuke</ulink>
+    <ulink url="solve-common-problems-php-nuke.html#AEN18294" role="AEN18294">How to solve common problems with PHP-Nuke</ulink>
   </primaryie>
 </indexentry>
 
@@ -5563,7 +5563,7 @@
 
 <indexentry>
   <primaryie>PHPNuke,
-    <ulink url="aknowledgements.html#AEN1357" role="AEN1357">Aknowledgements</ulink>,
+    <ulink url="acknowledgements.html#AEN1357" role="AEN1357">Acknowledgements</ulink>,
     <ulink url="php-nuke-copyright-notice.html#AEN10782" role="AEN10782">The PHP-Nuke Copyright notice</ulink>
   </primaryie>
 </indexentry>
@@ -5604,8 +5604,8 @@
 </indexentry>
 
 <indexentry>
-  <primaryie>plattform,
-    <ulink url="aknowledgements.html#AEN1545" role="AEN1545">Aknowledgements</ulink>,
+  <primaryie>platform,
+    <ulink url="acknowledgements.html#AEN1545" role="AEN1545">Acknowledgements</ulink>,
     <ulink url="upload.html#AEN2383" role="AEN2383">Upload through FTP</ulink>
   </primaryie>
 </indexentry>
@@ -5826,7 +5826,7 @@
 
 <indexentry>
   <primaryie>project,
-    <ulink url="aknowledgements.html#AEN1293" role="AEN1293">Aknowledgements</ulink>,
+    <ulink url="acknowledgements.html#AEN1293" role="AEN1293">Acknowledgements</ulink>,
     <ulink url="history.html#AEN1904" role="AEN1904">Short history of PHP-Nuke</ulink>
   </primaryie>
 </indexentry>
@@ -5876,7 +5876,7 @@
 
 <indexentry>
   <primaryie>Pà.,
-    <ulink url="aknowledgements.html#AEN1351" role="AEN1351">Aknowledgements</ulink>
+    <ulink url="acknowledgements.html#AEN1351" role="AEN1351">Acknowledgements</ulink>
   </primaryie>
 </indexentry>
 
@@ -6838,7 +6838,7 @@
 <indexentry>
   <primaryie>system,
     <ulink url="disclaimer.html#AEN132" role="AEN132">Disclaimer</ulink>,
-    <ulink url="aknowledgements.html#AEN1473" role="AEN1473">Aknowledgements</ulink>,
+    <ulink url="acknowledgements.html#AEN1473" role="AEN1473">Acknowledgements</ulink>,
     <ulink url="whatis-phpnuke.html#AEN1758" role="AEN1758">What Is PHP-Nuke</ulink>,
     <ulink url="whatis-phpnuke.html#AEN1812" role="AEN1812">What Is PHP-Nuke</ulink>,
     <ulink url="whatis-phpnuke.html#AEN1827" role="AEN1827">What Is PHP-Nuke</ulink>,
@@ -7260,7 +7260,7 @@
 
 <indexentry>
   <primaryie>University,
-    <ulink url="aknowledgements.html#AEN1377" role="AEN1377">Aknowledgements</ulink>
+    <ulink url="acknowledgements.html#AEN1377" role="AEN1377">Acknowledgements</ulink>
   </primaryie>
 </indexentry>
 
@@ -7351,7 +7351,7 @@
 
 <indexentry>
   <primaryie>usability,
-    <ulink url="aknowledgements.html#AEN1327" role="AEN1327">Aknowledgements</ulink>
+    <ulink url="acknowledgements.html#AEN1327" role="AEN1327">Acknowledgements</ulink>
   </primaryie>
 </indexentry>
 
@@ -7394,7 +7394,7 @@
 
 <indexentry>
   <primaryie>validation,
-    <ulink url="aknowledgements.html#AEN1330" role="AEN1330">Aknowledgements</ulink>,
+    <ulink url="acknowledgements.html#AEN1330" role="AEN1330">Acknowledgements</ulink>,
     <ulink url="how-sessions-work.html#AEN9515" role="AEN9515">How sessions work in the forums</ulink>,
     <ulink url="how-sessions-work.html#AEN9532" role="AEN9532">How sessions work in the forums</ulink>,
     <ulink url="how-sessions-work.html#AEN9537" role="AEN9537">How sessions work in the forums</ulink>
@@ -7441,13 +7441,13 @@
 
 <indexentry>
   <primaryie>VirtualDarkness,
-    <ulink url="aknowledgements.html#AEN1386" role="AEN1386">Aknowledgements</ulink>
+    <ulink url="acknowledgements.html#AEN1386" role="AEN1386">Acknowledgements</ulink>
   </primaryie>
 </indexentry>
 
 <indexentry>
   <primaryie>visibility,
-    <ulink url="aknowledgements.html#AEN1335" role="AEN1335">Aknowledgements</ulink>
+    <ulink url="acknowledgements.html#AEN1335" role="AEN1335">Acknowledgements</ulink>
   </primaryie>
 </indexentry>
 

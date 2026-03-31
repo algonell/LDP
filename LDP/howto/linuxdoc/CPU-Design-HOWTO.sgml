@@ -151,7 +151,7 @@ Visit the following sites for IP cores -
 -->
 <sect1> Free CPU List <label id="freecpu">
 <p>
-Here is the list of Free CPUs available or curently under development -
+Here is the list of Free CPUs available or currently under development -
 <itemize>
 <item> F-CPU 64-bit Freedom CPU <url url="http://www.f-cpu.org">
 mirror site at <url url="http://www.f-cpu.de">
@@ -454,7 +454,7 @@ or it is at <url url="http://www.vhdl.org/comp.lang.vhdl">
 <item> FlipFlops: <url url="http://www.ece.utexas.edu/~cjackson/FlipFlops/web_pages/Publish/FlipFlops.html">
 <item> Instruction Execution cycle: <url url="http://cq-pan.cqu.edu.au/students/timp1/exec.html">
 <item> Truth Table constructor: <url url="http://pirate.shu.edu/~borowsbr/Truth/Truth.html">
-<item> Overview of Shared Memory: <url url="http://www.sics.se/cna/mp_overview.html">
+<item> Overview of Shared Memory: <url url="http://www.sics.se/can/mp_overview.html">
 <item> Simulaneous Multi-threading in processors : <url url="http://www.cs.washington.edu/research/smt">
 <item> Study Web : <url url="http://www.studyweb.com/links/277.html">
 <item> Univ notes: <url url="http://www.ece.msstate.edu/~linder/Courses/EE4713/notes">
@@ -556,7 +556,7 @@ and VLSI design <url url="http://www.rdrop.com/~cary/html/vlsi.html">
 <p>
 After doing the design and testing of CPU, your company may want to mass produce 
 the CPUs. There are many "semi-conductor foundries" in the world who will do
-that for you for a nominal competetive cost. There are companies in USA, 
+that for you for a nominal competitive cost. There are companies in USA, 
 Germany, UK, Japan, Taiwan, Korea and China. 
 
 TMSC (Taiwan) is the <bf>"largest independent foundry"</bf> in the world. 
@@ -610,7 +610,7 @@ about co <url url="http://www.tsmc.com/about/index.html">
 <item> Elume, USA <url url="http://www.elume.com">
 <item> X-Fab, Gesellschaft zur Fertigung von Wafern mbH, Erfurt, Germany <url url="http://www.xfab.com">
 <item> IBM corporation, (Semi-conductor foundry div) <url url="http://www.ibm.com">
-<item> National Semi-conductor Co, Santa Clara, USA <url url="http://www.natioanl.com">
+<item> National Semi-conductor Co, Santa Clara, USA <url url="http://www.national.com">
 <item> Tower Semiconductor, San Jose, USA <url url="http://www.towersemi.com">
 <item> Intel corporation (Semi-conductor foundries), USA <url url="http://www.intel.com">
 <item> Hitachi Semi-conductor Co, Japan <url url="http://www.hitachi.com">
@@ -655,13 +655,13 @@ systems offered by vendors.
 Visit the following sites for Super Computers -
 <itemize>
 <item> Top 500 super computers <url url="http://www.top500.org/ORSC/2000">
-<item> National Computing Facilities Foundation <url url="http://www.nwo.nl/ncf/indexeng.htm">
+<item> National Computing Facilities Foundation <url url="http://www.now.nl/ncf/indexeng.htm">
 <item> Linux Super Computer Beowulf cluster 
 <url url="http://www.tldp.org/HOWTO/Beowulf-HOWTO.html">
 <item> Extreme machines - beowulf cluster <url url="http://www.xtreme-machines.com">
 <item> System architecture description of
 the Hitachi SR2201 <url url="http://www.hitachi.co.jp/Prod/comp/hpc/eng/sr1.html">
-<item> Personal Parallel Supercomputers <url url="http://www.checs.net/checs_98/papers/super">
+<item> Personal Parallel Supercomputers <url url="http://www.checks.net/checs_98/papers/super">
 </itemize>
 <!-- 
 	*******************************************
@@ -1526,7 +1526,7 @@ see the documentation on building Ghostscript for details.
 <sect1> Convert Linuxdoc to Docbook format <label id="linuxdoc2docbook">
 <p>
 This document is written in linuxdoc SGML format. The Docbook SGML format
-supercedes the linuxdoc format and has lot more features than linuxdoc.
+supersedes the linuxdoc format and has lot more features than linuxdoc.
 The linuxdoc is very simple and is easy to use. To convert linuxdoc SGML 
 file to Docbook SGML use the program <bf>ld2db.sh</bf> and some perl scripts.
 The ld2db output is not 100% clean and you need to use the <bf>clean_ld2db.pl</bf>

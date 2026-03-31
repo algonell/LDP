@@ -1106,7 +1106,7 @@ drive that you wish to create Linux partitions on. Hard drive device names
 are:</para>
 
 <itemizedlist>
-<listitem><para><filename>/dev/hda</filename> First IDE drive</para></listitem>
+<listitem><para><filename>/dev/had</filename> First IDE drive</para></listitem>
 <listitem><para><filename>/dev/hdb</filename> Second IDE drive</para></listitem>
 <listitem><para><filename>/dev/sda</filename> First SCSI drive</para></listitem>
 <listitem><para><filename>/dev/sdb</filename> Second SCSI drive</para></listitem>
@@ -1121,7 +1121,7 @@ cfdisk /dev/sda
 </screen>
 
 <para>If you use <command>fdisk</command> or <command>cfdisk</command>
-without an argument, it will assume <filename>/dev/hda</filename>.</para>
+without an argument, it will assume <filename>/dev/had</filename>.</para>
 
 <para>To create Linux partitions on the second drive on your system,
 simply specify either <filename>/dev/hdb</filename> (for IDE drives)
@@ -1130,14 +1130,14 @@ when running <command>fdisk</command>.</para>
 
 <para>Your Linux partitions don't all have to be on the same drive.  You
 might want to create your root filesystem partition on
-<filename>/dev/hda</filename> and your swap partition on
+<filename>/dev/had</filename> and your swap partition on
 <filename>/dev/hdb</filename>, for example. In order to do so just run
 <command>fdisk</command> or <command>cfdisk</command> once for each
 drive.</para>
 
 <para>In Linux, partitions are given a name based on the drive which they
 belong to. For example, the first partition on the drive
-<filename>/dev/hda</filename> is <filename>/dev/hda1</filename>, the second
+<filename>/dev/had</filename> is <filename>/dev/hda1</filename>, the second
 is <filename>/dev/hda2</filename>, and so on. If you have any logical
 partitions, they are numbered starting with <filename>/dev/hda5</filename>,
 <filename>/dev/hda6</filename> and so on up.</para>
@@ -1161,12 +1161,12 @@ system software, and a home directory area.</para>
 
 <para>First, we use the ``<command>p</command>'' command to display the
 current partition table.  As you can see, <filename>/dev/hda1</filename>
-(the first partition on <filename>/dev/hda</filename>) is a DOS partition
+(the first partition on <filename>/dev/had</filename>) is a DOS partition
 of 61693 blocks.</para>
 
 <screen>
 Command (m for help):   p
-Disk /dev/hda: 16 heads, 38 sectors, 683 cylinders 
+Disk /dev/had: 16 heads, 38 sectors, 683 cylinders 
 Units = cylinders of 608 * 512 bytes
 
      Device Boot  Begin   Start     End  Blocks   Id  System
@@ -1237,7 +1237,7 @@ each partition in blocks. You need this information later.</para>
 
 <screen>
 Command (m for help): p
-Disk /dev/hda: 16 heads, 38 sectors, 683 cylinders 
+Disk /dev/had: 16 heads, 38 sectors, 683 cylinders 
 Units = cylinders of 608 * 512 bytes
 
      Device Boot  Begin   Start     End  Blocks   Id  System
@@ -1464,8 +1464,8 @@ LILO configuration file, where the Linux root partition is on
 <filename>/dev/hdb1</filename> (on the second hard drive).</para>
 
 <screen>
-# Tell LILO to install itself as the primary boot loader on /dev/hda.
-boot = /dev/hda
+# Tell LILO to install itself as the primary boot loader on /dev/had.
+boot = /dev/had
 # The boot image to install; you probably shouldn't change this
 install = /boot/boot.b
 

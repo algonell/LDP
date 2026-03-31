@@ -19,7 +19,7 @@ section can be combined for all of them, methinks.
          Small other fixes.
 092200 - Back to work:  add in fixed fixscript
                         fix up FAQ quite a bit
-092800 - Added conexant section
+092800 - Added connexant section
        - added link to homepage for recent version
        - fixed second ESS link
        - fixscript fixed for esscom.  Not pretty; hope to have a cleaner version
@@ -123,7 +123,7 @@ at linux-howto(at)metalab.unc.edu via email.
 Copyright (c) 2000,2001 by Sean Walbran, Marvin Stodolsky
 <P>
 Please freely copy and distribute (sell or give away) this document in
-any format.  It's requested that corrections and/or comments be fowarded
+any format.  It's requested that corrections and/or comments be forwarded
 to the document maintainer. You may create a derivative work and distribute
 it provided that you:
 
@@ -390,7 +390,7 @@ In particular, <tt>lspci -vv</tt> gives lots of nice, useful information.
 <sect1> Module tools
 <p>
 The following commands are useful when dealing with modules.  Many
-require root priveleges.  See the manual pages (e.g., <tt>man insmod</tt>)
+require root privileges.  See the manual pages (e.g., <tt>man insmod</tt>)
 for more detailed information on these commands.
 <p>
 <sect2> insmod, insmod -f, and modprobe
@@ -737,7 +737,7 @@ With the modules in hand, proceed to install as follows:
 </enum>
 <p>
 
-<sect1>Conexant/Rockwell HSF
+<sect1>Connexant/Rockwell HSF
 <p>
 There exist drivers for kernels 2.2.14, 2.2.16, and 2.2.17 at
 <url url="http://www.olitec.com/pci56kv2.html"> 
@@ -890,7 +890,7 @@ YourSetUpConf
 exit
 </verb>
 <p>
-If dialin was not successfull, append to this a record from your log file.
+If dialin was not successful, append to this a record from your log file.
 As an example, a section of a /var/log/syslog from a Debian
 Linux system is below. 
 
@@ -912,7 +912,7 @@ at
 Try setting your BIOS option from "PNP OS" to "non-PNP OS",  from "Windows"
 to "Other OS", or the equivalent.
 <p>
-Conexant users: See the Conexant section, above.
+Connexant users: See the Connexant section, above.
 <p>
 <sect1> I get a "device or resource busy" error.
 <p>

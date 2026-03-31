@@ -633,7 +633,7 @@ software-based modem for Linux.  After that, interest increased for
 getting winmodems to work under linux.  There is a GPL'ed driver for
 Intel's (Modem Silicon Operations) MD563x HaM chipset (nee Ambient
 division of Cirrus Logic).  As of mid-2001 there are also drivers for:
-Conexant HSF and HCF, Motorola SM56 (support terminated), ESS (ISA
+Connexant HSF and HCF, Motorola SM56 (support terminated), ESS (ISA
 only), and IBM's Mwave for Thinkpads 600+.  See <url
 url="http://linmodems.org">.
 
@@ -673,7 +673,7 @@ an old version of the kernel.  See Linmodem-HOWTO for more details.
 <item>Winmodems-and-Linux-HOWTO (not as well written as Linmodem-HOWTO)
 <item> <url url="http://linmodems.org"> is a project to turn winmodems
  into linmodems.  Has a mailing list.
-<item>Conexant+Rockwell-modem-HOWTO
+<item>Connexant+Rockwell-modem-HOWTO
 <item><url url="http://64.126.95.102:8080/gromitkc/winmodem.html"
   name="old modem list"> Has links to linmodem info, but not
   maintained after 2003.
@@ -2124,7 +2124,7 @@ Plug-and-Play-HOWTO).
 program (part of <tt/isapnptools/).  If you use the --dumpregs option
 then it should tell you the actual IO address and IRQ set in the port.
 It should also find an ISA PnP port that is disabled.  The address it
-"trys" is not the device's IO address, but a special address used for
+"tries" is not the device's IO address, but a special address used for
 communicating with PnP cards.
 
 <sect2>Finding a port that is not disabled (ISA, PCI, PnP, non-PnP)
@@ -2701,7 +2701,7 @@ to it from the PC is assumed to be an AT command and not data.  Then
 if a dial command is sent to it (ATD...), it dials and connects to
 another modem.  It's now in the on-line data mode (connected) and
 sends and receives data (such as Internet pages).  In this mode, any
-AT command one trys to send it will not work but will be transmitted
+AT command one tries to send it will not work but will be transmitted
 to the other modem instead.  Except for the escape command.  This is
 +++ with a minimum time delay both at the start and end.  The time
 delay allows the modem to determine that it is likely a real escape
@@ -3582,7 +3582,7 @@ tells the modem to answer the ring.  In either case, it may be set up
 to answer on say the 4th ring.  This means that if the call is not for
 the modem, one must walk/run to the phone and pick it up manually
 before the 4th ring.  Then an ordinary conversation can take place on
-the telephone.  If ons gets to the phone too late one will hear the
+the telephone.  If owns gets to the phone too late one will hear the
 high pitched tones of the modem which has answered the call.
 
 Once the modem answers the call it sends tones to the other modem

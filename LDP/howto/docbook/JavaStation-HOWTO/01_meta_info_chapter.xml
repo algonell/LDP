@@ -43,7 +43,7 @@ presented in this document.
 </para>
 
 <para>
-In early 1999, Eric Brower  <email>ebrower@usa.net</email> wrote the 
+In early 1999, Eric Browser  <email>ebrower@usa.net</email> wrote the 
 first informal HOWTO for the <productname>JavaStation</productname>.  Parts 
 of this document are inspired by his work, and all unique information 
 presented there have since been merged into this document.  Eric's 
@@ -82,7 +82,7 @@ been possible without the fine work of the following people:
  
 <listitem>
    <para>
-   Eric Brower <email>ebrower@usa.net</email>
+   Eric Browser <email>ebrower@usa.net</email>
    (<application>XFree</application> mods and author of the original 
      embedded-build HOWTO) 
    </para>
@@ -169,7 +169,7 @@ The following people have contributed to this specific document:
 </listitem>
 <listitem>
    <para>
-   Eric Brower <email>ebrower@usa.net</email>
+   Eric Browser <email>ebrower@usa.net</email>
    (Proofreading and factual corrections of initial drafts) 
    </para>
 </listitem>
@@ -359,7 +359,7 @@ helping this document evolve.
      <revision>
         <revnumber>1.11</revnumber>
         <date>23 Nov 2000</date>
-        <revremark>Krups truecolor blurb, removed one acknowlegement per email request</revremark>
+        <revremark>Krups truecolor blurb, removed one acknowledgement per email request</revremark>
      </revision>
 
      <revision>

@@ -1718,7 +1718,7 @@ trampoline()
 // check signature to see if all code loaded
 start_of_setup()
 {
-        // Bootlin depends on this being done early, check <ulink url="http://ftp.us.xemacs.org/ftp/pub/linux/suse/suse/i386/7.3/dosutils/bootlin/technic.doc">bootlin:technic.doc</ulink>
+        // Bootlin depends on this being done early, check <ulink url="http://ftp.us.xemacs.org/ftp/pub/linux/suse/suse/i386/7.3/dosutils/bootlin/technique.doc">bootlin:technique.doc</ulink>
         int13/AH=15h(AL=0, DL=0x81);
         // <ulink url="http://www.ctyme.com/intr/rb-0639.htm">int13/AH=15h: DISK - GET DISK TYPE</ulink>
 
@@ -2629,7 +2629,7 @@ asmlinkage int decompress_kernel(struct moveparams *mv, void *rmode)
     </para>
 
     <para>
-     <emphasis>decompress_kernel()</emphasis> has an "asmlinkage" modifer.
+     <emphasis>decompress_kernel()</emphasis> has an "asmlinkage" modifier.
      In <filename>linux/include/linux/linkage.h</filename>:
 <programlisting>#ifdef __cplusplus
 #define CPP_ASMLINKAGE extern "C"
@@ -3036,13 +3036,13 @@ BTYPE  (2 bits)
    Check IA-32 Manual
    (Vol.3. Ch.7.5. Multiple-Processor (MP) Initialization) and
 <ulink url="http://www.intel.com/design/pentium/datashts/242016.htm">
-   MultiProcessor Specification</ulink> for MP intialization issue.
+   MultiProcessor Specification</ulink> for MP initialization issue.
   </para>
 
   <para>
    From a software point of view, in a multiprocessor system, BSP and APs
    share the physical memory but use their own register sets.
-   BSP runs the kernel code first, setups OS execution enviornment and
+   BSP runs the kernel code first, setups OS execution environment and
    triggers APs to run over it too.
    AP will be sleeping until BSP kicks it.
   </para>
@@ -3142,7 +3142,7 @@ c0376404 B mmu_cr4_features</screen>
      physical address 0..8M-1.
      We can access kernel symbols without "-__PAGE_OFFSET" from now on,
      because kernel space (resides in linear address >=3G) will
-     be correctly mapped to its physical addresss after paging is enabled.
+     be correctly mapped to its physical address after paging is enabled.
     </para>
 
     <para>
@@ -4390,7 +4390,7 @@ rm -f $tmppiggy $tmppiggy.gz $tmppiggy.lnk; \
 objcopy -O binary -R .note -R .comment -S /usr/src/linux-2.4.20/vmlinux $tmppigg
 y; \
 gzip -f -9 &lt; $tmppiggy > $tmppiggy.gz; \
-echo "SECTIONS { .data : { input_len = .; LONG(input_data_end - input_data) inpu
+echo "SECTIONS { .data : { input_len = .; LONG(input_data_end - input_data) input
 t_data = .; *(.data) input_data_end = .; }}" > $tmppiggy.lnk; \
 ld -m elf_i386 -r -o piggy.o -b binary $tmppiggy.gz -b elf32-i386 -T $tmppiggy.l
 nk; \

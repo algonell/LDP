@@ -79,7 +79,7 @@
    New versions
   </title>
   <para>
-   Unitl I get my domain up and running properly, the newest version of this document will be available from http://www.linuxdoc.org/.
+   Until I get my domain up and running properly, the newest version of this document will be available from http://www.linuxdoc.org/.
   </para>
   </sect2>
   <sect2>
@@ -187,7 +187,7 @@
    Group information is stored in <filename>/etc/group</filename>. The format is similar to that of <filename>/etc/passwd</filename>, with the entries containing fields for the group name, password, numerical id (gid), and a comma-separated list of group members. An entry in <filename>/etc/group</filename> looks like this:
   </para>
   <programlisting>
-   pasta:x:103:spagetti,fettucini,linguine,vermicelli
+   pasta:x:103:spaghetti,fettucini,linguine,vermicelli
   </programlisting>
   <para>
    As you can see from the "x" in the password field, group passwords can be shadowed as well. Although groups almost never have their own passwords, it is worth noting that shadowed group password information is stored in <filename>/etc/gshadow</filename>.
@@ -488,7 +488,7 @@
    <sect3>
     <title>Choosing a <filename>/etc/pam.d/other</filename></title>
     <para>
-     I would strongly reccomend that you implement the first <filename>/etc/pam.d/other</filename> configuration unless you have a very good reason not to. It always a good idea to be 'secure by default'. If you ever do need to grant a new service authentication privileges, you can simply create a PAM configuration file for that service.
+     I would strongly recommend that you implement the first <filename>/etc/pam.d/other</filename> configuration unless you have a very good reason not to. It always a good idea to be 'secure by default'. If you ever do need to grant a new service authentication privileges, you can simply create a PAM configuration file for that service.
     </para>
    </sect3>
   </sect2>

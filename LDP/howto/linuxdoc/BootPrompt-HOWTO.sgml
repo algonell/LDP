@@ -289,7 +289,7 @@ TODO:
 	the DOS prompt with <tt>LOADLIN.EXE</tt> avoids the reset of 
 	the card that
 	happens if one rebooted instead. Thus the card is left in a
-	SB compatible mode and hence is useable under Linux.
+	SB compatible mode and hence is usable under Linux.
 
 	There are also other programs that can be used to boot Linux.
 	For a complete list, please look at the programs available
@@ -325,7 +325,7 @@ TODO:
 	given to. Multiple boot args are just a space separated list
 	of the above format. Note the limit of 11 is real, as the
 	present code only handles 11 comma separated parameters per
-	keyword. (However, you can re-use the same keyword with
+	keyword. (However, you can reuse the same keyword with
 	up to an additional 11 parameters in unusually complicated
 	situations, assuming the setup function supports it.)
 	Also note that the kernel splits the list into a maximum of
@@ -1519,7 +1519,7 @@ TODO:
 	the disks similar to the IDE driver. Note however that it
 	only expects three values (C/H/S) -- any more or any less
 	and it will silently ignore you. Also, it only accepts
-	`hd=' as an argument, i.e. `hda=', `hdb=' and so on are
+	`hd=' as an argument, i.e. `had=', `hdb=' and so on are
 	not valid here. The format is as follows:
 
 <code>
@@ -1606,7 +1606,7 @@ TODO:
 
 	<tt/snd-ad1848=/ Generic driver for AD1848/AD1847/CS4248
 
-	<tt/snd-als100=/ Avance Logic ALS100
+	<tt/snd-als100=/ Advance Logic ALS100
 
 	<tt/snd-azt2320=/ Aztech Systems AZT2320 (and 2316)
 
@@ -1682,7 +1682,7 @@ TODO:
 
 	<tt/snd-ali5451=/ ALi PCI audio M5451
 
-	<tt/snd-als4000=/ Avance Logic ALS4000
+	<tt/snd-als4000=/ Advance Logic ALS4000
 
 	<tt/snd-cmipci=/ C-Media CMI8338 and 8738
 

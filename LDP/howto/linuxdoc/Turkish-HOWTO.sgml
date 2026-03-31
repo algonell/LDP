@@ -159,7 +159,7 @@ $ loadkeys defkeymap
 </verb></tscreen>
 
 Yapýlan tüm iþlemler tüm sistemde etkin olacaktýr. Bir kullanýcý çalýþma
-yaptýktan sonra sistem kapanýncaya, ya da baþka bir klavye daðýlýmý
+yaptýktan sonra system kapanýncaya, ya da baþka bir klavye daðýlýmý
 yüklenince deðin klavye düzeni ayný kalýr.
 
 <p>
@@ -274,7 +274,7 @@ Netscape'te yazýtipi seçimi için, Edit - Preferences - Appearance - Fonts
 - For the Encoding menüsüne gidin ve buradan ``Turkish (iso-8859-9)''
 seçeneðini iþaretleyin. Daha aþaðýda yeralan ``Use my default fonts,
 overriding document-specified fonts'' seçeneðini iþaretlemeniz halinde ise
-Netscape, sadece sizin belirttiðiniz yazýtiplerini ekranda gösterecektir.
+Netscape, sadece sizing belirttiðiniz yazýtiplerini ekranda gösterecektir.
 Yine de Netscape ile Türkçe yazýtiplerini görmekte sýkýntý çekerseniz View
 -> Encoding -> Turkish (ISO-8859-9) seçeneðini iþaretlemelisiniz.
 <p>
@@ -509,7 +509,7 @@ dizininde yeralýyorlar:
 -rw-r--r--   1 root     root         2316 Oct  6  1998 xmodmap.trq
 </verb></tscreen>
 
-Yukarýdaki dosyalar sýrasýyla standart Amerikan klavye, alt Türkçe klavye, F
+Yukarýdaki dosyalar sýrasýyla standard Amerikan klavye, alt Türkçe klavye, F
 klavye ve Q Türkçe klavyeye karþýlýk geliyor. X Window'a girerken bu
 klavyelerden bir tanesini aktif hale getirmemiz gerekiyor. Örnek olarak, Q
 Türkçe klavyenin, X Window açýlýrken etkin olmasý için,

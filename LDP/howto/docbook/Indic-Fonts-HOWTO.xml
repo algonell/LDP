@@ -30,7 +30,7 @@
     </revhistory>
     <abstract>
       <para>
-        This is a detailed guide on how to install and use Indic scripts (devanagri etc.) using UTF-8 encoding under GNU/Linux. This HOWTO is a work in progress. More sections regarding fonts and other related things shall be added to this HOWTO in due course of time. Special thanks to Dan Scott for conversion from HTML to DocBook v4.1.2(XML). Any feedback, sugestions, pointers, gifts, cds, BMWs will be gladly accepted. All flames will be redirected to <filename>/mnt/praises_for_thee/</filename> for future reference. Be afraid.
+        This is a detailed guide on how to install and use Indic scripts (devanagri etc.) using UTF-8 encoding under GNU/Linux. This HOWTO is a work in progress. More sections regarding fonts and other related things shall be added to this HOWTO in due course of time. Special thanks to Dan Scott for conversion from HTML to DocBook v4.1.2(XML). Any feedback, suggestions, pointers, gifts, cds, BMWs will be gladly accepted. All flames will be redirected to <filename>/mnt/praises_for_thee/</filename> for future reference. Be afraid.
       </para>
     </abstract>
   </articleinfo>
@@ -68,7 +68,7 @@
   <sect1 id="install">
     <title>Installing the IndiX system</title>
     <para>
-      You can obtain the IndiX system from NCST, Mumbai site <ulink url="http://rohini.ncst.ernet.in/indix/">http://rohini.ncst.ernet.in/indix/</ulink>. The system is available in its source as well as binary form. This HOWTO covers the installation of the IndiX system using the binary files avaiable for download. At a later stage, I plan to cover the source installation of IndiX on your box, too. You need to download the following files in order to install IndiX sucessfully onto your machine:
+      You can obtain the IndiX system from NCST, Mumbai site <ulink url="http://rohini.ncst.ernet.in/indix/">http://rohini.ncst.ernet.in/indix/</ulink>. The system is available in its source as well as binary form. This HOWTO covers the installation of the IndiX system using the binary files available for download. At a later stage, I plan to cover the source installation of IndiX on your box, too. You need to download the following files in order to install IndiX successfully onto your machine:
     </para>
     <para>
       <simplelist>
@@ -123,7 +123,7 @@
         Devanagari characters do not display properly in a Linux console. However, NCST has developed ncst-term (a terminal emulator program in X Window System) which has support for converting keystrokes to UTF-8 before sending them to the application running in the ncst-term, and for displaying Unicode characters that the application outputs as UTF-8 byte sequence.
       </para>
     </sect2>
-    <sect2 id="xwindows">
+    <sect2 id="x">
       <title>X Window System</title>
       <para>
         You need to make some changes in your <filename>XF86Config-4</filename> file (usually resides in <filename class="directory">/etc/X11/</filename> directory). A sample config file <filename>XF86Config-4.indix</filename> is installed along with IndiX system. This file can be found in <filename class="directory">/etc/X11/</filename> directory.
@@ -337,7 +337,7 @@
   Content-Transfer-Encoding: 8bit</programlisting>
       </para>
       <para>
-        Simply piping an UTF-8 file into "mail" without caring about the MIME labels will not work. Mail client implementors should take a look at <ulink url="http://www.imc.org/imc-intl/">http://www.imc.org/imc-intl/</ulink> and <ulink url="http://www.imc.org/mail-i18n.html">http://www.imc.org/mail-i18n.html</ulink>.
+        Simply piping an UTF-8 file into "mail" without caring about the MIME labels will not work. Mail client implementers should take a look at <ulink url="http://www.imc.org/imc-intl/">http://www.imc.org/imc-intl/</ulink> and <ulink url="http://www.imc.org/mail-i18n.html">http://www.imc.org/mail-i18n.html</ulink>.
       </para>
       <para>
         Now about some of the individual mail clients (or "mail user agents"):
@@ -472,7 +472,7 @@
           <para>
             This is probably because the X Font Server (xfs) is running and is still in the current FontPath. You can either shutdown the X Font Server or remove it from the current FontPath. To shutdown xfs issue the following command after becoming root:
             <programlisting>  # /etc/rc.d/init.d/xfs stop</programlisting>
-            To remove xfs from the current FontPath, read the section <xref linkend="xwindows"/> in this HOWTO.
+            To remove xfs from the current FontPath, read the section <xref linkend="x"/> in this HOWTO.
           </para>
         </answer>
       </qandaentry>
@@ -1054,7 +1054,7 @@
     
     <para>
       You may extract a single document from such a collection, and
-      dispbibute it individually under this License, provided you
+      distribute it individually under this License, provided you
       insert a copy of this License into the extracted document, and
       follow this License in all other respects regarding verbatim
       copying of that document.

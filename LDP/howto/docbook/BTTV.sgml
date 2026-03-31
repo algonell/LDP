@@ -223,13 +223,13 @@ outlined with screen output in their own paragraph or heading: </para>
 <para>
 If you haven't figured it out by now, this document deals with the Linux-specific 
 configuration of frame grabber cards that include the 
-<ulink url="http://www.conexant.com">Conexant</ulink> Bt848 and related family
+<ulink url="http://www.connexant.com">Connexant</ulink> Bt848 and related family
 of video decoder chips, collectively referred to as the <quote>Bt8x8</quote> chipset. 
 You can probably see the Bt8x8 chip (it's usually labelled as such) embedded on your 
 TV card upon inspection, in addition to other chips which you should probably make note of 
 before installation in case there are problems later.
 The <quote>Bt</quote> stands for Brooktree, after the original manufacturer of 
-the chipset, now a part of Conexant. The Bt8x8 family has enjoyed remarkable longevity in a world where
+the chipset, now a part of Connexant. The Bt8x8 family has enjoyed remarkable longevity in a world where
 <ulink url="http://en.wikipedia.org/wiki/Moore%27s_law">Moore's Law</ulink> is the rule,
 the first ISA boards manufactured in the mid-1990s. There are several chips in this family, including the Bt848, 
 Bt848A, Bt849, Bt878 and Bt879, and as a rule are all supported by the 
@@ -240,7 +240,7 @@ this document is named.</para>
 
 <para>Note that the next generation of bt8x8, the 
 <ulink url="http://linux.bytesex.org/v4l2/cx88.html">
-Conexant 2388x</ulink>, is now supported by a driver in the Linux 2.6 kernel. The configuration 
+Connexant 2388x</ulink>, is now supported by a driver in the Linux 2.6 kernel. The configuration 
 of hardware with that chipset is beyond the scope of this document (but similar).</para> 
 
 <para>In general, any PCI card with a Bt8x8 chipset should work with the Linux Bttv driver. 
@@ -750,7 +750,7 @@ the following list:
   <command>tuner=41</command>     Philips PAL_MK (FI1216 MK)
   <command>tuner=42</command>     Philips 1236D ATSC/NTSC 
   <command>tuner=43</command>     Philips NTSC MK3 (FM1236MK3 or FM1236/F)
-  <command>tuner=44</command>     Philips 4 in 1 (ATI TV Wonder Pro/Conexant)
+  <command>tuner=44</command>     Philips 4 in 1 (ATI TV Wonder Pro/Connexant)
   <command>tuner=45</command>     Microtune 4049 FM5
 </literallayout> 
 </para>
@@ -1271,7 +1271,7 @@ Lifeview Flyvideo Series:
       The new Flyvideo 2000/3000 are SAA7130/SAA7134 based. 
 
   "Flyvideo II" had been the name for the 848 cards, nowadays (in Germany)
-  this name is re-used for LR50 Rev.W.
+  this name is reused for LR50 Rev.W.
   The Lifeview website mentioned Flyvideo III at some time, but such a card
   has not yet been seen (perhaps it was the German name for LR90 [stereo]).
   These cards are sold by many OEMs too.
@@ -1284,7 +1284,7 @@ Typhoon TV card series:
 -----------------------
   These can be CPH, Flyvideo, Pixelview or KNC1 series.
   Typhoon is the brand of Anubis.
-  Model 50680 got re-used, some model no. had different contents over time.
+  Model 50680 got reused, some model no. had different contents over time.
 
   Models:
   50680 "TV Tuner PCI Pal BG"(old,red package)=can be CPH03x(bt848) or CPH06x(bt878)
@@ -1490,7 +1490,7 @@ AVerMedia
    TVPhone98 (Bt878)
    AVerTV und TVCapture98 w/VCR (Bt 878)
    AVerTVStudio und TVPhone98 w/VCR (Bt878)
-   AVerTV GO Serie (Kein SVideo Input)
+   AVerTV GO Series (Kein SVideo Input)
    AVerTV98 (BT-878 chip)
    AVerTV98 mit Fernbedienung (BT-878 chip)
    AVerTV/FM98 (BT-878 chip)
@@ -1582,7 +1582,7 @@ Pinnacle
    Studio PCTV Pro  (Bt878 stereo w/ FM)
    Pinnacle PCTV    (Bt878, MT2032)
    Pinnacle PCTV Pro (Bt878, MT2032)
-   Pinncale PCTV Sat (bt878a, HM1821/1221) ["Conexant CX24110 with CX24108 tuner, aka HM1221/HM1811"]
+   Pinncale PCTV Sat (bt878a, HM1821/1221) ["Connexant CX24110 with CX24108 tuner, aka HM1221/HM1811"]
    Pinnacle PCTV Sat XE
 
    M(J)PEG capture and playback:
@@ -1642,7 +1642,7 @@ www.sigmacom.co.kr
 
 www.sasem.co.kr
 ---------------
-   Litte OnAir TV
+   Little OnAir TV
 
 hama 
 ----

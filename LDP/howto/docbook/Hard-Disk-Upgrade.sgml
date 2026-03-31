@@ -38,7 +38,7 @@
       system, including <acronym>LILO</acronym>, from one hard disk to
       another.</para>
     
-    <para>In the following explanation, <filename>/dev/hda</filename> (first
+    <para>In the following explanation, <filename>/dev/had</filename> (first
       <acronym>IDE</acronym> hard disk) means the <emphasis>old</emphasis>
       disk, and <filename>/dev/hdb</filename> (second <acronym>IDE</acronym>
       hard disk) means the <emphasis>new</emphasis> disk.</para>
@@ -238,7 +238,7 @@
       <programlisting>fdisk /dev/hdb</programlisting></para>
 
     <para><acronym>EIDE</acronym> devices are identified as
-      <filename>hda</filename>,  
+      <filename>had</filename>,  
       <filename>hdb</filename>, 
       <filename>hdc</filename>, and 
       <filename>hdd</filename> in the 
@@ -752,7 +752,7 @@ image=/mnt/vmlinuz            # Location of Linux kernel on
     <para>You should modify the file 
       <filename>/etc/lilo.conf</filename> in case you later want to run
       <acronym>LILO</acronym> again. Here's an example of how the file can look:
-      <programlisting>boot=/dev/hda                 # Install LILO on first hard
+      <programlisting>boot=/dev/had                 # Install LILO on first hard
                               # disk.
 map=/boot/map                 # Location of "map file".
 install=/boot/boot.b          # File to copy to floppy's

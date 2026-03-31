@@ -149,19 +149,19 @@ nezdruzljive tako med seboj, kot tudi s standardom ISO.
 Nabor znakov za sistemsko konzolo najdemo v 
 <htmlurl url="ftp://metalab.unc.edu/pub/Linux/system/keyboards/"
 name="paketu kbd"> Andriesa Brouwerja z univerze v Eindhovnu,
-Nizozemska. Paket je del vseh distribucij Linuxa in se avtomaticno
-nalozi ob namestitvi sistema. Pisave in pretvorne tabele so zlozene 
+Nizozemska. Packet je del vseh distribucij Linuxa in se avtomaticno
+nalozi ob namestitvi sistema. Pisave in pretvorne table so zlozene 
 v imeniku <file>/usr/lib/kbd</file>. (Avanturisti se lahko namesto
 s paketom <tt>kbd</tt> igrajo s prototipnimi <htmlurl
 url="http://www.multimania.com/ydirson/en/lct/" name="Linux
 Console Tools"> avtorja Yanna Dirsona.)
 
-V starejsih distribucijah Slackware se je prevedeni paket imenoval
+V starejsih distribucijah Slackware se je prevedeni packet imenoval
 <htmlurl url="ftp://ftp.cdrom.com/pub/linux/slackware/source/a/kbd/"
 name="keytbls">. Namestimo ga enako kot druge pakete, z ukazom
 <tt>pkgtool</tt> ali <tt>installpkg</tt>.
 
-Ko imamo paket enkrat namescen, izberemo drugo pisavo 
+Ko imamo packet enkrat namescen, izberemo drugo pisavo 
 na zaslonu z ukazom <tt>setfont</tt>. Spodnji zgled izbere
 pisavo z naborom znakov po standardu ISO Latin 2 v velikosti
 sestnajst pik:
@@ -176,7 +176,7 @@ Za nas zanimive pisave so <file>iso02.f08</file>,
 <tt>setfont</tt> izpuscamo).
 
 Izbrana pisava velja v vseh virtualnih terminalih (glej
-<tt>console(4)</tt>) na konzoli. Ce nam to ni vsec, ampak bi radi imeli v
+<tt>console(4)</tt>) na konzoli. Ce name to ni vsec, ampak bi radi imeli v
 vsakem virtualnem terminalu svojo pisavo, si lahko pomagamo s programom
 <tt>vtfontd</tt> Iana Zimmermana. Ta vsakic, ko zapustimo virtualni
 terminal, shrani izbrano konzolno pisavo, in jo ponovno restavrira, ko
@@ -270,7 +270,7 @@ pokazati seznam vseh novo namescenih pisav.
 System. Trajno spremembo dosezemo s popravkom konfiguracijske
 datoteke. Streznik <htmlurl url="http://www.xfree86.org/XFree86/"
 name="XFree86"> hrani svoje nastavitve v datoteki
-<file>/etc/XF86Config</file> (pisec teh vrstic je v nekaj letih
+<file>/etc/XF86Config</file> (pisec the vrstic je v nekaj letih
 ukvarjanja z XFree86 na razlicnih distribucijah nastavitve videl tudi
 ze v datotekah <file>/etc/X11/XF86Config</file>,
 <file>/usr/X11R6/lib/X11/XF86config</file> in
@@ -306,7 +306,7 @@ streznika snamemo datoteko v obliki <tt>zip</tt>:
 <url url="ftp://ftp.arnes.si/software/unix/Latin-2-fonts/l2pfb005.zip">
 </tscreen>
 
-Se vec pisav je zbrala ceska skupina, paket RPM (vsebino namestimo z
+Se vec pisav je zbrala ceska skupina, packet RPM (vsebino namestimo z
 ukazom <tt>rpm -Uvh ...</tt>) najdemo na
 <tscreen>
 <url url="ftp://crash.fce.vutbr.cz/pub/linux_fonts/X11fonts-ulT1mo-beta-1.0-4.noarch.rpm">
@@ -438,7 +438,7 @@ FontPath "tcp/localhost:7100"
 <sect2>Xfstt
 <p>
 Drugi streznik pisav za X11, ki podpira pisave TrueType, je
-Xfstt. Pisec teh vrstic z njim nima izkusenj, je pa z veseljem
+Xfstt. Pisec the vrstic z njim nima izkusenj, je pa z veseljem
 pripravljen na to mesto vkljuciti izkusnje drugih. Xfstt najdete na
 navedenem mestu in vseh zrcalih le-tega.
 
@@ -450,22 +450,22 @@ navedenem mestu in vseh zrcalih le-tega.
 
 <sect1>Konzola<label id="tipk-konz">
 <p>
-Nabor znakov za sistemsko konzolo in tabele za premapiranje
+Nabor znakov za sistemsko konzolo in table za premapiranje
 tipkovnice najdemo v 
 <htmlurl url="ftp://metalab.unc.edu/pub/Linux/system/keyboards/"
 name="paketu kbd"> Andriesa Brouwerja z univerze v Eindhovnu,
 Nizozemska. Avtor paketa je napisal tudi <htmlurl
 url="http://metalab.unc.edu/LDP/HOWTO/Keyboard-and-Console-HOWTO.html"
 name="Keyboard HOWTO">, kjer si lahko o tej temi preberemo vec.
-Paket je del vseh obicajnih distribucij in se nalozi avtomaticno ob
+Packet je del vseh obicajnih distribucij in se nalozi avtomaticno ob
 namestitvi sistema.
 
-V starejsih distribucijah Slackware se je prevedeni paket imenoval
+V starejsih distribucijah Slackware se je prevedeni packet imenoval
 <htmlurl url="ftp://ftp.cdrom.com/pub/linux/slackware/source/a/kbd/"
 name="keytbls">. Namestimo ga enako kot druge pakete, z ukazom
 <tt>pkgtool</tt> ali <tt>installpkg</tt>.
 
-Paket <tt>kbd</tt> vsebuje tabelo za slovensko tipkovnico s 102
+Packet <tt>kbd</tt> vsebuje tabelo za slovensko tipkovnico s 102
 tipkama in zaslonske pisave za kodni nabor ISO Latin 2. Vsi, ki
 iz kakrsnihkoli razlogov uporabljajo drugacno tipkovnico, si
 lahko na osnovi zgledov v <file>/usr/lib/kbd/</file> pripravijo
@@ -475,7 +475,7 @@ tipkovnico s 101 tipko:
 <url url="http://www.kiss.uni-lj.si/~k4fr0235/kbd/">
 </tscreen>
 
-Celoten postopek za izbiro zaslonske pisave, tabele za
+Celoten postopek za izbiro zaslonske pisave, table za
 tipkovnico in uporabo le-te je taksen:
 <code>
 # Izberemo pisavo z naborom ISO Latin 2 v velikosti 16 pik
@@ -547,7 +547,7 @@ name="Ukazne lupine">).
 <sect2>Xks
 <p>
 Cesko podjetje Informatica s.r.o. se je problema preslikave tipkovnice
-lotilo drugace. Njihov produkt Xks je streznik, ki se vgnezdi med
+lotilo drugace. Njihov product Xks je streznik, ki se vgnezdi med
 streznik X in namenske programe ter prestreze vse dogodke
 <tt>KeyPress</tt> ter jih po potrebi modificira. Ta resitev deluje
 tudi pri slabo napisanih programih, pri katerih preslikava z
@@ -559,7 +559,7 @@ kombinaciji s tipko <tt>AltGr</tt> delujejo kot neme tipke).
 </tscreen>
 
 Xks je program na pokusino (shareware); registracija izvedbe za Linux
-stane 900 ceskih kron (okrog 4500 tolarjev). Pisec teh vrstic se
+stane 900 ceskih kron (okrog 4500 tolarjev). Pisec the vrstic se
 zaenkrat se ni utegnil ukvarjati s njim, bi pa z veseljem vkljucil na
 to mesto izkusnje drugih.
 
@@ -592,7 +592,7 @@ v sesti odlocil za njegovo razsiritev. Standardizacijski komite se
 namrec ni mogel zediniti okrog izvedbe ravnanja s prevodi sporocil,
 zato je standard v tej tocki prakticno neuporaben: doloca le prevode
 za ``da'' in ``ne''. Projekt GNU je zato razvil svojo metodo, to je
-paket GNU <tt>gettext</tt>. Prevedeni katalogi sporocil, ki jih
+packet GNU <tt>gettext</tt>. Prevedeni katalogi sporocil, ki jih
 uporablja mehanizem <tt>gettext</tt> se navadno nahajajo v podimenikih
 imenika <file>/usr/share/locale/</file>.
 
@@ -651,7 +651,7 @@ LANG=sl_SI.iso88592
 </tscreen>
 Dolocitev drzave in nabora znakov je neobvezna (pomembna je seveda pri
 jezikih, ki se govorijo v vec drzavah; kaksen locale uporabljajo
-Slovenci v zamejstvu, je piscu teh vrstic neznano), tako lahko pisemo
+Slovenci v zamejstvu, je piscu the vrstic neznano), tako lahko pisemo
 na kratko
 <tscreen>
 LANG=sl
@@ -659,7 +659,7 @@ LANG=sl
 
 <sect1>Programiranje z GNU gettext<label id="prog-intl">
 <p>
-Paket GNU <tt>gettext</tt> ponuja nekaj orodij za lokalizacijo:
+Packet GNU <tt>gettext</tt> ponuja nekaj orodij za lokalizacijo:
 <itemize>
 <item><tt>xgettext</tt>, ki iz izvorne kode izlusci sporocila
 <item><tt>msgcmp</tt>, ki primerja dva kataloga sporocil
@@ -770,7 +770,7 @@ irelevantno kategorijo <tt>LC_CTYPE</tt> namesto uporabljene
 Se dve opombi: imenik, kamor prestavimo katalog sporocil, se mora
 ujemati z imenikom <tt>LOCALEDIR</tt>, navedenim v izvorni
 kodi. Tezavo, da GNU <tt>gettext</tt> razume ``sl'' in
-``sl_SI.iso88592'' kot razlicna locala, je pisec teh vrstic resil z
+``sl_SI.iso88592'' kot razlicna locala, je pisec the vrstic resil z
 simbolno povezavo v imeniku <file>/usr/local/share/locale</file>:
 <tscreen>
 ln -s sl sl_SI.iso88592
@@ -788,7 +788,7 @@ Z nastavitvijo spremenljivke okolja
 <tscreen>
 LANG=sl
 </tscreen>
-bodo programi iz teh paketov izpisovali slovenska sporocila
+bodo programi iz the paketov izpisovali slovenska sporocila
 namesto angleskih.
 
 Razprava o poslovenjenju projekta GNU poteka med prejemniki
@@ -862,7 +862,7 @@ rufko:~% set
 version tcsh 6.06.00 (Cornell) 1995-05-13 (i386-intel-linux) options 8b,dl,al
 rufko:~%
 </verb></tscreen>
-Pomemben je tisti ``8b''. Ce se pri vas ne izpise, vam verjetno ne
+Pomemben je tisti ``8b''. Ce se pri was ne izpise, vam verjetno ne
 preostane drugega, kot da snamete izvorno kodo in jo prevedete.
 
 <sect1>Terminalski emulatorji<label id="termin-emul">
@@ -904,8 +904,8 @@ WordPerfect ima vse potrebne znake ze v svoji tabeli. Vse, kar
 moramo napraviti, je da za nase crke definiramo makroukaze. Recimo,
 da bi radi definirali crko S (velika crka S s stresico).  Pricnemo
 s snemanjem makroukaza (recimo mu Scaron), skocimo v tabelo
-znakov, v njej izberemo crko S, zakljucimo makro in nazadnje pri
-nastavitvah povezemo makro z izbrano tipko.
+znakov, v njej izberemo crko S, zakljucimo macro in nazadnje pri
+nastavitvah povezemo macro z izbrano tipko.
 
 (Jaka Mele, <tt>Message-id:
 &lt;Pine.LNX.4.05.9812241251460.15368-101000@ro.zrsss.si&gt;</tt>
@@ -1004,7 +1004,7 @@ pisave, tako, da namesto npr. <file>arial.pfb</file> pride
 <tt>arial</tt>, namesto <tt>-0-0-0-0</tt> pa <tt>-%d-%d-%d-%d...</tt>
 Saj se takoj vidi. Na koncu si premapirajmo se tipkovnico in sicer s
 programom <file>xmodmap</file>, tako da izvrsimo <tt>xmodmap
-xmodmap.si</tt>. Ce imate starejsi Xwindow sistem, si boste morda
+xmodmap.si</tt>. Ce imate starejsi Xwindow system, si boste morda
 morali <file>xmodmap.si</file> se popraviti, da vam bosta tipki
 Backspace in Delete delali normalno, sicer pa samo pozenete
 <file>swriter3</file> in uzivate v dodatnih slovenskih pisavah.
@@ -1094,12 +1094,12 @@ Fox"> iz Anglije in ga distribuiral kot ``program na pokusino''
 nekaterih vesteh avtor ne podpira vec. Novejse (trenutno 5.1) pa trzi
 podjetje <htmlurl url="http://www.crisp.com/" name="Vital, Inc."> iz
 Teksasa, ZDA. Crisp je nekako blizje pecejevskemu duhu, kot pa sta Emacs
-in Vi; ce se nobenega od teh dveh ne morete navaditi, je morda Crisp
+in Vi; ce se nobenega od the dveh ne morete navaditi, je morda Crisp
 prava izbira.
 
 Privzeta nastavitev urejevalnika Crisp 2.2e je, da znakov s kodami od
 127 dalje ne prikaze, ampak izpise njihovo sestnajstisko kodo, ki jo
-uvede z znakoma <tt>&bsol;x</tt>.  Pomaga, ce nalozimo paket z izvorno
+uvede z znakoma <tt>&bsol;x</tt>.  Pomaga, ce nalozimo packet z izvorno
 kodo Crisp in v datoteki
 <file>&dollar;(SRC)/crisp2.2e/src/crunch/tty/xterm.cr</file> popravimo drugi
 argument funkcije <tt>set_term_features()</tt> iz <tt>NULL</tt> na
@@ -1110,9 +1110,9 @@ crunch xterm.cr
 Rezultat, popravljeni <file>xterm.cm</file>, postavimo med ostale,
 navadno v imenik <file>/usr/local/lib/crisp/macros/tty</file>.
 
-Makro <tt>xterm</tt> velja, kot bi iz imena sami uganili, za
+Macro <tt>xterm</tt> velja, kot bi iz imena sami uganili, za
 Crisp, pognan v oknu XTerm znotraj X Window System. Enaka
-intervencija piscu teh vrstic ni uspela na <file>linux.cr</file>
+intervencija piscu the vrstic ni uspela na <file>linux.cr</file>
 (konzola) in <file>xcrisp.cr</file> (razlicica Crisp za X11).  Poleg
 tega se je na starejsi verziji Linuxa (1.0.8) <tt>crunch</tt>
 pritozeval nad predprocesorjem za C, <file>/lib/cpp</file>.  Pomagala
@@ -1121,12 +1121,12 @@ je logicna povezava:
 ln -s  /usr/lib/gcc-lib/i486-linux/2.5.8/cpp /lib/cpp
 </verb></tscreen>
 
-Ales Kosir je napisal za Crisp makro <tt>slovene</tt>:
+Ales Kosir je napisal za Crisp macro <tt>slovene</tt>:
 <tscreen>
 <url url="http://nl.ijs.si/gnusl/tex/tslovene/src/slovene.cr">
 </tscreen>
 Z njim lahko vnasamo nase znake tudi na tipkovnicah, ki nimajo
-primernih tipk na nacin: namesto c vtipkamo <tt>&dquot;c</tt>, makro
+primernih tipk na nacin: namesto c vtipkamo <tt>&dquot;c</tt>, macro
 pa pretvori zaporedje v ustrezen znak.  Poleg ISO Latin 1 podpira
 se nekaj drugih kodiranj, ki so v uporabi v nasih krajih.
 Navodila za uporabo so na voljo tudi prek WWW:
@@ -1228,7 +1228,7 @@ CHARACTER_SET:ISO Latin 2
 
 <sect2>Netscape Navigator<label id="netscape">
 <p>
-(Metod Kozelj, <tt>Message-id:
+(Method Kozelj, <tt>Message-id:
 &lt;Pine.HPP.3.96.981216083349.17728E-100000@hmljhp.rzs-hm.si&gt;</tt>)
 
 Netscape Navigator, pa tudi brkljalnik iz Netscape Communicator,
@@ -1244,7 +1244,7 @@ ali pa obliko za proporcionalno pisavo.
 To storimo tako, da v 'Edit / Preferences / Appearance / Fonts' dolocimo,
 da spreminjamo nastavitve za srednjeevropske pisave ('For the Encoding
 / Central European (iso-8859-2)'), potem pa izberemo, s katero pisavo
-naj Navigator prikazuje tekste. Navigator nam sam ponudi le pisave s
+naj Navigator prikazuje tekste. Navigator name sam ponudi le pisave s
 pravim naborom znakov.
 
 Ce pregledujemo strani, ki imajo sicer pravilen razpored crk (razpored
@@ -1254,7 +1254,7 @@ pravim razporedom crk, lahko razpored preklopimo rocno z izbiro
 
 Ob izbiri pisave s pravilnim razporedom crk in ob pravilnem razporedu
 tipk na tipkovnici lahko uporabljamo nase crke tudi pri pisanju v
-modulu 'Page Composer'.
+modulo 'Page Composer'.
 
 Netscape Communicator 4.06 in novejsi znajo na Unixih, ki imajo
 namescene pisave ISO 8859-2, prikazati tudi strani, napisane v kodni
@@ -1343,8 +1343,8 @@ da prikazejo spise HTML, ki uporabljajo kodni razpored ISO 8859-2. V
 primeru, da brskalnik ne zmore prikazati strani v zahtevanem kodnem
 razporedu, lahko ta problem ignorira in stran (nepravilno) prikaze v
 nekem drugem kodnem razporedu (navadno ISO 8859-1), ali pa ponudi, da
-spis shranimo na disk. Zato je priporocljivo, da vstopne tocke v vas
-informacijski sistem ne uporabljajo kodnih razporedov, razlicnih od
+spis shranimo na disk. Zato je priporocljivo, da vstopne tocke v was
+informacijski system ne uporabljajo kodnih razporedov, razlicnih od
 ISO 8859-1.
 
 <sect3>Podrobnosti izvedbe
@@ -1424,8 +1424,8 @@ obremenjujemo komunikacijske vode.
 
 Primera skriptov, ki izvajata dinamicno prekodiranje:
 <itemize>
-<item>slovene - paket za dinamicno pretvarjanje spletnih spisov iz
-kodnega razporeda JUS I.B1.002 v CP852, CP1250, ISO 8859-2 ter
+<item>slovene - packet za dinamicno pretvarjanje spletnih spisov iz
+kodnega razporeda JUST I.B1.002 v CP852, CP1250, ISO 8859-2 ter
 US-ASCII (s precrkovanjem iz CSZ v CSZ). Avtor Tadej Vodopivec,
 Ljubljana, Slovenija.
 
@@ -1500,7 +1500,7 @@ Content-Type: text/html; charset=ISO-8859-2
 
 Kot vidite, morate v datoteko vkljuciti tudi tromestno odzivno kodo
 streznika. Streznik <em>vedno</em> doda polji <tt>Date:</tt> in
-<tt>Server:</tt>, zato teh ne smemo vkljuciti v datoteko.
+<tt>Server:</tt>, zato the ne smemo vkljuciti v datoteko.
 
 <sect3>Znacka &lt;META&gt; z oznacbo HTTP-EQUIV
 <p>
@@ -1508,9 +1508,9 @@ V dolocilu HTTP 2.0 predlagana znacka <tt>&lt;META&gt;</tt> z oznacbo
 <tt>HTTP-EQUIV</tt> je bila predlagana kot neobvezna metoda, s katero
 lahko streznik potegne dodatno metainformacijo iz zaglavja
 (<tt>&lt;HEAD&gt;</tt>) spletnega spisa in jo uporabi pri tvorjenju
-glave MIME. Piscu teh vrstic ni znano, da bi kateri streznik to v
+glave MIME. Piscu the vrstic ni znano, da bi kateri streznik to v
 resnici tudi pocel. Tovrstno razclenjevanje spletnih spisov verjetno
-predstavlja preveliko obremenitev za procesor in bi se mocno poznalo
+predstavlja preveliko obremenitev za processor in bi se mocno poznalo
 pri odzivnosti spletnega streznika. Pac pa so namesto tega zaceli to
 informacijo uporabljati spletni brskalniki (Netscape Navigator, na
 primer, to pocenja od izdaje 2.0 dalje).
@@ -1539,7 +1539,7 @@ TCP/IP delamo na drugem racunalniku.
 Tezave z osembitnimi znaki pri tem so redko posledica napacne
 nastavitve v maloprej omenjenih programov, saj privzeti
 nastavitvi pri obeh podpirata osembitne znake. V primeru tezav
-se poleg teh programov splaca pogledati se
+se poleg the programov splaca pogledati se
 <itemize>
 <item>nastavitev ukazne lupine (poglavje <ref id="shell" name="Ukazne lupine">)
 <item>nastavitev terminala (fizicnega ali virtualnega).
@@ -1586,14 +1586,14 @@ Poslovenjenje paketa LaTeX obsega
 <item>7- in 8-bitni nacin vnosa nasih znakov
 <item>nacin izpisa nasih znakov
 <item>poslovenjenje izpisov ``Contents'', ``Figure'' ipd.
-<item>slovenska pravila za deljenje besed
+<item>slovenska pravila za deljenje based
 <item>prilagoditev programa LyX: vizualnega okolja za vnos besedil v
 LaTeX in Linuxdoc DTD
 </itemize>
 Urejanje stvarnega kazala po slovenski abecedi zaenkrat se ne gre
 avtomaticno. Pokazemo, kako lahko tezavo z nekaj truda obvozimo.
 
-Podporo za neangleske jezike v LaTeXu je poenotil paket <tt>babel</tt>
+Podporo za neangleske jezike v LaTeXu je poenotil packet <tt>babel</tt>
 Johannesa Braamsa z Nizozemske, ki je standardni del vseh sodobnih
 distribucij paketa TeX na Linuxu, kot sta teTeX in NTeX:
 <tscreen>
@@ -1603,9 +1603,9 @@ distribucij paketa TeX na Linuxu, kot sta teTeX in NTeX:
 
 Z uporabo izbire ``slovene'' v paketu <tt>babel</tt> se avtomaticno
 izberejo slovenska imena pod- in nadnapisov, naslovov ipd., slovenska
-pravila za zlogovanje besed (ce imamo namescene slovenske zlogovalne
+pravila za zlogovanje based (ce imamo namescene slovenske zlogovalne
 vzorce; poglavje <ref id="zlogovanje" name="Slovenska pravila za
-deljenje besed">), in 7-bitni nacin vnosa znakov <tt>"c"s"z</tt>:
+deljenje based">), in 7-bitni nacin vnosa znakov <tt>"c"s"z</tt>:
 <tscreen><verb>
 \usepackage[slovene]{babel}
 </verb></tscreen>
@@ -1637,20 +1637,20 @@ uporabiti mehanizma <tt>inputenc</tt>. Pomagamo si s stilom
 ...
 &bsol;end{document}
 </code>
-Stil <tt>latin2</tt> je na voljo na vseh streznikih CTAN, npr.
+Still <tt>latin2</tt> je na voljo na vseh streznikih CTAN, npr.
 <tscreen>
 <url url="ftp://ftp.dante.de/tex-archive/macros/latex209/contrib/latin2/">
 </tscreen>
 
-<sect2>Slovenska pravila za deljenje besed<label id="zlogovanje">
+<sect2>Slovenska pravila za deljenje based<label id="zlogovanje">
 <p>
-Datoteko s slovenskimi pravili za zlogovanje besed je v okviru svoje
+Datoteko s slovenskimi pravili za zlogovanje based je v okviru svoje
 diplomske naloge leta 1990 izdelal Matjaz Vrecko, in jo predal v last
 slovenskemu drustvu uporabnikov sistema TeX (TeXCeH). Na voljo je za
 individualno uporabo brez namena pridobivanja premozenjske koristi. Od
 leta 1995 dalje zanjo skrbi dr. Leon Zlajpah z IJS, ki jo je
 posredoval tudi skrbniku sistema sistema <tt>babel</tt> za tujejezicno
-podporo v sistemu TeX, Johannesu Braamsu. Sistem <tt>babel</tt>
+podporo v sistemu TeX, Johannesu Braamsu. System <tt>babel</tt>
 praviloma dobimo skupaj z distribucijo sistema TeX. Trenutno zadnja
 izdaja je 2.3, datirana 1997-04-15.
 
@@ -1671,7 +1671,7 @@ tem znanjem v datoteki <file>language.dat</file> pobrisemo komentar
 in zapustimo urejevalnik. Program <tt>texconfig</tt> bo avtomaticno
 ustvaril nove formatne datoteke z vgrajenimi delilnimi vzorci.
 
-Pisec teh vrstic je imel nepojasnjene tezave z datoteko
+Pisec the vrstic je imel nepojasnjene tezave z datoteko
 <file>sihyph22.tex</file>, ki so enako cudezno izginile, ko mu je
 dr. Zlajpah poslal novo izdajo slovenskih delilnih vzorcev. Dobimo jo
 lahko na <htmlurl
@@ -1714,7 +1714,7 @@ naslednjo vrstico:
 \font_norm iso8859-2
 </verb></tscreen>
 
-<item>Odpremo (nek) dokument in izberemo:
+<item>Odpremo (nek) document in izberemo:
 <tscreen><verb>
 Layout / Document / Language = slovene
 Layout / Document / Encoding = latin2
@@ -1873,7 +1873,7 @@ Groff nudi precej omejeno podporo za nase znake. Pri izpisu na zaslon
 osembitnimi znaki ISO Latin 2, programu pa lazemo (izbira
 <tt>-Tlatin1</tt>), da so kodirani po razporedu ISO Latin 1.
 
-Henryk Paluch je napisal paket <tt>groff-latin2</tt>, s katerim lahko
+Henryk Paluch je napisal packet <tt>groff-latin2</tt>, s katerim lahko
 nase znake vnasamo kot makroukaze, na primer:
 <tscreen><verb>
 \('a    a z ostrivcem
@@ -1883,9 +1883,9 @@ nase znake vnasamo kot makroukaze, na primer:
 Izpis v obliki PostScript v casu pisanja tega spisa se vedno ne
 deluje, ceprav bi se mehanizme iz paketa ``ogonkify'' Juliusza
 Chroboczka podobno kot v programu ``a2ps'' verjetno dalo uporabiti
-tudi tu. Se najvecji problem je verjetno ta, da je paket ``groff''
+tudi tu. Se najvecji problem je verjetno ta, da je packet ``groff''
 osirotel, saj ga prvotni avtor, James Clark, ne vzdrzuje vec.
-Za paket <tt>groff-latin2</tt> zdaj skrbi Jan Kasprzak
+Za packet <tt>groff-latin2</tt> zdaj skrbi Jan Kasprzak
 &lt;kas@fi.muni.cz&gt;, najdete ga na
 <tscreen>
 <url url="ftp://ftp.fi.muni.cz/pub/localization/groff/">
@@ -1923,8 +1923,8 @@ manjka pa mu slovenski besedni zaklad. Tega najdete v datoteki
 </tscreen>
 Arhivska datoteka vsebuje dve datoteki, <file>slovensko.hash</file> in
 <file>slovensko.aff</file>. Postavimo ju tja, kjer Ispell ze hrani
-leksikone za ostale jezike. Pri piscu teh vrstic je to
-<file>/usr/lib/ispell/</file>; ce pri vas ni, si lahko morda pomagate
+leksikone za ostale jezike. Pri piscu the vrstic je to
+<file>/usr/lib/ispell/</file>; ce pri was ni, si lahko morda pomagate
 s tem, da s <file>find</file> poskusite poiskati datoteko
 <file>english.aff</file>. Osnovni slovenski leksikon izvira iz baze,
 ki jo je podjetje Amebis d.o.o. prispevalo za mednarodni projekt
@@ -1952,7 +1952,7 @@ poganja tudi spletni crkovalnik Trubar istega avtorja:
 <sect1>Pretvarjanje med razlicnimi kodiranji<label id="recode">
 <p>
 Razen ISO Latin 2 vsebuje vse nase znake se nekaj drugih naborov:
-Microsoft Codepage 1250, IBM Codepage 852, JUS I.B1.002, Apple 
+Microsoft Codepage 1250, IBM Codepage 852, JUST I.B1.002, Apple 
 MacOS-CE, Apple MacOS-Croatian, Kamenicky, ISO Latin 4, ISO Latin 6,
 ISO Latin 7 itd.  
 
@@ -1969,7 +1969,7 @@ Uporaba je enostavna:
 <quote>
 <tt>recode yu:latin2 <em>datoteka</em></tt>
 </quote>
-pretvori datoteko iz kodnega nabora JUS I.B1.002 v kodni nabor
+pretvori datoteko iz kodnega nabora JUST I.B1.002 v kodni nabor
 ISO Latin 2.  Kot obicajno izda tudi tu izbira <tt>--help</tt> 
 se dodatne moznosti.
 
@@ -2010,7 +2010,7 @@ Vsi nabori iz druzine ISO 8859 imajo osem binarnih znakov
 (posebnih znakov, ki jih praviloma ni v besedilih), tri kontrolne
 znake, binarni znak, dva kontrolna znaka, osemnajst binarnih
 znakov, 95 navadnih znakov, 33 binarnih znakov, in normalne znake
-do konca tabele.
+do konca table.
 
 <sect2>Koledar gcal<label id="gcal">
 <p>
@@ -2034,7 +2034,7 @@ Pri tiskanju lahko naletimo na razlicne situacije:
 <itemize>
 <item>Tiskalnik neposredno podpira ISO Latin 2
 <item>Tiskalnik podpira enega od ostalih osembitnih naborov z nasimi
-      znaki (npr. kodno stran 852), ali pa sedembitni nabor JUS I.B1.002
+      znaki (npr. kodno stran 852), ali pa sedembitni nabor JUST I.B1.002
 <item>Tiskalnik razume PostScript
 <item>Tiskalnik ne podpira nicesar drugega razen ASCII
 </itemize>
@@ -2088,12 +2088,12 @@ id="tisk-cp">
 <p>
 Ce tiskalnik podpira kak drug nabor z nasimi znaki (ne dolgo nazaj 
 je bila ustaljena praksa, da je bil ROM v tiskalnikih zamenjan z
-EPROM, v njem pa svedski znaki zamenjani z znaki po JUS I.B1.002),
+EPROM, v njem pa svedski znaki zamenjani z znaki po JUST I.B1.002),
 lahko s primerno nastavitvijo v <file>/etc/printcap</file> se vedno 
 tiskamo spise, kodirane po ISO Latin 2.
 
 Primerno moramo dopolniti datoteko <file>/etc/printcap</file>.  Za zgled
-si oglejmo tiskalnik Epson, ki ima znake po JUS I.B1.002 na mestu 
+si oglejmo tiskalnik Epson, ki ima znake po JUST I.B1.002 na mestu 
 svedskega nabora.
 <code>
 lp|ascii|epson|Epson LQ-850:\
@@ -2102,9 +2102,9 @@ lp|ascii|epson|Epson LQ-850:\
         :lf=/usr/spool/lpd/ERRORLOG:\
         :mx&num;0:\
         :sh:
-jus|Epson LQ-850 z znaki JUS I.B1.002:\
+just|Epson LQ-850 z znaki JUST I.B1.002:\
         :lp=/dev/null:\
-        :sd=/usr/spool/lpd/jus:\
+        :sd=/usr/spool/lpd/just:\
         :if=/usr/spool/lpd/jus_filter:\
         :lf=/usr/spool/lpd/ERRORLOG:\
         :mx&num;0:\
@@ -2134,18 +2134,18 @@ v ameriski nabor.  To je tudi edini del programja, ki je odvisen
 od vrste tiskalnika:
 <code>
 &num;!/bin/sh
-&num; Tiskanje besedil kodiranih po JUS I.B1.002 na tiskalnik Epson LQ
+&num; Tiskanje besedil kodiranih po JUST I.B1.002 na tiskalnik Epson LQ
 &num;
 &num; Izberemo slovenski (svedski) nabor
 /bin/echo -ne "\033R\005\c"
-&num; Izpisemo dokument
+&num; Izpisemo document
 cat
 &num; Izberemo ameriski nabor
 /bin/echo -ne "\033R\000\c"
 </code>
 
 Tretja vrsta uporablja podoben filter kot druga, le da ta najprej
-pretvori besedilo iz Latin 2 v JUS, zatem uporabi ze opisani
+pretvori besedilo iz Latin 2 v JUST, zatem uporabi ze opisani
 filter za to, da doda na zacetku in na koncu potrebno kodo za
 tiskalnik, in koncno t&aacute;ko datoteko postavi v prvo vrsto.
 <code>
@@ -2156,11 +2156,11 @@ tiskalnik, in koncno t&aacute;ko datoteko postavi v prvo vrsto.
 Zgled predpostavlja, da je pot do programa recode
 <file>/usr/local/bin/recode</file>.  Izbiro <tt>--force</tt> moramo
 uporabiti, ker je preslikava neobrnljiva -- v Latin 2 imamo tako 
-sumnike kot zavite oklepaje, v JUS pa samo se prve.
+sumnike kot zavite oklepaje, v JUST pa samo se prve.
 
 Za ta zgled smo morali v imeniku <file>/usr/spool/lpd</file>
 ustvariti tri podimenike: <file>/usr/spool/lpd/epson</file>,
-<file>/usr/spool/lpd/jus</file> in <file>/usr/spool/lpd/latin2</file>.
+<file>/usr/spool/lpd/just</file> in <file>/usr/spool/lpd/latin2</file>.
 
 Tiskanje gre zdaj tako:
 <enum>
@@ -2172,7 +2172,7 @@ ASCII:
 </quote>
 
 <item>Z izbiro <tt>-Pjus</tt> se datoteka odtisne kot besedilo, 
-kodirano po JUS I.B1.002:
+kodirano po JUST I.B1.002:
 <quote>
 <tt>lpr -Pjus <em>datoteka</em></tt>
 </quote>
@@ -2260,7 +2260,7 @@ ASCII razsirjen z gradniki sestavljenih znakov: stresica, ostrivec,
 diereza, sedij itd. -- vsi so tam. Jezik PostScript pa omogoca
 definiranje sestavljenih znakov. Vse skupaj je cakalo samo se nekoga,
 ki bo definiral sestavljene znake za kodni nabor ISO Latin 2. Ta nekdo
-je bil Juliusz Chroboczek, ki je napisal paket <htmlurl
+je bil Juliusz Chroboczek, ki je napisal packet <htmlurl
 url="http://www.dcs.ed.ac.uk/home/jec/programs/ogonkify/"
 name="ogonkify">.
 
@@ -2372,7 +2372,7 @@ naslovu
 <tscreen>
 <url url="http://domen.uninett.no:29659/bycountry/SI.html">
 </tscreen>
-Ce vas ni med njimi, se prijavite!
+Ce was ni med njimi, se prijavite!
 <tscreen>
 <url url="http://domen.uninett.no:29659/">
 </tscreen>
@@ -2532,7 +2532,7 @@ Ales Casar <tt/&lt;casar@uni-mb.si&gt;/,
 Tomaz Erjavec <tt/&lt;tomaz.erjavec@ijs.si&gt;/,
 Matjaz Godec <tt/&lt;gody@elgo.si&gt;/,
 Ales Kosir <tt/&lt;ales.kosir@hermes.si&gt;/,
-Metod Kozelj <tt/&lt;metod.kozelj@rzs-hm.si&gt;/,
+Method Kozelj <tt/&lt;method.kozelj@rzs-hm.si&gt;/,
 Renato Lukac <tt/&lt;renato@s-gms.ms.edus.si&gt;/,
 Roman Maurer <tt/&lt;roman.maurer@fmf.uni-lj.si&gt;/,
 Jaka Mele <tt/&lt;jack@ro.zrsss.si&gt;/,
@@ -2551,7 +2551,7 @@ popraviti do naslednje izdaje.
 
 <sect2>Se pravi Slovenian ali Slovene?<label id="faq:sl">
 <p>
-Mnenja so deljena. Pisec teh vrstic se je pozanimal pri strokovnjakih
+Mnenja so deljena. Pisec the vrstic se je pozanimal pri strokovnjakih
 s tega podrocja, ki so ga le potrdili v tem, da so mnenja <bf>res</bf>
 deljena. Slovnicno je pravilno eno ali drugo, odlocitev za eno ali
 drugo varianto je zaenkrat bolj domena jezikovne estetike. Iz
@@ -2563,10 +2563,10 @@ nadaljnjega tudi ostalo.
 Cel spis govori o tem, kako pridemo do nasih znakov, sam jih pa
 nima. Kako to?
 
-Kovaceva kobila... Sistem SGML-Tools (nekdaj Linuxdoc-SGML), ki je
+Kovaceva kobila... System SGML-Tools (nekdaj Linuxdoc-SGML), ki je
 uradni standard za dokumentacijo HOWTO, zaenkrat podpira samo Latin
 1. Cees de Groot, vzdrzevalec paketa SGML-Tools, kot tudi Tim Bynum,
-urednik zbirke HOWTO, se tezave zavedata. Pisec teh vrstic v upanju na
+urednik zbirke HOWTO, se tezave zavedata. Pisec the vrstic v upanju na
 boljse case pise v Latin-2; preden poslje material uredniku, pa poreze
 kljukice nad sumevci. Za domaco rabo pa lahko malo pogoljufamo in
 paketu <tt>sgmltools</tt> lazemo, da so osembitni znaki kodirani po

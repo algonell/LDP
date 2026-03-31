@@ -721,7 +721,7 @@ ATA-RAID-HOWTO</ULink>,
 <CiteTitle>Updated: May 2002</CiteTitle>.
 Explains how to install Linux on an Intel
 Pentium compatible computer with an ATA RAID Controller (onboard chip
-or seperate card), single or multiple processors and at least two hard
+or separate card), single or multiple processors and at least two hard
 disks. </Para>
 </ListItem>
 
@@ -936,12 +936,12 @@ for internet access using a cable network. </Para>
 
 <ListItem>
 <Para>
-<ULINK URL="../Conexant+Rockwell-modem-HOWTO/index.html">
-Conexant+Rockwell-modem-HOWTO</ULink>,
-<CiteTitle>Conexant/Rockwell modem HOWTO</CiteTitle>
+<ULINK URL="../Connexant+Rockwell-modem-HOWTO/index.html">
+Connexant+Rockwell-modem-HOWTO</ULink>,
+<CiteTitle>Connexant/Rockwell modem HOWTO</CiteTitle>
 </Para><Para>
 <CiteTitle>Updated: Mar 2002</CiteTitle>.
-A guide to using Conexant and Rockwell chipset based 
+A guide to using Connexant and Rockwell chipset based 
 Software modems under Linux. </Para>
 </ListItem>
 

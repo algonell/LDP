@@ -25,7 +25,7 @@ Why this document was written.
 I got my hands on two elderly laptops, both with just 4mb RAM and small
  (&lt;=200mb) hard drives. I wanted to install Linux on them. The documentation
  for this kind of laptop all recommends installing either a mini-Linux or an
- old (and therefor compact) version of one of the professional distributions.
+ old (and therefore compact) version of one of the professional distributions.
  I wanted to install an up-to-date professional distribution.
  </p>
  <sect1>
@@ -289,7 +289,7 @@ This procedure requires at least two Linux Native partitions in addition
  to a Swap partition. Since one of the ext2 partitions will be in use as temporary
  root during the installation it will not be available as a target partition
  and so should be small - though no smaller than 5mb. It makes sense to create
- for this a partition that you will re-use as /home after installation is complete.
+ for this a partition that you will reuse as /home after installation is complete.
  Another option would be to re-create it as a DOS partition to give you a dual
  boot laptop.
  </p>
@@ -430,7 +430,7 @@ Trying to mount ext2 disks formatted using a modern Linux system can generate
 It is not wise to use the mkfs.ext2 that comes with the mini-Linux to create
  file-systems on the partitions into which SlackWare will be installed. It should
  only be used to create the file-system on the temporary root partition. Once
- installation is complete this partition can be reformatted and re-used.
+ installation is complete this partition can be reformatted and reused.
  </itemize>
 </p> <sect2>
 Procedure
@@ -561,7 +561,7 @@ In this section Slackware asks which partitions will be mounted as what
 The safest bet here is to leave your temporary root partition out altogether
  and just edit fstab later once you know you don't need it for it's temporary
  purpose anymore. If you're going to reuse it as /home then it is OK to designate
- it as /home - obviously, don't format it now! If you intend to re-use it as
+ it as /home - obviously, don't format it now! If you intend to reuse it as
  a part of the directory structure that will have files placed in it during
  installation (/var, for example) then you absolutely must ignore it in this
  step: after the installation is complete you can move the files across.
@@ -680,14 +680,14 @@ If you made the changes recommended in section <ref id="sec:prebootconfig" name=
  that everything is functioning properly. 
  </p>
  <sect2>
-Re-use the temporary root.
+Reuse the temporary root.
  <p>
 Once you are sure the installation is solid you can reclaim the partition
  you used as the temporary root. Don't just delete the contents, reformat the
  filesystem. Remember, the mke2fs that came with the mini-Linux is out of date.
  </p>
  <p>
-If you intend to re-use this partition as /home, remember not to create
+If you intend to reuse this partition as /home, remember not to create
  any user accounts until you have completed this step.
  </p>
  <sect2>

@@ -123,7 +123,7 @@ sh# killall -USR1 xfs
 	<step>
 	  <para>Skopírujte súbory s <application>TrueType</application> fontami napr. do adresára
 	    <filename class="directory">/usr/share/fonts/ttf/win/</filename>. Odporúèam zmeni»
-	    mená súborov s fontami aj ich prípony na malé písmená -- mal som s tým
+	    mená súborov s fontami aj ich prípony na malé písmená -- mal some s tým
 	    problémy.</para>
 	</step>
 
@@ -565,7 +565,7 @@ name[Group2] = "Slovak";
       </step>
     </procedure>
       
-    <para>E¹te by som rád pripomenul, ¾e nie v¹etky my¹i sú rovnako odolné voèi zmenám národného
+    <para>E¹te by some rád pripomenul, ¾e nie v¹etky my¹i sú rovnako odolné voèi zmenám národného
       prostredia a preto sa v¾dy pri kúpe my¹i informujte na mo¾nosti poslovenèovania toho ktorého
       výrobku.</para>
   </section> <!-- xwindow-mouse -->

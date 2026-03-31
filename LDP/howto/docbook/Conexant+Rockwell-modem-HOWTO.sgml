@@ -5,7 +5,7 @@
 <article id="Conexant-Rockwell-modem-HOWTO" lang="en">
 
 <articleinfo>
-<title>Conexant/Rockwell modem HOWTO</title>
+<title>Connexant/Rockwell modem HOWTO</title>
 <authorgroup>
 <author>
 <firstname>Imran</firstname>
@@ -19,7 +19,7 @@
 </legalnotice>
 
 <keywordset>
-<keyword>Conexant</keyword>
+<keyword>Connexant</keyword>
 <keyword>SoftK56</keyword>
 <keyword>Rockwell</keyword>
 <keyword>Modem</keyword>
@@ -74,7 +74,7 @@
 
 <abstract>
 <para>
-A guide to using Conexant and Rockwell chipset based Software modems under Linux.
+A guide to using Connexant and Rockwell chipset based Software modems under Linux.
 </para>
 </abstract>
 
@@ -87,16 +87,16 @@ A guide to using Conexant and Rockwell chipset based Software modems under Linux
 <title>Purpose of the howto</title>
 
 <para>
-If you've got a Rockwell or Conexant chipset based modem and you can't seem to get the modem to work with Linux, then you've come to the right place. Chances are that you've got a Software modem (also known as a "winmodem") and you'll need a driver to get the modem working under Linux.
+If you've got a Rockwell or Connexant chipset based modem and you can't seem to get the modem to work with Linux, then you've come to the right place. Chances are that you've got a Software modem (also known as a "winmodem") and you'll need a driver to get the modem working under Linux.
 </para>
 
 <para>
-If you've got a Software modem whose chipset is not made by Conexant or Rockwell then you should see the <ulink url="http://www.linuxdoc.org/HOWTO/Linmodem-HOWTO.html"><citetitle>linmodem howto</citetitle></ulink>.
+If you've got a Software modem whose chipset is not made by Connexant or Rockwell then you should see the <ulink url="http://www.linuxdoc.org/HOWTO/Linmodem-HOWTO.html"><citetitle>linmodem howto</citetitle></ulink>.
 
 </para>
 
 <para>
-Note that this guide has no information about using Conexant/Rockwell modems for operating systems other then Linux except for the following: There are no known drivers for FreeBSD or BeOS, Windows drivers can be obtained from Conexant.
+Note that this guide has no information about using Connexant/Rockwell modems for operating systems other then Linux except for the following: There are no known drivers for FreeBSD or BeOS, Windows drivers can be obtained from Connexant.
 </para>
 </sect2>
 
@@ -104,8 +104,8 @@ Note that this guide has no information about using Conexant/Rockwell modems for
 <title>About the howto</title>
 
 <para>
-This HOWTO originally started out as a website about installing Conexant HSF modems under linux, but after several months of being online the number of hits on the website was rapidly growing (100 hits/day at time of writing this HOWTO) and so were the number of requests for information about Rockwell/Conexant modems that were being posted to the linmodem mailing list, usenet and various web based forums. This lead me to decide that the information needed another distribution medium which would be more accessible to users. The result of this was this HOWTO which has expanded to include a far larger range of information then the original website had, in order to cover all the questions being asked on the internet.</para>
-<para> At the same time as the increase in demand for information about Rockwell/Conexant modems under linux a number of non-english webpages appeared explaining how to setup the drivers in languages as diverse as Portuguese and Japanese, these webpages often lacked all the current information which was available making it harder for users to get their modems to work. I decided to release this HOWTO under the GNU Free Documentation License, so that native speakers of other language can translate this document into their own language and redistribute it freely, thus ensuring that all users get all the information regardless of what language they speak. If you're interested in making a translation of this HOWTO please contact me.</para>
+This HOWTO originally started out as a website about installing Connexant HSF modems under linux, but after several months of being online the number of hits on the website was rapidly growing (100 hits/day at time of writing this HOWTO) and so were the number of requests for information about Rockwell/Connexant modems that were being posted to the linmodem mailing list, usenet and various web based forums. This lead me to decide that the information needed another distribution medium which would be more accessible to users. The result of this was this HOWTO which has expanded to include a far larger range of information then the original website had, in order to cover all the questions being asked on the internet.</para>
+<para> At the same time as the increase in demand for information about Rockwell/Connexant modems under linux a number of non-english webpages appeared explaining how to setup the drivers in languages as diverse as Portuguese and Japanese, these webpages often lacked all the current information which was available making it harder for users to get their modems to work. I decided to release this HOWTO under the GNU Free Documentation License, so that native speakers of other language can translate this document into their own language and redistribute it freely, thus ensuring that all users get all the information regardless of what language they speak. If you're interested in making a translation of this HOWTO please contact me.</para>
 
 <para>
 The HOWTO assumes a basic knowledge of Linux, you should be familiar with the basics of how to use a console/terminal, how to use common commands like less and be familiar with a text editor.When the howto needs you to type something in at the console, the console prompt will look like this: '<prompt>&pt;</prompt>'
@@ -148,7 +148,7 @@ Thanks to:</para>
 
 <listitem>
 <para>
-Olitec for distributing and Conexant for producing the original HSF driver
+Olitec for distributing and Connexant for producing the original HSF driver
 </para>
 </listitem>
 <listitem>
@@ -195,7 +195,7 @@ If you want to talk to someone real time your best bet is the #SoftModems channe
 <term>Newsgroups</term>
 <listitem>
 <para>
-The newsgroups <ulink url="news://comp.os.linux.hardware"><citetitle>comp.os.linux.hardware</citetitle></ulink> and <ulink url="news://comp.os.linux.setup"><citetitle>comp.os.linux.setup</citetitle></ulink> often have people familiar with software modems. If you speak Italian the newsgroup <ulink url="news://it.comp.os.linux.iniziare"><citetitle>it.comp.os.linux.iniziare</citetitle></ulink> has people familiar with Conexant/Rockwell neewsgroups.
+The newsgroups <ulink url="news://comp.os.linux.hardware"><citetitle>comp.os.linux.hardware</citetitle></ulink> and <ulink url="news://comp.os.linux.setup"><citetitle>comp.os.linux.setup</citetitle></ulink> often have people familiar with software modems. If you speak Italian the newsgroup <ulink url="news://it.comp.os.linux.iniziare"><citetitle>it.comp.os.linux.iniziare</citetitle></ulink> has people familiar with Connexant/Rockwell neewsgroups.
 </para>
 </listitem>
 </varlistentry>
@@ -211,7 +211,7 @@ Remember when asking for help to include your modems Device ID, Vendor ID and an
 <title>Quick Start guide</title>
 <para> This section tries to get you up and running as soon as possible, if you can follow the steps given in this section and they work for you, you can ignore the rest of this howto. This section is updated more often then the rest of the HOWTO so will contain the most up to date information.</para>
 
-<para>First you need to find out if your modem is an HSF or HCF modem. You can find out from your modem by looking at it's Windows drivers or looking at the label on it's chipset, or alternatively you can download the <ulink url="http://www.conexant.com/customer/md_driverassistance.html"><citetitle>ListModem</citetitle></ulink> utility and run it to get the information.
+<para>First you need to find out if your modem is an HSF or HCF modem. You can find out from your modem by looking at it's Windows drivers or looking at the label on it's chipset, or alternatively you can download the <ulink url="http://www.connexant.com/customer/md_driverassistance.html"><citetitle>ListModem</citetitle></ulink> utility and run it to get the information.
 
 Drivers are available for both types, but the HSF driver is further into development then the HCF driver so is likely to be more advanced for now. Expect the HCF driver to come out of beta sometime mid-year(2002).
 
@@ -272,7 +272,7 @@ Run the program <command>hcfconfig</command> and just follow the on-screen instr
 <para>You will now be able to setup your internet connection software, you may need to tell it that your modem can be found at <filename>/dev/modem</filename>. If your internet connection software can't access it you may need to change the permissions on it.</para>
 
 <para>
-[Technical note: If you have an older modem, i.e one with the Rockwell brand name rather then Conexant then you will not be able to use this driver at present. You will also not be able to use modems which use SmartDAA. See <ulink url="http://www.mbsi.ca/hcflinux/latest/BUGS.txt"><citetitle>http://www.mbsi.ca/hcflinux/latest/BUGS.txt</citetitle></ulink> for updates.]
+[Technical note: If you have an older modem, i.e one with the Rockwell brand name rather then Connexant then you will not be able to use this driver at present. You will also not be able to use modems which use SmartDAA. See <ulink url="http://www.mbsi.ca/hcflinux/latest/BUGS.txt"><citetitle>http://www.mbsi.ca/hcflinux/latest/BUGS.txt</citetitle></ulink> for updates.]
 </para>
 </sect2>
 </sect1>
@@ -287,7 +287,7 @@ The first task you will need to do is to identify whether your modem's chipset i
 <orderedlist numeration="arabic">
 <listitem>
 <para>
-If you've got your modem working under Windows then you can identify your chipset by downloading and running <ulink url="http://www.conexant.com/customer/md_driverassistance.html"><citetitle>Conexant's ListModem Application</citetitle></ulink>. When you run it, the program will give the information we want under "MODEM TYPE".
+If you've got your modem working under Windows then you can identify your chipset by downloading and running <ulink url="http://www.connexant.com/customer/md_driverassistance.html"><citetitle>Conexant's ListModem Application</citetitle></ulink>. When you run it, the program will give the information we want under "MODEM TYPE".
 </para>
 </listitem>
 
@@ -299,7 +299,7 @@ If you've opened your computer up chances are that the modem's chipset will have
 
 <listitem>
 <para>
-You can identify your type of modem from it's device ID and vendor ID, the easiest way get this information is from the command <command>lspci -n</command> (or <command>less /proc/pci</command> on older Linux distributions) this command tells you all of the Vendor IDs and Devices IDs for all of the PCI cards in your machine. You will be able to identify your modems' IDs as it will have a vendor ID of either 14F1 (Conexant) or 127A (Rockwell). Ignore any information that the lspci command tells you about your modem being a HSF or HCF as it could be wrong.
+You can identify your type of modem from it's device ID and vendor ID, the easiest way get this information is from the command <command>lspci -n</command> (or <command>less /proc/pci</command> on older Linux distributions) this command tells you all of the Vendor IDs and Devices IDs for all of the PCI cards in your machine. You will be able to identify your modems' IDs as it will have a vendor ID of either 14F1 (Connexant) or 127A (Rockwell). Ignore any information that the lspci command tells you about your modem being a HSF or HCF as it could be wrong.
 </para>
 <para>The information is often presented in the form VVVV:DDDD where VVVV is the vendor ID and DDDD is the device ID, for instance if it listed 127a:2005 it would mean the that the Vendor ID is 127a and device ID is 2005.</para>
 
@@ -335,7 +335,7 @@ If you have a HCF or SmartHCF modem goto to the <link linkend="hcf">HCF section<
 <title>History</title>
 
 <para>
-Unfortunately at the present time there is no HCF modem driver for linux. Conexant have indicated in section 11 of their FAQ (<ulink url="http://www.conexant.com:80/cnxt/customer/md_faqs.htm"><citetitle>http://www.conexant.com:80/cnxt/customer/md_faqs.htm</citetitle></ulink>) that they are currently developing one.
+Unfortunately at the present time there is no HCF modem driver for linux. Connexant have indicated in section 11 of their FAQ (<ulink url="http://www.connexant.com:80/cnxt/customer/md_faqs.htm"><citetitle>http://www.connexant.com:80/cnxt/customer/md_faqs.htm</citetitle></ulink>) that they are currently developing one.
 </para>
 
 <para>
@@ -376,7 +376,7 @@ If you wish to embark on writing your own driver you might find the following fi
 <term>Designers notes and specifications</term>
 <listitem>
 <para>
-<ulink url="http://www.unitronic.de/Hersteller/conexant/Modem.htm"><citetitle>http://www.unitronic.de/Hersteller/conexant/Modem.htm
+<ulink url="http://www.unitronic.de/Hersteller/connexant/Modem.htm"><citetitle>http://www.unitronic.de/Hersteller/connexant/Modem.htm
 </citetitle>
 </ulink></para>
 </listitem>
@@ -391,10 +391,10 @@ If you wish to embark on writing your own driver you might find the following fi
 <sect2 id="hsf-history">
 <title>History</title>
 <para>
-A HSF driver first appeared out of the blue in mid-2000 when Olitec released unto the world a binary only driver for their Olitec PCI modem for 2.2.14 kernel, it wasn't long before someone realized that the Olitec modem was based on the Rockwell/Conexant HSF Chipset. Inquiries to Olitec revealed that the driver should work with any HSF chipset as there was nothing in the driver that was specific to the Olitec modems. Many people tried to get the driver to work with non-Olitec modem unfortunately without success, however a few months later and after many hours of work by many people trying a variety of tricks to get the driver to work, several people managed to stumble across the solution. It was a simple one line change to file which solved the problem and the world was left with a working HSF driver, at the time it only worked on 2.2.14 Kernels and Olitec had refused to release the source code to let others try to get it to work with other kernels.
+A HSF driver first appeared out of the blue in mid-2000 when Olitec released unto the world a binary only driver for their Olitec PCI modem for 2.2.14 kernel, it wasn't long before someone realized that the Olitec modem was based on the Rockwell/Connexant HSF Chipset. Inquiries to Olitec revealed that the driver should work with any HSF chipset as there was nothing in the driver that was specific to the Olitec modems. Many people tried to get the driver to work with non-Olitec modem unfortunately without success, however a few months later and after many hours of work by many people trying a variety of tricks to get the driver to work, several people managed to stumble across the solution. It was a simple one line change to file which solved the problem and the world was left with a working HSF driver, at the time it only worked on 2.2.14 Kernels and Olitec had refused to release the source code to let others try to get it to work with other kernels.
 </para>
 <para>
-A few months later Olitec released the driver for 2.2.16 and 2.2.17 kernels, this kept the HSF winmodem community satisfied until we came to the day when the 2.4 kernel was released. None of the previous drivers appeared to work with the 2.4 kernel and this caused problems for all those who wanted to upgrade and also for the large number of new users who were using 2.4.* kernel based distributions such as Mandrake 8 and RedHat 7.1. Not a word had been heard out of Olitec since the 2.4 kernel was released, but Conexant had announced that they intended to develop a Linux driver. After many months of waiting for a 2.4.* driver Marc Boucher decided to something about it and wrote a wrapper which allowed an old version of the driver to be used with 2.4.* kernels.
+A few months later Olitec released the driver for 2.2.16 and 2.2.17 kernels, this kept the HSF winmodem community satisfied until we came to the day when the 2.4 kernel was released. None of the previous drivers appeared to work with the 2.4 kernel and this caused problems for all those who wanted to upgrade and also for the large number of new users who were using 2.4.* kernel based distributions such as Mandrake 8 and RedHat 7.1. Not a word had been heard out of Olitec since the 2.4 kernel was released, but Connexant had announced that they intended to develop a Linux driver. After many months of waiting for a 2.4.* driver Marc Boucher decided to something about it and wrote a wrapper which allowed an old version of the driver to be used with 2.4.* kernels.
 </para><para>
 That's where we are now, Marc's wrapper is still in experimental development stage but it works and many people are using it to connect to the internet under Linux.
 </para><para>
@@ -415,7 +415,7 @@ From the history you'll understand why the next section has to be split into two
 <sect3 id="hsf-getting-ids">
 <title>Getting IDs</title>
 	<para>
-	To get the modem to work you'll need to get the Vendor ID and Device ID. The easiest way to do this is to use the command "<command>less /proc/pci</command>" and scroll until you find the PCI card which has a vendor ID of either 14F1 (Conexant) or 127A (Rockwell) and note the Device ID.
+	To get the modem to work you'll need to get the Vendor ID and Device ID. The easiest way to do this is to use the command "<command>less /proc/pci</command>" and scroll until you find the PCI card which has a vendor ID of either 14F1 (Connexant) or 127A (Rockwell) and note the Device ID.
 </para>
 <para>
 	You'll need to make an %HSFModem% line.
@@ -487,7 +487,7 @@ From the history you'll understand why the next section has to be split into two
 	
 	cd pci_56k_v2
 
-	Load up the lin_hsf.inf file in your favourite text editor, under the section [generic] you'll see a few of lines like "%HSFModem%  = ModemX, PCI\VEN_127A&amp;DEV_1025&amp;SUBSYS_1025127A" under theses lines add your own %HSFModem% line which you made eariler.
+	Load up the lin_hsf.inf file in your favourite text editor, under the section [generic] you'll see a few of lines like "%HSFModem%  = ModemX, PCI\VEN_127A&amp;DEV_1025&amp;SUBSYS_1025127A" under theses lines add your own %HSFModem% line which you made earlier.
 	
 	Switch to root
 

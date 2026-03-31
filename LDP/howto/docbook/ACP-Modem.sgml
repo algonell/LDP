@@ -154,7 +154,7 @@ which include the on board ACP modem hardware. The latest version of
         central office from which your phone line is connected. The
         actual connection rate may be limited by the quality of your
         telephone lines. Telephone line quality may vary from location to location.
-        Current regulations limit maximum trasfer rates to 53K. While
+        Current regulations limit maximum transfer rates to 53K. While
         your modem contains 56K technology, typical maximum connection
         rates in the receive direction may be significantly less than
         56K. Currently, 56K capability is for the receive direction 
@@ -217,7 +217,7 @@ InternationsalRule=00EFG</programlisting>
 		<sect2 ID="Runtime">
 			<title>Runtime</title>
 			<para>An initialization script has been provided which may be used to 
-			to start, stop, or check the status of the ACP Modem driver and application. It has been successfully run on the Debian, Slackware, SuSE, and Red Hat distributions and should run on any of their derivitives.  If you are using
+			to start, stop, or check the status of the ACP Modem driver and application. It has been successfully run on the Debian, Slackware, SuSE, and Red Hat distributions and should run on any of their derivatives.  If you are using
 			the runtime script, it will load the mwave device driver module, configure the serial port, and start the mwave manager for you.
 			All of the options which can be passed to the device driver module, along with some options for the script itself,
 			can be configured by uncommenting and editing the appropriate
@@ -324,7 +324,7 @@ Mwave Modem, ERROR cannot perform Mwave Initialization retval fffffffb</programl
 For the UART: IRQ 3,  I/O address 0x2f8 (if using ttyS1)
 				  IRQ 4,  I/O address 0x3f8 (if using ttyS0)</programlisting> 
 
-				<para>For dual boot systems we recommeded that you use the Thinkpad&trade; Configuration Utility 
+				<para>For dual boot systems we recommended that you use the Thinkpad&trade; Configuration Utility 
 				on Windows NT or DOS to configure these system resources. </para>
 				<para>Windows NT Thinkpad Configuration Utility Notes:
         (Under the <emphasis>Internal Modem</emphasis> --> <emphasis>Advanced</emphasis> selection)</para>
@@ -396,12 +396,12 @@ For the UART: IRQ 3,  I/O address 0x2f8 (if using ttyS1)
 				<title>PPP Errors Using 2.4.0 Version of the Kernel</title>
 				 <para>When upgrading to the 2.4.0 version of the kernel be sure to read the
 					<filename>./Documentation/Changes </filename>file. Kernel 2.4.0 requires an upgraded
-					version of the pppd, gcc, and modutils (amoung other things).
+					version of the pppd, gcc, and modutils (among other things).
 					Follow the instructions for setting up the new pppd daemon
 					carefully.</para>
 				
 					<para>You may experience some initial problems getting ppp running with 2.4.0. One of the most
-					prevelant errors we received was, "Can't locate module tty-ldisc-3." However, we had no problems 
+					prevalent errors we received was, "Can't locate module tty-ldisc-3." However, we had no problems 
 					once we rebuilt the kernel with the following options:</para>
 	<programlisting>CONFIG_PPP=y
 CONFIG_PPP_ASYNC=m

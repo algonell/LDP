@@ -578,7 +578,7 @@ The menu line allows one to quit agui or select further actions or sub-menus.
 <item>&lsqb;Q&rsqb;uit: Exit the main screen and return to the husky prompt.
 <item>&lsqb;R&rsqb;aidSets: Enter the RaidSet configuration screen.
 <item>&lsqb;H&rsqb;ostports Enter the Host Port configuration screen.
-<item>&lsqb;S&rsqb;pares Enter the Spare Device configuration screen.
+<item>&lsqb;S&rsqb;pairs Enter the Spare Device configuration screen.
 <item>&lsqb;M&rsqb;onitor Enter the SCSI Monitor configuration screen.
 <item>&lsqb;G&rsqb;eneral Enter the General configuration/information screen.
 <item>&lsqb;P&rsqb;robe Re-probe the device backends on the RaidRunner. As each
@@ -678,7 +678,7 @@ The Host Port Configuration screen displays for each controller, each host
  not installed the changes you will be asked to confirm this. If you select
  Yes to continue the exit, all changes made since the last install action will
  be discarded.
-<item>&lsqb;I&rsqb;nstall: This action installs (into the RaidRunner configuration
+<item>&lsqb;I&rsqb;install: This action installs (into the RaidRunner configuration
  area) any changes that may have been made to host port SCSI ID assign­ ments.
  If you exit prior to installing, all changes made since the last installation
  will be discarded. The installation process takes time. It is complete once
@@ -692,7 +692,7 @@ The Host Port Configuration screen displays for each controller, each host
  previously correctly entered data will be retained. Remember you must install
  (&lsqb;I&rsqb;nst.) any changes.
 </itemize>
-<sect1>&lsqb;S&rsqb;pares: 
+<sect1>&lsqb;S&rsqb;pairs: 
 <p>
 <sect2>&lt;Figure 4: Spare Device Configuration Screen&gt;
 
@@ -714,7 +714,7 @@ The Spare Device Configuration screen displays all configured spare devices
  have not installed the changes you will be asked to confirm this. If you select
  Yes to continue the exit, all changes made since the last install action will
  be discarded.
-<item>&lsqb;I&rsqb;nstall: This action installs (into the RaidRunner configuration
+<item>&lsqb;I&rsqb;install: This action installs (into the RaidRunner configuration
  area) any changes that may have been made to the spare devices, be that deletion,
  addition or modification. If you exit prior to installing, all changes made
  since the last installation will be discarded. The installation process takes
@@ -731,17 +731,17 @@ The Spare Device Configuration screen displays all configured spare devices
  spare device. The changed attribute will not be re-displayed until the last
  prompted attribute is entered (or skipped). When you enter data, it is checked
  for cor­ rectness and if incorrect, a message is dis­ played and all changes
- are discarded and you will have to start again. Remember you must install (&lsqb;I&rsqb;nstall)
+ are discarded and you will have to start again. Remember you must install (&lsqb;I&rsqb;install)
  any changes.
 <item>&lsqb;A&rsqb;dd: When adding a spare device, the list of available devices
  is displayed and you are required to type in the device name. Once entered,
  the spare is added with defaults which you can change, if required, via the
- &lsqb;M&rsqb;odify option. Remember you must install (&lsqb;I&rsqb;nstall)
+ &lsqb;M&rsqb;odify option. Remember you must install (&lsqb;I&rsqb;install)
  any changes.
 <item>&lsqb;D&rsqb;elete: When deleting a spare device, the list of spare devices
  allowed to be deleted is displayed and you are required to type in the required
  device name. Once entered, the spare is deleted from the screen. Remember you
- must install (&lsqb;I&rsqb;nstall) any changes.
+ must install (&lsqb;I&rsqb;install) any changes.
 </itemize>
 <sect1>&lsqb;M&rsqb;onitor: 
 <p>
@@ -761,7 +761,7 @@ The SCSI Monitor Configuration screen displays a table of SCSI monitors
  to the Main screen. If you have made changes and have not installed them you
  will be asked to confirm this. If you select Yes to continue the exit, all
  changes made since the last install action will be discarded.
-<item>&lsqb;I&rsqb;nstall: This action installs (into the RaidRunner configuration
+<item>&lsqb;I&rsqb;install: This action installs (into the RaidRunner configuration
  area) any changes that may have been made to SCSI Monitor configuration. If
  you exit prior to installing, all changes made since the last installation
  will be discarded. The installation process takes time. It is complete once
@@ -774,7 +774,7 @@ The SCSI Monitor Configuration screen displays a table of SCSI monitors
  enter RETURN at the Protocol List prompt. As you enter data, it is checked
  for correctness and if incorrect, a message will be printed and any previously
  entered data is discarded. You will have to re-enter the data again. Remember
- you must install (&lsqb;I&rsqb;nstall) any changes.
+ you must install (&lsqb;I&rsqb;install) any changes.
 </itemize>
 <sect1>&lsqb;G&rsqb;eneral: 
 <p>
@@ -855,14 +855,14 @@ The General screen has a blank data area and a menu which allows one to
  prompted for it's new value. If the environment variable entered is not found,
  a message will be printed and you will not be prompted for a new value. If
  you do not enter a new value, (i.e. just press RETURN) no change will be made.
- Remember you must install (&lsqb;I&rsqb;nstall) any changes.
+ Remember you must install (&lsqb;I&rsqb;install) any changes.
 <item>&lsqb;A&rsqb;dd: When adding a new environment variable, you will be prompted
  for it's name and value. Providing the variable name is not already used and
  you enter a value, the new variable will be added and displayed. Remember you
- must install (&lsqb;I&rsqb;nstall) any changes.
+ must install (&lsqb;I&rsqb;install) any changes.
 <item>&lsqb;D&rsqb;elete: When deleting an environment variable, you will be
  prompted for the variable name and if valid, the environment variable will
- be deleted. Remember you must install (&lsqb;I&rsqb;nstall) any changes.
+ be deleted. Remember you must install (&lsqb;I&rsqb;install) any changes.
 </itemize>
 <item>&lsqb;S&rsqb;tats: Enter the Statistics monitoring screen. The Statistics
  screen display various general and specific statistics about raid sets configured
@@ -935,7 +935,7 @@ In this example we will configure a RAID 5 using 6, 2.04 gigabyte drives.
  done for the host port configuration, note the values and skip to step 6. If
  you have add/modify options then your host port is software configurable. 
 <item>If there is no entry for a host port on this screen, add an entry with
- the parameters: controller=0, hostport=0 , SCSI ID=0. Don't forget to &lsqb;I&rsqb;nstall
+ the parameters: controller=0, hostport=0 , SCSI ID=0. Don't forget to &lsqb;I&rsqb;install
  your changes. If there is already and entry present, note the values (they
  will be used in a later step).
 <item>From this point onward I will assume the following hardware configuration:
@@ -959,7 +959,7 @@ In this example we will configure a RAID 5 using 6, 2.04 gigabyte drives.
 </enum>
 <item>Press Q to &lsqb;Q&rsqb;uit the hostports screen and return to the Main
  screen. 
-<item>Press S to enter the &lsqb;S&rsqb;pares screen
+<item>Press S to enter the &lsqb;S&rsqb;pairs screen
 <item>Select A to &lsqb;A&rsqb;dd a new spare to the spares pool. A list of available
  backends will be displayed and you will be prompted for the following information:
  <tscreen>
@@ -974,7 +974,7 @@ enter
 <enum>
 <enum>
 <enum>
-<item>Select I to &lsqb;I&rsqb;nstall your changes
+<item>Select I to &lsqb;I&rsqb;install your changes
 <item>Select Q to &lsqb;Q&rsqb;uit the spares screen and return to the Main screen
 <item>Select R from the Main screen to enter the &lsqb;R&rsqb;aidsets screen.
 <item>Select A to &lsqb;A&rsqb;dd a new RAID set. You will be prompted for each
@@ -999,7 +999,7 @@ Q
 </enum>
 <item>After pressing Q you will be returned to the Raid Sets screen. You should
  see the newly configured Raid set displayed in the data area.
-<item>Press I to &lsqb;I&rsqb;nstall the changes
+<item>Press I to &lsqb;I&rsqb;install the changes
 
 &lt;Figure 12: The RaidSets
  screen of the GUI showing the newly configured RAID 5&gt;
@@ -1227,7 +1227,7 @@ IMPORTANT NOTE: you may see a small SCSI
  drive ( usually &tilde;128 MB) on the list of available drives. DO NOT select
  this drive for use. It is the SMON communication channel NOT a drive. If setup
  tries to use it the installer will hang.
-<item>Thats it, the installation program takes care of everything else !!
+<item>That's it, the installation program takes care of everything else !!
 </enum>
 <sect>Maintenance
 <p>
@@ -1692,7 +1692,7 @@ On target hardware using a SCN2681 chip this is equivalent to:
 <item>bs=bytes, Read and write given number of bytes at a time. Override ibs
  and obs.
 <item>skip=blocks, Skip ibs-sized blocks at start of input.
-<item>seek=blocks, By-pass obs-sized blocks at start of output.
+<item>seek=blocks, Bypass obs-sized blocks at start of output.
 <item>count=blocks, Copy only ibs-sized input blocks.
 <item>flags=verbose, Print (to standard output) the number of blocks copied every
  ten percent of the copy. The output is of the form X/T where X is the number
@@ -2561,7 +2561,7 @@ Certain out-of-band occurrences can be considered to be catastrophic, meaning
   out (to it's backend) enough blocks to reach a low water mark - write_low_tide.
  This  variable  cannot  be  changed if battery backed-up RAM is available as
  it is tied to the amount of battery backed-up RAM available. The value of this
- variable is calculated when the cache is initialized. It's value is dependant
+ variable is calculated when the cache is initialized. It's value is dependent
  on whether  battery  backed-up RAM is installed in the RaidRunner. If installed,
  the number of blocks of data that can be saved into the battery backed-up RAM
  is calculated. If no battery backed-up RAM is present, it's value is set  to
@@ -2610,7 +2610,7 @@ Certain out-of-band occurrences can be considered to be catastrophic, meaning
  vary this  flushing period  by setting this variable.  Given you have a large
  number of sustained reads and minimal writes, then you may want to delay the
  writes out of cache to the backends as long as possible. Note, that by setting
- this  to  a high value, you run the risk of loosing what you have written.
+ this  to  a high value, you run the risk of losing what you have written.
  The default value is 1000 milliseconds (i.e 1 second). It's value can range
  from 500ms to 300000ms.
 <item>scsi_write_thru (GEnv): By  default all writes (from a host) are buffered
@@ -2731,7 +2731,7 @@ Certain out-of-band occurrences can be considered to be catastrophic, meaning
  default) or from 0 to 255.
 <item>BackFrank: Specify the SCSI-ID of the first rank of backend disks on a
  RaidRunner.  This variable should never  be  changed and is for informative
- purposes only. The default value is dependant on the model of RaidRunner being
+ purposes only. The default value is dependent on the model of RaidRunner being
  run. The values this variable can take are
 <itemize>
 <item>0 - the first rank SCSI-ID will be 0
@@ -2745,7 +2745,7 @@ Certain out-of-band occurrences can be considered to be catastrophic, meaning
  to 10000 milliseconds.
 <item>EnclosureType: Specify  the  enclosure  type a raid controller is running
  within.  This variable should never be changed and is for informative purposes
- only. The default value is dependant on the model of RaidRunner being run.
+ only. The default value is dependent on the model of RaidRunner being run.
  The values this variable can take are integers starting from 0.
 <item>fmt_idisc_tmo (GEnv): Specify the SCSI command timeout (in milliseconds)
  when a SCSI FORMAT command  is  issued  on  a  backend.  Disk drives take different
@@ -3457,7 +3457,7 @@ mstargd performs its monitoring
 <item>DESCRIPTION: paracc will print (to standard output) information about the
  hardware parity accelerator, if installed. The  main  output  line  of interest
  to all except those debugging the RaidRunner is the first line which displays,
- in bytes, the size of the memory on the hardward parity accelerator. IE<tscreen>
+ in bytes, the size of the memory on the hardware parity accelerator. IE<tscreen>
 <verb>Parity Memory available : 1048576
 </verb></tscreen>
 <verb>PAccLock@0xBF368&lcub;own=-1,cnt=1,pvt=0x0,nwait=0,name=&dquot;PAc&dquot;&rcub;
@@ -3675,7 +3675,7 @@ It is an error to write to the second level directory file &dquot;status&dquot;.
 </verb>
 <verb>init                    1     0     1 W 0   9 90         8009b1a8   pau
 </verb>
-<verb>SCN2681_reader          4     1     4 W 0   0 0          800702a4   2rd
+<verb>SCN2681_reader          4     1     4 W 0   0 0          800702a4   2nd
 </verb>
 <verb>SCN2681_writer          5     1     5 W 0   0 0          8007029c   2wr
 </verb>
@@ -4524,7 +4524,7 @@ This example creates the file &dquot;/raid5&dquot; as a bind point and
  the sub-option of rdonly. This will result in randio only performing reads.
 <item>-N: By default, data read is always compared against what was written.
  By specifying this option, the comparison will not be  made.  This option is
- usefull when you are only concerned with performing random reads and writes
+ useful when you are only concerned with performing random reads and writes
  and not if the data corrupts.
 <item>-O: By default, the random write locations and  sizes  are  chosen  so
  that  they  overlap.  By specifying this option, overlapped writes can NOT
@@ -5027,7 +5027,7 @@ means  that  the  backend  D0.2.0 has failed and the spare backend, D5.2.0,
  and so on. The  depth  is  used  when re-engaging  a spare which has just been
  reconstructed. If the depth is different after the reconstruction has occurred
  then we know that the spare has failed and another spare has  been  allocated
-  so  we   wont attempt the re-engage.
+  so  we   won't attempt the re-engage.
 <item>-name  The name of the raid set.
 <item>-drive Specify  the  backend  to  replace. The backend specification takes
  the form of the index of the backend in the list of backends. The first backend
@@ -5250,7 +5250,7 @@ Rebuilds, by default, consume large amounts of RaidRunner resources which
  rebuild is recorded for informative  uses.  Up  to  10  of these  records 
  are  kept  at  any  one  time.   If a new rebuild is requested and we have
  already used all 10 records, we find the first &dquot;inactive&dquot; (or completed)
- record and re-use that one. If all 10  records  are  currently  marked &dquot;active&dquot;
+ record and reuse that one. If all 10  records  are  currently  marked &dquot;active&dquot;
  (which means that we currently have 10 rebuilds currently in progress), then
  no record of the new rebuild will be kept. These records are initialized at
  boot time.
@@ -5354,7 +5354,7 @@ The following exit values are returned:
  drive to a failed backend of a raid set. This is typically done when a raid
  set has a failed backend and no spares were available at the time  of  failure
   and now you want to allocate the spare (as opposed to fixing the failed backend).
- After  parsing  it's  arguments  repair get's a spare backend (of appropriate
+ After  parsing  it's  arguments  repair gets a spare backend (of appropriate
  type) from the spares pool.  The spare drive is then engaged in write-only
  access mode in the raid set and a reconstruct  of  the  raid  occurs (read
   of  the  whole  raid set).  This read is from the raid file system repair
@@ -6622,7 +6622,7 @@ The optional  switches  may  appear  in any order but if present must be
  and uploaded from the RaidRunner onto the local host computer.
 
 All reads and writes by the host need to be  in  multiples  of  512  byte
- blocks with null padding as appropriate. When WRITEing (from the host) to smon,
+ blocks with null padding as appropriate. When writing (from the host) to smon,
  the data, depending on the block number, contained in the write will be treated
  as follows -
 <item>BLK_ENDPROC: Will kill any processes, started by smon, currently running
@@ -6881,7 +6881,7 @@ ranklist  a comma separated list of rank id's (scsi id's) for which the
  READY (via mstargd &dquot;-o&dquot; option ) all supported SCSI-2 medium-access
  commands will result  in a  CHECK  CONDITION  with the sense key set to &dquot;NOT
  READY&dquot; and additional sense information set to &dquot;LOGICAL UNIT IN
-  PROCESS  OF  BECOMMING  READY&dquot; When the spin state is marked as READY
+  PROCESS  OF  BECOMING  READY&dquot; When the spin state is marked as READY
  all supported SCSI-2 medium-access commands are processed correctly. Additional
  NOT READY states can be  set by mstargd's -Z option. 
 <item>OPTIONS: stargd  has  3  mandatory  switches,  8 optional switches and
@@ -6942,7 +6942,7 @@ ranklist  a comma separated list of rank id's (scsi id's) for which the
  - currently 16 head, 128 sectors per track. 
 <item>The &dquot;-stripe stripe_args&dquot; switch informs stargd that  a  number
   of  host ports  will  be concurrently accessing this raid set. This switch
- is only usefull when the host based disk access software can  &dquot;stripe&dquot;
+ is only useful when the host based disk access software can  &dquot;stripe&dquot;
   io  to  N different  devices  and each access (read or write) is always less
  than a set stripesize. 
 <item>The stripe_args are of the form N:S:I=c.h.l,I=c.h.l, where: N is the number
@@ -7660,7 +7660,7 @@ Example of use to make 32 Kilobyte file (called &dquot;/fill&dquot;) full
  disk geometry  information a change to a raid set that effects the geometry
  of it's offered disk drive will conflict with any labels  written before. zlabels
  writes zero's at the start of a raid set and also at the end. The  number of
- blocks zeroed is dependant on the raid set type and io chunksize. Typically
+ blocks zeroed is dependent on the raid set type and io chunksize. Typically
  50 io chunk size blocks are written at the start and  49 at the end. In the
  case of a raid type 3, the number of data drives times 50 (and 49) are written.
 <item>OPTIONS :

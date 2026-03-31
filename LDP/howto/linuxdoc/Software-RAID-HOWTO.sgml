@@ -185,7 +185,7 @@ small holes all over the device. e2fsck or other filesystem recovery
 tools will probably not be able to recover much from such a device.
 <ITEM>The read and write performance will increase, because reads and
 writes are done in parallel on the devices. This is usually the main
-reason for running RAID-0. If the busses to the disks are fast enough,
+reason for running RAID-0. If the buses to the disks are fast enough,
 you can get very close to N*P MB/sec.
 </ITEMIZE>
 <ITEM><BF>RAID-1</BF>
@@ -489,7 +489,7 @@ drives on one UW bus, if each drive can give 20 MB/s and the bus can
 only sustain 160 MB/s.  Also, you should only have one device per IDE
 bus. Running disks as master/slave is horrible for performance. IDE is
 really bad at accessing more that one drive per bus.  Of Course, all
-newer motherboards have two IDE busses, so you can set up two disks in
+newer motherboards have two IDE buses, so you can set up two disks in
 RAID without buying more controllers. Extra IDE controllers are rather
 cheap these days, so setting up 6-8 disk systems with IDE is easy and
 affordable.
@@ -547,7 +547,7 @@ IDE controller may get awfully confused. One bus, one drive, that's
 the rule.
 <P>
 There are cheap PCI IDE controllers out there. You often get two or
-four busses for around $80. Considering the much lower price of IDE
+four buses for around $80. Considering the much lower price of IDE
 disks versus SCSI disks, an IDE disk array can often be a really nice
 solution if one can live with the relatively low number (around 8
 probably) of disks one can attach to a typical system.
@@ -1193,7 +1193,7 @@ proceed with caution.
 
 <SECT1>Detecting a drive failure
 <P>
-No mistery here. It's enough with a quick look to the standard log and
+No mystery here. It's enough with a quick look to the standard log and
 stat files to notice a drive failure.
 <P>
 It's always a must for <TT>/var/log/messages</TT> to fill screens with
@@ -1576,7 +1576,7 @@ with the <TT>mkbootdisk</TT> command.
 <P>
 In order to have a system booting on RAID, the root filesystem (/)
 must be mounted on a RAID device. Two methods for achieving this is
-supplied bellow. The methods below assume that you install on a normal
+supplied below. The methods below assume that you install on a normal
 partition, and then - when the installation is complete - move the
 contents of your non-RAID root filesystem onto a new RAID
 device. Please not that this is no longer needed in general, as most
@@ -1788,7 +1788,7 @@ At the lilo prompt type
 With the setup described above, the installer may ask you which disk your root
 filesystem in on, either sda or sdb. Select sda.
 <P>
-The installer will mount your filesytems in the following way.
+The installer will mount your filesystems in the following way.
 <VERB>
 DEVICE      MOUNTPOINT  TEMPORARY MOUNT POINT
 /dev/sda1   /           /mnt/sysimage
@@ -2048,10 +2048,10 @@ transfer rate. Some disks today has a throughput in excess of 30
 MB/sec, so just four of those disks will actually max out your PCI
 bus! When designing high-performance RAID systems, be sure to take the
 whole I/O path into consideration - there are boards with more PCI
-busses, with 64-bit and 66 MHz busses, and with PCI-X.
+buses, with 64-bit and 66 MHz buses, and with PCI-X.
 <P>
 More SCSI controllers will only give you extra performance, if the
-SCSI busses are nearly maxed out by the disks on them.  You will not
+SCSI buses are nearly maxed out by the disks on them.  You will not
 see a performance improvement from using two 2940s with two old SCSI
 disks, instead of just running the two disks on one controller.
 <P>
@@ -2091,7 +2091,7 @@ failed. This can actually happen if a number of disks reside on the
 same bus, and one disk takes the bus with it as it crashes. The other
 disks, however fine, will be unreachable to the RAID layer, because
 the bus is down, and they will be marked as faulty.  On a RAID-5 where
-you can spare one disk only, loosing two or more disks can be fatal.
+you can spare one disk only, losing two or more disks can be fatal.
 <P>
 The following section is the explanation that Martin Bene gave to me,
 and describes a possible recovery from the scary scenario outlined
@@ -2124,7 +2124,7 @@ disks this will not work as expected, but <BF>will most likely
 completely obliterate whatever data you used to have on your
 disks</BF>.
 <P>
-Look at the sylog produced by trying to start the array, you'll see the
+Look at the syslog produced by trying to start the array, you'll see the
 event count for each superblock; usually it's best to leave out the disk
 with the lowest event count, i.e the oldest one.
 <P>
@@ -2178,7 +2178,7 @@ The three U2W disks hang off the U2W controller, and the UW disk off
 the UW controller.
 <P>
 It seems to be impossible to push much more than 30 MB/s thru the SCSI
-busses on this system, using RAID or not. My guess is, that because
+buses on this system, using RAID or not. My guess is, that because
 the system is fairly old, the memory bandwidth sucks, and thus limits
 what can be sent thru the SCSI controllers.
 <P>

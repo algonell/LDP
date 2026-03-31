@@ -853,7 +853,7 @@ maximum cable length.
 
 <!-- The newest development is the 66 MB/s version, DMA/66. -->
 
-The ATA/66 was superceeded by ATA/100 and very recently we have
+The ATA/66 was superseded by ATA/100 and very recently we have
 now gotten ATA/133. While the interface speed has iproved dramatically
 the disks are often limited by platter-to-cache limites which today
 stands at about 40 MB/s.
@@ -901,7 +901,7 @@ The standard interface is 8 bits wide and can address 8 devices.
 There is a wide version with 16 bit that is twice as fast on the
 same clock and can address 16 devices. The host adapter always
 counts as a device and is usually number 7.
-It is also possible to have 32 bit wide busses but this usually
+It is also possible to have 32 bit wide buses but this usually
 requires a double set of cables to carry all the lines.
 
 The old standard was 5 MB/s and the newer fast-SCSI increased this
@@ -915,7 +915,7 @@ SCSI 160 (originally named SCSI 160/m) which is capable of a monstrous 160 MB/s
 over a 16 bit wide bus. Support is scarce yet but for a few
 10000 RPM drives that can transfer 40 MB/s sustained.
 Putting 6 such drives on a RAID will keep such a bus saturated
-and also saturate most PCI busses. Obviously this is only for
+and also saturate most PCI buses. Obviously this is only for
 the very highest end servers per today. More information on
 this standard is available at
 <url url="http://www.ultra160-scsi.com/"
@@ -1105,14 +1105,14 @@ likely to span two controllers.
 The same methods can also be applied to IDE. Most motherboards
 come with typically 4 IDE ports:
 <itemize>
-<item> <tt/hda/ primary master
+<item> <tt/had/ primary master
 <item> <tt/hdb/ primary slave
 <item> <tt/hdc/ secondary master
 <item> <tt/hdd/ secondary slave
 </itemize>
 where the two primaries share one flat cable and the secondaries
 share another cable. Modern chipsets keep these independent.
-Therefore it is best to RAID in the order <tt/hda - hdc - hdb - hdd/
+Therefore it is best to RAID in the order <tt/had - hdc - hdb - hdd/
 as this will most likely parallelise both channels.
 
 <sect1>Speed Comparison
@@ -2402,7 +2402,7 @@ When disks are added, removed or just fail it is likely that
 disk device names of the remaining disks will change.
 For instance if <tt/sdb/ fails then the old <tt/sdc/ becomes <tt/sdb/,
 the old <tt/sdc/ becomes <tt/sdb/ and so on.
-Note that in this case <tt/hda/, <tt/hdb/ etc will remain unchanged.
+Note that in this case <tt/had/, <tt/hdb/ etc will remain unchanged.
 Likewise if a new drive is added the reverse may happen.
 
 There is no guarantee that SCSI ID 0 becomes <tt/sda/ and that adding
@@ -2493,7 +2493,7 @@ a link will be added when it is ready.
 
 To avoid total havoc with device renaming if a drive fails
 check out the scanning order of your system and try to keep
-your root system on <tt/hda/ or <tt/sda/ and removable media
+your root system on <tt/had/ or <tt/sda/ and removable media
 such as ZIP drives at the end of the scanning order.
 
 
@@ -3227,7 +3227,7 @@ improvement is a typical value.
 <sect2>Disk Speed Values<label id="disk-speed-values">
 <p>
 <nidx>disk!technologies!disk speed values</nidx>
-The same mechanical head disk assembly (HDA) is often available
+The same mechanical head disk assembly (HAD) is often available
 with a number of interfaces (IDE, SCSI etc) and the mechanical
 parameters are therefore often comparable. The mechanics is
 today often the limiting factor but development is improving
@@ -3299,7 +3299,7 @@ available in beta which
 is intended to do hot-swappable transparent binding of
 one Linux block device to another. This means that if you
 bind two block devices together,
-say <tt>/dev/hda</tt> and <tt>/dev/loop0</tt>,
+say <tt>/dev/had</tt> and <tt>/dev/loop0</tt>,
 writing to one device will mean also writing to the other
 and reading from either will yield the same result.
 
@@ -4598,11 +4598,11 @@ different. During booting you will see partitions described like this:
 <code>
 Dec  6 23:45:18 demos kernel: Partition check:
 Dec  6 23:45:18 demos kernel:  sda: sda1
-Dec  6 23:45:18 demos kernel:  hda: hda1 hda2
+Dec  6 23:45:18 demos kernel:  had: hda1 hda2
 </code>
 
 SCSI drives are labelled <tt/sda/, <tt/sdb/, <tt/sdc/ etc, and
-(E)IDE drives are labelled <tt/hda/, <tt/hdb/, <tt/hdc/ etc. 
+(E)IDE drives are labelled <tt/had/, <tt/hdb/, <tt/hdc/ etc. 
 There are also standard names for all devices, full information can be
 found in 
 <tt>/dev/MAKEDEV</tt> and <tt>/usr/src/linux/Documentation/devices.txt</tt>.
@@ -5031,7 +5031,7 @@ non-functional or even non existent. You might find it simpler to invest
 in proper backups than a second, secret identity.
 
 There are many options and also a mini-HOWTO ( <tt/Backup-With-MSDOS/ )
-detailling what you need to know. In addition to the DOS specifics it
+detailing what you need to know. In addition to the DOS specifics it
 also contains general information and further leads.
 
 In addition to making these backups you should also make sure you can
@@ -5318,8 +5318,8 @@ information can be found in <ref id="drive-names" name="Drive names">.
 <descrip>
 <tag/Symptoms/Cannot partition disk
 <tag/Problem/Most likely wrong input to the command line for <tt/fdisk/ or similar tool.
-<tag/Solution/Remember to use <tt>/dev/hda</tt> rather than just <tt>hda</tt>. Also
-do not use numbers behind <tt>hda</tt>, those indicate partitions.
+<tag/Solution/Remember to use <tt>/dev/had</tt> rather than just <tt>had</tt>. Also
+do not use numbers behind <tt>had</tt>, those indicate partitions.
 </descrip>
 
 
@@ -5795,7 +5795,7 @@ on your system:
 <tag/Peripherals/
 <itemize>
 <item>Type of disk drives with manufacturer name, version and type
-<item>Other relevant peripherals connected to the same busses
+<item>Other relevant peripherals connected to the same buses
 </itemize>
 
 </descrip>
@@ -6265,7 +6265,7 @@ however, some other operating systems have retained such schemes.
 <p>
 <nidx>disk!miscellaneous!recovery</nidx>
 <nidx>disk!miscellaneous!crash recovery</nidx>
-Occationally hard disks crash. A crash causing data scrambling can
+Occasionally hard disks crash. A crash causing data scrambling can
 often be at least partially recovered from and there are already
 HOWTOs describing this.
 
@@ -6285,7 +6285,7 @@ sorts of problems.
 If you decide to risk trying it yourself you could check all
 connectors and then reapply power and see if the drive spins up
 and responds. If it still is dead turn off power quickly,
-preferrably before the operating system boots. Make sure that
+preferably before the operating system boots. Make sure that
 delayed spinup is not deceiving you here.
 
 If you decide to progress even further (and take higher risks)
@@ -6391,7 +6391,7 @@ earlier in
 The final partition number will come out of the table after this.
 
 <tscreen><verb>
-  Drive		  sda	  sdb	  sdc	  hda	  hdb	  hdc	  ___
+  Drive		  sda	  sdb	  sdc	  had	  hdb	  hdc	  ___
 
 SCSI ID		|  __	|  __	|  __	|
 
@@ -6453,7 +6453,7 @@ In case of disk crash you might find it handy to know what SCSI id
 belongs to which drive, consider keeping a paper copy of this.
 
 <tscreen><verb>
-	Drive :	  sda	  sdb	  sdc	  hda	  hdb	  hdc	  ___
+	Drive :	  sda	  sdb	  sdc	  had	  hdb	  hdc	  ___
 
 Total capacity:	|  ___	|  ___	|  ___	|  ___	|  ___	|  ___	|  ___
 SCSI ID		|  __	|  __	|  __	|
@@ -6642,7 +6642,7 @@ boot floppy is also prepared to boot with this partition.
 <tscreen><verb>
 
 =================================================
-Directory               sda      sdb     hda    
+Directory               sda      sdb     had    
 
 swap                    |    64 |    64 |       |
 /                       |       |       |    20 |
@@ -6665,7 +6665,7 @@ Total capacity:            1024    2034    1050
 
 
 =================================================
-        Drive :           sda     sdb     hda
+        Drive :           sda     sdb     had
 Total capacity:         |  1024 |  2034 |  1050 |
 
 Partition
@@ -6890,7 +6890,7 @@ than for 2 drive systems but some tricks can still be used
 to optimise track positions while minimising head movements.
 
 <tscreen><verb>
-Partition	hda		Size estimate (MB)
+Partition	had		Size estimate (MB)
 		----		------------------
 	 1	DOS		500
 	 2	boot		20

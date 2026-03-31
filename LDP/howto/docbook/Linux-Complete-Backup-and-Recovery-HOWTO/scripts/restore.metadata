@@ -119,7 +119,7 @@ chmod 1777 $target/tmp
 # same.
 
 # chroot $target /sbin/lilo -C /etc/lilo.conf
-chroot $target /sbin/grub-install /dev/hda
+chroot $target /sbin/grub-install /dev/had
 
 # Set the system to boot to run level 3 regardless of the current run
 # level. Be sure to set it back to the normal value.
