@@ -13,6 +13,8 @@ steps:
 
 - name: 🗃 Martin's builder - Pull Request only (partial build)
   image: ghcr.io/tldp/docker-builder:trunk
+  volumes:
+    - /static/LDP:/LDP-ro:ro
   when:
     - event: pull_request
       branch: master
