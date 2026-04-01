@@ -1799,7 +1799,7 @@ preparation.
 <p>
 It is available for Linux and Win32, and any application
 based on Mesa will only have the usual system specific
-code, which should usually mean x vs. Windows,
+code, which should usually mean X-Windows vs. Windows,
 or GLX vs. WGL. If you use e.g. GLUT or Qt, you should
 get away with any system specifics at all for virtually
 most

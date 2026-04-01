@@ -63,7 +63,7 @@
 
 		<sect3 id="whatswrong"><title>What's wrong with WordPerfect?</title>
 
-			<para>It's a discontinued product (on Linux).  The most-long-term-available version, WP 8.0 Download Personal Edition (WP 8.0 DPE), has deliberately crippled font handling and limited (but fixable) multi-language support, and won't function without fairly antique support libraries.  The best version, WP 8.1, comes only bundled with the Corel Linux OS (CLOSE) Deluxe and Standard Edition boxed sets, v. 1.0 or 1.2 -- likewise discontinued.</para>
+			<para>It's a discontinued product (on Linux).  The most-long-term-available version, WP 8.0 Download Personal Edition (WP 8.0 DPE), has deliberately crippled font handling and limited (but fixable) multi-language support, and won't function without fairly antique support libraries.  The best version, WP 8.1, comes only bundled with the Corel Linux OS (CLOS) Deluxe and Standard Edition boxed sets, v. 1.0 or 1.2 -- likewise discontinued.</para>
 
 			<para>WP used to be the best tool on Linux for reading MS-Word (through Word97) files, but always faltered on some, especially those Fast Saved in MS-Word.  But now, Star Office, OpenOffice.org, and AbiWord reportedly do better (and, unlike WP for Linux, can read post-Word97 .doc formats).</para>
 
