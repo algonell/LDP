@@ -62,12 +62,12 @@ Section1 title
 Section2 title
 ~~~~~~~~~~~~~~
 
-This is a table with two colums:
+This is a table with two columns:
 
 .Table title
 [cols=",",options="header",]
 |=======================================
-|first colum header |second colum header
+|first column header |second column header
 |item |meaning
 |item |meaning
 |item |meaning

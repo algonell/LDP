@@ -269,7 +269,7 @@ name "sectux5f02ux5f02ux5f01"
 \end_layout
 
 \begin_layout Standard
-This is a table with two colums:
+This is a table with two columns:
 \end_layout
 
 \begin_layout Standard
@@ -311,7 +311,7 @@ Table title
 \begin_inset Text
 
 \begin_layout Plain Layout
-first colum header 
+first column header 
 \end_layout
 
 \end_inset
@@ -320,7 +320,7 @@ first colum header
 \begin_inset Text
 
 \begin_layout Plain Layout
-second colum header
+second column header
 \end_layout
 
 \end_inset
@@ -331,7 +331,7 @@ second colum header
 \begin_inset Text
 
 \begin_layout Plain Layout
-first colum header 
+first column header 
 \end_layout
 
 \end_inset
@@ -340,7 +340,7 @@ first colum header
 \begin_inset Text
 
 \begin_layout Plain Layout
-second colum header
+second column header
 \end_layout
 
 \end_inset

@@ -142,7 +142,7 @@ Recent kernels have incorporated a new ATA (IDE) hard drive driver,
 libata. Because of this, parallel ATA drives (PATA) now show up as SCSI
 drives, as serial ATA (SATA) have always done. However, not all rescue
 distributions (e.g. finix) use this new driver. There is a line toward
-the bottom of link:#save.metadata[`save.metadata`] wich very carefully
+the bottom of link:#save.metadata[`save.metadata`] which very carefully
 replaces "/dev/sda" with "/dev/hda". Use this as a template if you have
 multiple IDE hard drives. Comment it out or delete it if this is not an
 issue for you.
@@ -533,7 +533,7 @@ different versions of Linux pick up different geometries, so the
 geometry implicit in the file `dev.hdX` is incorrect. To force it to be
 correct on http://www.knoppix.org/[Knoppix], edit
 link:#make.dev.hda[`make.dev.x`]. Use the -C, -H and -S options to fdisk
-to specify the cylnders, heads and sectors, respectively. Those you can
+to specify the cylinders, heads and sectors, respectively. Those you can
 get from the file `fdisk.hdX` in the root directory of the ZIP drive.
 Then re-run it.
 
@@ -761,7 +761,7 @@ I'm doing this recovery thing by copying the backups over the network to
 other machine. The restore involves booting the Knoppix cd, fetching the
 metadata.tar.gz from the network machine. Then make.dev, mount.dev,
 fetching the other tar.gz files, grub and reboot. Some typing involved
-but thanks to your scripts it's quite straighforward. Unless changing
+but thanks to your scripts it's quite straightforward. Unless changing
 from ide to scsi or something, but even then it's not that difficult,
 since Linux is easy to restore to different hardware.
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
