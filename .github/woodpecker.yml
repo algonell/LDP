@@ -58,7 +58,7 @@ steps:
     message: |
       CI run completed successfully: ${CI_PIPELINE_URL}
       
-      Test rendering is available on: https://pr.tldp.org/${CI_PIPELINE_NUMBER}/
+      Test rendering is available on: https://pr.tldp.org/buckets/ldp-pr/${CI_PIPELINE_NUMBER}/
       
       Please verify test rendering carefully before accepting this Pull Request!
     update: true
