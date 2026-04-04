@@ -831,8 +831,8 @@ abook.ps: PostScript document text conforming at level 2.0
 <prompt>mike:~&gt;</prompt> <command>file /dev/log</command>
 /dev/log: socket
 
-<prompt>mike:~&gt;</prompt> <command>file /dev/hda</command>
-/dev/hda: block special (3/0)
+<prompt>mike:~&gt;</prompt> <command>file /dev/had</command>
+/dev/had: block special (3/0)
 </screen>
 <para>The <command>file</command> command has a series of options, among others the <option>-z</option> option to look into compressed files.  See <command>info <parameter>file</parameter></command> for a detailed description.  Keep in mind that the results of <command>file</command> are not absolute, it is only a guess.  In other words, <command>file</command> can be tricked.</para>
 
@@ -1597,7 +1597,7 @@ drwxrws---  4 root    users          4096 Jul 25 2001 docs/
 <thead><row><entry>Who\What</entry><entry>r(ead)</entry><entry>w(rite)</entry><entry>(e)x(ecute)</entry></row>
 </thead>
 <tbody>
-<row><entry>u(ser)</entry><entry>4</entry><entry>2</entry><entry>1</entry></row>
+<row><entry>u(set)</entry><entry>4</entry><entry>2</entry><entry>1</entry></row>
 <row><entry>g(roup)</entry><entry>4</entry><entry>2</entry><entry>1</entry></row>
 <row><entry>o(ther)</entry><entry>4</entry><entry>2</entry><entry>1</entry></row>
 </tbody>
