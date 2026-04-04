@@ -116,7 +116,7 @@ files</title>
 	for synchronizing account information. One alternative is to
 	the NIS system (see XXX network-admin-guide).  </para>
 	
-	<para> However, you should try to avoid re-using numeric uids
+	<para> However, you should try to avoid reusing numeric uids
 	(and textual usernames), because the new owner of the uid (or
 	username) may get access to the old owner's files (or mail,
 	or whatever).  </para>

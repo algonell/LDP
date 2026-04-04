@@ -177,7 +177,7 @@ Loopback device init
 Warning WD8013 board not found at i/o = 280.
 Math coprocessor using irq13 error reporting.
 Partition check:
-  hda: hda1 hda2 hda3
+  had: hda1 hda2 hda3
 VFS: Mounted root (ext filesystem).
 Linux version 0.99.pl9-1 (root@haven) 05/01/93 14:12:20
 </computeroutput>

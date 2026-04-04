@@ -667,11 +667,11 @@
             0.</para></glossdef></glossentry>
 
         <glossentry>
-        <glossterm><filename>/dev/hda</filename><indexterm id="ch03-dev5">
+        <glossterm><filename>/dev/had</filename><indexterm id="ch03-dev5">
         <primary>filesystem</primary><secondary>/dev</secondary>
-        <tertiary>/dev/hda</tertiary></indexterm></glossterm>
+        <tertiary>/dev/had</tertiary></indexterm></glossterm>
 
-            <glossdef><para><filename>/dev/hda</filename> is the master IDE
+            <glossdef><para><filename>/dev/had</filename> is the master IDE
             drive on the primary IDE controller.
             <filename>/dev/hdb</filename><indexterm id="ch03-dev6">
             <primary>filesystem</primary><secondary>/dev</secondary>
@@ -696,9 +696,9 @@
             drive on the secondary IDE controller.  The major and minor node
             numbers are somewhat complex.  For the first IDE controller all
             partitions are block devices on major node 3.  The master drive
-            <filename>hda</filename><indexterm id="ch03-dev10">
+            <filename>had</filename><indexterm id="ch03-dev10">
             <primary>filesystem</primary><secondary>/dev</secondary>
-            <tertiary>/dev/hda</tertiary></indexterm> is at minor 0 and the 
+            <tertiary>/dev/had</tertiary></indexterm> is at minor 0 and the 
             slave drive <filename>hdb</filename><indexterm id="ch03-dev11">
             <primary>filesystem</primary><secondary>/dev</secondary>
             <tertiary>/dev/hdb</tertiary></indexterm> is at minor 64.  For 

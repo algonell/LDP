@@ -367,7 +367,7 @@
   <tertiaryie>/dev/fd1,
     <ulink url="#FLOPPIES" role="CH05-FD1">Floppies</ulink>
   </tertiaryie>
-  <tertiaryie>/dev/hda,
+  <tertiaryie>/dev/had,
     <ulink url="#DEV-FS" role="CH03-DEV5">The /dev directory</ulink>,
     <ulink url="#HARD-DISK" role="CH05-HDA">Hard disks</ulink>
   </tertiaryie>

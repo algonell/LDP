@@ -290,9 +290,9 @@ permissions/ownership
 
 	<para>Each hard disk is represented by a separate device
 	file.  There can (usually) be only two or four IDE hard disks. These
-	are known as <filename>/dev/hda</filename><indexterm id="ch05-hda">
+	are known as <filename>/dev/had</filename><indexterm id="ch05-had">
 	<primary>filesystem</primary><secondary>/dev</secondary>
-	<tertiary>/dev/hda</tertiary></indexterm>,
+	<tertiary>/dev/had</tertiary></indexterm>,
 	<filename>/dev/hdb</filename><indexterm id="ch05-hdb">
         <primary>filesystem</primary><secondary>/dev</secondary>
         <tertiary>/dev/hdb</tertiary></indexterm>, 
@@ -811,9 +811,9 @@ permissions/ownership
 	given by the <command>fdisk -l</command> command:
 
         <screen>
-	<prompt>$</prompt> <userinput>fdisk -l /dev/hda</userinput>
+	<prompt>$</prompt> <userinput>fdisk -l /dev/had</userinput>
 	<computeroutput></computeroutput>
-	<computeroutput>Disk /dev/hda: 15 heads, 57 sectors, 790 cylinders</computeroutput>
+	<computeroutput>Disk /dev/had: 15 heads, 57 sectors, 790 cylinders</computeroutput>
 	<computeroutput>Units = cylinders of 855 * 512 bytes</computeroutput>
 	<computeroutput></computeroutput>
 	<computeroutput>   Device Boot  Begin   Start     End  Blocks   Id  System</computeroutput>
@@ -1542,7 +1542,7 @@ done</computeroutput>
 	<tgroup cols="6">
 	<colspec colname="FS Name">
 	<colspec colname="Year">
-	<colspec colname="Origional OS">
+	<colspec colname="Original OS">
 	<colspec colname="Max File Size">
 	<colspec colname="Max FS Size">
 	<colspec colname="Journaling"> 
@@ -2471,7 +2471,7 @@ corrupt,
 	since I had 512 MG of RAM I created a 1024 MG (or 1 GB) swap 
 	partition.  This left me with roughly a 9 GB root filesystem.  I using 
 	my old 10 GB hard drive, I created an 8 GB <filename>/usr</filename> 
-	partition and left 2 GB unused.  This is incase I need more space  
+	partition and left 2 GB unused.  This is in case I need more space  
 	in the future.</para>
 
 	<para>In the end, my partition tables looked like this:

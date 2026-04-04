@@ -116,7 +116,7 @@ dev3-0            2.22        15.20        47.16    1546846    4799520
 
 	For 2.4 kernels the devices is names using the device's major
 	and minor number.  In this case the device listed is <filename>
-	/dev/hda</filename>.  To have <command>iostat</command> print this
+	/dev/had</filename>.  To have <command>iostat</command> print this
 	out for you, use the <option>-x</option>.
 <screen>
 <prompt>#</prompt> <userinput>iostat -x</userinput>
@@ -127,7 +127,7 @@ avg-cpu:  %user   %nice    %sys   %idle
 
 Device:  rrqm/s wrqm/s r/s  w/s rsec/s wsec/s rkB/s wkB/s avgrq-sz avgqu-sz await svctm %util
 /dev/hdc   0.00   0.00 .00 0.00   0.00   0.00  0.00  0.00     0.00     2.35  0.00  0.00 14.71
-/dev/hda   1.13   4.50 .81 1.39  15.18  47.14  7.59 23.57    28.24     1.99 63.76 70.48 15.56
+/dev/had   1.13   4.50 .81 1.39  15.18  47.14  7.59 23.57    28.24     1.99 63.76 70.48 15.56
 /dev/hda1  1.08   3.98 .73 1.27  14.49  42.05  7.25 21.02    28.22     0.44 21.82  4.97  1.00
 /dev/hda2  0.00   0.51 .07 0.12   0.55   5.07  0.27  2.54    30.35     0.97 52.67 61.73  2.99
 /dev/hda3  0.05   0.01 .02 0.00   0.14   0.02  0.07  0.01     8.51     0.00 12.55  2.95  0.01
@@ -198,7 +198,7 @@ weeksa   19121 18668  0 12:58 pts/2    00:00:00 ps -ef
 	CPU usage (total amount of CPU time is has used while running). The
 	eighth column is the command itself.</para>
 
-	<para>With this information you can see exacly what is running on 
+	<para>With this information you can see exactly what is running on 
 	your system and kill run-away processes, or those that are causing 
 	problems.</para>
 </sect2>
@@ -228,7 +228,7 @@ weeksa   19121 18668  0 12:58 pts/2    00:00:00 ps -ef
 FIELD DESCRIPTIONS
 Procs
     r: The number of processes waiting for run time.
-    b: The number of processes in uninterruptable sleep.
+    b: The number of processes in uninterruptible sleep.
     w: The number of processes swapped out but otherwise runnable.  This
        field is calculated, but Linux never desperation swaps.
 
