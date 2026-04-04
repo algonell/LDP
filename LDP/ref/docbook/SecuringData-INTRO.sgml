@@ -73,7 +73,7 @@
       It may sound paranoid, but this sort of verification system can inhibit what is called a 'man in the middle' attack - where a third party tries to 'catch' the connection and insert their own information. Of course, this relies on the first communication not being intercepted. 
     </para>
     <para>
-      Public key encryption (see below) is the other common means of authentication. It doesn't authenticate the sender, but it does authenticate the receiver - and if both parties exchange public keys, and verify by some independant means that the key they have is the key of the party they wish to send to, it authenticates both.
+      Public key encryption (see below) is the other common means of authentication. It doesn't authenticate the sender, but it does authenticate the receiver - and if both parties exchange public keys, and verify by some independent means that the key they have is the key of the party they wish to send to, it authenticates both.
     </para>
   </section>
 
@@ -89,7 +89,7 @@
     <para>
       Commercial encryption uses methods which are a lot more secure than the one I used to produce that example.  Almost all modern encryption methods rely on a key - a particular number or string of characters which are used to encrypt, decrypt, or both.
     </para>
-    <para>In the next sections, common encryption methods are presented. To illustrate how they work, ficticious characters named Bob and Alice will be introduced. Private key encryption and public key encryption are discussed, as are their limitations.</para>
+    <para>In the next sections, common encryption methods are presented. To illustrate how they work, fictitious characters named Bob and Alice will be introduced. Private key encryption and public key encryption are discussed, as are their limitations.</para>
 
     <section id="privkey">    
       <title>Private key encryption</title>
@@ -144,7 +144,7 @@
       This works fairly well, but has the disadvantage that if your receiver isn't using a secure email program, or doesn't have a posted public key, you can't send encrypted mail to them.
     </para>
     <para>
-      Authentication is not a problem for secure email - provided the receiver has kept their private key secure, noone can easily decrypt the transmission.
+      Authentication is not a problem for secure email - provided the receiver has kept their private key secure, no one can easily decrypt the transmission.
     </para>
   </section>
 

@@ -176,7 +176,7 @@ deploying &CVSAB; in his or her organization.  Some of the popular
 
 <listitem>
 <para>The <ulink url="http://ximbiot.com/cvs/wiki/index.php?title=Main_Page">&CVS; site</ulink> where 
-current informaton about CVS is available.  Including the <ulink
+current information about CVS is available.  Including the <ulink
 url="http://ximbiot.com/cvs/wiki/index.php?title=Cederqvist">&CVSAB; manual</ulink>.
 </para>
 </listitem>
@@ -613,7 +613,7 @@ configuration.
       come with a built in Access control capability but it does support a
       rudimentary form of access control through the readers/writers files in
       the CVSROOT repository.  I have put together a set of scripts that use
-      the readers/writers files to provide a slightly useable version of access
+      the readers/writers files to provide a slightly usable version of access
       control.  This is available at <ulink
 	 url="http://cvspermissions.sarovar.org">http://cvspermissions.sarovar.org</ulink>
       as an &OPENSOURCE; project.  Feel free to use it and let me know how it

@@ -118,7 +118,7 @@ bandwidth networks.</para>
 
 
 <listitem><para>VLS (VideoLAN Server), which can stream MPEG-1, MPEG-2
-and MPEG-4 files, DVDs, digital satellite channels, digital terrestial
+and MPEG-4 files, DVDs, digital satellite channels, digital terrestrial
 television channels and live videos on the network in unicast or
 multicast,</para></listitem>
 
@@ -288,7 +288,7 @@ disk,
 </para></listitem>
 
 <listitem><para>
-a satellite card (DVB-S) or a digital terrestial
+a satellite card (DVB-S) or a digital terrestrial
 television card (DVB-T)
 
 ,</para></listitem>
@@ -347,7 +347,7 @@ page</ulink>.</para>
 You can add a channel information service based on the SAP/SDP
 standard to the VideoLAN solution. The mini-SAP-server sends announces
 about the multicast programs on the network in IPv4 or IPv6, and VLCs
-receive these annouces and automatically add the programs announced to
+receive these announces and automatically add the programs announced to
 their playlist.
 
 </para>
@@ -424,7 +424,7 @@ several versions of it, called MPEG-1, MPEG-2, MPEG-4, ...
 
 <listitem>
 
-<para>MPEG is also a container format, sometimes refered
+<para>MPEG is also a container format, sometimes referred
 to as <emphasis>MPEG System</emphasis>. There are several types of MPEG:
 ES, PS, and TS</para>
 <para>When you play an MPEG video from a DVD, for instance, the MPEG
@@ -585,7 +585,7 @@ are organized quite differently in order to be in harmony with the
 guidelines of each operating system supported. Documenting the use
 of each graphical interface is too long, and some features are only
 available via the command line interface. Therefore we decided to
-document only the command line interface, but in many cases it shoud
+document only the command line interface, but in many cases it should
 be easy to guess how to use the graphical interface for the same use
 !
 
@@ -768,7 +768,7 @@ The modules
 
 
 <para> VLC uses a modular system, which allows to add easily new
-fonctions and formats. Here is a description of nearly all the VLC
+functions and formats. Here is a description of nearly all the VLC
 modules. A few &quot;internal&quot; modules won't be explained here. For a 
 complete list of all VLC modules, please have a look at the LIST file
  in the subdirectory &quot;modules&quot; of the VLC source tree.</para>
@@ -868,7 +868,7 @@ least version 1.1.6 of this libraries.
  You may indicate the path to the 
 <emphasis>sdl-config</emphasis> program with the <command>
  --with-sdl-config-path=PATH </command> switch, when running 
-the configre script.
+the configure script.
 
 </para></sect2>
 
@@ -997,7 +997,7 @@ the rendered image
 </emphasis></para>
 <para>
  This filter deinterlaces video. It is useful with
-streams coming from a digital satellite channel or digital terrestial
+streams coming from a digital satellite channel or digital terrestrial
 television channels
 
 .</para></sect2>
@@ -1914,7 +1914,7 @@ Then, for a normal install, do:
 You should not be using Debian testing unless you perfectly know
 what you are doing. It is almost impossible to support Debian testing
 and there are no plans to do it.
-For more informations on Debian testing, please look:
+For more information on Debian testing, please look:
 <ulink url="http://www.debian.org/devel/testing">testing page</ulink>
 
 </para>
@@ -2170,7 +2170,7 @@ if you want a basic VLC, do
 <listitem><para>
 
 if you want the Gnome interface instead of the GTK
-interface (you will need the developement packages of Gnome) :
+interface (you will need the development packages of Gnome) :
 </para>
 
 <screen>
@@ -2565,7 +2565,7 @@ computer is powerful enough)
 
 <listitem><para><emphasis>duplicate</emphasis>
  allows you to create a second chain, where the
-stream will be handled in an independant way
+stream will be handled in an independent way
 
 .</para></listitem>
 
@@ -3090,7 +3090,7 @@ forces source aspect ratio
 .</para></listitem>
 
 <listitem><para><emphasis>--spumargin  &lt;integer&gt;</emphasis> 
-forces SPU subtitles postion
+forces SPU subtitles position
 
 .</para></listitem>
 
@@ -3280,7 +3280,7 @@ gives you all available options
 .</para></listitem>
 
 <listitem><para><emphasis>--longhelp</emphasis> 
-gives you a detailled version of the available 
+gives you a detailed version of the available 
 options
 .</para></listitem>
 
@@ -3312,7 +3312,7 @@ The Mozilla plugin
 </title>
 
 <para>
-VLC can also be embeded in a web browser
+VLC can also be embedded in a web browser
 ! For the moment, this function is only available with <ulink url="http://www.mozilla.org/">Mozilla</ulink> under GNU/Linux
 .</para>
 
@@ -3357,7 +3357,7 @@ Compile the sources yourself
 
 <para>
 
-Install the required librairies like for a normal VLC install
+Install the required libraries like for a normal VLC install
 (from the sources, or from the packages with the development
 packages).</para>
 
