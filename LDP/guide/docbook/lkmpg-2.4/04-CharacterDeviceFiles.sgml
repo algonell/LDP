@@ -88,8 +88,8 @@
 			kernel space function.  Also, its name is a bit misleading; it represents an abstract open `file', not a file on a disk,
 			which is represented by a structure named <type>inode</type>.</para>
 
-			<para>A pointer to a <varname>struct file</varname> is commonly named <function>filp</function>.  You'll also see it
-			refered to as <varname>struct file file</varname>.  Resist the temptation.</para>
+			<para>A pointer to a <varname>struct file</varname> is commonly named <function>flip</function>.  You'll also see it
+			referred to as <varname>struct file file</varname>.  Resist the temptation.</para>
 
 			<para>Go ahead and look at the definition of <function>file</function>.  Most of the entries you see, like
 			<function>struct dentry</function> aren't used by device drivers, and you can ignore them.  This is because drivers don't
@@ -106,7 +106,7 @@
 			<indexterm><primary>major number</primary><secondary>dynamic allocation</secondary></indexterm>
 
 			<para>As discussed earlier, char devices are accessed through device files, usually located in <filename
-			role="direcotry">/dev</filename><footnote><para>This is by convention.  When writing a driver, it's OK to put the device
+			role="directory">/dev</filename><footnote><para>This is by convention.  When writing a driver, it's OK to put the device
 			file in your current directory.  Just make sure you place it in <filename role="directory">/dev</filename> for a
 			production driver</para></footnote>.  The major number tells you which driver handles which device file.  The minor number
 			is used only by the driver itself to differentiate which device it's operating on, just in case the driver handles more
@@ -313,7 +313,7 @@ static int device_release(struct inode *inode, struct file *file)
 /* Called when a process, which already opened the dev file, attempts to
    read from it.
 */
-static ssize_t device_read(struct file *filp,
+static ssize_t device_read(struct file *flip,
    char *buffer,    /* The buffer to fill with data */
    size_t length,   /* The length of the buffer     */
    loff_t *offset)  /* Our offset in the file       */
@@ -342,7 +342,7 @@ static ssize_t device_read(struct file *filp,
 
 
 /*  Called when a process writes to dev file: echo "hi" > /dev/hello */
-static ssize_t device_write(struct file *filp,
+static ssize_t device_write(struct file *flip,
    const char *buff,
    size_t len,
    loff_t *off)
