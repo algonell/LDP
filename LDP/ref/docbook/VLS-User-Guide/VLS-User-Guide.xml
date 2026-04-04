@@ -100,7 +100,7 @@ bandwidth networks.</para>
 
 
 <listitem><para>VLS (VideoLAN Server), which can stream MPEG-1, MPEG-2
-and MPEG-4 files, DVDs, digital satellite channels, digital terrestial
+and MPEG-4 files, DVDs, digital satellite channels, digital terrestrial
 television channels and live videos on the network in unicast or
 multicast,</para></listitem>
 
@@ -270,7 +270,7 @@ disk,
 </para></listitem>
 
 <listitem><para>
-a satellite card (DVB-S) or a digital terrestial
+a satellite card (DVB-S) or a digital terrestrial
 television card (DVB-T)
 
 ,</para></listitem>
@@ -329,7 +329,7 @@ page</ulink>.</para>
 You can add a channel information service based on the SAP/SDP
 standard to the VideoLAN solution. The mini-SAP-server sends announces
 about the multicast programs on the network in IPv4 or IPv6, and VLCs
-receive these annouces and automatically add the programs announced to
+receive these announces and automatically add the programs announced to
 their playlist.
 
 </para>
@@ -406,7 +406,7 @@ several versions of it, called MPEG-1, MPEG-2, MPEG-4, ...
 
 <listitem>
 
-<para>MPEG is also a container format, sometimes refered
+<para>MPEG is also a container format, sometimes referred
 to as <emphasis>MPEG System</emphasis>. There are several types of MPEG:
 ES, PS, and TS</para>
 <para>When you play an MPEG video from a DVD, for instance, the MPEG
@@ -567,7 +567,7 @@ are organized quite differently in order to be in harmony with the
 guidelines of each operating system supported. Documenting the use
 of each graphical interface is too long, and some features are only
 available via the command line interface. Therefore we decided to
-document only the command line interface, but in many cases it shoud
+document only the command line interface, but in many cases it should
 be easy to guess how to use the graphical interface for the same use
 !
 
@@ -790,7 +790,7 @@ if you want to be able to stream DVDs
 
 <listitem><para><emphasis>libdvb</emphasis>
  if you want to be able to stream from a DVB card (a
-satellite card or a digital terrestial TV card)
+satellite card or a digital terrestrial TV card)
 
 .</para></listitem>
 
@@ -1224,7 +1224,7 @@ END
 All section names, variable names and values are not
 case-sensitive. There can be empty sections and subsections. Comments
 must follow a <keycap moreinfo="none">#</keycap> character. Some variables have a
-default value; it means that you can ommit to declare these variables,
+default value; it means that you can omit to declare these variables,
 and then they will be given their default value
 
 .</para>
@@ -1942,7 +1942,7 @@ files are stored (&quot;/mnt/data/VIDEO_TS&quot; for instance)
 
 
 <para>
-VLS can stream MPEG files that meet two critera
+VLS can stream MPEG files that meet two criteria
 :</para>
 
 <itemizedlist>
