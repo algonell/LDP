@@ -110,7 +110,7 @@ function flush () {
   # -- remove all of the rules, except the three builtins and any IPSec
   #    rule; -MAB;
   #
-  ip rule show | grep -Ev '^(0|32766|32767):|iif lo' \
+  ip rule show | grep -Ev '^(0|32766|32767):|if lo' \
     | while read PRIO NATRULE; do
     ip rule del prio ${PRIO%%:*} $( echo $NATRULE | sed 's|all|0/0|' )
   done

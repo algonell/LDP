@@ -37,7 +37,7 @@
   <para>
     The precinct of this documentation is primarily static routing.  Though 
     dynamic routing is important to large networks, Internet service
-    providers, and backbone providers, this documentation is targetted for
+    providers, and backbone providers, this documentation is targeted for
     smaller networks, particularly networks which use static routing.
     Nonetheless, the concepts governing the manipulation of a packet in the
     kernel, and how routing decisions are made by the kernel are applicable to
@@ -412,7 +412,7 @@ Hosts/Net: 62
       relationships among IP addressing concepts.
     </para>
     <para>
-      Subequently, this chapter will introduce some concrete examples of
+      Subsequently, this chapter will introduce some concrete examples of
       routing in a real network.  The
       <link linkend="ax-example-network">example network</link> illustrates
       this network and all of the addresses involved.
@@ -454,7 +454,7 @@ Hosts/Net: 62
         <para>
           The <command>route -n</command> output can also be produced with
           <command>netstat -rn</command> and is commonly used by
-          admininstrators who rely on platform independent behaviour across
+          administrators who rely on platform independent behaviour across
           heterogeneous Unix and Unix-like systems.  This traditional
           routing table output uses conventional netmask notation to
           denote network size.
@@ -872,8 +872,8 @@ else
               <entry><emphasis>oif</emphasis></entry>
             </row>
             <row>
-              <entry><emphasis>iif</emphasis></entry>
-              <entry><emphasis>iif</emphasis></entry>
+              <entry><emphasis>if</emphasis></entry>
+              <entry><emphasis>if</emphasis></entry>
               <entry></entry>
             </row>
           </tbody>
@@ -1145,13 +1145,13 @@ else
         </listitem>
       </varlistentry>
       <varlistentry id="list-routing-cache-lookup-keys-iif">
-        <term>iif</term>
+        <term>if</term>
         <term>inbound interface</term>
         <listitem>
           <indexterm zone="list-routing-cache-lookup-keys-iif">
             <primary>routing cache</primary>
             <secondary>lookup keys</secondary>
-            <tertiary>iif</tertiary>
+            <tertiary>if</tertiary>
           </indexterm>
           <para>
             The name of the interface on which the packet arrived.
@@ -1474,7 +1474,7 @@ else
               This is an example indicating that table 1 is known by the name
               inr.ruhep.  Any references to <userinput>table
               inr.ruhep</userinput> in an <command>ip rule</command>
-              or <command>ip route</command> will substitue the
+              or <command>ip route</command> will substitute the
               value 1 for the word inr.ruhep.
             </simpara>
         </callout>
@@ -1943,7 +1943,7 @@ broadcast 192.168.254.255  proto kernel  scope link  src 192.168.254.254</comput
             <title>unicast rule type</title>
             <programlisting>
 <userinput>ip rule add unicast from 192.168.100.17 table 5</userinput>
-<userinput>ip rule add unicast iif eth7 table 5</userinput>
+<userinput>ip rule add unicast if eth7 table 5</userinput>
 <userinput>ip rule add unicast fwmark 4 table 4</userinput>
             </programlisting>
           </example>
@@ -1990,8 +1990,8 @@ broadcast 192.168.254.255  proto kernel  scope link  src 192.168.254.254</comput
           <example id="ex-list-rule-unreachable">
             <title>unreachable rule type</title>
             <programlisting>
-<userinput>ip rule add unreachable iif eth2 tos 0xc0</userinput>
-<userinput>ip rule add unreachable iif wan0 fwmark 5</userinput>
+<userinput>ip rule add unreachable if eth2 tos 0xc0</userinput>
+<userinput>ip rule add unreachable if wan0 fwmark 5</userinput>
 <userinput>ip rule add unreachable from 192.168.7.0/25</userinput>
             </programlisting>
           </example>
@@ -2147,7 +2147,7 @@ if on client we had issued:
 
 PMTU discovery on client would has been disabled. New packets starting from
 client
-will not have DF bit set and fragmentation will occour during the
+will not have DF bit set and fragmentation will occur during the
 path from client to server (i.e router fragments the packet).
 
 It could happen to touch this parameter because of bad ICMP filtering

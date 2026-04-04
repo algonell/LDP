@@ -194,7 +194,7 @@ Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
           written in CIDR notation as 192.168.100.0/30.  This is the smallest
           possible network according to <ulink
           url="http://www.isi.edu/in-notes/rfc1878.txt">RFC 1878</ulink>.  The
-          only two useable addresses are 192.168.100.1 
+          only two usable addresses are 192.168.100.1 
           (<systemitem class="systemname">service-router</systemitem>)
           and 192.168.100.2
           (<systemitem class="systemname">masq-gw</systemitem>).
@@ -337,7 +337,7 @@ Source          Destination     Gateway         Flags   MSS Window  irtt Iface
         </example>
         <para>
           It should be clear now that the gateway address must be reachable on
-          a locally connected network for a static route to be useable (or
+          a locally connected network for a static route to be usable (or
           even make sense).  In the first line, where we mistyped, the route
           could not be added to the routing table because the gateway address
           was not a reachable address.
@@ -773,7 +773,7 @@ local 127.0.0.0/8 dev lo  proto kernel  scope host  src 127.0.0.1</computeroutpu
         </para>
         <para>
           For each IP hosted on the machine, it makes sense that the machine
-          should restrict accessiblity to that IP or IP range to itself only.
+          should restrict accessibility to that IP or IP range to itself only.
           This explains why, in <xref linkend="ex-tools-ip-route-show-local"/>,
           192.168.99.35 has a host scope.  Because <systemitem
           class="systemname">tristan</systemitem> hosts this IP, there's no

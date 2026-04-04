@@ -44,7 +44,7 @@
     <title>NAT Scripts</title>
     <para>
       The script will remove all NAT route entries and then all RPDB entries,
-      other than the three default entries and anything saying "iif lo".  It
+      other than the three default entries and anything saying "if lo".  It
       will then populate the RPDB and create NAT route entries according to
       the configuration file.  Use this script with caution if you have
       customized your RPDB.

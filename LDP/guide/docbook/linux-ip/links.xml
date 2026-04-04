@@ -156,7 +156,7 @@
             Address Resolution Protocol is used to provide the glue between
             Ethernet link layer information (hardware addresses) and the IP
             layer.  This
-            <ulink url="http://www.erg.abdn.ac.uk/users/gorry/course/inet-pages/arp.html">page</ulink>
+            <ulink url="http://www.erg.abdn.ac.uk/users/gory/course/inet-pages/arp.html">page</ulink>
             is instructive in ARP.
           </para>
         </listitem>
@@ -412,7 +412,7 @@
           <para>
             To learn how to
             <ulink url="http://www.tldp.org/HOWTO/Querying-libiptc-HOWTO/">query
-            the kernel's iptables</ulink> directly, you need this progamming
+            the kernel's iptables</ulink> directly, you need this programming
             reference.
           </para>
         </listitem>
