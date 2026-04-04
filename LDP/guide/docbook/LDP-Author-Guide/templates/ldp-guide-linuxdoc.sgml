@@ -193,7 +193,7 @@ my web space on Nyx in a number of formats:
 <url url="http://www.nyx.net/&tilde;sgjoen/template.txt"
     name="plain ASCII text">.
 
-<!-- consider PostScript and perhaps also PDF formates
+<!-- consider PostScript and perhaps also PDF formats
 <item>
 <url url="http://www.nyx.net/&tilde;sgjoen/disk-US.ps.gz"
     name="compressed postscript US letter format">.
@@ -363,7 +363,7 @@ related HOWTOs.
 <p>
 <nidx>(your index root)!technologies</nidx>
 <em>Introduction of technology for the newbie with a few
-references to detailled works. Remember that not everyone
+references to detailed works. Remember that not everyone
 has Internet access so you have to explain in sufficient
 details so even the newbie can get by.</em>
 
@@ -413,8 +413,8 @@ information can be found in section "Drive names".
 <descrip>
 <tag/Symptoms/Cannot partition disk
 <tag/Problem/Most likely wrong input to the command line for <tt/fdisk/ or similar tool.
-<tag/Solution/Remember to use <tt>/dev/hda</tt> rather than just <tt>hda</tt>. Also
-do not use numbers behind <tt>hda</tt>, those indicate partitions.
+<tag/Solution/Remember to use <tt>/dev/had</tt> rather than just <tt>had</tt>. Also
+do not use numbers behind <tt>had</tt>, those indicate partitions.
 </descrip>
 
 
@@ -672,7 +672,7 @@ on your system:
 <tag/Peripherals/
 <itemize>
 <item>Type of disk drives with manufacturer name, version and type
-<item>Other relevant peripherals connected to the same busses
+<item>Other relevant peripherals connected to the same buses
 </itemize>
 
 </descrip>
@@ -772,7 +772,7 @@ Tagged lists
 <descrip>
 <tag/Fruits/ such as apples, oranges, and more.
 <tag/Nuts/ Don't eat too many; you are what you eat.
-<tag/Vegetables/ Potatos are spelled with care.
+<tag/Vegetables/ Potatoes are spelled with care.
 </descrip>
 
 
