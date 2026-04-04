@@ -16,7 +16,7 @@ static struct proc_dir_entry *Our_Proc_File;
 
 #define PROC_ENTRY_FILENAME "rw_test"
 
-static ssize_t module_output(struct file *filp,	/* see include/linux/fs.h   */
+static ssize_t module_output(struct file *flip,	/* see include/linux/fs.h   */
 			     char *buffer,	/* buffer to fill with data */
 			     size_t length,	/* length of the buffer     */
 			     loff_t * offset)
@@ -59,7 +59,7 @@ static ssize_t module_output(struct file *filp,	/* see include/linux/fs.h   */
 }
 
 static ssize_t
-module_input(struct file *filp, const char *buff, size_t len, loff_t * off)
+module_input(struct file *flip, const char *buff, size_t len, loff_t * off)
 {
 	int i;
 	/* 
@@ -85,7 +85,7 @@ module_input(struct file *filp, const char *buff, size_t len, loff_t * off)
  *
  * This is the real function that checks file
  * permissions. The permissions returned by ls -l are
- * for referece only, and can be overridden here.
+ * for reference only, and can be overridden here.
  */
 
 static int module_permission(struct inode *inode, int op, struct nameidata *foo)
