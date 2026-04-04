@@ -38,7 +38,7 @@ of information:</para>
 </itemizedlist>
 
 <para>Take, for example, partition name <filename>hda1</filename>, which 
-describes a partition that is found on device <filename>hda</filename> 
+describes a partition that is found on device <filename>had</filename> 
 in the MBR partition table.
 DOS partition tables can hold four entries.
 Partition numbers 1-4 refer to MBR partition records.  Therefore, our

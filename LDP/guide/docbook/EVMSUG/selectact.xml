@@ -303,7 +303,7 @@ activate the volume(s) and object(s).
 
 <sect3><title>Using Ncurses</title>
 
-<para>To deactive a volume or object with Ncurses, follow these steps:
+<para>To deactivate a volume or object with Ncurses, follow these steps:
 
 <orderedlist>
 <listitem>
@@ -426,13 +426,13 @@ Let's say, for example, that segment hda7 is made into volume
 <programlisting>
 activate {
 	include = [*]
-	exclude = [hda*]
+	exclude = [had*]
 }
 </programlisting>
 <para>
 When EVMS builds the list of volumes and objects to activate,
 everything is included.  EVMS next removes all objects whose names
-start with "hda."  hda7 will be removed from the list.
+start with "had."  hda7 will be removed from the list.
 Next, because volume <filename>/dev/evms/home</filename> is built
 from hda7, it will also be removed from the list and will not be
 activated.

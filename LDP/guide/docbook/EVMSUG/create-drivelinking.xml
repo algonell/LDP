@@ -193,7 +193,7 @@ context sensitive menu:</para>
 <listitem><para>Activate the <guimenuitem>Create Feature Object</guimenuitem> menu item.</para>
 </listitem>
 <listitem><para>Continue creating the drive link beginning with step 4 of the Ncurses
-instructions.  <filename>sde4</filename> will be pre-selected.  You can also select <filename>hdc2</filename>.</para>
+instructions.  <filename>sde4</filename> will be preselected.  You can also select <filename>hdc2</filename>.</para>
 </listitem>
 </orderedlist>
 </sect2>
@@ -257,7 +257,7 @@ can be selected and added to the drive link.
 If the expansion point is the last storage object in the drive link, then you expand the
 drive link by interacting with the plug-in that produced the object.  For example, if
 the link was a segment, then the segment manager plug-in that produced the storage
-object expands the link object.  Afterwords, the drive link plug-in notices the size
+object expands the link object.  Afterwards, the drive link plug-in notices the size
 difference and updates the drive link metadata to reflect the resize of the child object.</para>
 <para>
 There are no expand options.

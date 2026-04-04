@@ -14,7 +14,7 @@ local device manager and the DOS segment manager. Corresponding device files are
 <filename>/dev/evms</filename>. An example of the naming convention follows:</para>
 
 <programlisting>
-/dev/hda  -> /dev/evms/hda
+/dev/had  -> /dev/evms/had
 /dev/hda1 -> /dev/evms/hda1
 /dev/sdb  -> /dev/evms/sdb
 /dev/sdb5 -> /dev/evms/sdb5

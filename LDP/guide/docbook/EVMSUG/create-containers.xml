@@ -19,7 +19,7 @@ volume management. You might want to create a container in order to account for 
 need to add additional disks when your applications or users need more storage. </para>
 </sect1>
 
-<sect1 id="contex"><title>Example: create a container</title>
+<sect1 id="context"><title>Example: create a container</title>
 <para>This section provides a detailed explanation of how to create a container with EVMS by providing instructions 
 to help you complete the following task.</para>
 
