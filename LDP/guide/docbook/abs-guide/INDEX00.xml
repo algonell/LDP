@@ -2119,7 +2119,7 @@
 
       <para><link linkend="mapfileref">mapfile</link> builtin,
         loads an array with a text file</para>
-      <para><link linkend="mathc">Math commands</link></para>
+      <para><link linkend="match">Math commands</link></para>
       <para><link linkend="metameaningref">Meta-meaning</link></para>
 
       <para><link linkend="samorse">Morse code training</link> script</para>

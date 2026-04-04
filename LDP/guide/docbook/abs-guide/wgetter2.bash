@@ -16,7 +16,7 @@
 #+ email me at: monster@monstruum.co.uk
 # ==> and cc: to the author of the ABS Guide, please.
 #  This script is licenced under the GPL.
-#  You are free to copy, alter and re-use it,
+#  You are free to copy, alter and reuse it,
 #+ but please don't try to claim you wrote it.
 #  Log your changes here instead.
 
@@ -39,7 +39,7 @@
 # 01/12/2004.  Added looping to 'runn' function.
 #              Simplified and improved.
 # 01/12/2004.  Added state to recursion setting.
-#              Enables re-use of previous value.
+#              Enables reuse of previous value.
 # 05/12/2004.  Modified the file detection routine in the 'runn' function
 #              so it's not fooled by empty values, and is cleaner.
 # 01/02/2004.  Added cookie finding routine from later version (which 
@@ -97,8 +97,8 @@ save=s   # Save command instead of executing it.
 cook=c   # Change cookie file for this session.
 help=h   # Usage guide.
 list=l   # Pass wget the -i option and URL list.
-runn=r   # Run saved commands as an argument to the option.
-inpu=i   # Run saved commands interactively.
+run=r   # Run saved commands as an argument to the option.
+input=i   # Run saved commands interactively.
 wopt=w   # Allow to enter options to pass directly to wget.
 # --------------------------------------------------------------------
 
@@ -223,9 +223,9 @@ and if you want to use a referring page."
     echo "-$help : Display this help."
     echo "-$save : Save the command to a file $savePath/wget-($today) \
 instead of running it."
-    echo "-$runn : Run saved wget commands instead of starting a new one -"
+    echo "-$run : Run saved wget commands instead of starting a new one -"
     echo "Enter filename as argument to this option."
-    echo "-$inpu : Run saved wget commands interactively --"
+    echo "-$input : Run saved wget commands interactively --"
     echo "The script will ask you for the filename."
     echo "-$cook : Change the cookies file for this session."
     echo "-$list : Tell wget to use URL's from a list instead of \
@@ -354,16 +354,16 @@ exit
 
 # Fish out any options we are using for the script.
 # This is based on the demo in "Learning The Bash Shell" (O'Reilly).
-while getopts ":$save$cook$help$list$runn:$inpu$wopt" opt
+while getopts ":$save$cook$help$list$run:$input$wopt" opt
 do
   case $opt in
      $save) save_func;;   #  Save some wgetter sessions for later.
      $cook) cookie_func;; #  Change cookie file.
      $help) usage;;       #  Get help.
      $list) list_func;;   #  Allow wget to use a list of URLs.
-     $runn) run_func;;    #  Useful if you are calling wgetter from,
+     $run) run_func;;    #  Useful if you are calling wgetter from,
                           #+ for example, a cron script.
-     $inpu) run_func;;    #  When you don't know what your files are named.
+     $input) run_func;;    #  When you don't know what your files are named.
      $wopt) wopts;;       #  Pass options directly to wget.
         \?) echo "Not a valid option."
             echo "Use -${wopt} to pass options directly to wget,"

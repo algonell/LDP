@@ -14,7 +14,7 @@
 #  but cannot revisit any square he has already visited.          #
 #                                                                 #
 #  And just why is Sir Knight unwelcome for a return visit?       #
-#  Could it be that he has a habit of partying into the wee hours #
+#  Could it be that he has a habit of partying into the we hours #
 #+ of the morning?                                                #
 #  Possibly he leaves pizza crusts in the bed, empty beer bottles #
 #+ all over the floor, and clogs the plumbing. . . .              #
@@ -558,7 +558,7 @@ startpos=$?
 if [ "$startpos" -eq "$FAIL" ]          # Okay even if no $1.
 then   #         ^^^^^^^^^^^              Okay even if input -lt 0.
   echo "No starting square specified (or illegal input)."
-  let "startpos = $RANDOM % $SQUARES"   # 0 - 63 permissable range.
+  let "startpos = $RANDOM % $SQUARES"   # 0 - 63 permissible range.
 fi
 
 

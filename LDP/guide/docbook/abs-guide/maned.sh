@@ -105,8 +105,8 @@ end ()
 {
 clear
 echo -n "Would you like to view the saved man page (y/n)? "
-read ans
-if [ "$ans" = "n" -o "$ans" = "N" ]; then exit; fi
+read and
+if [ "$and" = "n" -o "$and" = "N" ]; then exit; fi
 exec less "$savefile"  #  Exit script and hand off control to "less" ...
                        #+ ... which formats for viewing man page source.
 }

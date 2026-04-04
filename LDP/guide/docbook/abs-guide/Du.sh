@@ -9,7 +9,7 @@ then
   exit $E_WRONGARGS
 fi
 
-NEWFILENAME=$1.unx
+NEWFILENAME=$1.unix
 
 CR='\015'  # Carriage return.
            # 015 is octal ASCII code for CR.

@@ -16,6 +16,6 @@ echo "Input variable #1 (end to exit) "
 done  
 
 # Try to figure out how this all works.
-# It's a wee bit tricky.
+# It's a we bit tricky.
 
 exit 0

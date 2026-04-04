@@ -238,7 +238,7 @@ In "External Filters, Programs, and Commands" section:
 
 39) Added another example to "List Constructs" section.
 
-40) Added using positional paramters > $9, using {bracket} notation (thanks,
+40) Added using positional parameters > $9, using {bracket} notation (thanks,
     Philippe Martin).
 
 41) Added -N and -t file tests to "Tests" section.    
@@ -344,7 +344,7 @@ In "External Filters, Programs, and Commands" section:
 
 75) Fixed typos:
     ("suppress" --> "suppresses") in "Here Documents section.    
-    ("inderect" --> "indirect") in "Variables Revisited" section.
+    ("indirect" --> "indirect") in "Variables Revisited" section.
     "Option" left out in "type" discussion.
 
 76) More on "%" (modulo) operator in "Operations" section.
@@ -599,7 +599,7 @@ In "External Filters, Programs, and Commands" section:
 	 Added alternative code to "strip-comments.sh".
 	 Fixed "lp".
 	 Added two usage examples for "yes".
-	 Added altenative methods to "find" in-line example.
+	 Added alternative methods to "find" in-line example.
 	 Fixed format in "cat/tac" in-line example.
 	 Added long note to "xargs".
 	 Added note to "touch", and link from ":" in "Special Characters"

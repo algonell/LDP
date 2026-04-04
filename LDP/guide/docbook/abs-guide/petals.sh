@@ -47,8 +47,8 @@ bone="+---------+"
 instructions () {
 
   clear
-  echo -n "Do you need instructions? (y/n) "; read ans
-  if [ "$ans" = "y" -o "$ans" = "Y" ]; then
+  echo -n "Do you need instructions? (y/n) "; read and
+  if [ "$and" = "y" -o "$and" = "Y" ]; then
     clear
     echo -e '\E[34;47m'  # Blue type.
 

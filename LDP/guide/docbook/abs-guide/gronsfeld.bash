@@ -46,21 +46,21 @@ key=  ### Put key here!!!
 { # Encrypt or decrypt, depending on whether $dflag is set.
   # Why ": ()" as a function name? Just to prove that it can be done.
 
-  local idx keydx mlen off1 shft
+  local idx keydx mlen off1 shift
   local plaintext="$1"
   local mlen=${#plaintext}
 
 for (( idx=0; idx&lt;$mlen; idx++ ))
 do
   let "keydx = $idx % $keylen"
-  shft=${offsets[keydx]}
+  shift=${offsets[keydx]}
 
   if [ -n "$dflag" ]
   then                  # Decrypt!
-    let "off1 = $(expr index "${alpha1[*]}" ${plaintext:idx:1}) - $shft"
+    let "off1 = $(expr index "${alpha1[*]}" ${plaintext:idx:1}) - $shift"
     # Shift backward to decrypt.
   else                  # Encrypt!
-    let "off1 = $(expr index "${alpha1[*]}" ${plaintext:idx:1}) + $shft"
+    let "off1 = $(expr index "${alpha1[*]}" ${plaintext:idx:1}) + $shift"
     # Shift forward to encrypt.
     test $(( $idx % $GROUPLEN)) = 0 &amp;&amp; echo -n " "  # Groups of 5 letters.
     #  Comment out above line for output as a string without whitespace,

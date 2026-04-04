@@ -55,9 +55,9 @@ instructions ()
 {
   clear
   echo "Welcome to QUACKEY, the anagramming word construction game."; echo
-  echo -n "Do you need instructions? (y/n) "; read ans
+  echo -n "Do you need instructions? (y/n) "; read and
 
-   if [ "$ans" = "y" -o "$ans" = "Y" ]; then
+   if [ "$and" = "y" -o "$and" = "Y" ]; then
      clear
      echo -e '\E[31;47m'  # Red foreground. '\E[34;47m' for blue.
      cat &lt;&lt;INSTRUCTION1

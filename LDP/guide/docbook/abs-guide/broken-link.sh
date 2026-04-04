@@ -24,7 +24,7 @@
 #+ to the args passed.
 ######################
 
-[ $# -eq 0 ] &amp;&amp; directorys=`pwd` || directorys=$@
+[ $# -eq 0 ] &amp;&amp; directories=`pwd` || directories=$@
 
 
 #  Setup the function linkchk to check the directory it is passed 
@@ -42,10 +42,10 @@ linkchk () {
 }
 
 #  Send each arg that was passed to the script to the linkchk() function
-#+ if it is a valid directoy.  If not, then print the error message
+#+ if it is a valid directory.  If not, then print the error message
 #+ and usage info.
 ##################
-for directory in $directorys; do
+for directory in $directories; do
     if [ -d $directory ]
 	then linkchk $directory
 	else 

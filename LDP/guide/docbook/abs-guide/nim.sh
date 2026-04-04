@@ -19,9 +19,9 @@ instructions ()
   clear
   tput bold
   echo "Welcome to the game of Nim."; echo
-  echo -n "Do you need instructions? (y/n) "; read ans
+  echo -n "Do you need instructions? (y/n) "; read and
 
-   if [ "$ans" = "y" -o "$ans" = "Y" ]; then
+   if [ "$and" = "y" -o "$and" = "Y" ]; then
      clear
      echo -e '\E[33;41m'  # Yellow fg., over red bg.; bold.
      cat &lt;&lt;INSTRUCTIONS
@@ -39,7 +39,7 @@ The number at the left identifies the row.
 
 The human player moves first, and alternates turns with the bot.
 A turn consists of removing at least one peg from a single row.
-It is permissable to remove ALL the pegs from a row.
+It is permissible to remove ALL the pegs from a row.
 For example, in row 2, above, the player can remove 1, 2, 3, or 4 pegs.
 The player who removes the last peg loses.
 

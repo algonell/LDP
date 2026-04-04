@@ -32,12 +32,12 @@ L[8]="0 13 3 29 6 17 0 3 4 29 12 4 29 0 2 2 14 17 3 8 13 6 11 24 26"
 L[9]="19 7 0 13 10 29 24 14 20 26"
 
 declare -a \
-alph=( A B C D E F G H I J K L M N O P Q R S T U V W X Y Z . , : ' ' )
+alpha=( A B C D E F G H I J K L M N O P Q R S T U V W X Y Z . , : ' ' )
 
 
 pt_lt ()
 {
-  echo -n "${alph[$1]}"
+  echo -n "${alpha[$1]}"
   echo -n -e "\a"
   sleep $DLA
 }

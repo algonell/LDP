@@ -743,7 +743,7 @@ March 23, 2009
 
 21) Updated the Index with references to new material.
 
-22) Numberous syntactical and stylistic fixes.
+22) Numerous syntactical and stylistic fixes.
 
 
 
@@ -753,7 +753,7 @@ Version 5.6, Worcesterberry release
 1) In "Special Characters" chapter:
    At "#" (comments) entry, added example of comment embedded within a pipe.
    At "semicolon" entry, slightly revised comments.
-   Corrected a typo in "filter" footnote ("rougly").
+   Corrected a typo in "filter" footnote ("roughly").
    At "$IFS" entry, added sidebar defining the term "field."
 
 2) In "Variables Revisited" chapter:   
@@ -1160,7 +1160,7 @@ Version 5.3, Goldenberry release
 
 8) In "Gotchas" chapter:
    Added item about unintended consequences of preserving whitespace
-   within a variable. (Thank you, Claus Tirel, for inspiring me to do
+   within a variable. (Thank you, Clause Tirel, for inspiring me to do
    this.)
 
 9) In "Assorted Tips" section of "Miscellany" chapter:
@@ -1505,7 +1505,7 @@ Version 4.3, Inkberry release
    In "Applications" section,
       Fixed up formatting/comments of "logevents.sh" example script.
 
-3) Indented some of the case statment conditions in text for better
+3) Indented some of the case statement conditions in text for better
    readability.
 
 4) In "Arrays" chapter:
@@ -1723,7 +1723,7 @@ Version 4.2, Sparkleberry release
 26) Current revision's Major Project:
     shorten overlength lines for formatting reasons.
        "days-between.sh" example
-         [also Fixed misspelling (permissable --> permissible).]
+         [also Fixed misspelling (permissible --> permissible).]
        "Hash.lib" example
        "usb.sh" example
        "is_spammer.bash" example
@@ -2733,7 +2733,7 @@ chapter:
 
 19) In "Bibliography" section:
     Added William Parks' Dec. '04 "Linux Gazette" article to his listing.
-    Added entry for "Unix Oneliners."
+    Added entry for "Unix One-liners."
     Added "http://www.zazzybob.com" entry.
 
 20)  In "Writing Scripts" section of "Exercises" appendix:
@@ -2927,7 +2927,7 @@ Loganberry release, 10/03/04
     Added note about execute permissions to "recurse.sh" example script.
 
 16) In the "Portability Issues" section of the "Miscellany" chapter:    
-    Fixed typo ("funtionality).
+    Fixed typo ("functionality).
     (Thanks, Andreas Abraham.)
 
 17) In "System and Administrative Commands" chapter:
@@ -4186,7 +4186,7 @@ Version 1.5 (major update)
 19) In "Parameter Substitution" chapter:
     At "${parameter-default}", added usage when command-line parameters in a
     script are "missing."
-    At "${paramter?err_msg}", added "usage-msg.sh" example.
+    At "${parameter?err_msg}", added "usage-msg.sh" example.
 
 20) In "Functions" chapter:
     Added info to "ex60.sh" example.
@@ -4294,7 +4294,7 @@ Version 1.4 (minor update)
 
 14) In "Starting off with a Sha-Bang" chapter,
     Fixed typo in comment in "ex2.sh" example ('wtemp' --> 'wtmp')
-      Thanks for pointing this out, Julien Reveret.
+      Thanks for pointing this out, Julien Revert.
 
 15) In "Internal Commands and Builtins" chapter:
     At "read" entry, added in-line example of using "cat" to pipe to a
@@ -5358,7 +5358,7 @@ In "External Filters, Programs, and Commands" section:
 
 39) Added another example to "List Constructs" section.
 
-40) Added using positional paramters > $9, using {bracket} notation (thanks,
+40) Added using positional parameters > $9, using {bracket} notation (thanks,
     Philippe Martin).
 
 41) Added -N and -t file tests to "Tests" section.    
@@ -5464,7 +5464,7 @@ In "External Filters, Programs, and Commands" section:
 
 75) Fixed typos:
     ("suppress" --> "suppresses") in "Here Documents section.    
-    ("inderect" --> "indirect") in "Variables Revisited" section.
+    ("indirect" --> "indirect") in "Variables Revisited" section.
     "Option" left out in "type" discussion.
 
 76) More on "%" (modulo) operator in "Operations" section.
@@ -5719,7 +5719,7 @@ In "External Filters, Programs, and Commands" section:
 	 Added alternative code to "strip-comments.sh".
 	 Fixed "lp".
 	 Added two usage examples for "yes".
-	 Added altenative methods to "find" in-line example.
+	 Added alternative methods to "find" in-line example.
 	 Fixed format in "cat/tac" in-line example.
 	 Added long note to "xargs".
 	 Added note to "touch", and link from ":" in "Special Characters"
