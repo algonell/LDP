@@ -298,7 +298,7 @@ bash$ export TERM=gnome
     definitive information on this subject, please write me.</para></footnote>
     Thus, for instance, <application>xterm</application> has always been
     standard in the Debian distribution, while it switched a couple of times
-    from standard to deviant and viceversa in Red Hat; the behaviour of
+    from standard to deviant and vice-versa in Red Hat; the behaviour of
     <application>gnome-terminal</application> is even more erratic. See <xref
     linkend="morehack"> for some information on how to turn a deviant terminal
     into a standard one.</para>

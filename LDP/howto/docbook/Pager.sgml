@@ -131,7 +131,7 @@ Here are a few notes about the settings in the sendpage.h file, which you will n
 <LISTITEM><PARA> <FILENAME>verify.c </FILENAME></PARA></LISTITEM></ORDEREDLIST>
 Instead of #include <FILENAME>DB.h</FILENAME> put #include <FILENAME>DB185.H</FILENAME> <FILENAME>DB185.H</FILENAME>  </PARA>
 <PARA>CONFIGURING YOUR MODEM </PARA>
-<PARA>I use a <EMPHASIS>D-Link DFM-560 E</EMPHASIS> which seems to work fine with sendpage.  With other modems, your milage may vary (possibly for the better).  Although your paging company's modem (referred to by sendpage as "Paging Central") could very well be different from mine, you may want to try this setup to see if it works.  You should have your modem manual handy as a reference for the proper init string.  Here is what I have set:
+<PARA>I use a <EMPHASIS>D-Link DFM-560 E</EMPHASIS> which seems to work fine with sendpage.  With other modems, your mileage may vary (possibly for the better).  Although your paging company's modem (referred to by sendpage as "Paging Central") could very well be different from mine, you may want to try this setup to see if it works.  You should have your modem manual handy as a reference for the proper init string.  Here is what I have set:
 
 <ITEMIZEDLIST>
 <LISTITEM><PARA>Modem set to v.22bis 2400/1200 protocol (*no* auto-negotiate)</PARA></LISTITEM>

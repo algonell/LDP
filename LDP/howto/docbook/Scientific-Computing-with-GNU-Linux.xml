@@ -578,7 +578,7 @@
     <para> <ulink url="http://www.kdevelop.org/"> Kdeveloper </ulink>:
      A easy to use C/C++ IDE (Integrated Development Environment) for Linux.
      It supports KDE/Qt, GNOME, plain C and C++ projects. This site has a lot
-     of documentation ..... a highly browsable site for software developers.
+     of documentation ..... a highly browseable site for software developers.
      Specifically, KDevelop manages or provides:
     </para>
     <para>
@@ -1028,7 +1028,7 @@ It is GNU software and is distributed under the GNU General Public License.
   <ulink url="http://plasma-gate.weizmann.ac.il/Grace/">Grace</ulink>
  Grace is a WYSIWYG 2D plotting tool for the X Window System and Motif.
  Grace runs on practically any version of Unix. Grace is a descendant of
- ACE/gr, also known as Xmgr. It is lisenced under the GNU public license.
+ ACE/gr, also known as Xmgr. It is licenced under the GNU public license.
  This link also has a tutorial and download information.
  </para>
  </listitem>
