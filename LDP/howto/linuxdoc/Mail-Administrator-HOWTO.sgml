@@ -475,7 +475,7 @@ better solution than whatever POP/IMAP features your user agent has.
 Fetchmail can be told to run in background and poll your server
 periodically, so your xbiff(1) or other mail-notifier program will
 work as it would for SMTP mail.  Also, fetchmail is rather more
-tolerant of various idiosyncracies and nonstandard server quirks than
+tolerant of various idiosyncrasies and nonstandard server quirks than
 the clients in MUAs, and has better error recovery.
 <p>
 Here's a diagram showing how both cases (with and without fetchmail) work:
@@ -852,7 +852,7 @@ You need to create each of these file in <tt/&tilde;alias/, replacing
 ATTENTION UUCP USERS !
 
 DO NOT TRUST THE QMAIL FAQ FOR UUCP, USE MY .qmail-uucp-default INSTEAD!
-ELSE YOU WILL NOT BE ABLE TO SEND ANY MAIL BY YOUR UUCP CONNEXION!
+ELSE YOU WILL NOT BE ABLE TO SEND ANY MAIL BY YOUR UUCP CONNECTION!
 
 Now you'll need to decide in which format your users will get their mail.
 
@@ -1386,7 +1386,7 @@ machines or domains' in "/etc/smail/maps/table".
 
 This is useful if you want outgoing mail for your local network to be
 delivered immediately, since there's no need for it to be routed to your uucp
-connexion of your internet access.
+connection of your internet access.
 
 <sect3> "transports" file <p>
 
@@ -2231,7 +2231,7 @@ not leaving mail on the server) and/or changing the pop server
 (e.g. cucipop), as well as avoiding running it from inetd.
 </itemize>
 
-The password problem can be solved creating a crypted "channel" to have
+The password problem can be solved creating a encrypted "channel" to have
 POP on it or using APOP or RPOP extensions. The mail reader problem can
 be solved either by changing mail reader (don't underestimate the effort
 required to re-educate users!) or by using a POP "mail sucker" with a
@@ -2254,7 +2254,7 @@ encrypted this is a better solution.
 Here are some pop programs worth trying:
 
 <itemize>
-<item> gwpop (a Good Way to POP) is very protected since it creates a crypted
+<item> gwpop (a Good Way to POP) is very protected since it creates a encrypted
 "channel" and puts mail directly in the "spool" ; however, it depends on Perl.
 <item> popclient, simple to use:
 
@@ -2270,7 +2270,7 @@ other user can see your password by, for example with "ps auxw"
 
 <item> fetchmail, which is actively supported and incredibly simple to use:
 it is configured in <tt>&tilde;/.fetchmailrc</tt>, so you only need to run
-<tt/fetchmail/ when you want to retrive your mail.
+<tt/fetchmail/ when you want to retrieve your mail.
 
 Here's my .fetchmailrc:
 <tscreen><verb>
@@ -2310,7 +2310,7 @@ $ telnet mailhost 110
 If it works, you will get something like "OK Pop server (...) starting": type
 "quit"!
 
-To install a ssh crypted "channel", first test your mail server typing:
+To install a ssh encrypted "channel", first test your mail server typing:
 
 <tscreen><verb>
 $ ssh mailhost date
