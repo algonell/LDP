@@ -195,7 +195,7 @@ release was 1.4sec in Dec 1993.</para>
     familiarity and personal preferences than on core design factors.
     </emphasis></para>
 
-<para>In June 1995, David Barr began a series of unoffical releases
+<para>In June 1995, David Barr began a series of unofficial releases
 of INN based on 1.4sec, integrating various bug-fixes, enhancements
 and security patches.  His last release was 1.4unoff4, found in
 <literal>ftp://ftp.math.psu.edu:/pub/INN</literal>.  This site is also the
@@ -213,7 +213,7 @@ can be obtained from <literal>ftp://ftp.isc.org/isc/inn/</literal>.</para>
 
 <para>Towards the end of 1992, Geoff Collyer implemented NOV (News
 Overview): a database that stores the important headers of all news
-articles as they arrive.  This is intended for use by the implementors
+articles as they arrive.  This is intended for use by the implementers
 of news readers to provide fast article presentation by sorting and
 ``threading'' the article headers.  (Before NOV, newsreaders like
 <literal>trn</literal>, <literal>tin</literal> and <literal>nn</literal>
